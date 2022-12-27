@@ -1,7 +1,7 @@
 const fs = require('fs');
 var convert = require('xml-js');
 
-const data = fs.readFileSync('./bp.sbc', 'utf8', (error, contents) => {
+const results = fs.readFileSync('./bp.sbc', 'utf8', (error, contents) => {
     if (error) {
         console.error(error);
     }
@@ -11,7 +11,17 @@ const data = fs.readFileSync('./bp.sbc', 'utf8', (error, contents) => {
     return contents
 });
 
-console.log(data)
 
-var resultsJSON = convert.xml2json(data, {compact: true, spaces: 4});
-console.log(resultsJSON)
+
+var resultsJSON = convert.xml2json(results, {compact: true, spaces: 4});
+// console.log(results)
+// console.log(resultsJSON)
+
+fs.writeFileSync("Response.json", resultsJSON, (error) => {
+    if (error) {
+        console.error(error);
+    }
+    else {
+        console.log("File written successfully.");
+    }
+})
