@@ -1,10 +1,17 @@
 const fs = require('fs');
+var convert = require('xml-js');
 
-fs.readFile('./bp.sbc', 'utf8', (error, contents) => {
+const data = fs.readFileSync('./bp.sbc', 'utf8', (error, contents) => {
     if (error) {
-      console.error(error);
+        console.error(error);
     }
     else {
-      console.log(contents);
+        console.log("Ran through function.");
     }
+    return contents
 });
+
+console.log(data)
+
+var resultsJSON = convert.xml2json(data, {compact: true, spaces: 4});
+console.log(resultsJSON)
