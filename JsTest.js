@@ -29,15 +29,14 @@ function WriteJsonToFile() {
   });
 }
 
-var SpecificJson =
+var JsonTreeBlockArray =
   RawJson.Definitions.ShipBlueprints.ShipBlueprint.CubeGrids.CubeGrid[0]
     .CubeBlocks.MyObjectBuilder_CubeBlock;
 
-// console.log(SpecificJson);
 let jsonArray = [];
 
-for (let i = 0; i < SpecificJson.length; i++) {
-  jsonArray.push(SpecificJson[i].SubtypeName._text);
+for (let i = 0; i < JsonTreeBlockArray.length; i++) {
+  jsonArray.push(JsonTreeBlockArray[i].SubtypeName._text);
 }
 
 console.log(jsonArray);
