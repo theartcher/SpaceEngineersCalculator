@@ -1,7 +1,7 @@
 const fs = require("fs");
 var convert = require("xml-js");
 
-const results = fs.readFileSync("./bp.sbc", "utf8", (error, contents) => {
+const XMLString = fs.readFileSync("./bp.sbc", "utf8", (error, contents) => {
   if (error) {
     console.error(error);
   } else {
@@ -10,10 +10,14 @@ const results = fs.readFileSync("./bp.sbc", "utf8", (error, contents) => {
   return contents;
 });
 
-var ResultsJsonString = convert.xml2json(results, { compact: true, spaces: 4 });
+var ResultsJsonString = convert.xml2json(XMLString, {
+  compact: true,
+  spaces: 4,
+});
+
 var ResultsJsonObject = JSON.parse(ResultsJsonString);
 
-console.log(typeof results);
+console.log(typeof XMLString);
 console.log(typeof ResultsJsonObject);
 
 fs.writeFileSync(
@@ -27,3 +31,9 @@ fs.writeFileSync(
     }
   }
 );
+
+var SpecificJson =
+  ResultsJsonObject.Definitions.ShipBlueprints.ShipBlueprint.CubeGrids
+    .CubeGrid[0].CubeBlocks;
+
+console.log(SpecificJson);
