@@ -10,30 +10,34 @@ const XMLString = fs.readFileSync("./bp.sbc", "utf8", (error, contents) => {
   return contents;
 });
 
-var ResultsJsonString = convert.xml2json(XMLString, {
+var JsonString = convert.xml2json(XMLString, {
   compact: true,
   spaces: 4,
 });
-
-var ResultsJsonObject = JSON.parse(ResultsJsonString);
+var RawJson = JSON.parse(JsonString);
 
 console.log(typeof XMLString);
-console.log(typeof ResultsJsonObject);
+console.log(typeof RawJson);
 
-fs.writeFileSync(
-  "Response.json",
-  JSON.stringify(ResultsJsonObject),
-  (error) => {
+function WriteJsonToFile() {
+  fs.writeFileSync("Response.json", JSON.stringify(RawJson), (error) => {
     if (error) {
       console.error(error);
     } else {
       console.log("File written successfully.");
     }
-  }
-);
+  });
+}
 
 var SpecificJson =
-  ResultsJsonObject.Definitions.ShipBlueprints.ShipBlueprint.CubeGrids
-    .CubeGrid[0].CubeBlocks;
+  RawJson.Definitions.ShipBlueprints.ShipBlueprint.CubeGrids.CubeGrid[0]
+    .CubeBlocks.MyObjectBuilder_CubeBlock;
 
-console.log(SpecificJson);
+// console.log(SpecificJson);
+let jsonArray = [];
+
+for (let i = 0; i < SpecificJson.length; i++) {
+  jsonArray.push(SpecificJson[i].SubtypeName._text);
+}
+
+console.log(jsonArray);
