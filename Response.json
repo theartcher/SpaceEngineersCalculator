@@ -1,66 +1,11 @@
 {
   "_declaration": { "_attributes": { "version": "1.0" } },
   "Definitions": {
-    "_attributes": {
-      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
-      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
-    },
     "ShipBlueprints": {
       "ShipBlueprint": {
-        "_attributes": {
-          "xsi:type": "MyObjectBuilder_ShipBlueprintDefinition"
-        },
-        "Id": {
-          "_attributes": {
-            "Type": "MyObjectBuilder_ShipBlueprintDefinition",
-            "Subtype": "[NHTR] Modular Carrier"
-          }
-        },
-        "DisplayName": { "_text": "The_Artcher" },
-        "DLC": [
-          { "_text": "Frostbite" },
-          { "_text": "DecorativeBlocks2" },
-          { "_text": "DecorativeBlocks" }
-        ],
         "CubeGrids": {
           "CubeGrid": [
             {
-              "SubtypeName": {},
-              "EntityId": { "_text": "135015256566523224" },
-              "PersistentFlags": { "_text": "CastShadows InScene" },
-              "PositionAndOrientation": {
-                "Position": {
-                  "_attributes": {
-                    "x": "65227.661795021966",
-                    "y": "94416.798260109877",
-                    "z": "-47743.31430058468"
-                  }
-                },
-                "Forward": {
-                  "_attributes": {
-                    "x": "-0.6665156",
-                    "y": "-0.186985046",
-                    "z": "-0.721660256"
-                  }
-                },
-                "Up": {
-                  "_attributes": {
-                    "x": "0.677976131",
-                    "y": "-0.5545881",
-                    "z": "-0.482473522"
-                  }
-                },
-                "Orientation": {
-                  "X": { "_text": "0.36156565" },
-                  "Y": { "_text": "-0.09187019" },
-                  "Z": { "_text": "0.8040922" },
-                  "W": { "_text": "-0.462888569" }
-                }
-              },
-              "LocalPositionAndOrientation": {
-                "_attributes": { "xsi:nil": "true" }
-              },
-              "GridSizeEnum": { "_text": "Large" },
               "CubeBlocks": {
                 "MyObjectBuilder_CubeBlock": [
                   {
