@@ -51,6 +51,16 @@ let componentsJson = {
         SteelPlate: 19,
       },
     },
+    {
+      Type: "ConveyorTubeCurved",
+      Components: {
+        BulletProofGlass: 4,
+        Motor: 8,
+        SmallSteelTube: 12,
+        ConstructionComponent: 40,
+        SteelPlate: 10,
+      },
+    },
   ],
 };
 
@@ -60,7 +70,35 @@ jsonArray.forEach((item) => {
   let results = componentsJson.Blocks.find((x) => x.Type === item);
   if (results != undefined && results != null) {
     componentsArray.push(results);
-  } else console.log(item);
+  }
+  // else console.log(item);
 });
 
-console.log(componentsArray);
+console.dir(componentsArray, { maxArrayLength: null });
+
+const mergedObject = componentsJson.Blocks.reduce(
+  (acc, obj) => {
+    for (const component in obj.Components) {
+      if (acc.Components[component]) {
+        acc.Components[component] += obj.Components[component];
+      } else {
+        acc.Components[component] = obj.Components[component];
+      }
+    }
+    return acc;
+  },
+  { Components: {} }
+);
+
+console.log(mergedObject);
+/*
+{
+  Components: {
+    SteelPlate: 50,
+    BulletProofGlass: 4,
+    Motor: 8,
+    SmallSteelTube: 12,
+    ConstructionComponent: 40
+  }
+}
+*/
