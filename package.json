@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@hendt/xml2json": "^1.0.3",
+    "path": "^0.12.7",
     "xml-js": "^1.6.11"
   }
 }

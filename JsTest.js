@@ -33,9 +33,13 @@ var JsonTreeBlockArray =
 
 let jsonArray = [];
 
-for (let i = 0; i < JsonTreeBlockArray.length; i++) {
-  jsonArray.push(JsonTreeBlockArray[i].SubtypeName._text);
+function addBlocksToArray() {
+  for (let i = 0; i < JsonTreeBlockArray.length; i++) {
+    jsonArray.push(JsonTreeBlockArray[i].SubtypeName._text);
+  }
 }
+
+addBlocksToArray();
 
 let componentsJson = {
   Blocks: [
