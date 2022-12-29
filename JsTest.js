@@ -16,9 +16,6 @@ var JsonString = convert.xml2json(XMLString, {
 });
 var RawJson = JSON.parse(JsonString);
 
-console.log(typeof XMLString);
-console.log(typeof RawJson);
-
 function WriteJsonToFile() {
   fs.writeFileSync("Response.json", JSON.stringify(RawJson), (error) => {
     if (error) {
@@ -28,6 +25,7 @@ function WriteJsonToFile() {
     }
   });
 }
+// WriteJsonToFile();
 
 var JsonTreeBlockArray =
   RawJson.Definitions.ShipBlueprints.ShipBlueprint.CubeGrids.CubeGrid[0]
@@ -39,4 +37,30 @@ for (let i = 0; i < JsonTreeBlockArray.length; i++) {
   jsonArray.push(JsonTreeBlockArray[i].SubtypeName._text);
 }
 
-console.log(jsonArray);
+let componentsJson = {
+  Blocks: [
+    {
+      Type: "LargeBlockArmorBlock",
+      Components: {
+        SteelPlate: 25,
+      },
+    },
+    {
+      Type: "LargeBlockArmorCornerSquareInverted",
+      Components: {
+        SteelPlate: 19,
+      },
+    },
+  ],
+};
+
+let componentsArray = [];
+
+jsonArray.forEach((item) => {
+  let results = componentsJson.Blocks.find((x) => x.Type === item);
+  if (results != undefined && results != null) {
+    componentsArray.push(results);
+  } else console.log(item);
+});
+
+console.log(componentsArray);
