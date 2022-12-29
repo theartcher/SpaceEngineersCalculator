@@ -76,7 +76,7 @@ jsonArray.forEach((item) => {
 
 console.dir(componentsArray, { maxArrayLength: null });
 
-const mergedObject = componentsJson.Blocks.reduce(
+const mergedObject = componentsArray.reduce(
   (acc, obj) => {
     for (const component in obj.Components) {
       if (acc.Components[component]) {
@@ -94,7 +94,7 @@ console.log(mergedObject);
 /*
 {
   Components: {
-    SteelPlate: 50,
+    SteelPlate: 100,
     BulletProofGlass: 4,
     Motor: 8,
     SmallSteelTube: 12,
