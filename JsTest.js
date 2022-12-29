@@ -28,8 +28,8 @@ function WriteJsonToFile() {
 // WriteJsonToFile();
 
 var JsonTreeBlockArray =
-  RawJson.Definitions.ShipBlueprints.ShipBlueprint.CubeGrids.CubeGrid[0]
-    .CubeBlocks.MyObjectBuilder_CubeBlock;
+  RawJson.Definitions.ShipBlueprints.ShipBlueprint.CubeGrids.CubeGrid.CubeBlocks
+    .MyObjectBuilder_CubeBlock;
 
 let jsonArray = [];
 
@@ -52,6 +52,156 @@ let componentsJson = {
       },
     },
     {
+      Type: "LargeBlockArmorCornerSquare",
+      Components: {
+        SteelPlate: 7,
+      },
+    },
+    {
+      Type: "LargeBlockArmorCornerInv",
+      Components: {
+        SteelPlate: 21,
+      },
+    },
+    {
+      Type: "LargeBlockArmorCorner",
+      Components: {
+        SteelPlate: 4,
+      },
+    },
+    {
+      Type: "LargeBlockArmorSlope",
+      Components: {
+        SteelPlate: 13,
+      },
+    },
+    {
+      Type: "LargeBlockArmorRoundSlope",
+      Components: {
+        SteelPlate: 13,
+      },
+    },
+    {
+      Type: "LargeBlockArmorRoundCornerInv",
+      Components: {
+        SteelPlate: 21,
+      },
+    },
+    {
+      Type: "LargeBlockArmorRoundCorner",
+      Components: {
+        SteelPlate: 4,
+      },
+    },
+    {
+      Type: "LargeBlockArmorSlope2Base",
+      Components: {
+        SteelPlate: 19,
+      },
+    },
+    {
+      Type: "LargeBlockArmorHalfSlopedCorner",
+      Components: {
+        SteelPlate: 11,
+      },
+    },
+    {
+      Type: "LargeBlockArmorHalfCorner",
+      Components: {
+        SteelPlate: 6,
+      },
+    },
+    {
+      Type: "LargeBlockArmorHalfSlopeCorner",
+      Components: {
+        SteelPlate: 2,
+      },
+    },
+    {
+      Type: "LargeHalfSlopeArmorBlock",
+      Components: {
+        SteelPlate: 12,
+      },
+    },
+    {
+      Type: "LargeBlockArmorSlopedCornerTip",
+      Components: {
+        SteelPlate: 6,
+      },
+    },
+    {
+      Type: "LargeBlockArmorRaisedSlopedCorner",
+      Components: {
+        SteelPlate: 5,
+      },
+    },
+    {
+      Type: "LargeBlockArmorSquareSlopedCornerTip",
+      Components: {
+        SteelPlate: 17,
+      },
+    },
+    {
+      Type: "LargeBlockArmorSquareSlopedCornerBase",
+      Components: {
+        SteelPlate: 1189,
+      },
+    },
+    {
+      Type: "LargeBlockArmorSquareSlopedCornerTipInv",
+      Components: {
+        SteelPlate: 9,
+      },
+    },
+    {
+      Type: "LargeBlockArmorSlopedCornerBase",
+      Components: {
+        SteelPlate: 20,
+      },
+    },
+    {
+      Type: "LargeBlockArmorSlopedCorner",
+      Components: {
+        SteelPlate: 13,
+      },
+    },
+    {
+      Type: "LargeBlockArmorHalfSlopedCornerBase",
+      Components: {
+        SteelPlate: 11,
+      },
+    },
+    {
+      Type: "LargeBlockArmorInvCorner2Base",
+      Components: {
+        SteelPlate: 10,
+      },
+    },
+    {
+      Type: "LargeBlockArmorHalfSlopeInverted",
+      Components: {
+        SteelPlate: 22,
+      },
+    },
+    {
+      Type: "LargeBlockArmorHalfSlopeCornerInverted",
+      Components: {
+        SteelPlate: 23,
+      },
+    },
+    {
+      Type: "LargeBlockArmorInvCorner2Tip",
+      Components: {
+        SteelPlate: 16,
+      },
+    },
+    {
+      Type: "LargeBlockArmorInvCorner2Base",
+      Components: {
+        SteelPlate: 22,
+      },
+    },
+    {
       Type: "ConveyorTubeCurved",
       Components: {
         BulletProofGlass: 4,
@@ -61,6 +211,7 @@ let componentsJson = {
         SteelPlate: 10,
       },
     },
+    //All above this line work
   ],
 };
 
@@ -70,11 +221,10 @@ jsonArray.forEach((item) => {
   let results = componentsJson.Blocks.find((x) => x.Type === item);
   if (results != undefined && results != null) {
     componentsArray.push(results);
-  }
-  // else console.log(item);
+  } else console.log(item);
 });
 
-console.dir(componentsArray, { maxArrayLength: null });
+// console.dir(componentsArray, { maxArrayLength: null });
 
 const mergedObject = componentsArray.reduce(
   (acc, obj) => {
@@ -91,14 +241,3 @@ const mergedObject = componentsArray.reduce(
 );
 
 console.log(mergedObject);
-/*
-{
-  Components: {
-    SteelPlate: 100,
-    BulletProofGlass: 4,
-    Motor: 8,
-    SmallSteelTube: 12,
-    ConstructionComponent: 40
-  }
-}
-*/
