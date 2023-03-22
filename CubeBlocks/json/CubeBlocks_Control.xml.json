@@ -1,0 +1,1320 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "TerminalBlock", "SubtypeId": "ControlPanel" },
+          "DisplayName": "DisplayName_Block_ControlPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Control Panel.dds",
+          "Description": "Description_ControlPanel",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ControlPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_ExclusionMask": "3",
+              "_PropertiesMask": "3",
+              "_StartY": "0.4",
+              "_StartX": "0.44",
+              "_EndY": "0.6",
+              "_EndX": "0.55"
+            }
+          },
+          "IsStandAlone": "false",
+          "HasPhysics": "false",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\ControlPanelConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "ControlPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "1.1" },
+          "PCU": "5",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "TerminalBlock", "SubtypeId": "SmallControlPanel" },
+          "DisplayName": "DisplayName_Block_ControlPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Control Panel.dds",
+          "Description": "Description_ControlPanel",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ControlPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_ExclusionMask": "3",
+              "_PropertiesMask": "3",
+              "_StartX": "0.4",
+              "_StartY": "0.44",
+              "_EndX": "0.6",
+              "_EndY": "0.55"
+            }
+          },
+          "IsStandAlone": "false",
+          "HasPhysics": "false",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\small\\ControlPanelConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "ControlPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "PCU": "5",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockCockpit" },
+          "DisplayName": "DisplayName_Block_Cockpit2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Cockpit.dds",
+          "Description": "Description_ControlStation",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\CockpitLarge.mwm",
+          "CharacterAnimation": "cockpit23",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "100" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.25",
+              "_EndX": "0.7",
+              "_EndY": "0.85",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CockpitLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CockpitLargeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CockpitLargeConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": {
+              "_Name": "CockpitScreen_01",
+              "_DisplayName": "DisplayName_Screen_Large",
+              "_TextureResolution": "512",
+              "_ScreenWidth": "5",
+              "_ScreenHeight": "3"
+            }
+          },
+          "BlockPairName": "CockpitLarge",
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "30",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "true",
+          "IsPressurized": "false",
+          "DeformationRatio": "0.2",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PrimarySound": "BlockCockpitLrg",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RaycastOffset": { "X": "0.016", "Y": "0.4983", "Z": "0.15" },
+          "PCU": "50",
+          "IsAirTight": "false",
+          "IsDefault3rdView": "true",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockCockpitSeat" },
+          "DisplayName": "DisplayName_Block_Cockpit1",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CockpitSmall.dds",
+          "Description": "Description_Cockpit",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Cockpit.mwm",
+          "PrimarySound": "BlockCockpitLrg",
+          "InteriorModel": "Models\\Cubes\\Large\\CockpitInterior.mwm",
+          "GlassModel": "Models\\Cubes\\Large\\CockpitGlass.mwm",
+          "CharacterAnimation": "cockpit1_large",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Display", "_Count": "8" },
+              { "_Subtype": "Computer", "_Count": "100" },
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "60" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Large\\CockpitConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\CockpitConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_TopCenter",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "13",
+                "_ScreenHeight": "9",
+                "_Script": "TSS_ArtificialHorizon"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_TopLeft",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_TopRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_Gravity"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "4"
+              },
+              {
+                "_Name": "CockpitScreen_05",
+                "_DisplayName": "DisplayName_Screen_BottomLeft",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "9",
+                "_ScreenHeight": "7",
+                "_Script": "TSS_ClockAnalog"
+              },
+              {
+                "_Name": "CockpitScreen_06",
+                "_DisplayName": "DisplayName_Screen_BottomRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "9",
+                "_ScreenHeight": "7"
+              }
+            ]
+          },
+          "BlockPairName": "Cockpit",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "40",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "true",
+          "TargetLockingEnabled": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "OxygenCapacity": "60",
+          "IsPressurized": "true",
+          "GetInSound": "ShipLrgCockpitIn",
+          "GetOutSound": "ShipLrgCockpitOut",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RaycastOffset": { "X": "-0.0045", "Y": "0.4983", "Z": "0.15" },
+          "PCU": "150",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "SmallBlockCockpit" },
+          "DisplayName": "DisplayName_Block_Cockpit1",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CockpitSmall.dds",
+          "Description": "Description_Cockpit",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\cockpit.mwm",
+          "PrimarySound": ["BlockCockpitSm", "BlockCockpitSm"],
+          "InteriorModel": "Models\\Cubes\\Small\\cockpitinterior.mwm",
+          "GlassModel": "Models\\Cubes\\Small\\cockpitglass.mwm",
+          "CharacterAnimation": "cockpit1_small",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Display", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "15" },
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "BulletproofGlass", "_Count": "30" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_TopCenter",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1",
+                "_Script": "TSS_ArtificialHorizon"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_TopLeft",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_TopRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_Gravity"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "11",
+                "_ScreenHeight": "6"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\CockpitConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\CockpitConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "Cockpit",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "BuildTimeSeconds": "30",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "true",
+          "TargetLockingEnabled": "true",
+          "DeformationRatio": "0.2",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "OxygenCapacity": "60",
+          "IsPressurized": "true",
+          "GetInSound": "ShipSmCockpitIn",
+          "GetOutSound": "ShipSmCockpitOut",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RaycastOffset": { "X": "-0.0045", "Y": "0.467", "Z": "0.15" },
+          "PCU": "150",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Cockpit",
+            "SubtypeId": "DBSmallBlockFighterCockpit"
+          },
+          "DisplayName": "DisplayName_Block_FighterCockpit",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\FighterCockpit.dds",
+          "Description": "Description_FighterCockpit",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "4", "_z": "6" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\small\\CockpitFighter.mwm",
+          "PrimarySound": ["BlockCockpitSm", "BlockCockpitSm"],
+          "InteriorModel": "Models\\Cubes\\small\\CockpitFighterInterior.mwm",
+          "CharacterAnimation": "FighterCockpitPosture",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "MetalGrid", "_Count": "10" },
+              { "_Subtype": "InteriorPlate", "_Count": "15" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "BulletproofGlass", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "6",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3.5"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "3.5",
+                "_EndX": "2.5",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "1.5",
+                "_EndX": "2.5",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "4",
+                "_StartY": "1",
+                "_EndX": "5",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "5",
+                "_StartY": "1",
+                "_EndX": "6",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "1",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_TopCenter",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_ArtificialHorizon"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_TopLeft",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "2",
+                "_Script": "TSS_ClockAnalog"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_TopRight",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "2",
+                "_Script": "TSS_Gravity"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_05",
+                "_DisplayName": "DisplayName_Screen_BottomCenter",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "5"
+              },
+              {
+                "_Name": "CockpitScreen_06",
+                "_DisplayName": "DisplayName_Screen_Numpad",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "5"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\small\\CockpitFighterConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\small\\CockpitFighterConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\small\\CockpitFighterConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "DBLargeBlockFighterCockpit",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "BuildTimeSeconds": "34",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "true",
+          "TargetLockingEnabled": "true",
+          "DeformationRatio": "0.2",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "OxygenCapacity": "60",
+          "IsPressurized": "true",
+          "GetInSound": "ShipSmCockpitIn",
+          "GetOutSound": "ShipSmCockpitOut",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RaycastOffset": { "X": "0.005", "Y": "0.435", "Z": "0.15" },
+          "PCU": "150",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "CockpitOpen" },
+          "DisplayName": "DisplayName_Block_Cockpit3",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CockpitOpen.dds",
+          "Description": "Description_FlightSeat",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\CockpitOpen.mwm",
+          "PrimarySound": "BlockCockpitFlightSeat",
+          "CharacterAnimation": "cockpit23",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "100" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.25",
+              "_EndX": "0.7",
+              "_EndY": "0.85",
+              "_Default": "true"
+            }
+          },
+          "ScreenAreas": {
+            "ScreenArea": {
+              "_Name": "CockpitScreen_01",
+              "_DisplayName": "DisplayName_Screen_Large",
+              "_TextureResolution": "128",
+              "_ScreenWidth": "9",
+              "_ScreenHeight": "2"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CockpitOpenConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CockpitOpenConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\CockpitOpenConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "CockpitOpen",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "30",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "true",
+          "TargetLockingEnabled": "true",
+          "IsPressurized": "false",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RaycastOffset": { "X": "0.016", "Y": "0.4983", "Z": "0.15" },
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "RoverCockpit" },
+          "DisplayName": "DisplayName_Block_RoverCockpit",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RoverCockpit.dds",
+          "Description": "Description_RoverCockpit",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\RoverCockpit.mwm",
+          "PrimarySound": "BlockCockpitFlightSeat",
+          "CharacterAnimation": "RoverCockpitPose",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "InteriorPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1.5"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.5"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1.5"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Left",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_TopCenter",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_ArtificialHorizon"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_Right",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_Gravity"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_Small",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_Velocity"
+              },
+              {
+                "_Name": "CockpitScreen_05",
+                "_DisplayName": "DisplayName_Screen_BottomRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_ClockAnalog"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\RoverCockpitConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1",
+                "_File": "Models\\Cubes\\Small\\RoverCockpitConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "RoverCockpit",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "24",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "true",
+          "TargetLockingEnabled": "true",
+          "IsPressurized": "false",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RaycastOffset": { "X": "0.016", "Y": "0.4983", "Z": "0.15" },
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Gyro", "SubtypeId": "LargeBlockGyro" },
+          "DisplayName": "DisplayName_Block_Gyroscope",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\gyro.dds",
+          "Description": "Description_Gyroscope",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\gyroscope.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "500" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "MetalGrid", "_Count": "50" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "100" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GyroscopeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GyroscopeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GyroscopeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Gyroscope",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "40",
+          "PrimarySound": "BlockGyroscope",
+          "ResourceSinkGroup": "Gyro",
+          "ForceMagnitude": "3.36E+07",
+          "RequiredPowerInput": "0.01",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "TargetingGroups": { "string": "Propulsion" },
+          "_xsi:type": "MyObjectBuilder_GyroDefinition"
+        },
+        {
+          "Id": { "TypeId": "Gyro", "SubtypeId": "SmallBlockGyro" },
+          "DisplayName": "DisplayName_Block_Gyroscope",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\gyro.dds",
+          "Description": "Description_Gyroscope",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\gyroscope.mwm",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\GyroscopeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\GyroscopeConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Gyroscope",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "14",
+          "EdgeType": "Light",
+          "PrimarySound": "BlockGyroscope",
+          "ResourceSinkGroup": "Gyro",
+          "ForceMagnitude": "448000",
+          "RequiredPowerInput": "0.002",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "TargetingGroups": { "string": "Propulsion" },
+          "_xsi:type": "MyObjectBuilder_GyroDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "OpenCockpitSmall" },
+          "DisplayName": "DisplayName_Block_OpenCockpitSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\OpenCockpitSmall.dds",
+          "Description": "Description_OpenCockpitSmall",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "Model": "Models\\Cubes\\Small\\OpenCockpitSmall.mwm",
+          "CharacterAnimation": "FighterCockpitPosture",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "15" },
+              { "_Subtype": "Display", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.0",
+                "_EndX": "2.1",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "2.1",
+                "_EndY": "2.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\OpenCockpitSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\OpenCockpitSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "OpenCockpit",
+          "ScreenAreas": {
+            "ScreenArea": {
+              "_Name": "CockpitScreen_01",
+              "_DisplayName": "DisplayName_Screen_Large",
+              "_TextureResolution": "512",
+              "_ScreenWidth": "5",
+              "_ScreenHeight": "3",
+              "_Script": "TSS_ArtificialHorizon"
+            }
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "true",
+          "IsPressurized": "false",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "OpenCockpitLarge" },
+          "DisplayName": "DisplayName_Block_OpenCockpitLarge",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\OpenCockpitLarge.dds",
+          "Description": "Description_OpenCockpitLarge",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\OpenCockpitLarge.mwm",
+          "CharacterAnimation": "FighterCockpitPosture",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "100" },
+              { "_Subtype": "Display", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "InteriorPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.1",
+              "_StartY": "0.1",
+              "_EndX": "0.9",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\OpenCockpitLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\OpenCockpitLargeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\OpenCockpitLargeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "OpenCockpit",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_ArtificialHorizon"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_TopLeft",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "2",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_TopRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "2",
+                "_Script": "TSS_Gravity"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_BottomLeft",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "4",
+                "_Script": "TSS_ClockAnalog"
+              },
+              {
+                "_Name": "CockpitScreen_05",
+                "_DisplayName": "DisplayName_Screen_BottomRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "3"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "true",
+          "IsPressurized": "false",
+          "BuildTimeSeconds": "32",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PCU": "150",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        }
+      ]
+    }
+  }
+}

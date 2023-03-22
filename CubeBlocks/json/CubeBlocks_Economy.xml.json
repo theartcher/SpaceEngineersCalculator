@@ -1,0 +1,512 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "StoreBlock", "SubtypeId": "StoreBlock" },
+          "DisplayName": "DisplayName_Block_Store",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\StoreBlock.dds",
+          "Description": "Description_StoreBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\StoreBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\StoreBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\StoreBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\StoreBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "StoreScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "16",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "StoreScreen_02",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "2"
+              }
+            ]
+          },
+          "BlockPairName": "StoreBlock",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "25",
+          "ResourceSinkGroup": "Conveyors",
+          "RequiredPowerInput": "0.002",
+          "InventorySize": { "X": "2.5", "Y": "2.5", "Z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockCollect",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "EmissiveColorPreset": "Default",
+          "_xsi:type": "MyObjectBuilder_StoreBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "SafeZoneBlock", "SubtypeId": "SafeZoneBlock" },
+          "DisplayName": "DisplayName_Block_SafeZone",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SafeZoneBlock.dds",
+          "Description": "Description_SafeZone",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "2", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\SafeZoneBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "750" },
+              { "_Subtype": "Construction", "_Count": "180" },
+              { "_Subtype": "GravityGenerator", "_Count": "10" },
+              { "_Subtype": "ZoneChip", "_Count": "5" },
+              { "_Subtype": "MetalGrid", "_Count": "80" },
+              { "_Subtype": "Computer", "_Count": "120" },
+              { "_Subtype": "SteelPlate", "_Count": "50" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "2",
+                "_EndX": "2",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "1",
+                "_StartY": "0.5",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1.5",
+                "_EndY": "1.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\large\\SafeZoneBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\large\\SafeZoneBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\large\\SafeZoneBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "16",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "2"
+              }
+            ]
+          },
+          "BlockPairName": "SafeZone",
+          "EdgeType": "Light",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "BuildTimeSeconds": "40",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "MaxSafeZoneRadius": "500",
+          "MinSafeZoneRadius": "10",
+          "DefaultSafeZoneRadius": "10",
+          "SafeZoneActivationTimeS": "120",
+          "MaxSafeZonePowerDrainkW": "300000",
+          "MinSafeZonePowerDrainkW": "5000",
+          "SafeZoneUpkeep": "1",
+          "SafeZoneUpkeepTimeM": "60",
+          "ActionSound": "BlockSafeZone",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "_xsi:type": "MyObjectBuilder_SafeZoneBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "ContractBlock", "SubtypeId": "ContractBlock" },
+          "DisplayName": "DisplayName_Block_Contract",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ContractsBlock.dds",
+          "Description": "Description_ContractBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ContractsBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ContractsScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "16",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "ContractsScreen_02",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "2"
+              }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\large\\ContractsBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\large\\ContractsBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\large\\ContractsBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ContractBlock",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "25",
+          "ResourceSinkGroup": "Conveyors",
+          "RequiredPowerInput": "0.002",
+          "InventorySize": { "X": "2.5", "Y": "2.5", "Z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockCollect",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "EmissiveColorPreset": "Default",
+          "_xsi:type": "MyObjectBuilder_ContractBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "VendingMachine", "SubtypeId": "VendingMachine" },
+          "DisplayName": "DisplayName_Block_VendingMachine",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\VendingMachine.dds",
+          "Description": "Description_VendingMachine",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\VendingMachine.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\VendingMachineConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\VendingMachineConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\VendingMachineConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": {
+              "_Name": "VendingScreen_01",
+              "_DisplayName": "DisplayName_Screen_Large",
+              "_TextureResolution": "1024",
+              "_ScreenWidth": "15",
+              "_ScreenHeight": "9",
+              "_Script": "TSS_VendingMachine"
+            }
+          },
+          "BlockPairName": "VendingMachine",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "ResourceSinkGroup": "Conveyors",
+          "RequiredPowerInput": "0.002",
+          "InventorySize": { "X": "2.5", "Y": "2.5", "Z": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1"
+            }
+          },
+          "IsAirTight": "false",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockCollect",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "EmissiveColorPreset": "Default",
+          "DLC": "Economy",
+          "_xsi:type": "MyObjectBuilder_VendingMachineDefinition"
+        },
+        {
+          "Id": { "TypeId": "StoreBlock", "SubtypeId": "AtmBlock" },
+          "DisplayName": "DisplayName_Block_ATM",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ATM.dds",
+          "Description": "Description_AtmBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ATM.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ATMConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ATMConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ATMConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ATM_Screen",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "16",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "ATM_Keyboard",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "2"
+              },
+              {
+                "_Name": "ATM_Numpad",
+                "_DisplayName": "DisplayName_Screen_Numpad",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "5"
+              }
+            ]
+          },
+          "BlockPairName": "AtmBlock",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "15",
+          "ResourceSinkGroup": "Conveyors",
+          "RequiredPowerInput": "0.002",
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Left",
+              "_StartX": "0.2",
+              "_StartY": "0.2",
+              "_EndX": "0.8",
+              "_EndY": "1"
+            }
+          },
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockCollect",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "EmissiveColorPreset": "Default",
+          "IsAirTight": "false",
+          "DLC": "Economy",
+          "_xsi:type": "MyObjectBuilder_StoreBlockDefinition"
+        }
+      ]
+    },
+    "BlockPositions": {
+      "BlockPosition": [
+        { "Name": "SafeZone", "Position": { "X": "1", "Y": "19" } },
+        { "Name": "StoreBlock", "Position": { "X": "2", "Y": "19" } },
+        { "Name": "AtmBlock", "Position": { "X": "3", "Y": "19" } },
+        { "Name": "VendingMachine", "Position": { "X": "4", "Y": "19" } },
+        { "Name": "ContractBlock", "Position": { "X": "5", "Y": "19" } }
+      ]
+    }
+  }
+}

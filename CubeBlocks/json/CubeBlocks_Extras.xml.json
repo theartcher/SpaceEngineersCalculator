@@ -1,0 +1,136 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Monolith" },
+          "DisplayName": "Monolith",
+          "Icon": "Textures\\GUI\\Icons\\Fake.dds",
+          "Public": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "4", "_z": "1" },
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "ModelOffset": { "_x": "0", "_y": "-4", "_z": "0" },
+          "Model": "Models\\Environment\\Props\\Monolith.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "130" },
+              { "_Subtype": "Superconductor", "_Count": "130" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Superconductor", "_Index": "0" },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "200000",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Stereolith" },
+          "DisplayName": "Stereolith",
+          "Icon": "Textures\\GUI\\Icons\\Fake.dds",
+          "Public": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "4", "_z": "1" },
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "ModelOffset": { "_x": "0", "_y": "-4", "_z": "0" },
+          "Model": "Models\\Environment\\Props\\Stereolith.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "130" },
+              { "_Subtype": "Superconductor", "_Count": "130" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Superconductor", "_Index": "0" },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "200000",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "DeadAstronaut" },
+          "DisplayName": "DisplayName_Dead_Astronaut",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\DeadAstronaut.dds",
+          "Public": "false",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Debris\\dead_astronaut.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "13" },
+              { "_Subtype": "Superconductor", "_Count": "13" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Superconductor", "_Index": "0" },
+          "EdgeType": "Light",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "PhysicsOption": "None",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeDeadAstronaut" },
+          "DisplayName": "DisplayName_Dead_Astronaut",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\DeadAstronaut.dds",
+          "Public": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Debris\\dead_astronaut.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "13" },
+              { "_Subtype": "Superconductor", "_Count": "13" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Superconductor", "_Index": "0" },
+          "EdgeType": "Light",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "PhysicsOption": "None",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "EngineerPlushie" },
+          "DisplayName": "DisplayName_Block_EngineerPlushie",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Plushie.dds",
+          "Description": "Description_EngineerPlushie",
+          "Public": "true",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Plushie.mwm",
+          "Components": {
+            "Component": { "_Subtype": "EngineerPlushie", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "EngineerPlushie", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7",
+              "_Default": "true"
+            }
+          },
+          "BlockPairName": "EngineerPlushie",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "PCU": "1",
+          "IsAirTight": "false"
+        }
+      ]
+    }
+  }
+}

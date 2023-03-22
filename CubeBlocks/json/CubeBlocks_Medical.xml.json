@@ -1,0 +1,364 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "MedicalRoom", "SubtypeId": "LargeMedicalRoom" },
+          "DisplayName": "DisplayName_Block_MedicalRoom",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\medical_room.dds",
+          "Description": "Description_MedicalRoom",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\MedicalRoom.mwm",
+          "IdleSound": "BlockMedical",
+          "ProgressSound": "BlockMedicalProgress",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "220" },
+              { "_Subtype": "Construction", "_Count": "80" },
+              { "_Subtype": "MetalGrid", "_Count": "60" },
+              { "_Subtype": "SmallTube", "_Count": "20" },
+              { "_Subtype": "LargeTube", "_Count": "5" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "Medical", "_Count": "15" },
+              { "_Subtype": "InteriorPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Medical", "_Index": "0" },
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.1",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "1.2",
+                "_EndX": "0.8",
+                "_EndY": "2",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\MedicalRoomConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\MedicalRoomConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\MedicalRoomConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              { "_Name": "CockpitScreen_01", "_DisplayName": "Top panel" },
+              { "_Name": "CockpitScreen_02", "_DisplayName": "Bottom panel" }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "MedicalRoom",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "50",
+          "ResourceSinkGroup": "Utility",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "30",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_MedicalRoomDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CryoChamber",
+            "SubtypeId": "LargeBlockCryoChamber"
+          },
+          "DisplayName": "DisplayName_Block_CryoChamber",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CryoPod.dds",
+          "Description": "Description_CryoChamber",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\CryoPod.mwm",
+          "InteriorModel": "Models\\Cubes\\Large\\CryoPodInterior.mwm",
+          "CharacterAnimation": "Idle",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "8" },
+              { "_Subtype": "Display", "_Count": "8" },
+              { "_Subtype": "Medical", "_Count": "3" },
+              { "_Subtype": "Computer", "_Count": "30" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.1",
+                "_EndX": "0.8",
+                "_EndY": "0.7",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.05",
+                "_StartY": "0.7",
+                "_EndX": "0.95",
+                "_EndY": "0.95"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.8"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CryoPodConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CryoPodConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CryoPodConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "CryoChamber",
+          "OverlayTexture": "Textures\\GUI\\Screens\\cryopod_interior.dds",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "BuildTimeSeconds": "15",
+          "EnableFirstPerson": "true",
+          "IsPressurized": "true",
+          "OxygenCapacity": "1",
+          "ResourceSinkGroup": "Utility",
+          "IdlePowerConsumption": "0.00003",
+          "OutsideSound": "BlockCryoOut",
+          "InsideSound": "BlockCryoIn",
+          "EnclosedCockpit": "true",
+          "EdgeType": "Light",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CryoChamberDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CryoChamber",
+            "SubtypeId": "SmallBlockCryoChamber"
+          },
+          "DisplayName": "DisplayName_Block_CryoChamber",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CryoPod.dds",
+          "Description": "Description_CryoChamber",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "4", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\small\\Cryopod.mwm",
+          "InteriorModel": "Models\\Cubes\\small\\Cryopod.mwm",
+          "CharacterAnimation": "Idle",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "Medical", "_Count": "3" },
+              { "_Subtype": "Computer", "_Count": "15" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "BulletproofGlass", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2.5",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2",
+                "_StartY": "2",
+                "_EndX": "2.5",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "2",
+                "_EndX": "1",
+                "_EndY": "3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\small\\CryoPodConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\small\\CryoPodConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "CryoChamber",
+          "OverlayTexture": "Textures\\GUI\\Screens\\cryopod_interior.dds",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "BuildTimeSeconds": "15",
+          "EnableFirstPerson": "true",
+          "IsPressurized": "true",
+          "OxygenCapacity": "1",
+          "ResourceSinkGroup": "Utility",
+          "IdlePowerConsumption": "0.00003",
+          "OutsideSound": "BlockCryoOut",
+          "InsideSound": "BlockCryoIn",
+          "EnclosedCockpit": "true",
+          "EdgeType": "Light",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CryoChamberDefinition"
+        }
+      ]
+    }
+  }
+}

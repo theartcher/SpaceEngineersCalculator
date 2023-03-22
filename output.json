@@ -1,0 +1,883 @@
+{
+  "Blocks": [
+    {
+      "Type": "LargeBlockArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "20"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "5"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorSlope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "10"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorCorner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorCornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "16"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "5"
+        }
+      ]
+    },
+    {
+      "Type": "LargeRoundArmor_Slope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "10"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        }
+      ]
+    },
+    {
+      "Type": "LargeRoundArmor_Corner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "LargeRoundArmor_CornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "16"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "5"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "135"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "50"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "15"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorSlope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "65"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "25"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "10"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorCorner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "20"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "10"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "5"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorCornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "110"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "50"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "15"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorSlope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorCorner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorCornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "4"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "2"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorSlope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorCorner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorCornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHalfArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "10"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyHalfArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "65"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "25"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "10"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHalfSlopeArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyHalfSlopeArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "17"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "6"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "HalfArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "HeavyHalfArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "HalfSlopeArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "HeavyHalfSlopeArmorBlock",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorRoundSlope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "10"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorRoundCorner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorRoundCornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "16"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "5"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorRoundSlope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "115"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "50"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "15"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorRoundCorner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "110"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "40"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "15"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorRoundCornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "125"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "50"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "15"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorRoundSlope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorRoundCorner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorRoundCornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorRoundSlope",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorRoundCorner",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorRoundCornerInv",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorSlope2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "15"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "4"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorSlope2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "5"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorCorner2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "8"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorCorner2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorInvCorner2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "18"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "4"
+        }
+      ]
+    },
+    {
+      "Type": "LargeBlockArmorInvCorner2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "13"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorSlope2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "100"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "40"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "12"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorSlope2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "35"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "12"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "5"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorCorner2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "50"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "15"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "5"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorCorner2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "17"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "6"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorInvCorner2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "120"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "45"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "13"
+        }
+      ]
+    },
+    {
+      "Type": "LargeHeavyBlockArmorInvCorner2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "84"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "25"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "10"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorSlope2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorSlope2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorCorner2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorCorner2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorInvCorner2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallBlockArmorInvCorner2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorSlope2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "2"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorSlope2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorCorner2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorCorner2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "1"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorInvCorner2Base",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    },
+    {
+      "Type": "SmallHeavyBlockArmorInvCorner2Tip",
+      "Components": [
+        {
+          "Subtype": "SteelPlate",
+          "Count": "3"
+        },
+        {
+          "Subtype": "MetalGrid",
+          "Count": "1"
+        },
+        {
+          "Subtype": "SteelPlate",
+          "Count": "2"
+        }
+      ]
+    }
+  ]
+}

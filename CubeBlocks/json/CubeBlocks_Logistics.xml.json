@@ -1,0 +1,4443 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "OxygenTank", "SubtypeId": "OxygenTankSmall" },
+          "DisplayName": "DisplayName_Block_OxygenTank",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\OxygenTankSmall.dds",
+          "Description": "Description_OxygenTank",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\OxygenStorage.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "LargeTube", "_Count": "8" },
+              { "_Subtype": "SmallTube", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "3",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "3",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "1.1",
+                "_EndY": "1.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1.9",
+                "_StartY": "0.6",
+                "_EndX": "3",
+                "_EndY": "1.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "2.4",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1.7",
+                "_EndX": "1.1",
+                "_EndY": "2.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1.9",
+                "_StartY": "1.7",
+                "_EndX": "3",
+                "_EndY": "2.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\OxygenStorageConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\OxygenStorageConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "OxygenTank",
+          "Center": { "_x": "1", "_y": "1", "_z": "1" },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "14",
+          "EdgeType": "Light",
+          "ResourceSourceGroup": "Reactors",
+          "ResourceSinkGroup": "Factory",
+          "Capacity": "50000",
+          "InventoryMaxVolume": "4",
+          "InventorySize": { "X": "2", "Y": "2", "Z": "2" },
+          "OperationalPowerConsumption": "0.001",
+          "StandbyPowerConsumption": "0.000001",
+          "StoredGasId": { "TypeId": "GasProperties", "SubtypeId": "Oxygen" },
+          "BlueprintClasses": { "Class": "OxygenBottles" },
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "LeakPercent": "0.0125",
+          "GasExplosionMaxRadius": "4",
+          "GasExplosionNeededVolumeToReachMaxRadius": "50000",
+          "GasExplosionDamageMultiplier": "0.00015",
+          "GasExplosionSound": "WepSmallWarheadExpl",
+          "GasExplosionEffect": "BlockDestroyedExplosion_Small",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "300", "600"] },
+          "_xsi:type": "MyObjectBuilder_GasTankDefinition"
+        },
+        {
+          "Id": { "TypeId": "OxygenTank", "SubtypeId": "" },
+          "DisplayName": "DisplayName_Block_OxygenTank",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\OxygenTank.dds",
+          "Description": "Description_OxygenTank",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\OxygenStorage.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "60" },
+              { "_Subtype": "LargeTube", "_Count": "40" },
+              { "_Subtype": "SmallTube", "_Count": "60" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "1.7",
+                "_EndX": "0.9",
+                "_EndY": "1.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "1.7",
+                "_EndX": "0.9",
+                "_EndY": "1.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "1.7",
+                "_EndX": "0.9",
+                "_EndY": "1.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "1.7",
+                "_EndX": "0.9",
+                "_EndY": "1.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\OxygenStorageConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\OxygenStorageConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\OxygenStorageConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "OxygenTank",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "ResourceSourceGroup": "Reactors",
+          "ResourceSinkGroup": "Factory",
+          "OperationalPowerConsumption": "0.001",
+          "StandbyPowerConsumption": "0.000001",
+          "Capacity": "100000",
+          "InventoryMaxVolume": "4",
+          "InventorySize": { "X": "2", "Y": "2", "Z": "2" },
+          "StoredGasId": { "TypeId": "GasProperties", "SubtypeId": "Oxygen" },
+          "BlueprintClasses": { "Class": "OxygenBottles" },
+          "BuildTimeSeconds": "32",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": [
+            "Explosion_Missile",
+            "BlockDestroyedExplosion_Large"
+          ],
+          "DestroySound": ["WepSmallMissileExpl", "WepSmallWarheadExpl"],
+          "EmissiveColorPreset": "Extended",
+          "PCU": "25",
+          "LeakPercent": "0.005",
+          "GasExplosionMaxRadius": "10",
+          "GasExplosionNeededVolumeToReachMaxRadius": "100000",
+          "GasExplosionDamageMultiplier": "0.00015",
+          "GasExplosionSound": "WepSmallWarheadExpl",
+          "GasExplosionEffect": "BlockDestroyedExplosion_Large",
+          "IsAirTight": "false",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "300", "600"] },
+          "_xsi:type": "MyObjectBuilder_GasTankDefinition"
+        },
+        {
+          "Id": { "TypeId": "OxygenTank", "SubtypeId": "LargeHydrogenTank" },
+          "DisplayName": "DisplayName_Block_HydrogenTank",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HydrogenTank.dds",
+          "Description": "Description_HydrogenTank",
+          "Public": "true",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HydrogenTank.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "160" },
+              { "_Subtype": "LargeTube", "_Count": "80" },
+              { "_Subtype": "SmallTube", "_Count": "60" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "120" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "3",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1",
+                "_StartY": "2",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "3",
+                "_EndY": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1",
+                "_StartY": "2",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HydrogenTank_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HydrogenTank_Construction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HydrogenTank_Construction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HydrogenTank",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "ResourceSourceGroup": "Reactors",
+          "ResourceSinkGroup": "Factory",
+          "OperationalPowerConsumption": "0.001",
+          "StandbyPowerConsumption": "0.000001",
+          "Capacity": "15000000",
+          "InventoryMaxVolume": "0.75",
+          "InventorySize": { "X": "2", "Y": "2", "Z": "2" },
+          "StoredGasId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+          "BlueprintClasses": { "Class": "HydrogenBottles" },
+          "BuildTimeSeconds": "50",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": "Explosion_Warhead_30",
+          "DestroySound": "WepLrgWarheadExpl",
+          "EmissiveColorPreset": "Extended",
+          "PCU": "25",
+          "LeakPercent": "0.0025",
+          "GasExplosionMaxRadius": "20",
+          "GasExplosionNeededVolumeToReachMaxRadius": "15000000",
+          "GasExplosionDamageMultiplier": "0.00015",
+          "GasExplosionSound": "HydrogenExplosion",
+          "GasExplosionEffect": "Explosion_Warhead_30",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "300", "600"] },
+          "_xsi:type": "MyObjectBuilder_GasTankDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "OxygenTank",
+            "SubtypeId": "LargeHydrogenTankSmall"
+          },
+          "DisplayName": "DisplayName_Block_HydrogenTankSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\largeHydrogenTankSmall.dds",
+          "Description": "Description_HydrogenTank",
+          "Public": "true",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HydrogenTankSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "60" },
+              { "_Subtype": "LargeTube", "_Count": "40" },
+              { "_Subtype": "SmallTube", "_Count": "60" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Large\\HydrogenTankSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HydrogenTankSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HydrogenTankSmall",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "ResourceSourceGroup": "Reactors",
+          "ResourceSinkGroup": "Factory",
+          "OperationalPowerConsumption": "0.001",
+          "StandbyPowerConsumption": "0.000001",
+          "Capacity": "1000000",
+          "InventoryMaxVolume": "0.75",
+          "InventorySize": { "X": "2", "Y": "2", "Z": "2" },
+          "StoredGasId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+          "BlueprintClasses": { "Class": "HydrogenBottles" },
+          "BuildTimeSeconds": "32",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "EmissiveColorPreset": "Extended",
+          "PCU": "25",
+          "LeakPercent": "0.005",
+          "GasExplosionMaxRadius": "10",
+          "GasExplosionNeededVolumeToReachMaxRadius": "1000000",
+          "GasExplosionDamageMultiplier": "0.00015",
+          "GasExplosionSound": "HydrogenExplosion",
+          "GasExplosionEffect": "Explosion_Warhead_15",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "300", "600"] },
+          "_xsi:type": "MyObjectBuilder_GasTankDefinition"
+        },
+        {
+          "Id": { "TypeId": "OxygenTank", "SubtypeId": "SmallHydrogenTank" },
+          "DisplayName": "DisplayName_Block_HydrogenTank",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HydrogenTank.dds",
+          "Description": "Description_HydrogenTank",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "Public": "true",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "5", "_y": "5", "_z": "5" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HydrogenTank.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "30" },
+              { "_Subtype": "LargeTube", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "30" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "1.0",
+                "_StartY": "1.0",
+                "_EndX": "4.0",
+                "_EndY": "4.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "2.0",
+                "_StartY": "0.0",
+                "_EndX": "3.0",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "2.0",
+                "_StartY": "4.0",
+                "_EndX": "3.0",
+                "_EndY": "5.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "2.0",
+                "_EndX": "1.0",
+                "_EndY": "3.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "4.0",
+                "_StartY": "2.0",
+                "_EndX": "5.0",
+                "_EndY": "3.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1.0",
+                "_StartY": "1.0",
+                "_EndX": "4.0",
+                "_EndY": "4.0",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "2.0",
+                "_StartY": "0.0",
+                "_EndX": "3.0",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "2.0",
+                "_StartY": "4.0",
+                "_EndX": "3.0",
+                "_EndY": "5.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "2.0",
+                "_EndX": "1.0",
+                "_EndY": "3.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "4.0",
+                "_StartY": "2.0",
+                "_EndX": "5.0",
+                "_EndY": "3.0"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1.0",
+                "_StartY": "2.0",
+                "_EndX": "4.0",
+                "_EndY": "3.0"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "2.0",
+                "_StartY": "0.0",
+                "_EndX": "3.0",
+                "_EndY": "2.0"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "2.0",
+                "_StartY": "3.0",
+                "_EndX": "3.0",
+                "_EndY": "5.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1.0",
+                "_StartY": "2.0",
+                "_EndX": "4.0",
+                "_EndY": "3.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "2.0",
+                "_StartY": "0.0",
+                "_EndX": "3.0",
+                "_EndY": "2.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "2.0",
+                "_StartY": "3.0",
+                "_EndX": "3.0",
+                "_EndY": "5.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1.0",
+                "_StartY": "2.0",
+                "_EndX": "4.0",
+                "_EndY": "3.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.0",
+                "_StartY": "0.0",
+                "_EndX": "3.0",
+                "_EndY": "2.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.0",
+                "_StartY": "3.0",
+                "_EndX": "3.0",
+                "_EndY": "5.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "1.0",
+                "_StartY": "2.0",
+                "_EndX": "4.0",
+                "_EndY": "3.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.0",
+                "_StartY": "0.0",
+                "_EndX": "3.0",
+                "_EndY": "2.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.0",
+                "_StartY": "3.0",
+                "_EndX": "3.0",
+                "_EndY": "5.0"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Small\\HydrogenTank_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Small\\HydrogenTank_Construction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\HydrogenTank_Construction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HydrogenTank",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "ResourceSourceGroup": "Reactors",
+          "ResourceSinkGroup": "Factory",
+          "OperationalPowerConsumption": "0.001",
+          "StandbyPowerConsumption": "0.000001",
+          "Capacity": "500000",
+          "InventoryMaxVolume": "0.75",
+          "InventorySize": { "X": "2", "Y": "2", "Z": "2" },
+          "StoredGasId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+          "BlueprintClasses": { "Class": "HydrogenBottles" },
+          "BuildTimeSeconds": "30",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "Explosion_Warhead_02",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "LeakPercent": "0.005",
+          "GasExplosionMaxRadius": "5",
+          "GasExplosionNeededVolumeToReachMaxRadius": "500000",
+          "GasExplosionDamageMultiplier": "0.00015",
+          "GasExplosionSound": "WepSmallWarheadExpl",
+          "GasExplosionEffect": "Explosion_Warhead_02",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "300", "600"] },
+          "_xsi:type": "MyObjectBuilder_GasTankDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "OxygenTank",
+            "SubtypeId": "SmallHydrogenTankSmall"
+          },
+          "DisplayName": "DisplayName_Block_HydrogenTankSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SmallHydrogenTankSmall.dds",
+          "Description": "Description_HydrogenTank",
+          "Public": "true",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HydrogenTankSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "SmallTube", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\HydrogenTankSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\HydrogenTankSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HydrogenTankSmall",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "ResourceSourceGroup": "Reactors",
+          "ResourceSinkGroup": "Factory",
+          "OperationalPowerConsumption": "0.0002",
+          "StandbyPowerConsumption": "0.0000002",
+          "Capacity": "15000",
+          "InventoryMaxVolume": "0.12",
+          "InventorySize": { "X": "2", "Y": "2", "Z": "2" },
+          "StoredGasId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+          "BlueprintClasses": { "Class": "HydrogenBottles" },
+          "BuildTimeSeconds": "12",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepLrgWarheadExpl",
+          "PCU": "25",
+          "LeakPercent": "0.025",
+          "GasExplosionMaxRadius": "3",
+          "GasExplosionNeededVolumeToReachMaxRadius": "15000",
+          "GasExplosionDamageMultiplier": "0.00015",
+          "GasExplosionSound": "WepLrgWarheadExpl",
+          "GasExplosionEffect": "BlockDestroyedExplosion_Large",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "300", "600"] },
+          "_xsi:type": "MyObjectBuilder_GasTankDefinition"
+        },
+        {
+          "Id": { "TypeId": "AirVent", "SubtypeId": "" },
+          "DisplayName": "DisplayName_Block_AirVent",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AirVent.dds",
+          "Description": "Description_AirVent",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\OxygenPressurizer.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\OxygenPressurizerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\OxygenPressurizerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\OxygenPressurizerConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "AirVent",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "ResourceSourceGroup": "Battery",
+          "ResourceSinkGroup": "Factory",
+          "OperationalPowerConsumption": "0.1",
+          "StandbyPowerConsumption": "0.001",
+          "VentilationCapacityPerSecond": "300",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "PressurizeSound": "BlockAirVentExhale",
+          "DepressurizeSound": "BlockAirVentDepressurize",
+          "IdleSound": "BlockAirVentIdle",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "_xsi:type": "MyObjectBuilder_AirVentDefinition"
+        },
+        {
+          "Id": { "TypeId": "AirVent", "SubtypeId": "SmallAirVent" },
+          "DisplayName": "DisplayName_Block_AirVent",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AirVent.dds",
+          "Description": "Description_AirVent",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\OxygenPressurizer.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Small\\OxygenPressurizerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Small\\OxygenPressurizerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\OxygenPressurizerConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "AirVent",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "ResourceSourceGroup": "Battery",
+          "ResourceSinkGroup": "Factory",
+          "OperationalPowerConsumption": "0.01",
+          "StandbyPowerConsumption": "0.001",
+          "VentilationCapacityPerSecond": "30",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "PressurizeSound": "BlockAirVentExhale",
+          "DepressurizeSound": "BlockAirVentDepressurize",
+          "IdleSound": "BlockAirVentIdle",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Tiny",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "_xsi:type": "MyObjectBuilder_AirVentDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "SmallBlockSmallContainer"
+          },
+          "DisplayName": "DisplayName_Block_SmallCargoContainer",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\container.dds",
+          "Description": "Description_SmallCargoContainer",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\CargoContainerSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\CargoContainerSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\CargoContainerSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "SmallCargoContainer",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "6",
+          "EdgeType": "Light",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "SmallBlockMediumContainer"
+          },
+          "DisplayName": "DisplayName_Block_MediumCargoContainer",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\container_medium.dds",
+          "Description": "Description_MediumCargoContainer",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\CargoContainerMedium.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\CargoContainerMediumConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\CargoContainerMediumConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MediumCargoContainer",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "SmallBlockLargeContainer"
+          },
+          "DisplayName": "DisplayName_Block_LargeCargoContainer",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\container_large.dds",
+          "Description": "Description_LargeCargoContainer",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "5", "_y": "5", "_z": "5" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\CargoContainerLarge.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "55" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "Computer", "_Count": "6" },
+              { "_Subtype": "Motor", "_Count": "8" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "5",
+                "_EndY": "5"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "5",
+                "_EndY": "5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "5",
+                "_EndY": "5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "5",
+                "_EndY": "5",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "5",
+                "_EndY": "5"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "5",
+                "_EndY": "5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\CargoContainerLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\CargoContainerLargeConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeCargoContainer",
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "25",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "LargeBlockSmallContainer"
+          },
+          "DisplayName": "DisplayName_Block_SmallCargoContainer",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\container.dds",
+          "Description": "Description_SmallCargoContainer",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\CargoContainerSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "35" },
+              { "_Subtype": "MetalGrid", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CargoContainerSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CargoContainerSmallConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CargoContainerSmallConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "SmallCargoContainer",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "15",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "LargeBlockLargeContainer"
+          },
+          "DisplayName": "DisplayName_Block_LargeCargoContainer",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\container_large.dds",
+          "Description": "Description_LargeCargoContainer",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\CargoContainerLarge.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "300" },
+              { "_Subtype": "Construction", "_Count": "60" },
+              { "_Subtype": "MetalGrid", "_Count": "24" },
+              { "_Subtype": "SmallTube", "_Count": "60" },
+              { "_Subtype": "Motor", "_Count": "20" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "InteriorPlate", "_Count": "60" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CargoContainerLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CargoContainerLargeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CargoContainerLargeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeCargoContainer",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "45",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": { "TypeId": "Conveyor", "SubtypeId": "SmallBlockConveyor" },
+          "DisplayName": "DisplayName_Block_ConveyorSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorSmall.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\conveyor.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "1.0"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ConveyorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ConveyorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorSmall",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "10",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "Conveyor",
+            "SubtypeId": "SmallBlockConveyorConverter"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorConverter",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorConverter.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\conveyorConverter.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "SmallTube", "_Count": "6" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "2.9",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "2.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.3",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "2.7",
+                "_StartY": "0.1",
+                "_EndX": "2.9",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.3",
+                "_StartY": "0.1",
+                "_EndX": "2.7",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.3",
+                "_StartY": "2.7",
+                "_EndX": "2.7",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "2.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "2.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ConveyorConverterConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ConveyorConverterConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorConverter",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "10",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": { "TypeId": "Conveyor", "SubtypeId": "LargeBlockConveyor" },
+          "DisplayName": "DisplayName_Block_Conveyor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\conveyor.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\conveyor.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ConveyorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ConveyorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Conveyor",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": { "TypeId": "Collector", "SubtypeId": "Collector" },
+          "DisplayName": "DisplayName_Block_Collector",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\collector.dds",
+          "Description": "Description_Collector",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Collector.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "50" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "8" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CollectorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CollectorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CollectorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Collector",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "25",
+          "ResourceSinkGroup": "Conveyors",
+          "RequiredPowerInput": "0.002",
+          "InventorySize": { "X": "2.5", "Y": "2.5", "Z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockCollect",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_PoweredCargoContainerDefinition"
+        },
+        {
+          "Id": { "TypeId": "Collector", "SubtypeId": "CollectorSmall" },
+          "DisplayName": "DisplayName_Block_Collector",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\collector.dds",
+          "Description": "Description_Collector",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Collector.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "25" },
+              { "_Subtype": "Construction", "_Count": "35" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "8" },
+              { "_Subtype": "Display", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\CollectorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\CollectorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Collector",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "15",
+          "ResourceSinkGroup": "Conveyors",
+          "RequiredPowerInput": "0.002",
+          "InventorySize": { "X": "1.5", "Y": "1.5", "Z": "0.7" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockCollect",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "_xsi:type": "MyObjectBuilder_PoweredCargoContainerDefinition"
+        },
+        {
+          "Id": { "TypeId": "ShipConnector", "SubtypeId": "Connector" },
+          "DisplayName": "DisplayName_Block_Connector",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Connector.dds",
+          "Description": "Description_Connector",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Connector.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "130" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "8" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ConnectorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ConnectorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConnectorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Connector",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "30",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.15",
+                "_StartY": "0.15",
+                "_EndX": "0.85",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.27",
+                "_StartY": "0.65",
+                "_EndX": "0.73",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.27",
+                "_StartY": "0.0",
+                "_EndX": "0.73",
+                "_EndY": "0.09"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.27",
+                "_StartY": "0.1",
+                "_EndX": "0.73",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.27",
+                "_StartY": "0.91",
+                "_EndX": "0.73",
+                "_EndY": "1.0"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockEject",
+          "EmissiveColorPreset": "ConnectBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "125",
+          "IsAirTight": "false",
+          "AutoUnlockTime_Min": "0",
+          "AutoUnlockTime_Max": "3600",
+          "TieredUpdateTimes": { "unsignedInt": ["80", "160", "320"] },
+          "_xsi:type": "MyObjectBuilder_ShipConnectorDefinition"
+        },
+        {
+          "Id": { "TypeId": "ShipConnector", "SubtypeId": "ConnectorSmall" },
+          "DisplayName": "DisplayName_Block_ConnectorSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConnectorSmall.dds",
+          "Description": "Description_Ejector",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Connector.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ConnectorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ConnectorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConnectorSmall",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockEject",
+          "EmissiveColorPreset": "ConnectBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "125",
+          "IsAirTight": "true",
+          "AutoUnlockTime_Min": "0",
+          "AutoUnlockTime_Max": "3600",
+          "TieredUpdateTimes": { "unsignedInt": ["80", "160", "320"] },
+          "_xsi:type": "MyObjectBuilder_ShipConnectorDefinition"
+        },
+        {
+          "Id": { "TypeId": "ShipConnector", "SubtypeId": "ConnectorMedium" },
+          "DisplayName": "DisplayName_Block_Connector",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Connector.dds",
+          "Description": "Description_Connector",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConnectorMedium.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "12" },
+              { "_Subtype": "SmallTube", "_Count": "6" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "6" },
+              { "_Subtype": "SteelPlate", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ConnectorMediumConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ConnectorMediumConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Connector",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "Center": { "_x": "1", "_y": "1", "_z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "3",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "MirroringZ": "X",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ActionSound": "BlockEject",
+          "EmissiveColorPreset": "ConnectBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "125",
+          "AutoUnlockTime_Min": "0",
+          "AutoUnlockTime_Max": "3600",
+          "TieredUpdateTimes": { "unsignedInt": ["80", "160", "320"] },
+          "_xsi:type": "MyObjectBuilder_ShipConnectorDefinition"
+        },
+        {
+          "Id": { "TypeId": "ConveyorConnector", "SubtypeId": "ConveyorTube" },
+          "DisplayName": "DisplayName_Block_ConveyorTube",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorTube.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "true",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ConveyorTube.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\ConveyorTubeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorTubeConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTube",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "7",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "AutorotateMode": "OppositeDirections",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeDuct"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeDuct",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuct.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "true",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ConveyorDuct.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\ConveyorDuctConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorDuctConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTubeDuct",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.7",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0.7",
+                "_EndX": "0.7",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.3",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.7",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.15"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.85",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.45",
+                "_StartY": "0.45",
+                "_EndX": "0.55",
+                "_EndY": "0.55"
+              }
+            ]
+          },
+          "AutorotateMode": "OppositeDirections",
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeDuctCurved"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeDuctCurved",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctCurved.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "true",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ConveyorDuctCurved.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\ConveyorDuctCurvedConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorDuctCurvedConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTubeDuctCurved",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.7",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0.7",
+                "_EndX": "0.7",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.95",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.15",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.85",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.45",
+                "_StartY": "0.45",
+                "_EndX": "0.55",
+                "_EndY": "0.55"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "MirroringX": "HalfZ",
+          "MirroringY": "ZHalfZ",
+          "MirroringZ": "YHalfZ",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10"
+        },
+        {
+          "Id": { "TypeId": "Conveyor", "SubtypeId": "ConveyorTubeDuctT" },
+          "DisplayName": "DisplayName_Block_ConveyorTubeDuctT",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctT.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "true",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ConveyorDuctT.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "12" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "24" },
+              { "_Subtype": "SmallTube", "_Count": "14" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "6" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\ConveyorDuctTConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorDuctTConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTubeDuctT",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.7",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0.7",
+                "_EndX": "0.7",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.3",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.7",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.95",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.05"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.85",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.45",
+                "_StartY": "0.45",
+                "_EndX": "0.55",
+                "_EndY": "0.55"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeSmall"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeSmall.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorTube.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": [
+            { "_Subtype": "Construction", "_Index": "0" },
+            { "_Subtype": "Construction", "_Index": "0" }
+          ],
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.2",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.8",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.2",
+                "_StartY": "0.1",
+                "_EndX": "0.8",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.2",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.8",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.2",
+                "_StartY": "0.1",
+                "_EndX": "0.8",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\ConveyorTubeConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "ConveyorTubeSmall",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeDuctSmall"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeDuctSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctSmall.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorDuct.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": [
+            { "_Subtype": "Construction", "_Index": "0" },
+            { "_Subtype": "Construction", "_Index": "0" }
+          ],
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1.0",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.15"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.85",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.45",
+                "_StartY": "0.45",
+                "_EndX": "0.55",
+                "_EndY": "0.55"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\ConveyorDuctConstruction_1.mwm"
+            }
+          },
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "BlockPairName": "ConveyorTubeDuctSmall",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "10"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeDuctSmallCurved"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeDuctSmallCurved",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctCurvedSmall.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorDuctCurved.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": [
+            { "_Subtype": "Construction", "_Index": "0" },
+            { "_Subtype": "Construction", "_Index": "0" }
+          ],
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.15",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.85",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.45",
+                "_StartY": "0.45",
+                "_EndX": "0.55",
+                "_EndY": "0.55"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\ConveyorDuctCurvedConstruction_1.mwm"
+            }
+          },
+          "MirroringX": "YMinusHalfX",
+          "MirroringY": "HalfX",
+          "MirroringZ": "XHalfX",
+          "BlockPairName": "ConveyorTubeDuctSmallCurved",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "10"
+        },
+        {
+          "Id": { "TypeId": "Conveyor", "SubtypeId": "ConveyorTubeDuctSmallT" },
+          "DisplayName": "DisplayName_Block_ConveyorTubeDuctSmallT",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctTSmall.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "true",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorDuctT.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\ConveyorDuctTConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "ConveyorTubeDuctSmallT",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1.0",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.05"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.85",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.45",
+                "_StartY": "0.45",
+                "_EndX": "0.55",
+                "_EndY": "0.55"
+              }
+            ]
+          },
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeMedium"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeMedium",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorTube.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorTubeMedium.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ConveyorTubeMediumConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ConveyorTubeMediumConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTube",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.2",
+                "_EndX": "2.6",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "2.6",
+                "_EndX": "2.6",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.6",
+                "_StartY": "0.4",
+                "_EndX": "2.8",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.2",
+                "_EndX": "2.6",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "2.6",
+                "_EndX": "2.6",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.6",
+                "_StartY": "0.4",
+                "_EndX": "2.8",
+                "_EndY": "2.6"
+              }
+            ]
+          },
+          "AutorotateMode": "OppositeDirections",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Medium",
+          "DestroySound": "PoofExplosionCat2",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorFrameMedium"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorFrame",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorFrameMedium.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorFrameMedium.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "12" },
+              { "_Subtype": "SmallTube", "_Count": "5" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\ConveyorFrameMediumConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "ConveyorFrame",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.2",
+                "_EndX": "2.6",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "2.6",
+                "_EndX": "2.6",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.6",
+                "_StartY": "0.4",
+                "_EndX": "2.8",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.2",
+                "_EndX": "2.6",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "2.6",
+                "_EndX": "2.6",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.6",
+                "_StartY": "0.4",
+                "_EndX": "2.8",
+                "_EndY": "2.6"
+              }
+            ]
+          },
+          "AutorotateMode": "OppositeDirections",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Medium",
+          "DestroySound": "PoofExplosionCat2",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeCurved"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeCurved",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeCurved.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ConveyorTubeCurved.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\ConveyorTubeCurvedConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorTubeCurvedConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTubeCurved",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "7",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "AutorotateMode": "FirstDirection",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeSmallCurved"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeCurvedSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorCurveSmall.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorTubeCurved.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\ConveyorTubeCurvedConstruction_1.mwm"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTubeCurvedSmall",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "ConveyorTubeCurvedMedium"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorTubeCurved",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeCurved.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorTurnMedium.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ConveyorTurnMediumConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ConveyorTurnMediumConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.4",
+                "_StartY": "0.2",
+                "_EndX": "2.6",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.4",
+                "_StartY": "2.6",
+                "_EndX": "2.6",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "2.6",
+                "_StartY": "0.4",
+                "_EndX": "2.8",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.2",
+                "_EndX": "2.6",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "2.6",
+                "_EndX": "2.6",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.6",
+                "_StartY": "0.4",
+                "_EndX": "2.8",
+                "_EndY": "2.6"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTubeCurved",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "AutorotateMode": "FirstDirection",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Medium",
+          "DestroySound": "PoofExplosionCat2",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "Conveyor", "SubtypeId": "SmallShipConveyorHub" },
+          "DisplayName": "DisplayName_Block_Conveyor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Conveyor.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorHub.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\ConveyorHubConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\ConveyorHubConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.25",
+                "_StartY": "0.25",
+                "_EndX": "2.75",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.25",
+                "_StartY": "0.25",
+                "_EndX": "2.75",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0.25",
+                "_EndX": "0.35",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.65",
+                "_StartY": "0.25",
+                "_EndX": "2.75",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.35",
+                "_StartY": "0.25",
+                "_EndX": "2.65",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.35",
+                "_StartY": "2.65",
+                "_EndX": "2.65",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0.25",
+                "_EndX": "0.35",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.65",
+                "_StartY": "0.25",
+                "_EndX": "2.75",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.35",
+                "_StartY": "0.25",
+                "_EndX": "2.65",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.35",
+                "_StartY": "2.65",
+                "_EndX": "2.65",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0.25",
+                "_EndX": "0.35",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "2.65",
+                "_StartY": "0.25",
+                "_EndX": "2.75",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.35",
+                "_StartY": "0.25",
+                "_EndX": "2.65",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.35",
+                "_StartY": "2.65",
+                "_EndX": "2.65",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0.25",
+                "_EndX": "0.35",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "2.65",
+                "_StartY": "0.25",
+                "_EndX": "2.75",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.35",
+                "_StartY": "0.25",
+                "_EndX": "2.65",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.35",
+                "_StartY": "2.65",
+                "_EndX": "2.65",
+                "_EndY": "2.75"
+              }
+            ]
+          },
+          "BlockPairName": "Conveyor",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "IsAirTight": "true",
+          "PCU": "25"
+        },
+        {
+          "Id": { "TypeId": "Conveyor", "SubtypeId": "ConveyorTubeSmallT" },
+          "DisplayName": "DisplayName_Block_ConveyorTubeTSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeT_Small.dds",
+          "Description": "Description_ConveyorTube",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorTubeT.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\ConveyorTubeTConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "ConveyorTubeTSmall",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "Conveyor", "SubtypeId": "ConveyorTubeT" },
+          "DisplayName": "DisplayName_Block_ConveyorTubeT",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeT.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ConveyorTubeT.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "24" },
+              { "_Subtype": "SmallTube", "_Count": "14" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\ConveyorTubeTConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorTubeTConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorTubeT",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorSorter",
+            "SubtypeId": "LargeBlockConveyorSorter"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorSorter",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorSorterLarge.dds",
+          "Description": "Description_ConveyorSorter",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ConveyorSorter.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "40" },
+              { "_Subtype": "Construction", "_Count": "100" },
+              { "_Subtype": "SmallTube", "_Count": "50" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ConveyorSorterConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ConveyorSorterConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorSorterConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorSorter",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": [
+            "Damage_HeavyMech_Damaged",
+            "Damage_HeavyMech_Damaged"
+          ],
+          "DamagedSound": ["ParticleHeavyMech", "ParticleHeavyMech"],
+          "ResourceSinkGroup": "Conveyors",
+          "PowerInput": "0.00025",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_ConveyorSorterDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorSorter",
+            "SubtypeId": "MediumBlockConveyorSorter"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorSorter",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorSorterMedium.dds",
+          "Description": "Description_ConveyorSorter",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorSorterMedium.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ConveyorSorterMediumConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ConveyorSorterMediumConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorSorter",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": [
+            "BlockDestroyedExplosion_Large",
+            "BlockDestroyedExplosion_Small"
+          ],
+          "DestroySound": ["WepSmallWarheadExpl", "WepSmallWarheadExpl"],
+          "ResourceSinkGroup": "Conveyors",
+          "PowerInput": "0.0001",
+          "InventorySize": { "X": "0.7", "Y": "0.7", "Z": "0.7" },
+          "EmissiveColorPreset": "Default",
+          "PCU": "25",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_ConveyorSorterDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorSorter",
+            "SubtypeId": "SmallBlockConveyorSorter"
+          },
+          "DisplayName": "DisplayName_Block_SmallConveyorSorter",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorSorterSmall.dds",
+          "Description": "Description_ConveyorSorter",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ConveyorSorterSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ConveyorSorterSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ConveyorSorterSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorSorterSmall",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "DamageEffectName": [
+            "Damage_HeavyMech_Damaged",
+            "Damage_HeavyMech_Damaged"
+          ],
+          "DamagedSound": ["ParticleHeavyMech", "ParticleHeavyMech"],
+          "ResourceSinkGroup": "Conveyors",
+          "PowerInput": "0.0001",
+          "InventorySize": { "X": "0.4", "Y": "0.4", "Z": "0.4" },
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_ConveyorSorterDefinition"
+        }
+      ]
+    }
+  }
+}

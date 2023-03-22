@@ -1,0 +1,2121 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "LargeBlockWeaponRack"
+          },
+          "DisplayName": "DisplayName_Block_WeaponRack",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\WeaponRack.dds",
+          "Description": "Description_WeaponRack",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\WeaponRack.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\WeaponRackConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\WeaponRackConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\WeaponRackConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "WeaponRack",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "EmissiveColorPreset": "Basic",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "14",
+          "PCU": "10",
+          "DLC": "Warfare1",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "SmallBlockWeaponRack"
+          },
+          "DisplayName": "DisplayName_Block_WeaponRack",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\WeaponRack_small.dds",
+          "Description": "Description_WeaponRack",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "Model": "Models\\Cubes\\Small\\WeaponRack.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.4",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\WeaponRackConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1",
+                "_File": "Models\\Cubes\\Small\\WeaponRackConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "WeaponRack",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "EmissiveColorPreset": "Basic",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "8",
+          "PCU": "10",
+          "DLC": "Warfare1",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "FireCover" },
+          "DisplayName": "DisplayName_Block_FireCover",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\FireCover.dds",
+          "Description": "Description_FireCover",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\FireCover.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\FireCoverConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\FireCoverConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\FireCoverConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "FireCoverCorner" },
+          "DisplayName": "DisplayName_Block_FireCoverCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\FireCoverCorner.dds",
+          "Description": "Description_FireCover",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\FireCoverCorner.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\FireCoverCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\FireCoverCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\FireCoverCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "HalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "HalfWindow" },
+          "DisplayName": "DisplayName_Block_HalfWindow",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfWindow.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HalfWindow.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2",
+                "_ExclusionMask": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfWindowConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfWindowConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfWindowConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HalfWindow",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "HalfWindowInv" },
+          "DisplayName": "DisplayName_Block_HalfWindowInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfWindowInv.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HalfWindowInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2",
+                "_ExclusionMask": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfWindowConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfWindowConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfWindowConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "HalfWindowCorner" },
+          "DisplayName": "DisplayName_Block_HalfWindowCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfWindowCorner.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HalfWindowCorner.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "8" },
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2",
+                "_ExclusionMask": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2",
+                "_ExclusionMask": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfWindowCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfWindowCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfWindowCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "MinusHalfY",
+          "MirroringY": "ZHalfY",
+          "MirroringZ": "HalfY",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "HalfWindowCornerInv" },
+          "DisplayName": "DisplayName_Block_HalfWindowCornerInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfWindowCornerInv.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HalfWindowCornerInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "8" },
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2",
+                "_ExclusionMask": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2",
+                "_ExclusionMask": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfWindowCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfWindowCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfWindowCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "MinusHalfY",
+          "MirroringY": "ZHalfY",
+          "MirroringZ": "HalfY",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "HalfWindowDiagonal" },
+          "DisplayName": "DisplayName_Block_HalfWindowDiagonal",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfWindowDiagonal.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HalfWindowDiagonal.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "6" },
+              { "_Subtype": "SteelPlate", "_Count": "7" },
+              { "_Subtype": "BulletproofGlass", "_Count": "14" },
+              { "_Subtype": "SteelPlate", "_Count": "7" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.1",
+                "_EndY": "1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfWindowDiagonalConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfWindowDiagonalConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfWindowDiagonalConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HalfWindowDiagonal",
+          "MirroringX": "YHalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "7",
+          "PCU": "1",
+          "IsAirTight": "true",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "HalfWindowRound" },
+          "DisplayName": "DisplayName_Block_HalfWindowRound",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfWindowRound.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HalfWindowRound.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "7" },
+              { "_Subtype": "SteelPlate", "_Count": "8" },
+              { "_Subtype": "BulletproofGlass", "_Count": "18" },
+              { "_Subtype": "SteelPlate", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.4",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.4",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfWindowRoundConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfWindowRoundConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfWindowRoundConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HalfWindowRound",
+          "MirroringX": "YHalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "PCU": "1",
+          "IsAirTight": "true",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Embrasure" },
+          "DisplayName": "DisplayName_Block_Embrasure",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Embrasure.dds",
+          "Description": "Description_Embrasure",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Embrasure.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "MetalGrid", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.15",
+                "_StartY": "0",
+                "_EndX": "0.85",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.4",
+                "_EndY": "0.85"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\Embrasure_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\Embrasure_Construction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\Embrasure_Construction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Embrasure",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "IsAirTight": "false",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "PassageSciFi" },
+          "DisplayName": "DisplayName_Block_Passage3",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassageSciFi.dds",
+          "Description": "Description_Passage",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PassageSciFi.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "74" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "48" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PassageSciFi",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "16",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "PassageSciFiWall" },
+          "DisplayName": "DisplayName_Block_Passage3Wall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiWall.dds",
+          "Description": "Description_Passage",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PassageSciFiWall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "50" },
+              { "_Subtype": "Construction", "_Count": "14" },
+              { "_Subtype": "SmallTube", "_Count": "32" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiWallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiWallConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiWallConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PassageSciFiWall",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "PassageSciFiIntersection"
+          },
+          "DisplayName": "DisplayName_Block_Passage3Cross",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiIntersection.dds",
+          "Description": "Description_Passage",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PassageSciFiIntersection.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "35" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "25" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiIntersectionConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiIntersectionConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiIntersectionConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PassageSciFiIntersection",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "PassageSciFiGate" },
+          "DisplayName": "DisplayName_Block_Passage3Frame",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiGate.dds",
+          "Description": "Description_Passage",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PassageSciFiGate.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "35" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "25" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.5",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiGateConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiGateConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiGateConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PassageSciFiGate",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "InteriorLight", "SubtypeId": "PassageSciFiLight" },
+          "DisplayName": "DisplayName_Block_Passage3Light",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiLight.dds",
+          "Description": "Description_Passage",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PassageSciFiLight.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "74" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "48" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiLightConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PassageSciFiLight",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "LightRadius": { "_Min": "1", "_Max": "10", "_Default": "3.6" },
+          "LightFalloff": { "_Min": "0", "_Max": "3", "_Default": "1.3" },
+          "LightIntensity": { "_Min": "0.5", "_Max": "10", "_Default": "5" },
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00006",
+          "Flare": "InteriorLight",
+          "PointLightEmissiveMaterial": "Emissive",
+          "SpotLightEmissiveMaterial": "EmissiveSpotlight",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "16",
+          "PCU": "25",
+          "DLC": "Warfare1",
+          "_xsi:type": "MyObjectBuilder_LightingBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "PassageScifiCorner" },
+          "DisplayName": "DisplayName_Block_PassageScifiCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassageScifiCorner.dds",
+          "Description": "Description_Passage",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PassageScifiCorner.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "74" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "48" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.2",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PassageScifiCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PassageScifiCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PassageScifiCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PassageScifiCorner",
+          "MirroringX": "YHalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "16",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "PassageSciFiTjunction" },
+          "DisplayName": "DisplayName_Block_PassageSciFiTjunction",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiT-junction.dds",
+          "Description": "Description_Passage",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PassageSciFiT-junction.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "55" },
+              { "_Subtype": "Construction", "_Count": "16" },
+              { "_Subtype": "SmallTube", "_Count": "38" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiT-junctionConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiT-junctionConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiT-junctionConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PassageSciFiTjunction",
+          "MirroringX": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "PassageSciFiWindow" },
+          "DisplayName": "DisplayName_Block_PassageSciFiWindow",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiWindow.dds",
+          "Description": "Description_Passage",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PassageSciFiWindow.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "60" },
+              { "_Subtype": "Construction", "_Count": "16" },
+              { "_Subtype": "BulletproofGlass", "_Count": "16" },
+              { "_Subtype": "SmallTube", "_Count": "38" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.9",
+                "_EndX": "0.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PassageSciFiWindowConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PassageSciFiWindow",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "16",
+          "PCU": "1",
+          "DLC": "Warfare1"
+        }
+      ]
+    }
+  }
+}

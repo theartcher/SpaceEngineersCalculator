@@ -1,0 +1,1513 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "TextPanel", "SubtypeId": "SmallTextPanel" },
+          "DisplayName": "DisplayName_Block_TextPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TextPanel.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\TextPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "3" },
+              { "_Subtype": "BulletproofGlass", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\small\\TextPanel_Construction_1.mwm"
+            }
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "TextPanel",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "MaxScreenRenderDistance": "60",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00002",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "TextPanel", "SubtypeId": "SmallLCDPanelWide" },
+          "DisplayName": "DisplayName_LCD_PanelWide",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LCDPanelWide.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "6", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LCDPanelWide.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Display", "_Count": "6" },
+              { "_Subtype": "BulletproofGlass", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "6",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "6",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\small\\LCDPanelWide_Construction_1.mwm"
+            }
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "LCDPanelWide",
+          "MirroringX": "OffsetX",
+          "MirroringY": "ZThenOffsetXOdd",
+          "MirroringZ": "YThenOffsetXOdd",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "TextureResolution": "512",
+          "ScreenWidth": "2",
+          "ScreenHeight": "1",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "2",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "2"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "2",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "2"
+              }
+            ]
+          },
+          "MaxScreenRenderDistance": "120",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "TextPanel", "SubtypeId": "SmallLCDPanel" },
+          "DisplayName": "DisplayName_LCD_Panel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LCDPanel.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LCDPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "3" },
+              { "_Subtype": "BulletproofGlass", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "3",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\small\\LCDPanel_Construction_1.mwm"
+            }
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "LCDPanel",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0001",
+          "TextureResolution": "512",
+          "MaxScreenRenderDistance": "120",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TextPanel",
+            "SubtypeId": "LargeBlockCorner_LCD_1"
+          },
+          "DisplayName": "DisplayName_Block_CornerLCD",
+          "BlockPairName": "CornerLCD",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_1.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\large\\Corner_LCD_1.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.24"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.00",
+                "_StartY": "0.76",
+                "_EndX": "1.00",
+                "_EndY": "1.00"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\large\\Corner_LCD_1_Construction_1.mwm"
+            }
+          },
+          "BuildTimeSeconds": "6",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ScreenWidth": "7",
+          "ScreenHeight": "1",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "7"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "7"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "RequiredPowerInput": "0.00006",
+          "TextureResolution": "128",
+          "ResourceSinkGroup": "Utility",
+          "MaxScreenRenderDistance": "60",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroyEffectOffset": { "X": "0", "Y": "-1.1", "Z": "1.1" },
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TextPanel",
+            "SubtypeId": "LargeBlockCorner_LCD_2"
+          },
+          "DisplayName": "DisplayName_Block_CornerLCD2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_2.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\large\\Corner_LCD_2.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.00",
+                "_StartY": "0.76",
+                "_EndX": "1.00",
+                "_EndY": "1.00"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\large\\Corner_LCD_2_Construction_1.mwm"
+            }
+          },
+          "BuildTimeSeconds": "6",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ScreenWidth": "7",
+          "ScreenHeight": "1",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "7"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "7"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "RequiredPowerInput": "0.00006",
+          "TextureResolution": "128",
+          "ResourceSinkGroup": "Utility",
+          "MaxScreenRenderDistance": "60",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroyEffectOffset": { "X": "0", "Y": "-1.1", "Z": "1.1" },
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TextPanel",
+            "SubtypeId": "LargeBlockCorner_LCD_Flat_1"
+          },
+          "DisplayName": "DisplayName_Block_CornerLCDFlatTop",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_Flat_1.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\large\\Corner_LCD_Flat_1.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.24"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.24"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\large\\Corner_LCD_Flat_1_Construction_1.mwm"
+            }
+          },
+          "BuildTimeSeconds": "6",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ScreenWidth": "7",
+          "ScreenHeight": "1",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "7"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "7"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "RequiredPowerInput": "0.00006",
+          "TextureResolution": "128",
+          "ResourceSinkGroup": "Utility",
+          "MaxScreenRenderDistance": "60",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroyEffectOffset": { "X": "0", "Y": "-1.1", "Z": "-1.1" },
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TextPanel",
+            "SubtypeId": "LargeBlockCorner_LCD_Flat_2"
+          },
+          "DisplayName": "DisplayName_Block_CornerLCDFlatBottom",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_Flat_2.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\large\\Corner_LCD_Flat_2.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.24"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.00",
+                "_StartY": "0.76",
+                "_EndX": "1.00",
+                "_EndY": "1.00"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\large\\Corner_LCD_Flat_2_Construction_1.mwm"
+            }
+          },
+          "ScreenWidth": "7",
+          "ScreenHeight": "1",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "7"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "7"
+              }
+            ]
+          },
+          "BuildTimeSeconds": "6",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "RequiredPowerInput": "0.00006",
+          "TextureResolution": "128",
+          "ResourceSinkGroup": "Utility",
+          "MaxScreenRenderDistance": "60",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroyEffectOffset": { "X": "0", "Y": "-1.1", "Z": "1.1" },
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TextPanel",
+            "SubtypeId": "SmallBlockCorner_LCD_1"
+          },
+          "DisplayName": "DisplayName_Block_CornerLCD",
+          "BlockPairName": "CornerLCD",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_1.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\small\\Corner_LCD_1.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "3" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.24"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.00",
+                "_StartY": "0.76",
+                "_EndX": "1.00",
+                "_EndY": "1.00"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\small\\Corner_LCD_1_Construction_1.mwm"
+            }
+          },
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "ScreenWidth": "22",
+          "ScreenHeight": "7",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "22",
+                "_ScreenHeight": "7"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "22"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "22",
+                "_ScreenHeight": "7"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "22"
+              }
+            ]
+          },
+          "RequiredPowerInput": "0.00006",
+          "TextureResolution": "256",
+          "ResourceSinkGroup": "Utility",
+          "MaxScreenRenderDistance": "60",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TextPanel",
+            "SubtypeId": "SmallBlockCorner_LCD_2"
+          },
+          "DisplayName": "DisplayName_Block_CornerLCD2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_2.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\small\\Corner_LCD_2.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "3" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.00",
+              "_StartY": "0.76",
+              "_EndX": "1.00",
+              "_EndY": "1.00"
+            }
+          },
+          "EdgeType": "Light",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\small\\Corner_LCD_2_Construction_1.mwm"
+            }
+          },
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "ScreenWidth": "22",
+          "ScreenHeight": "7",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "22",
+                "_ScreenHeight": "7"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "22"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "22",
+                "_ScreenHeight": "7"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "22"
+              }
+            ]
+          },
+          "RequiredPowerInput": "0.00006",
+          "TextureResolution": "256",
+          "ResourceSinkGroup": "Utility",
+          "MaxScreenRenderDistance": "60",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TextPanel",
+            "SubtypeId": "SmallBlockCorner_LCD_Flat_1"
+          },
+          "DisplayName": "DisplayName_Block_CornerLCDFlatTop",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_Flat_1.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\small\\Corner_LCD_Flat_1.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "3" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.24"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\small\\Corner_LCD_Flat_Construction_1.mwm"
+            }
+          },
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ScreenWidth": "25",
+          "ScreenHeight": "10",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "25",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "10",
+                "_ScreenHeight": "25"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "25",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "10",
+                "_ScreenHeight": "25"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "RequiredPowerInput": "0.00006",
+          "TextureResolution": "256",
+          "ResourceSinkGroup": "Utility",
+          "MaxScreenRenderDistance": "60",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TextPanel",
+            "SubtypeId": "SmallBlockCorner_LCD_Flat_2"
+          },
+          "DisplayName": "DisplayName_Block_CornerLCDFlatBottom",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_Flat_2.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\small\\Corner_LCD_Flat_2.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "3" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.24"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.00",
+                "_StartY": "0.00",
+                "_EndX": "1.00",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\small\\Corner_LCD_Flat_Construction_1.mwm"
+            }
+          },
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ScreenWidth": "25",
+          "ScreenHeight": "10",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "25",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "10",
+                "_ScreenHeight": "25"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "25",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "10",
+                "_ScreenHeight": "25"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "RequiredPowerInput": "0.00006",
+          "TextureResolution": "256",
+          "ResourceSinkGroup": "Utility",
+          "MaxScreenRenderDistance": "60",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "TextPanel", "SubtypeId": "LargeTextPanel" },
+          "DisplayName": "DisplayName_Block_TextPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TextPanel.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\TextPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "6" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.2",
+                "_EndX": "0.1",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "0.8"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\TextPanel_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\TextPanel_Construction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "TextPanel",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "MaxScreenRenderDistance": "120",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "GuiVisible": "false",
+          "ScreenWidth": "5",
+          "ScreenHeight": "3",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "5"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "5"
+              }
+            ]
+          },
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00006",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "-1.1" },
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "TextPanel", "SubtypeId": "LargeLCDPanel" },
+          "DisplayName": "DisplayName_LCD_Panel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LCDPanel.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LCDPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "6" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\LCDPanel_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\LCDPanel_Construction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LCDPanel",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "MaxScreenRenderDistance": "120",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0001",
+          "TextureResolution": "512",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              }
+            ]
+          },
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "-1.1" },
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "TextPanel", "SubtypeId": "LargeLCDPanelWide" },
+          "DisplayName": "DisplayName_LCD_PanelWide",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LCDPanelWide.dds",
+          "Description": "Description_TextPanel",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LCDPanelWide.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "12" },
+              { "_Subtype": "Computer", "_Count": "12" },
+              { "_Subtype": "Display", "_Count": "20" },
+              { "_Subtype": "BulletproofGlass", "_Count": "12" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\LCDPanelWide_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\LCDPanelWide_Construction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LCDPanelWide",
+          "MirroringX": "OffsetX",
+          "MirroringY": "ZThenOffsetXOdd",
+          "MirroringZ": "YThenOffsetXOdd",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "MaxScreenRenderDistance": "120",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "TextureResolution": "512",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "ScreenArea",
+                "_DisplayName": "ScreenArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "2",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea90",
+                "_DisplayName": "ScreenArea90",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "2"
+              },
+              {
+                "_Name": "ScreenArea180",
+                "_DisplayName": "ScreenArea180",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "2",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "ScreenArea270",
+                "_DisplayName": "ScreenArea270",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "2"
+              }
+            ]
+          },
+          "ScreenWidth": "2",
+          "ScreenHeight": "1",
+          "GuiVisible": "false",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "-1.1" },
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        }
+      ]
+    }
+  }
+}

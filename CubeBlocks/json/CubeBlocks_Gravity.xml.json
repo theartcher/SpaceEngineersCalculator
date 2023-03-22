@@ -1,0 +1,491 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "GravityGenerator", "SubtypeId": "" },
+          "DisplayName": "DisplayName_Block_GravityGenerator",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\gravity_generator.dds",
+          "Description": "Description_GravityGenerator",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Sound": "BlockGravityGen",
+          "Model": "Models\\Cubes\\Large\\GravityGenerator.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "54" },
+              { "_Subtype": "GravityGenerator", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "60" },
+              { "_Subtype": "SteelPlate", "_Count": "56" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "40" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.25",
+              "_StartY": "0.25",
+              "_EndX": "0.75",
+              "_EndY": "0.75"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GravityGeneratorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GravityGeneratorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GravityGeneratorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "GravityGenerator",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "50",
+          "ResourceSinkGroup": "Utility",
+          "MinFieldSize": { "_x": "1", "_y": "1", "_z": "1" },
+          "MaxFieldSize": { "_x": "150", "_y": "150", "_z": "150" },
+          "MinGravityAcceleration": "-9.81",
+          "MaxGravityAcceleration": "9.81",
+          "RequiredPowerInput": "0.56713",
+          "DamageEffectName": "Damage_GravGen_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "185",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_GravityGeneratorDefinition"
+        },
+        {
+          "Id": { "TypeId": "GravityGeneratorSphere", "SubtypeId": "" },
+          "DisplayName": "DisplayName_Block_GravityGeneratorSphere",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\gravity_generator_spherical.dds",
+          "Description": "Description_GravityGeneratorSphere",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Sound": "BlockGravityGen",
+          "Model": "Models\\Cubes\\Large\\GravityGeneratorSpherical.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "54" },
+              { "_Subtype": "GravityGenerator", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "60" },
+              { "_Subtype": "SteelPlate", "_Count": "56" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "40" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.25",
+              "_StartY": "0.25",
+              "_EndX": "0.75",
+              "_EndY": "0.75"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GravityGeneratorSphericalConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GravityGeneratorSphericalConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GravityGeneratorSphericalConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "GravityGeneratorSphere",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "50",
+          "MinRadius": "10",
+          "MaxRadius": "400",
+          "MinGravityAcceleration": "-9.81",
+          "MaxGravityAcceleration": "9.81",
+          "ResourceSinkGroup": "Utility",
+          "BasePowerInput": "0.4",
+          "ConsumptionPower": "1",
+          "DamageEffectName": "Damage_GravGen_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "200",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_GravityGeneratorSphereDefinition"
+        },
+        {
+          "Id": { "TypeId": "VirtualMass", "SubtypeId": "VirtualMassLarge" },
+          "DisplayName": "DisplayName_Block_VirtualMass",
+          "Public": "true",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ArtificialMass.dds",
+          "Description": "Description_VirtualMass",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\VirtualMassBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "30" },
+              { "_Subtype": "Superconductor", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "GravityGenerator", "_Count": "9" },
+              { "_Subtype": "SteelPlate", "_Count": "60" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "GravityGenerator",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\VirtualMassBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\VirtualMassBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\VirtualMassBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "VirtualMass",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "24",
+          "VirtualMass": "50000",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.6",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "GravityBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_VirtualMassDefinition"
+        },
+        {
+          "Id": { "TypeId": "VirtualMass", "SubtypeId": "VirtualMassSmall" },
+          "DisplayName": "DisplayName_Block_VirtualMass",
+          "Public": "true",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ArtificialMass.dds",
+          "Description": "Description_VirtualMass",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\VirtualMassBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Superconductor", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "GravityGenerator", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "GravityGenerator",
+            "_Index": "0"
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.55",
+                "_File": "Models\\Cubes\\Small\\VirtualMassBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\VirtualMassBlockConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "VirtualMass",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "VirtualMass": "2000",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.025",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "GravityBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_VirtualMassDefinition"
+        },
+        {
+          "Id": { "TypeId": "SpaceBall", "SubtypeId": "SpaceBallLarge" },
+          "DisplayName": "DisplayName_Block_SpaceBall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds",
+          "Description": "Description_SpaceBall",
+          "BlockPairName": "SpaceBall",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\SpaceBallBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "90" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "GravityGenerator", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "135" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "GravityGenerator",
+            "_Index": "0"
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\SpaceBallBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\SpaceBallBlockConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "MaxVirtualMass": "20000",
+          "RequiredPowerInput": "0.0",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "GravityBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_SpaceBallDefinition"
+        },
+        {
+          "Id": { "TypeId": "SpaceBall", "SubtypeId": "SpaceBallSmall" },
+          "DisplayName": "DisplayName_Block_SpaceBall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds",
+          "Description": "Description_SpaceBall",
+          "BlockPairName": "SpaceBall",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\SpaceBallBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "50" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "7" },
+              { "_Subtype": "GravityGenerator", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "GravityGenerator",
+            "_Index": "0"
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\SpaceBallBlockConstruction_1.mwm"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "MaxVirtualMass": "5000",
+          "RequiredPowerInput": "0.0",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "GravityBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_SpaceBallDefinition"
+        }
+      ]
+    }
+  }
+}

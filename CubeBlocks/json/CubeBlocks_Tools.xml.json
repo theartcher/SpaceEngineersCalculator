@@ -1,0 +1,859 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "Drill", "SubtypeId": "SmallBlockDrill" },
+          "DisplayName": "DisplayName_Block_Drill",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\drill.dds",
+          "Description": "Description_Drill",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "6" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\driller.mwm",
+          "PlaceDecals": "false",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "12" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "Center": { "_x": "1", "_y": "1", "_z": "5" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "3",
+                "_EndY": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "4",
+                "_StartY": "1",
+                "_EndX": "6",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\DrillerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\DrillerConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "Drill",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "ResourceSinkGroup": "Defense",
+          "SensorRadius": "1.3",
+          "SensorOffset": "0.8",
+          "CutOutRadius": "1.3",
+          "CutOutOffset": "0.6",
+          "ParticleOffset": { "X": "0", "Y": "0", "Z": "-1.45" },
+          "DeformationRatio": "0.2",
+          "UsesDeformation": "false",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "PrimarySound": "ToolShipDrillIdle",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "190",
+          "_xsi:type": "MyObjectBuilder_ShipDrillDefinition"
+        },
+        {
+          "Id": { "TypeId": "Drill", "SubtypeId": "LargeBlockDrill" },
+          "DisplayName": "DisplayName_Block_Drill",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\drill.dds",
+          "Description": "Description_Drill",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\drill.mwm",
+          "PlaceDecals": "false",
+          "UseModelIntersection": "true",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "180" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "LargeTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "120" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "2",
+                "_EndX": "1",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\DrillConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\DrillConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\DrillConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "Drill",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "30",
+          "Center": { "_x": "0", "_y": "0", "_z": "2" },
+          "ResourceSinkGroup": "Defense",
+          "SensorRadius": "1.9",
+          "SensorOffset": "2.8",
+          "CutOutRadius": "1.9",
+          "CutOutOffset": "2.8",
+          "ParticleOffset": { "X": "0", "Y": "0", "Z": "-3.6" },
+          "DeformationRatio": "0.2",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "PrimarySound": "ToolShipDrillIdle",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "190",
+          "_xsi:type": "MyObjectBuilder_ShipDrillDefinition"
+        },
+        {
+          "Id": { "TypeId": "ShipGrinder", "SubtypeId": "LargeShipGrinder" },
+          "DisplayName": "DisplayName_Block_ShipGrinder",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Grinder.dds",
+          "Description": "Description_ShipGrinder",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Grinder.mwm",
+          "UseModelIntersection": "true",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GrinderConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GrinderConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GrinderConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0.01"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "1.18",
+                "_StartY": "0.20",
+                "_EndX": "1.92",
+                "_EndY": "0.80"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.08",
+                "_StartY": "0.20",
+                "_EndX": "0.82",
+                "_EndY": "0.80"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.30",
+                "_StartY": "0.30",
+                "_EndX": "0.70",
+                "_EndY": "0.70"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.30",
+                "_StartY": "1.30",
+                "_EndX": "0.70",
+                "_EndY": "1.70"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BlockPairName": "ShipGrinder",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "Public": "true",
+          "BuildTimeSeconds": "24",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "Flare": "",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "SensorRadius": "1.4",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_ShipGrinderDefinition"
+        },
+        {
+          "Id": { "TypeId": "ShipGrinder", "SubtypeId": "SmallShipGrinder" },
+          "DisplayName": "DisplayName_Block_ShipGrinder",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Grinder.dds",
+          "Description": "Description_ShipGrinder",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "6" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Center": { "_x": "1", "_y": "1", "_z": "3" },
+          "Model": "Models\\Cubes\\Small\\Grinder.mwm",
+          "UseModelIntersection": "true",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\GrinderConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\GrinderConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0.01"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "3.5",
+                "_StartY": "0.5",
+                "_EndX": "5.8",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.5",
+                "_EndX": "2.5",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "2.2",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "3.5",
+                "_EndX": "2.2",
+                "_EndY": "5.8"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0.25",
+                "_EndX": "0.35",
+                "_EndY": "2.75",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "2.65",
+                "_StartY": "0.25",
+                "_EndX": "2.75",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.35",
+                "_StartY": "0.25",
+                "_EndX": "2.65",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.35",
+                "_StartY": "2.65",
+                "_EndX": "2.65",
+                "_EndY": "2.75"
+              }
+            ]
+          },
+          "BlockPairName": "ShipGrinder",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "Public": "true",
+          "BuildTimeSeconds": "18",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "Flare": "",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "SensorRadius": "1.3",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_ShipGrinderDefinition"
+        },
+        {
+          "Id": { "TypeId": "ShipWelder", "SubtypeId": "LargeShipWelder" },
+          "DisplayName": "DisplayName_Block_ShipWelder",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Welder.dds",
+          "Description": "Description_ShipWelder",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Welder.mwm",
+          "UseModelIntersection": "true",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\WelderConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\WelderConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\WelderConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0.01"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "1.18",
+                "_StartY": "0.20",
+                "_EndX": "1.92",
+                "_EndY": "0.80"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.08",
+                "_StartY": "0.20",
+                "_EndX": "0.82",
+                "_EndY": "0.80"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.30",
+                "_StartY": "0.30",
+                "_EndX": "0.70",
+                "_EndY": "0.70"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.30",
+                "_StartY": "1.30",
+                "_EndX": "0.70",
+                "_EndY": "1.70"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BlockPairName": "ShipWelder",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "Public": "true",
+          "BuildTimeSeconds": "24",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "Flare": "ShipWelderLarge",
+          "EmissiveColorPreset": "Welder",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "SensorRadius": "2.26",
+          "PCU": "150",
+          "_xsi:type": "MyObjectBuilder_ShipWelderDefinition"
+        },
+        {
+          "Id": { "TypeId": "ShipWelder", "SubtypeId": "SmallShipWelder" },
+          "DisplayName": "DisplayName_Block_ShipWelder",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Welder.dds",
+          "Description": "Description_ShipWelder",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "6" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Center": { "_x": "1", "_y": "1", "_z": "3" },
+          "Model": "Models\\Cubes\\Small\\Welder.mwm",
+          "UseModelIntersection": "true",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "6" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\WelderConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\WelderConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "3.5",
+                "_StartY": "0.5",
+                "_EndX": "5.8",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.5",
+                "_EndX": "2.5",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "2.2",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "3.5",
+                "_EndX": "2.2",
+                "_EndY": "5.8"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0.25",
+                "_EndX": "0.35",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "2.65",
+                "_StartY": "0.25",
+                "_EndX": "2.75",
+                "_EndY": "2.75"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.35",
+                "_StartY": "0.25",
+                "_EndX": "2.65",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.35",
+                "_StartY": "2.65",
+                "_EndX": "2.65",
+                "_EndY": "2.75",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BlockPairName": "ShipWelder",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "Public": "true",
+          "BuildTimeSeconds": "18",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "Flare": "ShipWelder",
+          "EmissiveColorPreset": "Welder",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "SensorRadius": "1.3",
+          "PCU": "150",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_ShipWelderDefinition"
+        },
+        {
+          "Id": { "TypeId": "OreDetector", "SubtypeId": "LargeOreDetector" },
+          "DisplayName": "DisplayName_Block_OreDetector",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\detector.dds",
+          "Description": "Description_OreDetector",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\OreDetector.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "Motor", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "25" },
+              { "_Subtype": "Detector", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Detector", "_Index": "0" },
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\OreDetectorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\OreDetectorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\OreDetectorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "OreDetector",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "30",
+          "ResourceSinkGroup": "Utility",
+          "MaximumRange": "150",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "40",
+          "_xsi:type": "MyObjectBuilder_OreDetectorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "OreDetector",
+            "SubtypeId": "SmallBlockOreDetector"
+          },
+          "DisplayName": "DisplayName_Block_OreDetector",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\detector.dds",
+          "Description": "Description_OreDetector",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\OreDetector.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "Detector", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Detector", "_Index": "0" },
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\OreDetectorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\OreDetectorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "OreDetector",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "ResourceSinkGroup": "Utility",
+          "MaximumRange": "50",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "40",
+          "_xsi:type": "MyObjectBuilder_OreDetectorDefinition"
+        }
+      ]
+    }
+  }
+}

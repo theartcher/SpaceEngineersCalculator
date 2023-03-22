@@ -1,0 +1,565 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeRailStraight" },
+          "DisplayName": "LargeRailStraight",
+          "Icon": "Textures\\GUI\\Icons\\Fake.dds",
+          "Public": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\RailStraight.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "12" },
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "LargeTube", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.37",
+                "_EndX": "1",
+                "_EndY": "0.63"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.37",
+                "_StartY": "0",
+                "_EndX": "0.63",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.37",
+                "_StartY": "0",
+                "_EndX": "0.63",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RailStraight.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RailStraight.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RailStraight.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "RailStraight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "DebugSphere1", "SubtypeId": "DebugSphereLarge" },
+          "DisplayName": "DisplayName_Block_DebugSphere1",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "Model": "Models\\Debug\\RenderDebugSpheres.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Debug\\RenderDebugSpheres.mwm"
+            }
+          },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "RequiredPowerInput": "0.0",
+          "Public": "false",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_DebugSphere1Definition"
+        },
+        {
+          "Id": { "TypeId": "DebugSphere2", "SubtypeId": "DebugSphereLarge" },
+          "DisplayName": "DisplayName_Block_DebugSphere2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "Model": "Models\\Debug\\RenderDebugSpheresMetallic.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Debug\\RenderDebugSpheresMetallic.mwm"
+            }
+          },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "RequiredPowerInput": "0.0",
+          "Public": "false",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_DebugSphere2Definition"
+        },
+        {
+          "Id": { "TypeId": "DebugSphere3", "SubtypeId": "DebugSphereLarge" },
+          "DisplayName": "DisplayName_Block_DebugSphere3",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "2",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "Model": "Models\\Debug\\RenderDebugSpheresMetalnessDegrees.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Debug\\RenderDebugSpheresMetallic.mwm"
+            }
+          },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "RequiredPowerInput": "0.0",
+          "Public": "false",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_DebugSphere3Definition"
+        }
+      ]
+    },
+    "BlockPositions": {
+      "BlockPosition": [
+        { "Name": "LightArmorBlock", "Position": { "X": "0", "Y": "0" } },
+        { "Name": "HeavyArmorBlock", "Position": { "X": "1", "Y": "0" } },
+        { "Name": "ArmorRoundSlope", "Position": { "X": "2", "Y": "0" } },
+        { "Name": "HeavyArmorRoundSlope", "Position": { "X": "3", "Y": "0" } },
+        {
+          "Name": "LargeBlockArmorSlope2Base",
+          "Position": { "X": "4", "Y": "0" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorSlope2Base",
+          "Position": { "X": "5", "Y": "0" }
+        },
+        {
+          "Name": "LargeBlockArmorCorner2Base",
+          "Position": { "X": "6", "Y": "0" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorCorner2Base",
+          "Position": { "X": "7", "Y": "0" }
+        },
+        {
+          "Name": "LargeBlockArmorInvCorner2Base",
+          "Position": { "X": "8", "Y": "0" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorInvCorner2Base",
+          "Position": { "X": "9", "Y": "0" }
+        },
+        {
+          "Name": "ArmorLightTransitionBlocks",
+          "Position": { "X": "0", "Y": "1" }
+        },
+        {
+          "Name": "ArmorHeavyTransitionBlocks",
+          "Position": { "X": "1", "Y": "1" }
+        },
+        { "Name": "ArmorPanelLight", "Position": { "X": "2", "Y": "1" } },
+        { "Name": "ArmorPanelHeavy", "Position": { "X": "3", "Y": "1" } },
+        { "Name": "BeamBlock", "Position": { "X": "4", "Y": "1" } },
+        { "Name": "CylindricalColumn", "Position": { "X": "0", "Y": "2" } },
+        { "Name": "BathroomOpen", "Position": { "X": "1", "Y": "2" } },
+        { "Name": "Desk", "Position": { "X": "2", "Y": "2" } },
+        { "Name": "Planters", "Position": { "X": "3", "Y": "2" } },
+        { "Name": "Couch", "Position": { "X": "4", "Y": "2" } },
+        { "Name": "LockerRoom", "Position": { "X": "5", "Y": "2" } },
+        { "Name": "NeonTubesStraight1", "Position": { "X": "6", "Y": "2" } },
+        { "Name": "StorageShelf1", "Position": { "X": "7", "Y": "2" } },
+        { "Name": "WeaponRack", "Position": { "X": "8", "Y": "2" } },
+        { "Name": "CockpitLarge", "Position": { "X": "0", "Y": "3" } },
+        { "Name": "Cockpit", "Position": { "X": "1", "Y": "3" } },
+        { "Name": "CockpitOpen", "Position": { "X": "0", "Y": "3" } },
+        {
+          "Name": "DBLargeBlockFighterCockpit",
+          "Position": { "X": "2", "Y": "3" }
+        },
+        { "Name": "RemoteControl", "Position": { "X": "3", "Y": "3" } },
+        { "Name": "PassengerSeat", "Position": { "X": "4", "Y": "3" } },
+        { "Name": "CockpitIndustrial", "Position": { "X": "5", "Y": "3" } },
+        { "Name": "OpenCockpit", "Position": { "X": "2", "Y": "3" } },
+        { "Name": "BatteryBlock", "Position": { "X": "0", "Y": "4" } },
+        { "Name": "SolarPanel", "Position": { "X": "1", "Y": "4" } },
+        { "Name": "SmallReactor", "Position": { "X": "2", "Y": "4" } },
+        { "Name": "LargeReactor", "Position": { "X": "3", "Y": "4" } },
+        { "Name": "HydrogenEngine", "Position": { "X": "4", "Y": "4" } },
+        { "Name": "WindTurbine", "Position": { "X": "5", "Y": "4" } },
+        { "Name": "Battery1x1Block", "Position": { "X": "6", "Y": "4" } },
+        { "Name": "MedicalRoom", "Position": { "X": "7", "Y": "4" } },
+        { "Name": "CryoChamber", "Position": { "X": "8", "Y": "4" } },
+        { "Name": "LargeHydrogenThrust", "Position": { "X": "0", "Y": "5" } },
+        { "Name": "HydrogenThrust", "Position": { "X": "0", "Y": "5" } },
+        { "Name": "LargeAtmoThrust", "Position": { "X": "1", "Y": "5" } },
+        { "Name": "SmallAtmoThrust", "Position": { "X": "1", "Y": "5" } },
+        { "Name": "LargeThrust", "Position": { "X": "2", "Y": "5" } },
+        { "Name": "SmallThrust", "Position": { "X": "2", "Y": "5" } },
+        { "Name": "Gyroscope", "Position": { "X": "4", "Y": "5" } },
+        { "Name": "Parachute Hatch", "Position": { "X": "3", "Y": "5" } },
+        { "Name": "LargeAtmoThrustSciFi", "Position": { "X": "5", "Y": "5" } },
+        { "Name": "LargeThrustSciFi", "Position": { "X": "6", "Y": "5" } },
+        {
+          "Name": "LargeHydrogenThrustIndustrial",
+          "Position": { "X": "7", "Y": "5" }
+        },
+        { "Name": "LargeModularThruster", "Position": { "X": "8", "Y": "5" } },
+        { "Name": "Wheel1x1", "Position": { "X": "0", "Y": "6" } },
+        { "Name": "Suspension3x3", "Position": { "X": "1", "Y": "6" } },
+        { "Name": "Suspension3x3mirrored", "Position": { "X": "2", "Y": "6" } },
+        { "Name": "OffroadWheel1x1", "Position": { "X": "3", "Y": "6" } },
+        { "Name": "OffroadSuspension3x3", "Position": { "X": "4", "Y": "6" } },
+        {
+          "Name": "OffroadSuspension3x3mirrored",
+          "Position": { "X": "5", "Y": "6" }
+        },
+        { "Name": "OreDetector", "Position": { "X": "0", "Y": "7" } },
+        { "Name": "Antenna", "Position": { "X": "1", "Y": "7" } },
+        { "Name": "AntennaDish", "Position": { "X": "4", "Y": "7" } },
+        { "Name": "Beacon", "Position": { "X": "2", "Y": "7" } },
+        { "Name": "LaserAntenna", "Position": { "X": "3", "Y": "7" } },
+        { "Name": "Refinery", "Position": { "X": "0", "Y": "8" } },
+        { "Name": "Assembler", "Position": { "X": "1", "Y": "8" } },
+        { "Name": "ProductivityModule", "Position": { "X": "2", "Y": "8" } },
+        { "Name": "EffectivenessModule", "Position": { "X": "3", "Y": "8" } },
+        { "Name": "EnergyModule", "Position": { "X": "4", "Y": "8" } },
+        { "Name": "Blast Furnace", "Position": { "X": "5", "Y": "8" } },
+        { "Name": "Projector", "Position": { "X": "6", "Y": "8" } },
+        { "Name": "SurvivalKit", "Position": { "X": "7", "Y": "8" } },
+        { "Name": "BasicAssembler", "Position": { "X": "8", "Y": "8" } },
+        { "Name": "SmallCargoContainer", "Position": { "X": "0", "Y": "9" } },
+        { "Name": "MediumCargoContainer", "Position": { "X": "1", "Y": "9" } },
+        { "Name": "LargeCargoContainer", "Position": { "X": "2", "Y": "9" } },
+        { "Name": "DeadBody", "Position": { "X": "3", "Y": "9" } },
+        { "Name": "InteriorTurret", "Position": { "X": "0", "Y": "10" } },
+        { "Name": "GatlingTurret", "Position": { "X": "1", "Y": "10" } },
+        { "Name": "MissileTurret", "Position": { "X": "2", "Y": "10" } },
+        { "Name": "GatlingGun", "Position": { "X": "3", "Y": "10" } },
+        { "Name": "RocketLauncher", "Position": { "X": "4", "Y": "10" } },
+        {
+          "Name": "SmallRocketLauncherReload",
+          "Position": { "X": "5", "Y": "10" }
+        },
+        { "Name": "Warhead", "Position": { "X": "6", "Y": "10" } },
+        { "Name": "ShipWelder", "Position": { "X": "7", "Y": "10" } },
+        { "Name": "ShipGrinder", "Position": { "X": "8", "Y": "10" } },
+        { "Name": "Drill", "Position": { "X": "9", "Y": "10" } },
+        { "Name": "Door", "Position": { "X": "0", "Y": "11" } },
+        { "Name": "AirtightHangarDoor", "Position": { "X": "1", "Y": "11" } },
+        { "Name": "ArmorCenter", "Position": { "X": "2", "Y": "11" } },
+        { "Name": "SteelCatwalk", "Position": { "X": "1", "Y": "12" } },
+        { "Name": "Passage", "Position": { "X": "2", "Y": "12" } },
+        { "Name": "VerticalWindow", "Position": { "X": "3", "Y": "12" } },
+        { "Name": "Decoy", "Position": { "X": "4", "Y": "12" } },
+        { "Name": "ReflectorLight", "Position": { "X": "5", "Y": "12" } },
+        { "Name": "Ladder2", "Position": { "X": "6", "Y": "12" } },
+        { "Name": "RailingStraight", "Position": { "X": "7", "Y": "12" } },
+        { "Name": "Catwalk", "Position": { "X": "8", "Y": "12" } },
+        { "Name": "Embrasure", "Position": { "X": "9", "Y": "12" } },
+        { "Name": "ProgrammableBlock", "Position": { "X": "0", "Y": "13" } },
+        { "Name": "SoundBlock", "Position": { "X": "1", "Y": "13" } },
+        { "Name": "ButtonPanel", "Position": { "X": "2", "Y": "13" } },
+        { "Name": "TextPanel", "Position": { "X": "3", "Y": "13" } },
+        { "Name": "CornerLCD", "Position": { "X": "4", "Y": "13" } },
+        { "Name": "LCDPanel5x5", "Position": { "X": "5", "Y": "13" } },
+        { "Name": "ExhaustPipe", "Position": { "X": "6", "Y": "13" } },
+        { "Name": "TargetDummy", "Position": { "X": "7", "Y": "13" } },
+        { "Name": "HeatVentBlock", "Position": { "X": "8", "Y": "13" } },
+        { "Name": "Conveyor", "Position": { "X": "0", "Y": "14" } },
+        { "Name": "ConveyorFrame", "Position": { "X": "1", "Y": "14" } },
+        { "Name": "ConveyorSmall", "Position": { "X": "2", "Y": "14" } },
+        { "Name": "Connector", "Position": { "X": "3", "Y": "14" } },
+        { "Name": "ConnectorSmall", "Position": { "X": "4", "Y": "14" } },
+        { "Name": "Collector", "Position": { "X": "5", "Y": "14" } },
+        { "Name": "ConveyorSorter", "Position": { "X": "6", "Y": "14" } },
+        { "Name": "ConveyorSorterSmall", "Position": { "X": "7", "Y": "14" } },
+        { "Name": "ConveyorPipeJunction", "Position": { "X": "8", "Y": "14" } },
+        { "Name": "ConveyorPipeSeamless", "Position": { "X": "9", "Y": "14" } },
+        { "Name": "LandingGear", "Position": { "X": "0", "Y": "15" } },
+        { "Name": "ExtendedPistonBase", "Position": { "X": "1", "Y": "15" } },
+        { "Name": "MotorStator", "Position": { "X": "2", "Y": "15" } },
+        { "Name": "MergeBlock", "Position": { "X": "3", "Y": "15" } },
+        { "Name": "MotorRotor", "Position": { "X": "4", "Y": "15" } },
+        { "Name": "MotorAdvancedRotor", "Position": { "X": "5", "Y": "15" } },
+        { "Name": "LargeHinge", "Position": { "X": "6", "Y": "15" } },
+        { "Name": "AirVent", "Position": { "X": "0", "Y": "16" } },
+        { "Name": "OxygenGenerator", "Position": { "X": "1", "Y": "16" } },
+        { "Name": "OxygenTank", "Position": { "X": "2", "Y": "16" } },
+        { "Name": "HydrogenTank", "Position": { "X": "3", "Y": "16" } },
+        { "Name": "OxygenFarm", "Position": { "X": "4", "Y": "16" } },
+        { "Name": "Window1x1Flat", "Position": { "X": "0", "Y": "17" } },
+        { "Name": "Window1x2Flat", "Position": { "X": "1", "Y": "17" } },
+        { "Name": "Window2x3Flat", "Position": { "X": "2", "Y": "17" } },
+        { "Name": "Window1x1Face", "Position": { "X": "3", "Y": "17" } },
+        { "Name": "Window1x2Face", "Position": { "X": "4", "Y": "17" } },
+        { "Name": "RoundWindow", "Position": { "X": "5", "Y": "17" } },
+        { "Name": "BarredWindow", "Position": { "X": "6", "Y": "17" } },
+        { "Name": "HalfWindow", "Position": { "X": "7", "Y": "17" } },
+        { "Name": "BridgeWindow1x1Slope", "Position": { "X": "8", "Y": "17" } },
+        { "Name": "GravityGenerator", "Position": { "X": "0", "Y": "18" } },
+        {
+          "Name": "GravityGeneratorSphere",
+          "Position": { "X": "1", "Y": "18" }
+        },
+        { "Name": "VirtualMass", "Position": { "X": "2", "Y": "18" } },
+        { "Name": "SpaceBall", "Position": { "X": "3", "Y": "18" } },
+        { "Name": "JumpDrive", "Position": { "X": "4", "Y": "18" } },
+        { "Name": "SymbolA", "Position": { "X": "0", "Y": "22" } },
+        { "Name": "Symbol1", "Position": { "X": "4", "Y": "22" } },
+        { "Name": "SymbolHyphen", "Position": { "X": "6", "Y": "22" } },
+        { "Name": "EngineerPlushie", "Position": { "X": "0", "Y": "23" } },
+        { "Name": "RailStraight", "Position": { "X": "-1", "Y": "-1" } },
+        { "Name": "MotorWheel", "Position": { "X": "-2", "Y": "-2" } },
+        {
+          "BlockPosition": [
+            {
+              "Name": "ArmorRoundedSlope",
+              "Position": { "X": "9", "Y": "21" }
+            },
+            {
+              "Name": "HeavyArmorRoundedSlope",
+              "Position": { "X": "8", "Y": "21" }
+            }
+          ],
+          "Name": "LargeHeavyBlockArmorSlope2BaseSmooth",
+          "Position": { "X": "0", "Y": "19" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorSlope2TipSmooth",
+          "Position": { "X": "1", "Y": "19" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorCorner2BaseSmooth",
+          "Position": { "X": "2", "Y": "19" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorCorner2TipSmooth",
+          "Position": { "X": "3", "Y": "19" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorInvCorner2BaseSmooth",
+          "Position": { "X": "4", "Y": "19" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorInvCorner2TipSmooth",
+          "Position": { "X": "5", "Y": "19" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorSlope2Tip",
+          "Position": { "X": "1", "Y": "19" }
+        },
+        {
+          "Name": "LargeHeavyBlockArmorCorner2Tip",
+          "Position": { "X": "3", "Y": "19" }
+        },
+        {
+          "Name": "LargeBlockArmorSlope2Tip",
+          "Position": { "X": "1", "Y": "20" }
+        },
+        {
+          "Name": "LargeBlockArmorInvCorner2Tip",
+          "Position": { "X": "5", "Y": "20" }
+        },
+        {
+          "Name": "LargeBlockArmorSlope2BaseSmooth",
+          "Position": { "X": "6", "Y": "20" }
+        },
+        {
+          "Name": "LargeBlockArmorSlope2TipSmooth",
+          "Position": { "X": "7", "Y": "20" }
+        },
+        {
+          "Name": "LargeBlockArmorCorner2BaseSmooth",
+          "Position": { "X": "8", "Y": "20" }
+        },
+        {
+          "Name": "LargeBlockArmorCorner2TipSmooth",
+          "Position": { "X": "9", "Y": "20" }
+        },
+        {
+          "Name": "LargeBlockArmorInvCorner2BaseSmooth",
+          "Position": { "X": "0", "Y": "21" }
+        },
+        {
+          "Name": "LargeBlockArmorInvCorner2TipSmooth",
+          "Position": { "X": "1", "Y": "21" }
+        }
+      ]
+    }
+  }
+}

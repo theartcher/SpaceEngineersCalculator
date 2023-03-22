@@ -1,0 +1,1386 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": "MyProgrammableBlock",
+            "SubtypeId": "SmallProgrammableBlock"
+          },
+          "Public": "true",
+          "DisplayName": "DisplayName_Programmable_Block",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ProgrammingBlock.dds",
+          "Description": "Description_ProgrammableBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ProgrammingBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ProgrammingBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ProgrammingBlockConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ProgrammableBlock",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Front",
+              "_ExclusionMask": "3",
+              "_PropertiesMask": "3",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1"
+            }
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "11",
+                "_ScreenHeight": "4"
+              }
+            ]
+          },
+          "ResourceSinkGroup": "Utility",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Tiny",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_ProgrammableBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MyObjectBuilder_Projector",
+            "SubtypeId": "LargeProjector"
+          },
+          "DisplayName": "DisplayName_Block_Projector",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Projector.dds",
+          "Description": "Description_Projector",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Projector.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "11" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.33",
+                "_StartY": "0.33",
+                "_EndX": "0.66",
+                "_EndY": "0.66",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.33",
+                "_StartY": "0.33",
+                "_EndX": "0.66",
+                "_EndY": "0.66"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.33",
+                "_StartY": "0.33",
+                "_EndX": "0.66",
+                "_EndY": "0.66"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.33",
+                "_StartY": "0.33",
+                "_EndX": "0.66",
+                "_EndY": "0.66"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.33",
+                "_StartY": "0.33",
+                "_EndX": "0.66",
+                "_EndY": "0.66"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.33",
+                "_StartY": "0.33",
+                "_EndX": "0.66",
+                "_EndY": "0.66"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ProjectorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ProjectorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ProjectorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Projector",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "Public": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PrimarySound": "BlockProjectorOn",
+          "IdleSound": "BlockProjectorOff",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_ProjectorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MyObjectBuilder_Projector",
+            "SubtypeId": "SmallProjector"
+          },
+          "DisplayName": "DisplayName_Block_Projector",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Projector.dds",
+          "Description": "Description_Projector",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Projector.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ProjectorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ProjectorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Projector",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0001",
+          "Public": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PrimarySound": "BlockProjectorOn",
+          "IdleSound": "BlockProjectorOff",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_ProjectorDefinition"
+        },
+        {
+          "Id": { "TypeId": "SensorBlock", "SubtypeId": "SmallBlockSensor" },
+          "DisplayName": "DisplayName_Block_Sensor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Sensor.dds",
+          "Description": "Description_Sensor",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Sensor.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "6" },
+              { "_Subtype": "RadioCommunication", "_Count": "4" },
+              { "_Subtype": "Detector", "_Count": "6" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Detector", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_StartX": "0.1",
+              "_StartY": "0.1",
+              "_EndX": "0.9",
+              "_EndY": "0.9"
+            }
+          },
+          "IsStandAlone": "false",
+          "HasPhysics": "false",
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\small\\SensorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\small\\SensorConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "Sensor",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "ResourceSinkGroup": "Utility",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "MaxRange": "50",
+          "EmissiveColorPreset": "Extended",
+          "ActionSound": "BlockSensor",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_SensorBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "SensorBlock", "SubtypeId": "LargeBlockSensor" },
+          "DisplayName": "DisplayName_Block_Sensor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Sensor.dds",
+          "Description": "Description_Sensor",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Sensor.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "6" },
+              { "_Subtype": "RadioCommunication", "_Count": "4" },
+              { "_Subtype": "Detector", "_Count": "6" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Detector", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_StartX": "0.4",
+              "_StartY": "0.4",
+              "_EndX": "0.6",
+              "_EndY": "0.6"
+            }
+          },
+          "IsStandAlone": "false",
+          "HasPhysics": "false",
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\large\\SensorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\large\\SensorConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "Sensor",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Utility",
+          "BuildTimeSeconds": "6",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "MaxRange": "50",
+          "EmissiveColorPreset": "Extended",
+          "ActionSound": "BlockSensor",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "1.1" },
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_SensorBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "TargetDummyBlock", "SubtypeId": "TargetDummy" },
+          "DisplayName": "DisplayName_Block_TargetDummy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TargetDummy.dds",
+          "Description": "Description_TargetDummy",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\TargetDummy_base.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.2",
+              "_EndX": "0.8",
+              "_EndY": "0.8"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\TargetDummy_Construction1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\TargetDummy_Construction2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\TargetDummy_Construction3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "TargetDummy",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "16",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "IsAirTight": "false",
+          "PCU": "25",
+          "InventoryMaxVolume": ".09",
+          "InventorySize": { "X": "2", "Y": ".1", "Z": "2" },
+          "DummySubpartNames": {
+            "string": [
+              "TargetD_Torso",
+              "TargetD_Head",
+              "TargetD_RightArm",
+              "TargetD_LeftArm"
+            ]
+          },
+          "DummySubpartCritical": {
+            "boolean": ["true", "true", "false", "false"]
+          },
+          "DummySubpartHealth": { "float": ["300", "100", "50", "50"] },
+          "ConstructionItemName": "SteelPlate",
+          "ConstructionItemAmount": "1",
+          "MinRegenerationTimeInS": "1",
+          "MaxRegenerationTimeInS": "60",
+          "RegenerationEffectName": "Smoke_Construction",
+          "DestructionEffectName": "Smoke_Construction",
+          "RegenerationEffectMultiplier": "5",
+          "DestructionEffectMultiplier": "5",
+          "RegenerationSound": "ArcPrgConstrPh01Start",
+          "DestructionSound": "ArcPrgDeconstrPh01Start",
+          "MinFillFactor": ".2",
+          "MaxFillFactor": ".6",
+          "_xsi:type": "MyObjectBuilder_TargetDummyBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "SoundBlock", "SubtypeId": "SmallBlockSoundBlock" },
+          "DisplayName": "DisplayName_Block_SoundBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SoundBlock.dds",
+          "Description": "Description_Sound",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\SoundBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "InteriorPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1"
+            }
+          },
+          "IsStandAlone": "false",
+          "HasPhysics": "false",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\SoundBlockConstruction_1.mwm"
+            }
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "SoundBlock",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Utility",
+          "BuildTimeSeconds": "6",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_SoundBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "SoundBlock", "SubtypeId": "LargeBlockSoundBlock" },
+          "DisplayName": "DisplayName_Block_SoundBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SoundBlock.dds",
+          "Description": "Description_Sound",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\SoundBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "InteriorPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_StartX": "0.4",
+              "_StartY": "0.4",
+              "_EndX": "0.6",
+              "_EndY": "0.6"
+            }
+          },
+          "IsStandAlone": "false",
+          "HasPhysics": "false",
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\SoundBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\SoundBlockConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "SoundBlock",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "ResourceSinkGroup": "Utility",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "1.1" },
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_SoundBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "ButtonPanel", "SubtypeId": "ButtonPanelLarge" },
+          "DisplayName": "DisplayName_Block_ButtonPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ButtonPanel.dds",
+          "Description": "Description_ButtonPanel",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ButtonPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ButtonPanelConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ButtonPanelConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ButtonPanelConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ButtonPanel",
+          "EdgeType": "Light",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "10",
+          "ResourceSinkGroup": "Utility",
+          "ButtonCount": "4",
+          "ButtonSymbols": {
+            "string": [
+              "Textures\\GUI\\Icons\\buttons\\OneButton.dds",
+              "Textures\\GUI\\Icons\\buttons\\TwoButton.dds",
+              "Textures\\GUI\\Icons\\buttons\\ThreeButton.dds",
+              "Textures\\GUI\\Icons\\buttons\\FourButton.dds"
+            ]
+          },
+          "UnassignedButtonColor": {
+            "X": "0.34",
+            "Y": "0.34",
+            "Z": "0.34",
+            "W": "0"
+          },
+          "ButtonColors": {
+            "Vector4": [
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" },
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" },
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" },
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" }
+            ]
+          },
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "5",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_ButtonPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "ButtonPanel", "SubtypeId": "ButtonPanelSmall" },
+          "DisplayName": "DisplayName_Block_ButtonPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Button.dds",
+          "Description": "Description_ButtonPanel",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Button.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "0.66",
+              "_File": "Models\\Cubes\\small\\ButtonConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "ButtonPanel",
+          "EdgeType": "Light",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "6",
+          "ResourceSinkGroup": "Utility",
+          "ButtonCount": "1",
+          "UnassignedButtonColor": {
+            "X": "0.34",
+            "Y": "0.34",
+            "Z": "0.34",
+            "W": "0"
+          },
+          "ButtonColors": {
+            "Vector4": { "X": "1", "Y": "1", "Z": "0.3", "W": "1" }
+          },
+          "ButtonSymbols": {
+            "string": "Textures\\GUI\\Icons\\buttons\\IconSquareHighlight.dds"
+          },
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "5",
+          "_xsi:type": "MyObjectBuilder_ButtonPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "TimerBlock", "SubtypeId": "TimerBlockLarge" },
+          "DisplayName": "DisplayName_Block_TimerBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TimerBlock.dds",
+          "Description": "Description_Timer",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\TimerBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\TimerBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\TimerBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\TimerBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "TimerBlock",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Utility",
+          "BuildTimeSeconds": "10",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PrimarySound": "BlockTimer",
+          "TimerSoundStart": "BlockTimerSignalA",
+          "TimerSoundMid": "BlockTimerSignalB",
+          "TimerSoundEnd": "BlockTimerSignalC",
+          "EmissiveColorPreset": "Timer",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_TimerBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "TimerBlock", "SubtypeId": "TimerBlockSmall" },
+          "DisplayName": "DisplayName_Block_TimerBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TimerBlock.dds",
+          "Description": "Description_Timer",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\TimerBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Small\\TimerBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Small\\TimerBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\TimerBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "TimerBlock",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Utility",
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PrimarySound": "BlockTimer",
+          "TimerSoundStart": "BlockTimerSignalA",
+          "TimerSoundMid": "BlockTimerSignalB",
+          "TimerSoundEnd": "BlockTimerSignalC",
+          "EmissiveColorPreset": "Timer",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_TimerBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MyProgrammableBlock",
+            "SubtypeId": "LargeProgrammableBlock"
+          },
+          "Public": "true",
+          "DisplayName": "DisplayName_Programmable_Block",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ProgrammingBlock.dds",
+          "Description": "Description_ProgrammableBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ProgrammingBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "11" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ProgrammingBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ProgrammingBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ProgrammingBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "16",
+                "_ScreenHeight": "10"
+              },
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "2"
+              }
+            ]
+          },
+          "BlockPairName": "ProgrammableBlock",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.0",
+              "_StartY": "0",
+              "_EndX": "1.0",
+              "_EndY": "1.0"
+            }
+          },
+          "ResourceSinkGroup": "Utility",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_ProgrammableBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TurretControlBlock",
+            "SubtypeId": "LargeTurretControlBlock"
+          },
+          "Public": "true",
+          "DisplayName": "DisplayName_TurretControlBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TurretControlBlockLarge.dds",
+          "Description": "Description_TurretControlBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\TurretControlBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "Detector", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\TurretControlBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\TurretControlBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\TurretControlBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "24",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.7",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BlockPairName": "TurretControlBlock",
+          "ResourceSinkGroup": ["Utility", "Utility"],
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Tiny",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PlayerInputDivider": "50",
+          "PowerInputIdle": "0.0005",
+          "PCU": "100",
+          "MaxRangeMeters": "800",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "5"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_TopRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "11"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_BottomLeft",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "8"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_BottomRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "8"
+              }
+            ]
+          },
+          "_xsi:type": "MyObjectBuilder_TurretControlBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "TurretControlBlock",
+            "SubtypeId": "SmallTurretControlBlock"
+          },
+          "Public": "true",
+          "DisplayName": "DisplayName_TurretControlBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TurretControlBlockSmall.dds",
+          "Description": "Description_TurretControlBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\TurretControlBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Detector", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\TurretControlBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\TurretControlBlockConstruction_2.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "BlockPairName": "TurretControlBlock",
+          "ResourceSinkGroup": ["Utility", "Utility"],
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Tiny",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PlayerInputDivider": "50",
+          "PowerInputIdle": "0.0005",
+          "PCU": "100",
+          "MaxRangeMeters": "600",
+          "IsAirTight": "true",
+          "ScreenAreas": {
+            "ScreenArea": {
+              "_Name": "CockpitScreen_01",
+              "_DisplayName": "",
+              "_TextureResolution": "256",
+              "_ScreenWidth": "5",
+              "_ScreenHeight": "4"
+            }
+          },
+          "_xsi:type": "MyObjectBuilder_TurretControlBlockDefinition"
+        }
+      ]
+    }
+  }
+}

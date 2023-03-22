@@ -1,0 +1,1249 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": "LandingGear",
+            "SubtypeId": "LargeBlockLandingGear"
+          },
+          "DisplayName": "DisplayName_Block_LandingGear",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\landing_gear.dds",
+          "Description": "Description_LandingGear",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LandingGear.mwm",
+          "LockSound": "ShipLandGearOn",
+          "UnlockSound": "ShipLandGearOff",
+          "FailedAttachSound": "ShipLandGearNothing01",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "100" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "SteelPlate", "_Count": "50" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Top",
+              "_StartX": "0",
+              "_StartY": "1",
+              "_EndX": "1",
+              "_EndY": "2"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\LandingGearConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\LandingGearConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\LandingGearConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LandingGear",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "30",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "MaxLockSeparatingVelocity": "7",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "35",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_LandingGearDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "LandingGear",
+            "SubtypeId": "SmallBlockLandingGear"
+          },
+          "DisplayName": "DisplayName_Block_LandingGear",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\landing_gear.dds",
+          "Description": "Description_LandingGear",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LandingGear.mwm",
+          "LockSound": "ShipLandGearOn",
+          "UnlockSound": "ShipLandGearOff",
+          "FailedAttachSound": "ShipLandGearNothing01",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Top",
+              "_StartX": "0",
+              "_StartY": "1",
+              "_EndX": "1",
+              "_EndY": "2"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\LandingGearConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\LandingGearConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LandingGear",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "12",
+          "EdgeType": "Light",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "MaxLockSeparatingVelocity": "7",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "35",
+          "_xsi:type": "MyObjectBuilder_LandingGearDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "LandingGear",
+            "SubtypeId": "LargeBlockSmallMagneticPlate"
+          },
+          "DisplayName": "DisplayName_Block_MagneticPlateSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SimpleMagneticPlate.dds",
+          "Description": "Description_LandingGear",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\SimpleMagneticPlate.mwm",
+          "LockSound": "ShipLandGearOn",
+          "UnlockSound": "ShipLandGearOff",
+          "FailedAttachSound": "ShipLandGearNothing01",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "3" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "Motor",
+            "_Index": "0",
+            "_Default": "true"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.8",
+                "_EndX": "0.9",
+                "_EndY": "0.95"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.8",
+                "_EndX": "0.9",
+                "_EndY": "0.95"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.8",
+                "_EndX": "0.9",
+                "_EndY": "0.95"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.8",
+                "_EndX": "0.9",
+                "_EndY": "0.95"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\SimpleMagneticPlateConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\SimpleMagneticPlateConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\SimpleMagneticPlateConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MagneticPlate",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "MaxLockSeparatingVelocity": "7",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "35",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_LandingGearDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "LandingGear",
+            "SubtypeId": "SmallBlockSmallMagneticPlate"
+          },
+          "DisplayName": "DisplayName_Block_MagneticPlateSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SimpleMagneticPlate.dds",
+          "Description": "Description_LandingGear",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\SimpleMagneticPlate.mwm",
+          "LockSound": "ShipLandGearOn",
+          "UnlockSound": "ShipLandGearOff",
+          "FailedAttachSound": "ShipLandGearNothing01",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "Motor",
+            "_Index": "0",
+            "_Default": "true"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.8",
+                "_EndX": "0.9",
+                "_EndY": "0.95"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.8",
+                "_EndX": "0.9",
+                "_EndY": "0.95"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.8",
+                "_EndX": "0.9",
+                "_EndY": "0.95"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.8",
+                "_EndX": "0.9",
+                "_EndY": "0.95"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\SimpleMagneticPlateConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\SimpleMagneticPlateConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MagneticPlate",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "MaxLockSeparatingVelocity": "7",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "35",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_LandingGearDefinition"
+        },
+        {
+          "Id": { "TypeId": "JumpDrive", "SubtypeId": "LargeJumpDrive" },
+          "DisplayName": "DisplayName_Block_JumpDrive",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\JumpDrive.dds",
+          "Description": "Description_JumpDrive",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\JumpDrive.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "40" },
+              { "_Subtype": "MetalGrid", "_Count": "50" },
+              { "_Subtype": "GravityGenerator", "_Count": "20" },
+              { "_Subtype": "Detector", "_Count": "20" },
+              { "_Subtype": "PowerCell", "_Count": "120" },
+              { "_Subtype": "Superconductor", "_Count": "1000" },
+              { "_Subtype": "Computer", "_Count": "300" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "2",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\JumpDriveConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\JumpDriveConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\JumpDriveConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "JumpDrive",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "120",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "ResourceSinkGroup": "Charging",
+          "RequiredPowerInput": "32",
+          "PowerNeededForJump": "3",
+          "PowerEfficiency": "0.8",
+          "MaxJumpDistance": "2000000",
+          "MaxJumpMass": "1250000",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "Explosion_Warhead_30",
+          "DestroySound": "WepLrgWarheadExpl",
+          "TargetingGroups": { "string": "Propulsion" },
+          "PCU": "100",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_JumpDriveDefinition"
+        },
+        {
+          "Id": { "TypeId": "CameraBlock", "SubtypeId": "SmallCameraBlock" },
+          "DisplayName": "DisplayName_Block_Camera",
+          "Icon": "Textures\\GUI\\Icons\\Camera.dds",
+          "Description": "Description_Camera",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Camera.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_ExclusionMask": "3",
+              "_PropertiesMask": "3",
+              "_StartX": "0.4",
+              "_StartY": "0.44",
+              "_EndX": "0.6",
+              "_EndY": "0.55"
+            }
+          },
+          "IsStandAlone": "false",
+          "HasPhysics": "false",
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\CameraConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\CameraConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.4",
+              "MinAllowed": "0.01"
+            }
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BlockPairName": "Camera",
+          "BuildTimeSeconds": "6",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00003",
+          "OverlayTexture": "Textures\\GUI\\Screens\\camera_overlay.dds",
+          "MinFov": "0.1",
+          "MaxFov": "1.04719755",
+          "Public": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CameraBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "CameraBlock", "SubtypeId": "LargeCameraBlock" },
+          "DisplayName": "DisplayName_Block_Camera",
+          "Icon": "Textures\\GUI\\Icons\\Camera.dds",
+          "Description": "Description_Camera",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Camera.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_ExclusionMask": "3",
+              "_PropertiesMask": "3",
+              "_StartX": "0.4",
+              "_StartY": "0.44",
+              "_EndX": "0.6",
+              "_EndY": "0.55"
+            }
+          },
+          "IsStandAlone": "false",
+          "HasPhysics": "false",
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\CameraConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CameraConstruction_2.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BlockPairName": "Camera",
+          "BuildTimeSeconds": "6",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00003",
+          "RequiredChargingInput": "0.001",
+          "OverlayTexture": "Textures\\GUI\\Screens\\camera_overlay.dds",
+          "MinFov": "0.1",
+          "MaxFov": "1.04719755",
+          "RaycastConeLimit": "45",
+          "RaycastDistanceLimit": "-1",
+          "RaycastTimeMultiplier": "2.0",
+          "Public": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "1.1" },
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CameraBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "MergeBlock", "SubtypeId": "LargeShipMergeBlock" },
+          "DisplayName": "DisplayName_Block_MergeBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\MergeBlock.dds",
+          "Description": "Description_MergeBlock",
+          "CubeSize": "Large",
+          "Strength": "0.1",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\MergeBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "LargeTube", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "7" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\MergeBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\MergeBlockConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\MergeBlockConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MergeBlock",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "Public": "true",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "DeformationRatio": "0.5",
+          "PCU": "125",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_MergeBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "MergeBlock", "SubtypeId": "SmallShipMergeBlock" },
+          "DisplayName": "DisplayName_Block_MergeBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\MergeBlock.dds",
+          "Description": "Description_MergeBlock",
+          "CubeSize": "Small",
+          "Strength": "0.015",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MergeBlock.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "SmallTube", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\MergeBlockConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\MergeBlockConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "2.9",
+                "_EndY": "2.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "2.9",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "2.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "2.9"
+              }
+            ]
+          },
+          "BlockPairName": "MergeBlock",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "Public": "true",
+          "BuildTimeSeconds": "10",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "DeformationRatio": "0.5",
+          "PCU": "125",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_MergeBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MergeBlock",
+            "SubtypeId": "SmallShipSmallMergeBlock"
+          },
+          "DisplayName": "DisplayName_Block_MergeBlockSmall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\MergeBlockSmall.dds",
+          "Description": "Description_MergeBlock",
+          "CubeSize": "Small",
+          "Strength": "0.005",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MergeBlockSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "3" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "SmallTube", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\MergeBlockSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\MergeBlockSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BlockPairName": "MergeBlockSmall",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "Public": "true",
+          "BuildTimeSeconds": "6",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "DeformationRatio": "0.5",
+          "PCU": "125",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_MergeBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "Parachute", "SubtypeId": "LgParachute" },
+          "DisplayName": "DisplayName_Block_ParachuteHatch",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ParachuteHatch.dds",
+          "Description": "Description_ParachuteHatch",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ParachuteHatch_Large.mwm",
+          "PlaceDecals": "false",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "SmallTube", "_Count": "5" },
+              { "_Subtype": "Motor", "_Count": "3" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BlockPairName": "Parachute Hatch",
+          "MirroringX": "None",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "22",
+          "DisassembleRatio": "1.5",
+          "Public": "true",
+          "ResourceSinkGroup": "Doors",
+          "PowerConsumptionIdle": "0.00001",
+          "PowerConsumptionMoving": "0.001",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ParachuteSubpartName": "Parachute",
+          "DragCoefficient": "1.0",
+          "MaterialDeployCost": "5",
+          "MaterialSubtype": "Canvas",
+          "ReefAtmosphereLevel": "0.6",
+          "MinimumAtmosphereLevel": "0.2",
+          "RadiusMultiplier": "8.0",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\ConveyorConstruction_1.mwm"
+            }
+          },
+          "Subparts": {
+            "SubpartDefinition": [
+              { "Name": "ParachuteHatch_Large_Door1" },
+              { "Name": "ParachuteHatch_Large_Door2" },
+              { "Name": "ParachuteHatch_Large_Door3" },
+              { "Name": "ParachuteHatch_Large_Door4" }
+            ]
+          },
+          "OpeningSequence": {
+            "Opening": [
+              {
+                "IDs": "0",
+                "Move": "Rotate",
+                "RotationAxis": "Z",
+                "MaxOpen": "-90",
+                "Speed": "140",
+                "PivotPosition": {
+                  "_x": "0.58714",
+                  "_y": "1.19644",
+                  "_z": "0.58714"
+                }
+              },
+              {
+                "IDs": "0",
+                "Move": "Rotate",
+                "RotationAxis": "X",
+                "MaxOpen": "45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "0.58714",
+                  "_y": "1.19644",
+                  "_z": "0.58714"
+                }
+              },
+              {
+                "IDs": "0",
+                "Move": "Rotate",
+                "RotationAxis": "Y",
+                "MaxOpen": "-45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "0.58714",
+                  "_y": "1.19644",
+                  "_z": "0.58714"
+                }
+              },
+              {
+                "IDs": "1",
+                "Move": "Rotate",
+                "RotationAxis": "Z",
+                "MaxOpen": "90",
+                "Speed": "140",
+                "PivotPosition": {
+                  "_x": "-0.58714",
+                  "_y": "1.19644",
+                  "_z": "0.58714"
+                }
+              },
+              {
+                "IDs": "1",
+                "Move": "Rotate",
+                "RotationAxis": "X",
+                "MaxOpen": "45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "-0.58714",
+                  "_y": "1.19644",
+                  "_z": "0.58714"
+                }
+              },
+              {
+                "IDs": "1",
+                "Move": "Rotate",
+                "RotationAxis": "Y",
+                "MaxOpen": "45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "-0.58714",
+                  "_y": "1.19644",
+                  "_z": "0.58714"
+                }
+              },
+              {
+                "IDs": "2",
+                "Move": "Rotate",
+                "RotationAxis": "Z",
+                "MaxOpen": "90",
+                "Speed": "140",
+                "PivotPosition": {
+                  "_x": "-0.58714",
+                  "_y": "1.19644",
+                  "_z": "-0.58714"
+                }
+              },
+              {
+                "IDs": "2",
+                "Move": "Rotate",
+                "RotationAxis": "X",
+                "MaxOpen": "-45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "-0.58714",
+                  "_y": "1.19644",
+                  "_z": "-0.58714"
+                }
+              },
+              {
+                "IDs": "2",
+                "Move": "Rotate",
+                "RotationAxis": "Y",
+                "MaxOpen": "-45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "-0.58714",
+                  "_y": "1.19644",
+                  "_z": "-0.58714"
+                }
+              },
+              {
+                "IDs": "3",
+                "Move": "Rotate",
+                "RotationAxis": "Z",
+                "MaxOpen": "-90",
+                "Speed": "140",
+                "PivotPosition": {
+                  "_x": "0.58714",
+                  "_y": "1.19644",
+                  "_z": "-0.58714"
+                }
+              },
+              {
+                "IDs": "3",
+                "Move": "Rotate",
+                "RotationAxis": "X",
+                "MaxOpen": "-45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "0.58714",
+                  "_y": "1.19644",
+                  "_z": "-0.58714"
+                }
+              },
+              {
+                "IDs": "3",
+                "Move": "Rotate",
+                "RotationAxis": "Y",
+                "MaxOpen": "45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "0.58714",
+                  "_y": "1.19644",
+                  "_z": "-0.58714"
+                }
+              }
+            ]
+          },
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_ParachuteDefinition"
+        },
+        {
+          "Id": { "TypeId": "Parachute", "SubtypeId": "SmParachute" },
+          "DisplayName": "DisplayName_Block_ParachuteHatch",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ParachuteHatch.dds",
+          "Description": "Description_ParachuteHatch",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ParachuteHatch_Small.mwm",
+          "PlaceDecals": "false",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "SmallTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BlockPairName": "Parachute Hatch",
+          "MirroringX": "None",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "DisassembleRatio": "1.5",
+          "Public": "true",
+          "ResourceSinkGroup": "Doors",
+          "PowerConsumptionIdle": "0.00001",
+          "PowerConsumptionMoving": "0.001",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ParachuteSubpartName": "Parachute",
+          "DragCoefficient": "1.0",
+          "MaterialDeployCost": "1",
+          "MaterialSubtype": "Canvas",
+          "ReefAtmosphereLevel": "0.6",
+          "MinimumAtmosphereLevel": "0.2",
+          "RadiusMultiplier": "8.0",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\ConveyorConstruction_1.mwm"
+            }
+          },
+          "Subparts": {
+            "SubpartDefinition": [
+              { "Name": "ParachuteHatch_Small_Door1" },
+              { "Name": "ParachuteHatch_Small_Door2" },
+              { "Name": "ParachuteHatch_Small_Door3" },
+              { "Name": "ParachuteHatch_Small_Door4" }
+            ]
+          },
+          "OpeningSequence": {
+            "Opening": [
+              {
+                "IDs": "0",
+                "Move": "Rotate",
+                "RotationAxis": "Z",
+                "MaxOpen": "-90",
+                "Speed": "140",
+                "PivotPosition": {
+                  "_x": "0.11671",
+                  "_y": "0.23928",
+                  "_z": "0.11671"
+                }
+              },
+              {
+                "IDs": "0",
+                "Move": "Rotate",
+                "RotationAxis": "X",
+                "MaxOpen": "45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "0.11671",
+                  "_y": "0.23928",
+                  "_z": "0.11671"
+                }
+              },
+              {
+                "IDs": "0",
+                "Move": "Rotate",
+                "RotationAxis": "Y",
+                "MaxOpen": "-45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "0.11671",
+                  "_y": "0.23928",
+                  "_z": "0.11671"
+                }
+              },
+              {
+                "IDs": "1",
+                "Move": "Rotate",
+                "RotationAxis": "Z",
+                "MaxOpen": "90",
+                "Speed": "140",
+                "PivotPosition": {
+                  "_x": "-0.11671",
+                  "_y": "0.23928",
+                  "_z": "0.11671"
+                }
+              },
+              {
+                "IDs": "1",
+                "Move": "Rotate",
+                "RotationAxis": "X",
+                "MaxOpen": "45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "-0.11671",
+                  "_y": "0.23928",
+                  "_z": "0.11671"
+                }
+              },
+              {
+                "IDs": "1",
+                "Move": "Rotate",
+                "RotationAxis": "Y",
+                "MaxOpen": "45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "-0.11671",
+                  "_y": "0.23928",
+                  "_z": "0.11671"
+                }
+              },
+              {
+                "IDs": "2",
+                "Move": "Rotate",
+                "RotationAxis": "Z",
+                "MaxOpen": "90",
+                "Speed": "140",
+                "PivotPosition": {
+                  "_x": "-0.11671",
+                  "_y": "0.23928",
+                  "_z": "-0.11671"
+                }
+              },
+              {
+                "IDs": "2",
+                "Move": "Rotate",
+                "RotationAxis": "X",
+                "MaxOpen": "-45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "-0.11671",
+                  "_y": "0.23928",
+                  "_z": "-0.11671"
+                }
+              },
+              {
+                "IDs": "2",
+                "Move": "Rotate",
+                "RotationAxis": "Y",
+                "MaxOpen": "-45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "-0.11671",
+                  "_y": "0.23928",
+                  "_z": "-0.11671"
+                }
+              },
+              {
+                "IDs": "3",
+                "Move": "Rotate",
+                "RotationAxis": "Z",
+                "MaxOpen": "-90",
+                "Speed": "140",
+                "PivotPosition": {
+                  "_x": "0.11671",
+                  "_y": "0.23928",
+                  "_z": "-0.11671"
+                }
+              },
+              {
+                "IDs": "3",
+                "Move": "Rotate",
+                "RotationAxis": "X",
+                "MaxOpen": "-45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "0.11671",
+                  "_y": "0.23928",
+                  "_z": "-0.11671"
+                }
+              },
+              {
+                "IDs": "3",
+                "Move": "Rotate",
+                "RotationAxis": "Y",
+                "MaxOpen": "45",
+                "Speed": "70",
+                "PivotPosition": {
+                  "_x": "0.11671",
+                  "_y": "0.23928",
+                  "_z": "-0.11671"
+                }
+              }
+            ]
+          },
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "true",
+          "_xsi:type": "MyObjectBuilder_ParachuteDefinition"
+        }
+      ]
+    }
+  }
+}

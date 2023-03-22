@@ -1,0 +1,2409 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockDesk" },
+          "DisplayName": "DisplayName_Block_Desk",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Desk.dds",
+          "Description": "Description_Desk",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Desk.mwm",
+          "CharacterAnimation": "Table_Sitting_Pose",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.32",
+                "_EndX": "0.3",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.32",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\DeskConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\DeskConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\DeskConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "Desk",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "14",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockDeskCorner" },
+          "DisplayName": "DisplayName_Block_DeskCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\DeskCorner.dds",
+          "Description": "Description_DeskCorner",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\DeskCorner.mwm",
+          "CharacterAnimation": "Table_Sitting_Pose",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.32",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.32",
+                "_EndX": "0.3",
+                "_EndY": "0.37"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\DeskCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\DeskCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\DeskCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "DeskCorner",
+          "MirroringX": "MinusHalfY",
+          "MirroringY": "ZHalfY",
+          "MirroringZ": "YHalfY",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "14",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockDeskCornerInv" },
+          "DisplayName": "DisplayName_Block_DeskCornerInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\InvertedCornerDesk.dds",
+          "Description": "Description_DeskCorner",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\InvertedCornerDesk.mwm",
+          "CharacterAnimation": "Table_Sitting_Pose",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "40" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.32",
+                "_EndX": "0.3",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.7",
+                "_StartY": "0.32",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\InvertedCornerDeskConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\InvertedCornerDeskConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\InvertedCornerDeskConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "DeskCornerInv",
+          "MirroringX": "MinusHalfY",
+          "MirroringY": "ZHalfY",
+          "MirroringZ": "YHalfY",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "18",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeBlockDeskChairless"
+          },
+          "DisplayName": "DisplayName_Block_DeskChairless",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\DeskChairless.dds",
+          "Description": "Description_DeskChairless",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\DeskChairless.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.32",
+                "_EndX": "0.3",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.32",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\DeskChairlessConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\DeskChairlessConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\DeskChairlessConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "DeskChairless",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeBlockDeskChairlessCorner"
+          },
+          "DisplayName": "DisplayName_Block_DeskChairlessCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\DeskChairlessCorner.dds",
+          "Description": "Description_DeskChairlessCorner",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\DeskChairlessCorner.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.32",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.32",
+                "_EndX": "0.3",
+                "_EndY": "0.37"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\DeskChairlessCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\DeskChairlessCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\DeskChairlessCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "DeskChairlessCorner",
+          "MirroringX": "MinusHalfY",
+          "MirroringY": "ZHalfY",
+          "MirroringZ": "YHalfY",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeBlockDeskChairlessCornerInv"
+          },
+          "DisplayName": "DisplayName_Block_DeskChairlessCornerInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\InvertedChairlessCornerDesk.dds",
+          "Description": "Description_DeskChairlessCorner",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\InvertedChairlessCornerDesk.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "40" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.32",
+                "_EndX": "0.3",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.7",
+                "_StartY": "0.32",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\InvertedChairlessCornerDeskConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\InvertedChairlessCornerDeskConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\InvertedChairlessCornerDeskConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "DeskChairlessCornerInv",
+          "MirroringX": "MinusHalfY",
+          "MirroringY": "ZHalfY",
+          "MirroringZ": "YHalfY",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "14",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "Kitchen", "SubtypeId": "LargeBlockKitchen" },
+          "DisplayName": "DisplayName_Block_Kitchen",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Kitchen.dds",
+          "Description": "Description_Kitchen",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Kitchen.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "LargeTube", "_Count": "6" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "BulletproofGlass", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.25",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.25",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.75",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.72",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.35",
+                "_EndX": "0.1",
+                "_EndY": "0.72"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0.35",
+                "_EndX": "1",
+                "_EndY": "0.72"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.75",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\KitchenConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\KitchenConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\KitchenConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Kitchen",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "BuildTimeSeconds": "14",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_KitchenDefinition"
+        },
+        {
+          "Id": { "TypeId": "CryoChamber", "SubtypeId": "LargeBlockBed" },
+          "DisplayName": "DisplayName_Block_Bed",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Bed.dds",
+          "Description": "Description_Bed",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Bed.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "CharacterAnimation": "Bed_Laying_Pose",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "8" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.85",
+                "_StartY": "0.25",
+                "_EndX": "1",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.25"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.85",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.25",
+                "_EndX": "0.15",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.25"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.85",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\BedConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\BedConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\BedConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "Bed",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "OxygenCapacity": "1",
+          "ResourceSinkGroup": "Utility",
+          "IdlePowerConsumption": "0.00003",
+          "EmissiveColorPreset": "UnpoweredOccupancy",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "14",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "_xsi:type": "MyObjectBuilder_CryoChamberDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "LargeBlockLockerRoom"
+          },
+          "DisplayName": "DisplayName_Block_LockerRoom",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LockerRoom.dds",
+          "Description": "Description_LockerRoomCorner",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\LockerRoom.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.8",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\LockerRoomConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\LockerRoomConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\LockerRoomConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LockerRoom",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "EmissiveColorPreset": "Basic",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "14",
+          "PCU": "10",
+          "DLC": "DecorativeBlocks",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "LargeBlockLockerRoomCorner"
+          },
+          "DisplayName": "DisplayName_Block_LockerRoomCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LockerRoomCorner.dds",
+          "Description": "Description_LockerRoom",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\LockerRoomCorner.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "25" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.28",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.72",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.62",
+                "_StartY": "0.28",
+                "_EndX": "1",
+                "_EndY": "0.7",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.76",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.78",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.68",
+                "_StartY": "0.3",
+                "_EndX": "1",
+                "_EndY": "0.76"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\LockerRoomCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\LockerRoomCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\LockerRoomCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LockerRoomCorner",
+          "MirroringX": "MinusHalfY",
+          "MirroringY": "ZHalfY",
+          "MirroringZ": "HalfY",
+          "EdgeType": "Light",
+          "EmissiveColorPreset": "Basic",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "14",
+          "PCU": "10",
+          "DLC": "DecorativeBlocks",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": { "TypeId": "Planter", "SubtypeId": "LargeBlockPlanters" },
+          "DisplayName": "DisplayName_Block_Planters",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Planters.dds",
+          "Description": "Description_Planters",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Planters.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "8" },
+              { "_Subtype": "BulletproofGlass", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.28",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.57"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.28",
+                "_EndY": "0.57"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.72",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.57"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PlantersConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PlantersConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PlantersConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Planters",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "14",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_PlanterDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockCouch" },
+          "DisplayName": "DisplayName_Block_Couch",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Couch.dds",
+          "Description": "Description_Couch",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Couch.mwm",
+          "CharacterAnimation": "passengerseat_small",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.65",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.65",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.35",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CouchConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CouchConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CouchConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "Couch",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "14",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockCouchCorner" },
+          "DisplayName": "DisplayName_Block_CouchCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CouchCorner.dds",
+          "Description": "Description_CornerCouch",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\CouchCorner.mwm",
+          "CharacterAnimation": "passengerseat_small",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "25" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.65",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.35",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.35"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.35",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.65",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CouchCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CouchCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CouchCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "CouchCorner",
+          "MirroringX": "MinusHalfY",
+          "MirroringY": "ZHalfY",
+          "MirroringZ": "YHalfY",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "15",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "LargeBlockLockers"
+          },
+          "DisplayName": "DisplayName_Block_Lockers",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Lockers.dds",
+          "Description": "Description_Lockers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Lockers.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Display", "_Count": "3" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.28",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.22",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.78",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.76",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\LockersConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\LockersConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\LockersConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Lockers",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PCU": "10",
+          "DLC": "DecorativeBlocks",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockBathroomOpen" },
+          "DisplayName": "DisplayName_Block_BathroomOpen",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\BathroomOpen.dds",
+          "Description": "Description_BathroomOpen",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\BathroomOpen.mwm",
+          "CharacterAnimation": "passengerseat_small",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "8" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\BathroomOpenConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\BathroomOpenConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\BathroomOpenConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "BathroomOpen",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "14",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition",
+          "__text": ">"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockBathroom" },
+          "DisplayName": "DisplayName_Block_Bathroom",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Bathroom.dds",
+          "Description": "Description_Bathroom",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Bathroom.mwm",
+          "CharacterAnimation": "passengerseat_small",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "30" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "8" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\BathroomConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\BathroomConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\BathroomConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "Bathroom",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BuildTimeSeconds": "15",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition",
+          "__text": ">"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "LargeBlockToilet" },
+          "DisplayName": "DisplayName_Block_Toilet",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Toilet.dds",
+          "Description": "Description_ToiletSeat",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Toilet.mwm",
+          "CharacterAnimation": "passengerseat_small",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.55",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "0.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.31",
+                "_StartY": "0",
+                "_EndX": "0.69",
+                "_EndY": "0.31"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ToiletConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ToiletConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ToiletConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "Toilet",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "false",
+          "IsPressurized": "false",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "14",
+          "PCU": "15",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "Projector", "SubtypeId": "LargeBlockConsole" },
+          "DisplayName": "DisplayName_Block_Console",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Console.dds",
+          "Description": "Description_Console",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\Console.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ConsoleConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ConsoleConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConsoleConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_ProjectionArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "16",
+                "_ScreenHeight": "11"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_Numpad",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "6"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "2",
+                "_ScreenHeight": "1"
+              }
+            ]
+          },
+          "BlockPairName": "Console",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PrimarySound": "BlockProjectorOn",
+          "IdleSound": "BlockProjectorOff",
+          "EmissiveColorPreset": "Extended",
+          "PCU": "150",
+          "DLC": "DecorativeBlocks",
+          "IsAirTight": "false",
+          "AllowScaling": "true",
+          "IgnoreSize": "true",
+          "RotationAngleStepDeg": "1",
+          "_xsi:type": "MyObjectBuilder_ProjectorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Cockpit",
+            "SubtypeId": "SmallBlockCockpitIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_CockpitIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CockpitIndustrial.dds",
+          "Description": "Description_CockpitIndustrial",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "4", "_z": "4" },
+          "Model": "Models\\Cubes\\small\\CockpitIndustrial.mwm",
+          "InteriorModel": "Models\\Cubes\\small\\CockpitIndustrialInterior.mwm",
+          "CharacterAnimation": "cockpit1_small",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "MetalGrid", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "BulletproofGlass", "_Count": "60" },
+              { "_Subtype": "SmallTube", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1.5",
+                "_EndX": "3",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.1",
+                "_StartY": "3.1",
+                "_EndX": "4",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.1",
+                "_StartY": "0",
+                "_EndX": "4",
+                "_EndY": "1.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "3.1",
+                "_EndX": "1.9",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.9",
+                "_EndY": "1.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0",
+                "_EndX": "2.9",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "3.5",
+                "_EndX": "2.6",
+                "_EndY": "3.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "3",
+                "_EndY": "4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Small\\CockpitIndustrialConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Small\\CockpitIndustrialConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\CockpitIndustrialConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_TopLeft",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "5",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_TopCenter",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "2",
+                "_Script": "TSS_Velocity"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_TopRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "5",
+                "_Script": "TSS_Gravity"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "2",
+                "_ScreenHeight": "1",
+                "_Script": "TSS_ArtificialHorizon"
+              },
+              {
+                "_Name": "CockpitScreen_05",
+                "_DisplayName": "DisplayName_Screen_Numpad",
+                "_TextureResolution": "128",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "6"
+              }
+            ]
+          },
+          "BlockPairName": "CockpitIndustrial",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "DeformationRatio": "0.2",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "true",
+          "TargetLockingEnabled": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PrimarySound": "BlockCockpitSm",
+          "OxygenCapacity": "60",
+          "IsPressurized": "true",
+          "GetInSound": "ShipSmCockpitIn",
+          "GetOutSound": "ShipSmCockpitOut",
+          "BuildTimeSeconds": "14",
+          "PCU": "150",
+          "DLC": "DecorativeBlocks",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Cockpit",
+            "SubtypeId": "LargeBlockCockpitIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_CockpitIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeCockpitIndustrial.dds",
+          "Description": "Description_CockpitIndustrial",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\CockpitIndustrial.mwm",
+          "InteriorModel": "Models\\Cubes\\large\\CockpitIndustrialInterior.mwm",
+          "CharacterAnimation": "cockpit1_small",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "MetalGrid", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "60" },
+              { "_Subtype": "BulletproofGlass", "_Count": "80" },
+              { "_Subtype": "SmallTube", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.52",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.48"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.48",
+                "_EndY": "0.48"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\large\\CockpitIndustrialConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\large\\CockpitIndustrialConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\large\\CockpitIndustrialConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_ClockAnalog"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_TopLeft",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "10",
+                "_ScreenHeight": "7",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_03",
+                "_DisplayName": "DisplayName_Screen_TopCenter",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "10",
+                "_ScreenHeight": "7",
+                "_Script": "TSS_Velocity"
+              },
+              {
+                "_Name": "CockpitScreen_04",
+                "_DisplayName": "DisplayName_Screen_TopRight",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_Gravity"
+              },
+              {
+                "_Name": "CockpitScreen_05",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "3",
+                "_Script": "TSS_ArtificialHorizon"
+              },
+              {
+                "_Name": "CockpitScreen_06",
+                "_DisplayName": "DisplayName_Screen_Numpad",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "4",
+                "_ScreenHeight": "5"
+              }
+            ]
+          },
+          "BlockPairName": "CockpitIndustrial",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "DeformationRatio": "0.2",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "true",
+          "TargetLockingEnabled": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PrimarySound": "BlockCockpitLrg",
+          "OxygenCapacity": "60",
+          "IsPressurized": "true",
+          "BuildTimeSeconds": "14",
+          "PCU": "150",
+          "DLC": "DecorativeBlocks",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        }
+      ]
+    }
+  }
+}

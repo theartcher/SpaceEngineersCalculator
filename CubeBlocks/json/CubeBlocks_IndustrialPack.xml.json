@@ -1,0 +1,5074 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": "LandingGear",
+            "SubtypeId": "LargeBlockMagneticPlate"
+          },
+          "DisplayName": "DisplayName_Block_MagneticPlateLarge",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\MagneticPlateLarge.dds",
+          "Description": "Description_LandingGear",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "2", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\MagneticPlateLarge.mwm",
+          "LockSound": "ShipLandGearOn",
+          "UnlockSound": "ShipLandGearOff",
+          "FailedAttachSound": "ShipLandGearNothing01",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "300" },
+              { "_Subtype": "Construction", "_Count": "60" },
+              { "_Subtype": "Motor", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "150" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "2.6",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.1",
+                "_EndX": "2.5",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.5",
+                "_StartY": "0.1",
+                "_EndX": "2.5",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0.1",
+                "_EndX": "2.5",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.1",
+                "_EndX": "2.5",
+                "_EndY": "0.8"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\MagneticPlateLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\MagneticPlateLargeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\MagneticPlateLargeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeMagneticPlate",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "40",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "MaxLockSeparatingVelocity": "7",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "35",
+          "IsAirTight": "false",
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_LandingGearDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "LandingGear",
+            "SubtypeId": "SmallBlockMagneticPlate"
+          },
+          "DisplayName": "DisplayName_Block_MagneticPlateLarge",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\MagneticPlate.dds",
+          "Description": "Description_LandingGear",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "2", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MagneticPlate.mwm",
+          "LockSound": "ShipLandGearOn",
+          "UnlockSound": "ShipLandGearOff",
+          "FailedAttachSound": "ShipLandGearNothing01",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Top",
+              "_StartX": "0.8",
+              "_StartY": "0.8",
+              "_EndX": "2.2",
+              "_EndY": "2.2"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\MagneticPlateConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\MagneticPlateConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeMagneticPlate",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "16",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "ConnectBlock",
+          "MaxLockSeparatingVelocity": "7",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "35",
+          "IsAirTight": "false",
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_LandingGearDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CargoContainer",
+            "SubtypeId": "LargeBlockLargeIndustrialContainer"
+          },
+          "DisplayName": "DisplayName_Block_LargeIndustrialCargoContainer",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CargoContainer.dds",
+          "Description": "Description_LargeCargoContainer",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\CargoContainer.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "300" },
+              { "_Subtype": "Construction", "_Count": "60" },
+              { "_Subtype": "MetalGrid", "_Count": "24" },
+              { "_Subtype": "SmallTube", "_Count": "60" },
+              { "_Subtype": "Motor", "_Count": "20" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "InteriorPlate", "_Count": "60" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.55",
+                "_EndX": "0.3",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "2.15",
+                "_EndX": "0.3",
+                "_EndY": "2.45"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.7",
+                "_StartY": "0.55",
+                "_EndX": "2.8",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.7",
+                "_StartY": "2.15",
+                "_EndX": "2.8",
+                "_EndY": "2.45"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.55",
+                "_EndX": "0.3",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "2.15",
+                "_EndX": "0.3",
+                "_EndY": "2.45"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.7",
+                "_StartY": "0.55",
+                "_EndX": "2.8",
+                "_EndY": "0.85"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2.7",
+                "_StartY": "2.15",
+                "_EndX": "2.8",
+                "_EndY": "2.45"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "2.2",
+                "_StartY": "0.2",
+                "_EndX": "2.5",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "2.7",
+                "_EndX": "0.8",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "2.2",
+                "_StartY": "2.7",
+                "_EndX": "2.5",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "2.2",
+                "_StartY": "0.2",
+                "_EndX": "2.5",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "2.7",
+                "_EndX": "0.8",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "2.2",
+                "_StartY": "2.7",
+                "_EndX": "2.5",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1.15",
+                "_StartY": "1.15",
+                "_EndX": "1.85",
+                "_EndY": "1.85"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.2",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "2.5",
+                "_StartY": "0.5",
+                "_EndX": "2.8",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "2.2",
+                "_StartY": "0.2",
+                "_EndX": "2.5",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1.15",
+                "_StartY": "1.15",
+                "_EndX": "1.85",
+                "_EndY": "1.85"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.2",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "2.5",
+                "_StartY": "0.5",
+                "_EndX": "2.8",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "2.2",
+                "_StartY": "0.2",
+                "_EndX": "2.5",
+                "_EndY": "2.8"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CargoContainerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CargoContainerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CargoContainerConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeCargoContainerIndustrial",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "45",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_CargoContainerDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "ButtonPanel",
+            "SubtypeId": "VerticalButtonPanelLarge"
+          },
+          "DisplayName": "DisplayName_Block_VerticalButtonPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\VerticalButtonPanel.dds",
+          "Description": "Description_ButtonPanel",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\VerticalButtonPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.45",
+                "_StartY": "0.35",
+                "_EndX": "0.55",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.45",
+                "_StartY": "0",
+                "_EndX": "0.55",
+                "_EndY": "0.04"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.45",
+                "_StartY": "0",
+                "_EndX": "0.55",
+                "_EndY": "0.1",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\VerticalButtonPanelConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\VerticalButtonPanelConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\VerticalButtonPanelConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "VerticalButtonPanel",
+          "EdgeType": "Light",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "8",
+          "ResourceSinkGroup": "Utility",
+          "ButtonCount": "3",
+          "ButtonSymbols": {
+            "string": [
+              "Textures\\GUI\\Icons\\buttons\\OneButton.dds",
+              "Textures\\GUI\\Icons\\buttons\\TwoButton.dds",
+              "Textures\\GUI\\Icons\\buttons\\ThreeButton.dds"
+            ]
+          },
+          "UnassignedButtonColor": {
+            "X": "0.34",
+            "Y": "0.34",
+            "Z": "0.34",
+            "W": "0"
+          },
+          "ButtonColors": {
+            "Vector4": [
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" },
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" },
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" }
+            ]
+          },
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "5",
+          "IsAirTight": "false",
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_ButtonPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "ButtonPanel",
+            "SubtypeId": "VerticalButtonPanelSmall"
+          },
+          "DisplayName": "DisplayName_Block_VerticalButtonPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\VerticalButtonPanel.dds",
+          "Description": "Description_ButtonPanel",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\VerticalButtonPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.2",
+                "_StartY": "0",
+                "_EndX": "0.8",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.2",
+                "_StartY": "1.8",
+                "_EndX": "0.8",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0",
+                "_EndX": "0.8",
+                "_EndY": "0.6",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Small\\VerticalButtonPanelConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Small\\VerticalButtonPanelConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\VerticalButtonPanelConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "VerticalButtonPanel",
+          "EdgeType": "Light",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "8",
+          "ResourceSinkGroup": "Utility",
+          "ButtonCount": "3",
+          "ButtonSymbols": {
+            "string": [
+              "Textures\\GUI\\Icons\\buttons\\OneButton.dds",
+              "Textures\\GUI\\Icons\\buttons\\TwoButton.dds",
+              "Textures\\GUI\\Icons\\buttons\\ThreeButton.dds"
+            ]
+          },
+          "UnassignedButtonColor": {
+            "X": "0.34",
+            "Y": "0.34",
+            "Z": "0.34",
+            "W": "0"
+          },
+          "ButtonColors": {
+            "Vector4": [
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" },
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" },
+              { "X": "1", "Y": "1", "Z": "0.3", "W": "1" }
+            ]
+          },
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "5",
+          "IsAirTight": "false",
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_ButtonPanelDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "LargeBlockConveyorPipeSeamless"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorPipeSeamless",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PipeSeamless.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PipeSeamless.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PipeSeamlessConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PipeSeamlessConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PipeSeamlessConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorPipeSeamless",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "7",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "EmissiveColorPreset": "Default",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "DLC": "HeavyIndustry",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "LargeBlockConveyorPipeCorner"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorPipeCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PipeCorner.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PipeCorner.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PipeCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PipeCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PipeCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorPipeCorner",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "7",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "DamageEffectName": [
+            "Damage_HeavyMech_Damaged",
+            "Damage_HeavyMech_Damaged"
+          ],
+          "DamagedSound": ["ParticleHeavyMech", "ParticleHeavyMech"],
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "DLC": "HeavyIndustry",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "Conveyor",
+            "SubtypeId": "LargeBlockConveyorPipeJunction"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorPipeJunction",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PipeNode.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PipeNode.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PipeNodeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PipeNodeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PipeNodeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorPipeJunction",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "DamageEffectName": [
+            "Damage_HeavyMech_Damaged",
+            "Damage_HeavyMech_Damaged"
+          ],
+          "DamagedSound": ["ParticleHeavyMech", "ParticleHeavyMech"],
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "DLC": "HeavyIndustry",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "Conveyor",
+            "SubtypeId": "LargeBlockConveyorPipeIntersection"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorPipeIntersection",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PipeJunction.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PipeJunction.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "16" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PipeJunctionConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PipeJunctionConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PipeJunctionConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorPipeIntersection",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              }
+            ]
+          },
+          "DamageEffectName": [
+            "Damage_HeavyMech_Damaged",
+            "Damage_HeavyMech_Damaged"
+          ],
+          "DamagedSound": ["ParticleHeavyMech", "ParticleHeavyMech"],
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "DLC": "HeavyIndustry",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "LargeBlockConveyorPipeFlange"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorPipeFlange",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PipeFlange.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PipeFlange.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PipeFlangeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PipeFlangeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PipeFlangeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorPipeFlange",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "DamageEffectName": [
+            "Damage_HeavyMech_Damaged",
+            "Damage_HeavyMech_Damaged"
+          ],
+          "DamagedSound": ["ParticleHeavyMech", "ParticleHeavyMech"],
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "DLC": "HeavyIndustry",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorConnector",
+            "SubtypeId": "LargeBlockConveyorPipeEnd"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorPipeEnd",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PipeEnd.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PipeEnd.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PipeEndConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PipeEndConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PipeEndConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorPipeEnd",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "7",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "DamageEffectName": [
+            "Damage_HeavyMech_Damaged",
+            "Damage_HeavyMech_Damaged"
+          ],
+          "DamagedSound": ["ParticleHeavyMech", "ParticleHeavyMech"],
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "DLC": "HeavyIndustry",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "Conveyor",
+            "SubtypeId": "LargeBlockConveyorPipeT"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorPipeT",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PipeT.dds",
+          "Description": "Description_ConveyorTube",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PipeT.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "24" },
+              { "_Subtype": "SmallTube", "_Count": "14" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.7",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PipeTConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PipeTConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PipeTConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorPipeT",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "10",
+          "DLC": "HeavyIndustry",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "OxygenTank",
+            "SubtypeId": "LargeHydrogenTankIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_HydrogenTankIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HydrogenTankIndustrial.dds",
+          "Description": "Description_HydrogenTank",
+          "Public": "true",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HydrogenTankIndustrial.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "160" },
+              { "_Subtype": "LargeTube", "_Count": "80" },
+              { "_Subtype": "SmallTube", "_Count": "60" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "120" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "1.1",
+                "_StartY": "1.1",
+                "_EndX": "1.9",
+                "_EndY": "1.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.3",
+                "_EndX": "3",
+                "_EndY": "2.7",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0",
+                "_EndX": "2.7",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "2.7",
+                "_EndX": "2.7",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1.45",
+                "_StartY": "1.45",
+                "_EndX": "1.55",
+                "_EndY": "1.55"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0",
+                "_EndX": "2.4",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "1.45",
+                "_StartY": "1.45",
+                "_EndX": "1.55",
+                "_EndY": "1.55"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0",
+                "_EndX": "2.4",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1.45",
+                "_StartY": "1.45",
+                "_EndX": "1.55",
+                "_EndY": "1.55"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.6",
+                "_StartY": "0",
+                "_EndX": "2.4",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1.45",
+                "_StartY": "1.45",
+                "_EndX": "1.55",
+                "_EndY": "1.55"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.6",
+                "_StartY": "0",
+                "_EndX": "2.4",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HydrogenTankIndustrialConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HydrogenTankIndustrialConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HydrogenTankIndustrialConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HydrogenTankIndustrial",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "ResourceSourceGroup": "Reactors",
+          "ResourceSinkGroup": "Factory",
+          "OperationalPowerConsumption": "0.001",
+          "StandbyPowerConsumption": "0.000001",
+          "Capacity": "15000000",
+          "InventoryMaxVolume": "0.75",
+          "InventorySize": { "X": "2", "Y": "2", "Z": "2" },
+          "StoredGasId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+          "BlueprintClasses": { "Class": "HydrogenBottles" },
+          "BuildTimeSeconds": "50",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "Explosion_Warhead_30",
+          "DestroySound": "WepLrgWarheadExpl",
+          "PCU": "25",
+          "LeakPercent": "0.0025",
+          "GasExplosionMaxRadius": "20",
+          "GasExplosionNeededVolumeToReachMaxRadius": "15000000",
+          "GasExplosionDamageMultiplier": "0.00015",
+          "GasExplosionSound": "ArcHydrogenExplosion",
+          "GasExplosionEffect": "Explosion_Warhead_30",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "300", "600"] },
+          "IsAirTight": "false",
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_GasTankDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Assembler",
+            "SubtypeId": "LargeAssemblerIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_AssemblerIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AdvancedAssemblerIndustrial.dds",
+          "Description": "Description_Assembler",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\AdvancedAssemblerIndustrial.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "120" },
+              { "_Subtype": "Construction", "_Count": "80" },
+              { "_Subtype": "Motor", "_Count": "20" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "MetalGrid", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "160" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "1.1",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "1.1",
+                "_EndX": "0.1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "1.1",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "1.9",
+                "_EndX": "0.9",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "0.1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1.9",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "1.9",
+                "_EndX": "1.9",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\AdvancedAssemblerIndustrialConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\AdvancedAssemblerIndustrialConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\AdvancedAssemblerIndustrialConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "AssemblerIndustrial",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "80",
+          "ResourceSinkGroup": "Factory",
+          "InventoryMaxVolume": "4",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "StandbyPowerConsumption": "0.001",
+          "OperationalPowerConsumption": "0.56",
+          "BlueprintClasses": {
+            "Class": [
+              "LargeBlocks",
+              "SmallBlocks",
+              "Components",
+              "EliteTools",
+              "BuildPlanner",
+              "EliteConsumables"
+            ]
+          },
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "PrimarySound": "BlockAssembler",
+          "ActionSound": "BlockAssemblerProcess",
+          "DestroyEffect": "Explosion_Missile",
+          "DestroySound": "WepSmallMissileExpl",
+          "PCU": "40",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "TieredUpdateTimes": { "unsignedInt": ["60", "120", "240"] },
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_AssemblerDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Refinery",
+            "SubtypeId": "LargeRefineryIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_RefineryIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AdvancedRefinery.dds",
+          "Description": "Description_Refinery",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "4", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\AdvancedRefinery.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1100" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "LargeTube", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "16" },
+              { "_Subtype": "MetalGrid", "_Count": "20" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "100" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "Center": [
+            { "_x": "1", "_y": "0", "_z": "1" },
+            { "_x": "1", "_y": "0", "_z": "0" }
+          ],
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1.5",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.8",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "1",
+                "_EndX": "1.9",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.4",
+                "_StartY": "1.7",
+                "_EndX": "1.7",
+                "_EndY": "1.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "2.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "3",
+                "_EndX": "2",
+                "_EndY": "3.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1.8",
+                "_StartY": "2.1",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "1.1",
+                "_EndX": "0.8",
+                "_EndY": "1.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.4",
+                "_EndY": "1.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "1.4",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "1.1",
+                "_EndX": "0.4",
+                "_EndY": "3.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "3.3",
+                "_EndX": "1.7",
+                "_EndY": "3.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "2",
+                "_EndX": "2",
+                "_EndY": "2.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1.2",
+                "_StartY": "0",
+                "_EndX": "1.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1.2",
+                "_StartY": "1.1",
+                "_EndX": "1.8",
+                "_EndY": "1.4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "2",
+                "_EndX": "1",
+                "_EndY": "2.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.3",
+                "_StartY": "3.3",
+                "_EndX": "1.6",
+                "_EndY": "3.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.8",
+                "_StartY": "3",
+                "_EndX": "1.6",
+                "_EndY": "3.3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\AdvancedRefinery_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\AdvancedRefinery_Construction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\AdvancedRefinery_Construction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "RefineryIndustrial",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "90",
+          "ResourceSinkGroup": "Factory",
+          "InventoryMaxVolume": "7.5",
+          "InventorySize": { "X": "2.5", "Y": "2.5", "Z": "2.5" },
+          "InventoryFillFactorMin": "0.3",
+          "InventoryFillFactorMax": "0.6",
+          "StandbyPowerConsumption": "0.001",
+          "OperationalPowerConsumption": "0.56",
+          "BlueprintClasses": { "Class": "Ingots" },
+          "RefineSpeed": "1.3",
+          "MaterialEfficiency": "1.0",
+          "OreAmountPerPullRequest": "2000",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "PrimarySound": "BlockRafinery",
+          "ActionSound": "BlockRafineryProcess",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "90",
+          "TieredUpdateTimes": { "unsignedInt": ["60", "120", "240"] },
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_RefineryDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeBlockCylindricalColumn"
+          },
+          "DisplayName": "DisplayName_Block_CylindricalColumn",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CylindricalColumnLarge.dds",
+          "Description": "Description_InteriorPillar",
+          "CubeSize": "Large",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "BlockTopology": "TriangleMesh",
+          "Model": "Models\\Cubes\\Large\\CylindricalColumn.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.45",
+                "_StartY": "0.2",
+                "_EndX": "0.55",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.45",
+                "_StartY": "0.2",
+                "_EndX": "0.55",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.45",
+                "_StartY": "0.2",
+                "_EndX": "0.55",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.45",
+                "_StartY": "0.2",
+                "_EndX": "0.55",
+                "_EndY": "0.8"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\CylindricalColumnConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\CylindricalColumnConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\CylindricalColumnConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "CylindricalColumn",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "PCU": "1",
+          "IsAirTight": "false",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallBlockCylindricalColumn"
+          },
+          "DisplayName": "DisplayName_Block_CylindricalColumn",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\CylindricalColumnSmall.dds",
+          "Description": "Description_InteriorPillar",
+          "CubeSize": "Small",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "BlockTopology": "TriangleMesh",
+          "Model": "Models\\Cubes\\Small\\CylindricalColumn.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.45",
+                "_StartY": "0.2",
+                "_EndX": "0.55",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.45",
+                "_StartY": "0.2",
+                "_EndX": "0.55",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.45",
+                "_StartY": "0.2",
+                "_EndX": "0.55",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.45",
+                "_StartY": "0.2",
+                "_EndX": "0.55",
+                "_EndY": "0.8"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\CylindricalColumnConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\CylindricalColumnConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "CylindricalColumn",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "PCU": "1",
+          "IsAirTight": "false",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "ConveyorSorter",
+            "SubtypeId": "LargeBlockConveyorSorterIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_ConveyorSorterIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ConveyorSorterReskin.dds",
+          "Description": "Description_ConveyorSorter",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ConveyorSorterReskin.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "40" },
+              { "_Subtype": "Construction", "_Count": "100" },
+              { "_Subtype": "SmallTube", "_Count": "50" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.25",
+                "_StartY": "0.1",
+                "_EndX": "0.75",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.35",
+                "_StartY": "0.3",
+                "_EndX": "0.65",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.35",
+                "_StartY": "0.3",
+                "_EndX": "0.65",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ConveyorSorterReskinConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ConveyorSorterReskinConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ConveyorSorterReskinConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ConveyorSorterIndustrial",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": [
+            "Damage_HeavyMech_Damaged",
+            "Damage_HeavyMech_Damaged"
+          ],
+          "DamagedSound": ["ParticleHeavyMech", "ParticleHeavyMech"],
+          "ResourceSinkGroup": "Conveyors",
+          "PowerInput": "0.00025",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_ConveyorSorterDefinition"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeGridBeamBlock" },
+          "DisplayName": "DisplayName_Block_BeamBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderStraight.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderStraight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderStraightConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlock",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeGridBeamBlockSlope"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockSlope",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderSlope.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderSlope.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderSlopeConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockSlope",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeGridBeamBlockRound"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockRound",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderRound.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderRound.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderRoundConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockRound",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeGridBeamBlockSlope2x1Base"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockSlope2x1Base",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderSlope2x1Base.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderSlope2x1Base.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderSlope2x1BaseConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockSlope2x1Base",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeGridBeamBlockSlope2x1Tip"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockSlope2x1Tip",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderSlope2x1Tip.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderSlope2x1Tip.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.75",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.75",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.2",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderSlope2x1TipConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockSlope2x1Tip",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeGridBeamBlockHalf"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockHalf",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderStraightHalf.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderStraightHalf.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.3",
+                "_EndX": "0.15",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.85",
+                "_StartY": "0.3",
+                "_EndX": "1",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderStraightHalfConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockHalf",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": ["false", "false"],
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeGridBeamBlockHalfSlope"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockHalfSlope",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderSlopeHalf.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderSlopeHalf.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderSlopeHalfConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockHalfSlope",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeGridBeamBlockEnd" },
+          "DisplayName": "DisplayName_Block_BeamBlockEnd",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderStraightEnd.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderStraightEnd.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.05",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderStraightEndConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockEnd",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeGridBeamBlockJunction"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockJunction",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderJunction.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderJunction.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderJunctionConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockJunction",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeGridBeamBlockTJunction"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockTJunction",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderT-Junction.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GirderT-Junction.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\GirderT-JunctionConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockTJunction",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallGridBeamBlock" },
+          "DisplayName": "DisplayName_Block_BeamBlock",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderStraight.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderStraight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderStraightConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlock",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallGridBeamBlockSlope"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockSlope",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderSlope.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderSlope.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderSlopeConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockSlope",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallGridBeamBlockRound"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockRound",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderRound.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderRound.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderRoundConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockRound",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallGridBeamBlockSlope2x1Base"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockSlope2x1Base",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderSlope2x1Base.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderSlope2x1Base.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderSlope2x1BaseConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockSlope2x1Base",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallGridBeamBlockSlope2x1Tip"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockSlope2x1Tip",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderSlope2x1Tip.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderSlope2x1Tip.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.75",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.75",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.2",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderSlope2x1TipConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockSlope2x1Tip",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallGridBeamBlockHalf"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockHalf",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderStraightHalf.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderStraightHalf.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.05",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderStraightHalfConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockHalf",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallGridBeamBlockHalfSlope"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockHalfSlope",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderSlopeHalf.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderSlopeHalf.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderSlopeHalfConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockHalfSlope",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "IsAirTight": "false",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallGridBeamBlockEnd" },
+          "DisplayName": "DisplayName_Block_BeamBlockEnd",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderStraightEnd.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderStraightEnd.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.05",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderStraightEndConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockEnd",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallGridBeamBlockJunction"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockJunction",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderJunction.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderJunction.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderJunctionConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockJunction",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallGridBeamBlockTJunction"
+          },
+          "DisplayName": "DisplayName_Block_BeamBlockTJunction",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGirderT-Junction.dds",
+          "Description": "Description_BeamBlock",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\GirderT-Junction.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\GirderT-JunctionConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "BeamBlockTJunction",
+          "MirroringZ": "X",
+          "MirroringX": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "PCU": "1",
+          "DLC": "HeavyIndustry"
+        },
+        {
+          "Id": {
+            "TypeId": "Thrust",
+            "SubtypeId": "LargeBlockLargeHydrogenThrustIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_LargeHydrogenThrustIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HydrogenThrusterIndustrialLarge.dds",
+          "Description": "Description_HydrogenThrust",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "4" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HydrogenThrusterIndustrialLarge.mwm",
+          "ThrusterType": "Hydrogen",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "100" },
+              { "_Subtype": "Construction", "_Count": "150" },
+              { "_Subtype": "MetalGrid", "_Count": "250" },
+              { "_Subtype": "LargeTube", "_Count": "40" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "SteelPlate", "_Count": "50" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "Center": { "_x": "1", "_y": "1", "_z": "3" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.3",
+                "_StartY": "0",
+                "_EndX": "2.7",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.3",
+                "_EndX": "0.6",
+                "_EndY": "2.7"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.05",
+                "_StartY": "0.05",
+                "_EndX": "2.95",
+                "_EndY": "2.95",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "3.4",
+                "_StartY": "0.3",
+                "_EndX": "4",
+                "_EndY": "2.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "3.4",
+                "_EndX": "2.7",
+                "_EndY": "4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HydrogenThrusterIndustrialLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HydrogenThrusterIndustrialLargeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HydrogenThrusterIndustrialLargeConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "LargeHydrogenThrustIndustrial",
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "90",
+          "FuelConverter": {
+            "FuelId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+            "Efficiency": "1"
+          },
+          "MaxPowerConsumption": "7.5",
+          "MinPowerConsumption": "0.000000001",
+          "ResourceSinkGroup": "Thrust",
+          "ForceMagnitude": "7200000",
+          "SlowdownFactor": "1",
+          "FlameDamageLengthScale": "0.6",
+          "FlameLengthScale": "1.15",
+          "FlameIdleColor": { "X": "1", "Y": "0.85", "Z": "0.3", "W": "0.75" },
+          "FlameFullColor": { "X": "1", "Y": "0.75", "Z": "0.2", "W": "0.75" },
+          "FlamePointMaterial": "EngineThrustMiddle",
+          "FlameLengthMaterial": "EngineThrustMiddle",
+          "FlameFlare": "LargeGridLargeThruster",
+          "FlameVisibilityDistance": "700",
+          "FlameGlareQuerySize": "1.5",
+          "PrimarySound": "LrgShipLrgJetHydrogen",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "Public": "true",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "3600", "0"] },
+          "TargetingGroups": { "string": "Propulsion" },
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_ThrustDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Thrust",
+            "SubtypeId": "LargeBlockSmallHydrogenThrustIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_HydrogenThrustIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HydrogenThrusterIndustrialSmall.dds",
+          "Description": "Description_HydrogenThrust",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HydrogenThrusterIndustrialSmall.mwm",
+          "ThrusterType": "Hydrogen",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "MetalGrid", "_Count": "40" },
+              { "_Subtype": "LargeTube", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_StartX": "0.2",
+              "_StartY": "0.2",
+              "_EndX": "0.8",
+              "_EndY": "0.8",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HydrogenThrusterIndustrialSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HydrogenThrusterIndustrialSmallConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HydrogenThrusterIndustrialSmallConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "HydrogenThrustIndustrial",
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "40",
+          "ResourceSinkGroup": "Thrust",
+          "ForceMagnitude": "1080000",
+          "SlowdownFactor": "1",
+          "FuelConverter": {
+            "FuelId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+            "Efficiency": "1"
+          },
+          "MaxPowerConsumption": "1.25",
+          "MinPowerConsumption": "0.000000001",
+          "FlameDamageLengthScale": "0.6",
+          "FlameLengthScale": "1.15",
+          "FlameIdleColor": { "X": "1", "Y": "0.85", "Z": "0.3", "W": "0.75" },
+          "FlameFullColor": { "X": "1", "Y": "0.75", "Z": "0.2", "W": "0.75" },
+          "FlamePointMaterial": "EngineThrustMiddle",
+          "FlameLengthMaterial": "EngineThrustMiddle",
+          "FlameFlare": "LargeGridSmallThruster",
+          "FlameVisibilityDistance": "500",
+          "FlameGlareQuerySize": "1",
+          "PrimarySound": "LrgShipSmJetHydrogen",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "Public": "true",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "IsAirTight": "false",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "3600", "0"] },
+          "TargetingGroups": { "string": "Propulsion" },
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_ThrustDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Thrust",
+            "SubtypeId": "SmallBlockLargeHydrogenThrustIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_LargeHydrogenThrustIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HydrogenThrusterIndustrialLarge.dds",
+          "Description": "Description_HydrogenThrust",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "4" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HydrogenThrusterIndustrialLarge.mwm",
+          "ThrusterType": "Hydrogen",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "MetalGrid", "_Count": "22" },
+              { "_Subtype": "LargeTube", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "Center": { "_x": "1", "_y": "1", "_z": "3" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.3",
+                "_StartY": "0",
+                "_EndX": "2.7",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.3",
+                "_EndX": "0.6",
+                "_EndY": "2.7"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.05",
+                "_StartY": "0.05",
+                "_EndX": "2.95",
+                "_EndY": "2.95",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "3.4",
+                "_StartY": "0.3",
+                "_EndX": "4",
+                "_EndY": "2.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "3.4",
+                "_EndX": "2.7",
+                "_EndY": "4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\HydrogenThrusterIndustrialLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\HydrogenThrusterIndustrialLargeConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "LargeHydrogenThrustIndustrial",
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "FuelConverter": {
+            "FuelId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+            "Efficiency": "1"
+          },
+          "MaxPowerConsumption": "0.6",
+          "MinPowerConsumption": "0.000000001",
+          "ResourceSinkGroup": "Thrust",
+          "ForceMagnitude": "480000",
+          "SlowdownFactor": "1",
+          "FlameDamageLengthScale": "0.6",
+          "FlameLengthScale": "1.15",
+          "FlameIdleColor": { "X": "1", "Y": "0.85", "Z": "0.3", "W": "0.75" },
+          "FlameFullColor": { "X": "1", "Y": "0.75", "Z": "0.2", "W": "0.75" },
+          "FlamePointMaterial": "EngineThrustMiddle",
+          "FlameLengthMaterial": "EngineThrustMiddle",
+          "FlameFlare": "LargeGridLargeThruster",
+          "FlameVisibilityDistance": "700",
+          "FlameGlareQuerySize": "1.5",
+          "PrimarySound": "SmShipLrgJetHydrogen",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "3600", "0"] },
+          "TargetingGroups": { "string": "Propulsion" },
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_ThrustDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Thrust",
+            "SubtypeId": "SmallBlockSmallHydrogenThrustIndustrial"
+          },
+          "DisplayName": "DisplayName_Block_HydrogenThrustIndustrial",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HydrogenThrusterIndustrialSmall.dds",
+          "Description": "Description_HydrogenThrust",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HydrogenThrusterIndustrialSmall.mwm",
+          "ThrusterType": "Hydrogen",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "MetalGrid", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_StartX": "0.1",
+              "_StartY": "0.1",
+              "_EndX": "0.9",
+              "_EndY": "0.9",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\HydrogenThrusterIndustrialSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\HydrogenThrusterIndustrialSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "HydrogenThrustIndustrial",
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "ResourceSinkGroup": "Thrust",
+          "ForceMagnitude": "98400",
+          "FuelConverter": {
+            "FuelId": { "TypeId": "GasProperties", "SubtypeId": "Hydrogen" },
+            "Efficiency": "1"
+          },
+          "MaxPowerConsumption": "0.125",
+          "MinPowerConsumption": "0.000000001",
+          "SlowdownFactor": "1",
+          "FlameDamageLengthScale": "0.34",
+          "FlameLengthScale": "1.5",
+          "FlameIdleColor": { "X": "1", "Y": "0.85", "Z": "0.3", "W": "0.75" },
+          "FlameFullColor": { "X": "1", "Y": "0.75", "Z": "0.2", "W": "0.75" },
+          "FlamePointMaterial": "EngineThrustMiddle",
+          "FlameLengthMaterial": "EngineThrustMiddle",
+          "FlameFlare": "LargeGridSmallThruster",
+          "FlameVisibilityDistance": "500",
+          "FlameGlareQuerySize": "1",
+          "PrimarySound": "SmShipSmJetHydrogen",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "Public": "true",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "IsAirTight": "false",
+          "TieredUpdateTimes": { "unsignedInt": ["100", "3600", "0"] },
+          "TargetingGroups": { "string": "Propulsion" },
+          "DLC": "HeavyIndustry",
+          "_xsi:type": "MyObjectBuilder_ThrustDefinition"
+        }
+      ]
+    }
+  }
+}

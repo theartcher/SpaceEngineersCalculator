@@ -1,0 +1,1680 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "PistonBase", "SubtypeId": "LargePistonBase" },
+          "DisplayName": "DisplayName_Block_PistonBase",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Piston.dds",
+          "Description": "Description_Piston",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PistonBase.mwm",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PistonBaseConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PistonBaseConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PistonBaseConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PistonBase",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "PrimarySound": "BlockPiston",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.002",
+          "TopPart": "PistonTop",
+          "Public": "false",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DefaultMaxImpulseAxis": "50000",
+          "DefaultMaxImpulseNonAxis": "50000",
+          "DangerousImpulseThreshold": "100000",
+          "MaxImpulse": "340282300000000000000000000000000000000",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_PistonBaseDefinition",
+          "__text": "//Float.Max"
+        },
+        {
+          "Id": {
+            "TypeId": "ExtendedPistonBase",
+            "SubtypeId": "LargePistonBase"
+          },
+          "DisplayName": "DisplayName_Block_PistonBase",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Piston.dds",
+          "Description": "Description_Piston",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "1" },
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "ModelOffset": { "_x": "0", "_y": "-1.25", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PistonBase.mwm",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PistonBaseConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PistonBaseConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PistonBaseConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ExtendedPistonBase",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "PrimarySound": "BlockPiston",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.002",
+          "TopPart": "PistonTop",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DefaultMaxImpulseAxis": "50000",
+          "DefaultMaxImpulseNonAxis": "50000",
+          "DangerousImpulseThreshold": "100000",
+          "MaxImpulse": "340282300000000000000000000000000000000",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_ExtendedPistonBaseDefinition",
+          "__text": "//Float.Max"
+        },
+        {
+          "Id": { "TypeId": "PistonTop", "SubtypeId": "LargePistonTop" },
+          "DisplayName": "DisplayName_Block_PistonTop",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PistonTop.dds",
+          "Description": "Description_PistonTop",
+          "Public": "true",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\PistonTop.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "LargeTube", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\PistonTopConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\PistonTopConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\PistonTopConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PistonTop",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "PistonBase", "SubtypeId": "SmallPistonBase" },
+          "DisplayName": "DisplayName_Block_PistonBase",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Piston.dds",
+          "Description": "Description_Piston",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\PistonBase.mwm",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\PistonBaseConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1",
+                "_File": "Models\\Cubes\\Small\\PistonBaseConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PistonBase",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "PrimarySound": "BlockPiston",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "TopPart": "PistonTop",
+          "Maximum": "2",
+          "Public": "false",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DefaultMaxImpulseAxis": "50000",
+          "DefaultMaxImpulseNonAxis": "50000",
+          "DangerousImpulseThreshold": "100000",
+          "MaxImpulse": "340282300000000000000000000000000000000",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_PistonBaseDefinition",
+          "__text": "//Float.Max"
+        },
+        {
+          "Id": {
+            "TypeId": "ExtendedPistonBase",
+            "SubtypeId": "SmallPistonBase"
+          },
+          "DisplayName": "DisplayName_Block_PistonBase",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Piston.dds",
+          "Description": "Description_Piston",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "1" },
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "ModelOffset": { "_x": "0", "_y": "-0.25", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\PistonBase.mwm",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "1.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\PistonBaseConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1",
+                "_File": "Models\\Cubes\\Small\\PistonBaseConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "ExtendedPistonBase",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "PrimarySound": "BlockPiston",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "TopPart": "PistonTop",
+          "Maximum": "2",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DefaultMaxImpulseAxis": "50000",
+          "DefaultMaxImpulseNonAxis": "50000",
+          "DangerousImpulseThreshold": "100000",
+          "MaxImpulse": "340282300000000000000000000000000000000",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_ExtendedPistonBaseDefinition",
+          "__text": "//Float.Max"
+        },
+        {
+          "Id": { "TypeId": "PistonTop", "SubtypeId": "SmallPistonTop" },
+          "DisplayName": "DisplayName_Block_PistonTop",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PistonTop.dds",
+          "Description": "Description_PistonTop",
+          "CubeSize": "Small",
+          "Public": "true",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\PistonTop.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.8",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\PistonTopConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\PistonTopConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "PistonTop",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "MotorStator", "SubtypeId": "LargeStator" },
+          "DisplayName": "DisplayName_Block_Rotor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\motor.dds",
+          "Description": "Description_Rotor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "-1.25", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\MotorStator.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\MotorStatorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\MotorStatorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\MotorStatorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorStator",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "PrimarySound": "BlockRotor",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.002",
+          "MaxForceMagnitude": "1E9",
+          "DangerousTorqueThreshold": "3.36E+07",
+          "PropulsionForce": "8000",
+          "RotorPart": "MotorRotor",
+          "RotorDisplacementMin": "-0.4",
+          "RotorDisplacementMax": "0.2",
+          "RotorDisplacementMinSmall": "-0.11",
+          "RotorDisplacementMaxSmall": "0.11",
+          "RotorDisplacementInModel": "0.0",
+          "GuiVisible": "false",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RotorType": "Rotor",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_MotorStatorDefinition"
+        },
+        {
+          "Id": { "TypeId": "MotorRotor", "SubtypeId": "LargeRotor" },
+          "DisplayName": "DisplayName_Block_RotorPart",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RotorPart.dds",
+          "Description": "Description_RotorPart",
+          "BlockPairName": "MotorRotor",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\MotorRotor.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "30" },
+              { "_Subtype": "LargeTube", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Top",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\MotorRotorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\MotorRotorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\MotorRotorConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "MotorStator", "SubtypeId": "SmallStator" },
+          "DisplayName": "DisplayName_Block_Rotor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\motor.dds",
+          "Description": "Description_Rotor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "-0.25", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MotorStator.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "SmallTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\MotorStatorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\MotorStatorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorStator",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PrimarySound": "BlockRotorSmall",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "MaxForceMagnitude": "1E6",
+          "DangerousTorqueThreshold": "448000",
+          "RotorPart": "MotorRotor",
+          "RotorDisplacementMin": "-0.11",
+          "RotorDisplacementMax": "0.11",
+          "RotorDisplacementMinSmall": "-0.11",
+          "RotorDisplacementMaxSmall": "0.11",
+          "RotorDisplacementInModel": "0.045",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RotorType": "Rotor",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_MotorStatorDefinition"
+        },
+        {
+          "Id": { "TypeId": "MotorRotor", "SubtypeId": "SmallRotor" },
+          "DisplayName": "DisplayName_Block_RotorPart",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RotorPart.dds",
+          "Description": "Description_RotorPart",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MotorRotor.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "12" },
+              { "_Subtype": "SmallTube", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Top",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\MotorRotorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\MotorRotorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorRotor",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "RotorPart": "MotorRotor",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedStator",
+            "SubtypeId": "LargeAdvancedStator"
+          },
+          "Public": "true",
+          "DisplayName": "DisplayName_Block_AdvancedRotor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AdvancedMotor_small.dds",
+          "Description": "Description_AdvancedRotor",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "-1.25", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\MotorAdvancedStator.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\MotorAdvancedStatorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\MotorAdvancedStatorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\MotorAdvancedStatorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorAdvancedStator",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "PrimarySound": "BlockRotor",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.002",
+          "MaxForceMagnitude": "1E9",
+          "DangerousTorqueThreshold": "3.36E+07",
+          "RotorPart": "MotorAdvancedRotor",
+          "RotorDisplacementMin": "-0.4",
+          "RotorDisplacementMax": "0.2",
+          "RotorDisplacementMinSmall": "-0.11",
+          "RotorDisplacementMaxSmall": "0.11",
+          "RotorDisplacementInModel": "0.0",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RotorType": "Rotor",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_MotorAdvancedStatorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedRotor",
+            "SubtypeId": "LargeAdvancedRotor"
+          },
+          "DisplayName": "DisplayName_Block_AdvancedRotorPart",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AdvancedRotorPart.dds",
+          "Description": "Description_AdvancedRotorPart",
+          "Public": "true",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\MotorAdvancedRotor.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "30" },
+              { "_Subtype": "LargeTube", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Top",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\MotorAdvancedRotorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\MotorAdvancedRotorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\MotorAdvancedRotorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorAdvancedRotor",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedStator",
+            "SubtypeId": "SmallAdvancedStator"
+          },
+          "Public": "true",
+          "DisplayName": "DisplayName_Block_AdvancedRotor3x3",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AdvancedMotor.dds",
+          "Description": "Description_AdvancedRotor",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "2", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "-0.25", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MotorAdvancedStator.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "SmallTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "4",
+              "_EndY": "4",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\MotorAdvancedStatorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\MotorAdvancedStatorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorAdvancedStator3x3",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PrimarySound": "BlockRotorSmall",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "MaxForceMagnitude": "1E6",
+          "DangerousTorqueThreshold": "448000",
+          "RotorPart": "MotorAdvancedRotor3x3",
+          "RotorDisplacementMin": "-0.02",
+          "RotorDisplacementMax": "0.11",
+          "RotorDisplacementMinSmall": "-0.02",
+          "RotorDisplacementMaxSmall": "0.11",
+          "RotorDisplacementInModel": "0.11",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RotorType": "Rotor",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_MotorStatorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedRotor",
+            "SubtypeId": "SmallAdvancedRotor"
+          },
+          "DisplayName": "DisplayName_Block_AdvancedRotorPart3x3",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AdvancedRotorPart.dds",
+          "Description": "Description_AdvancedRotorPart",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "2", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "-0.25", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MotorAdvancedRotor.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "LargeTube", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Top",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "3",
+              "_EndY": "3",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\MotorAdvancedRotorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\MotorAdvancedRotorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorAdvancedRotor3x3",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "RotorPart": "MotorAdvancedRotor",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedStator",
+            "SubtypeId": "SmallAdvancedStatorSmall"
+          },
+          "Public": "true",
+          "DisplayName": "DisplayName_Block_AdvancedRotor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AdvancedMotor_small.dds",
+          "Description": "Description_AdvancedRotor",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MotorAdvancedStatorSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "SmallTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.25",
+                "_StartY": "0",
+                "_EndX": "0.75",
+                "_EndY": "0.61"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\MotorAdvancedStatorSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\MotorAdvancedStatorSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorAdvancedStator",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "10",
+          "PrimarySound": "BlockRotorSmall",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "MaxForceMagnitude": "1E6",
+          "DangerousTorqueThreshold": "448000",
+          "RotorPart": "MotorAdvancedRotor",
+          "RotorDisplacementMin": "-0.11",
+          "RotorDisplacementMax": "0.11",
+          "RotorDisplacementMinSmall": "-0.11",
+          "RotorDisplacementMaxSmall": "0.11",
+          "RotorDisplacementInModel": "0.045",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "RotorType": "Rotor",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_MotorStatorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedRotor",
+            "SubtypeId": "SmallAdvancedRotorSmall"
+          },
+          "DisplayName": "DisplayName_Block_AdvancedRotorPart",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\AdvancedRotor_Part_small.dds",
+          "Description": "Description_AdvancedRotorPart",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\MotorAdvancedRotorSmall.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "12" },
+              { "_Subtype": "SmallTube", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Top",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\MotorAdvancedRotorSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\MotorAdvancedRotorSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "MotorAdvancedRotor",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "RotorPart": "MotorAdvancedRotor",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "MotorAdvancedStator", "SubtypeId": "LargeHinge" },
+          "DisplayName": "DisplayName_Block_LargeHinge",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Hinge.dds",
+          "Description": "Description_Hinge",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Hinge.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Right",
+              "_StartX": "0.2",
+              "_StartY": "0.2",
+              "_EndX": "0.8",
+              "_EndY": "0.8"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HingeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HingeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HingeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeHinge",
+          "BuildTimeSeconds": "16",
+          "UseModelIntersection": "true",
+          "RotorPart": "LargeHingeHead",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.002",
+          "MaxForceMagnitude": "1E9",
+          "DangerousTorqueThreshold": "3.36E+07",
+          "RotorDisplacementMin": "0",
+          "RotorDisplacementMax": "0",
+          "RotorDisplacementMinSmall": "0",
+          "RotorDisplacementMaxSmall": "0",
+          "RotorDisplacementInModel": "0",
+          "MinAngleDeg": "-90",
+          "MaxAngleDeg": "90",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DamageEffectId": "212",
+          "DamagedSound": "ParticleHeavyMech",
+          "PrimarySound": "BlockRotor",
+          "RotorType": "Hinge",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_MotorAdvancedStatorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedRotor",
+            "SubtypeId": "LargeHingeHead"
+          },
+          "DisplayName": "DisplayName_Block_LargeHingeHead",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HingeHead.dds",
+          "Description": "Description_HingeHead",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HingeHead.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "8" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Left",
+              "_StartX": "0.2",
+              "_StartY": "0.2",
+              "_EndX": "0.8",
+              "_EndY": "0.8"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\HingeHeadConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "LargeHingeHead",
+          "BuildTimeSeconds": "10",
+          "UseModelIntersection": "true",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "MotorAdvancedStator", "SubtypeId": "MediumHinge" },
+          "DisplayName": "DisplayName_Block_MediumHinge",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HingeMedium.dds",
+          "Description": "Description_Hinge",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HingeMedium.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Right",
+              "_StartX": "0.1",
+              "_StartY": "0",
+              "_EndX": "2.9",
+              "_EndY": "3"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\HingeMediumConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\HingeMediumConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeHinge",
+          "BuildTimeSeconds": "12",
+          "UseModelIntersection": "true",
+          "RotorPart": "LargeHingeHead",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.002",
+          "MaxForceMagnitude": "1E9",
+          "DangerousTorqueThreshold": "3.36E+07",
+          "RotorDisplacementMin": "0",
+          "RotorDisplacementMax": "0",
+          "RotorDisplacementMinSmall": "0",
+          "RotorDisplacementMaxSmall": "0",
+          "RotorDisplacementInModel": "0",
+          "MinAngleDeg": "-90",
+          "MaxAngleDeg": "90",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DamageEffectId": "212",
+          "DamagedSound": "ParticleHeavyMech",
+          "PrimarySound": "BlockRotor",
+          "RotorType": "Hinge",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_MotorAdvancedStatorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedRotor",
+            "SubtypeId": "MediumHingeHead"
+          },
+          "DisplayName": "DisplayName_Block_MediumHingeHead",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HingeHeadMedium.dds",
+          "Description": "Description_HingeHead",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HingeHeadMedium.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Left",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "3",
+              "_EndY": "3"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\HingeHeadMediumConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "LargeHingeHead",
+          "BuildTimeSeconds": "8",
+          "UseModelIntersection": "true",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "MotorAdvancedStator", "SubtypeId": "SmallHinge" },
+          "DisplayName": "DisplayName_Block_SmallHinge",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HingeSmall.dds",
+          "Description": "Description_Hinge",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HingeSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Right",
+              "_StartX": "0.1",
+              "_StartY": "0.1",
+              "_EndX": "0.9",
+              "_EndY": "0.9"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\HingeSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\HingeSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "SmallHinge",
+          "BuildTimeSeconds": "8",
+          "UseModelIntersection": "true",
+          "RotorPart": "SmallHingeHead",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.002",
+          "MaxForceMagnitude": "1E9",
+          "DangerousTorqueThreshold": "3.36E+07",
+          "RotorDisplacementMin": "0",
+          "RotorDisplacementMax": "0",
+          "RotorDisplacementMinSmall": "0",
+          "RotorDisplacementMaxSmall": "0",
+          "RotorDisplacementInModel": "0",
+          "MinAngleDeg": "-90",
+          "MaxAngleDeg": "90",
+          "SafetyDetach": "5",
+          "SafetyDetachMax": "5",
+          "DamageEffectId": "212",
+          "DamagedSound": "ParticleHeavyMech",
+          "PrimarySound": "BlockRotor",
+          "RotorType": "Hinge",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_MotorAdvancedStatorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "MotorAdvancedRotor",
+            "SubtypeId": "SmallHingeHead"
+          },
+          "BlockPairName": ["SmallHingeHead", "SmallHingeHead"],
+          "DisplayName": "DisplayName_Block_SmallHingeHead",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HingeHeadSmall.dds",
+          "Description": "Description_HingeHead",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HingeHeadSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "LargeTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Left",
+              "_StartX": "0.1",
+              "_StartY": "0.1",
+              "_EndX": "0.9",
+              "_EndY": "0.9"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\HingeHeadSmallConstruction_1.mwm"
+            }
+          },
+          "BuildTimeSeconds": "6",
+          "UseModelIntersection": "true",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "PCU": "1"
+        }
+      ]
+    }
+  }
+}

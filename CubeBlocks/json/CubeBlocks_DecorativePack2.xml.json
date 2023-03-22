@@ -1,0 +1,3599 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "VendingMachine", "SubtypeId": "FoodDispenser" },
+          "DisplayName": "DisplayName_Block_FoodDispenser",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\FoodDispenser.dds",
+          "Description": "Description_FoodDispenser",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\FoodDispenser.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildTimeSeconds": "12",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.0",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "RequiredPowerInput": "0.002",
+          "DefaultItems": {
+            "MyObjectBuilder_StoreItem": [
+              {
+                "Id": "1136189434942549542",
+                "Item": {
+                  "_Type": "MyObjectBuilder_ConsumableItem",
+                  "_Subtype": "ClangCola"
+                },
+                "ItemType": "PhysicalItem",
+                "Amount": "1",
+                "RemovedAmount": "0",
+                "PricePerUnit": "100",
+                "StoreItemType": "Offer",
+                "UpdateCount": "0",
+                "PrefabTotalPcu": "0",
+                "PricePerUnitDiscount": "0"
+              },
+              {
+                "Id": "1082521839310786643",
+                "Item": {
+                  "_Type": "MyObjectBuilder_ConsumableItem",
+                  "_Subtype": "CosmicCoffee"
+                },
+                "ItemType": "PhysicalItem",
+                "Amount": "1",
+                "RemovedAmount": "0",
+                "PricePerUnit": "100",
+                "StoreItemType": "Offer",
+                "UpdateCount": "0",
+                "PrefabTotalPcu": "0",
+                "PricePerUnitDiscount": "0"
+              }
+            ]
+          },
+          "ThrowOutDummy": "FoodDispenserSpawn",
+          "BlockPairName": "FoodDispenser",
+          "ScreenAreas": {
+            "ScreenArea": {
+              "_Name": "VendingScreen_01",
+              "_DisplayName": "DisplayName_Screen_Large",
+              "_TextureResolution": "1024",
+              "_ScreenWidth": "15",
+              "_ScreenHeight": "9",
+              "_Script": "TSS_VendingMachine"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\FoodDispenserConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\FoodDispenserConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\FoodDispenserConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ActionSound": "BlockCollect",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "10",
+          "EmissiveColorPreset": "Default",
+          "DLC": "DecorativeBlocks2",
+          "AdditionalEmissiveMaterials": { "string": "FoodDispenser" },
+          "_xsi:type": "MyObjectBuilder_VendingMachineDefinition"
+        },
+        {
+          "Id": { "TypeId": "Jukebox", "SubtypeId": "Jukebox" },
+          "DisplayName": "DisplayName_Block_Jukebox",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Jukebox.dds",
+          "Description": "Description_Jukebox",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\Jukebox.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "4" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": {
+              "_Name": "CockpitScreen_01",
+              "_DisplayName": "DisplayName_Screen_Large",
+              "_TextureResolution": "1024",
+              "_ScreenWidth": "15",
+              "_ScreenHeight": "9",
+              "_Script": "TSS_Jukebox"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\JukeboxConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\JukeboxConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\JukeboxConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "25",
+          "RequiredPowerInput": "0.02",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Default",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_JukeboxDefinition"
+        },
+        {
+          "Id": { "TypeId": "LCDPanelsBlock", "SubtypeId": "LabEquipment" },
+          "DisplayName": "DisplayName_Block_LabEquipment",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LabEquipment.dds",
+          "Description": "Description_LabEquipment",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\LabEquipment.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "BulletproofGlass", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.6",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\LabEquipmentConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\LabEquipmentConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\LabEquipmentConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "9",
+                "_ScreenHeight": "9"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "256",
+                "_ScreenWidth": "7",
+                "_ScreenHeight": "4"
+              }
+            ]
+          },
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0001",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "12",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_LCDPanelsBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Shower" },
+          "DisplayName": "DisplayName_Block_Shower",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Shower.dds",
+          "Description": "Description_Shower",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\Shower.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "BulletproofGlass", "_Count": "8" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ShowerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ShowerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ShowerConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "YHalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "14",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "WindowWall" },
+          "DisplayName": "DisplayName_Block_WindowWall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\WindowWall.dds",
+          "Description": "Description_WindowWall",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\WindowWallCenter.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "3",
+                "_PropertiesMask": "3",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.7",
+                "_EndX": "0.6",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.6",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\WindowWallCenterConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\WindowWallCenterConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\WindowWallCenterConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "WindowWallLeft" },
+          "DisplayName": "DisplayName_Block_WindowWallLeft",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\WindowWallLeft.dds",
+          "Description": "Description_WindowWallLeft",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\WindowWallLeft.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "BulletproofGlass", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.7",
+                "_StartY": "0.0",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "3",
+                "_PropertiesMask": "3",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\WindowWallLeftConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\WindowWallLeftConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\WindowWallLeftConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "MirroringBlock": "WindowWallRight",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "14",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "WindowWallRight" },
+          "DisplayName": "DisplayName_Block_WindowWallRight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\WindowWallRight.dds",
+          "Description": "Description_WindowWallRight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\WindowWallRight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "BulletproofGlass", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.3",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "3",
+                "_PropertiesMask": "3",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.7",
+                "_EndX": "0.6",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\WindowWallRightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\WindowWallRightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\WindowWallRightConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "MirroringBlock": "WindowWallLeft",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "14",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2"
+        },
+        {
+          "Id": { "TypeId": "LCDPanelsBlock", "SubtypeId": "MedicalStation" },
+          "DisplayName": "DisplayName_Block_MedicalStation",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\MedicalStation.dds",
+          "Description": "Description_MedicalStation",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\MedicalStation.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Medical", "_Count": "1" },
+              { "_Subtype": "Display", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0.32",
+                "_EndX": "0.3",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.32"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0.32",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.37"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\MedicalStationConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\MedicalStationConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\MedicalStationConstruction_3.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "15",
+                "_ScreenHeight": "9"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_Keyboard",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "15",
+                "_ScreenHeight": "9"
+              }
+            ]
+          },
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0001",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "12",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_LCDPanelsBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "TextPanel", "SubtypeId": "TransparentLCDLarge" },
+          "DisplayName": "DisplayName_Block_TransparentLCD",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TransparentLCD.dds",
+          "Description": "Description_TransparentLCD",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\TransparentLCD.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "Computer", "_Count": "6" },
+              { "_Subtype": "Display", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BlockPairName": "TransparentLCD",
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Large\\TransparentLCD_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\TransparentLCD_Construction_2.mwm"
+              }
+            ]
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "TransparentScreenArea",
+                "_DisplayName": "TransparentScreenArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "TransparentScreenArea90",
+                "_DisplayName": "TransparentScreenArea90",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "TransparentScreenArea180",
+                "_DisplayName": "TransparentScreenArea270",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "TransparentScreenArea270",
+                "_DisplayName": "TransparentScreenArea180",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "6",
+          "MaxScreenRenderDistance": "120",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00002",
+          "PanelMaterialName": "TransparentScreenArea",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PCU": "50",
+          "DLC": "DecorativeBlocks2",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "TextPanel", "SubtypeId": "TransparentLCDSmall" },
+          "DisplayName": "DisplayName_Block_TransparentLCD",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\TransparentLCD.dds",
+          "Description": "Description_TransparentLCD",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Small\\TransparentLCD.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "3" },
+              { "_Subtype": "BulletproofGlass", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BlockPairName": "TransparentLCD",
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\TransparentLCD_Construction_1.mwm"
+            }
+          },
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "TransparentScreenArea",
+                "_DisplayName": "TransparentScreenArea",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "TransparentScreenArea90",
+                "_DisplayName": "TransparentScreenArea90",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "TransparentScreenArea180",
+                "_DisplayName": "TransparentScreenArea270",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              },
+              {
+                "_Name": "TransparentScreenArea270",
+                "_DisplayName": "TransparentScreenArea180",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "1",
+                "_ScreenHeight": "1"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "3",
+          "MaxScreenRenderDistance": "60",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00002",
+          "PanelMaterialName": "TransparentScreenArea",
+          "PCU": "50",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DLC": "DecorativeBlocks2",
+          "_xsi:type": "MyObjectBuilder_TextPanelDefinition"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Catwalk" },
+          "DisplayName": "DisplayName_Block_GratedCatwalk",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalk.dds",
+          "Description": "Description_GratedCatwalk",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedCatwalk.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "BlockPairName": "Catwalk",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "CatwalkCorner" },
+          "DisplayName": "DisplayName_Block_GratedCatwalkCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkCorner.dds",
+          "Description": "Description_GratedCatwalkCorner",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedCatwalkCorner.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "14" },
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "32" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "YHalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "CatwalkStraight" },
+          "DisplayName": "DisplayName_Block_GratedCatwalkStraight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkStraight.dds",
+          "Description": "Description_GratedCatwalkStraight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedCatwalkStraight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "14" },
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "32" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkStraightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkStraightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkStraightConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "CatwalkWall" },
+          "DisplayName": "DisplayName_Block_GratedCatwalkWall",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkWall.dds",
+          "Description": "Description_GratedCatwalkWall",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedCatwalkWall.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "12" },
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "26" },
+              { "_Subtype": "Construction", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkWallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkWallConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkWallConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "CatwalkRailingEnd" },
+          "DisplayName": "DisplayName_Block_GratedCatwalkRailingEnd",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkRailingEnd.dds",
+          "Description": "Description_GratedCatwalkStraight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedCatwalkRailingEnd.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "16" },
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "38" },
+              { "_Subtype": "Construction", "_Count": "12" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingEndConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingEndConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingEndConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "CatwalkRailingHalfRight"
+          },
+          "DisplayName": "DisplayName_Block_GratedCatwalkRailingHalfRight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkRailingHalfRight.dds",
+          "Description": "Description_GratedCatwalkWall",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfRight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "16" },
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "36" },
+              { "_Subtype": "Construction", "_Count": "12" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfRightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfRightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfRightConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "CatwalkRailingHalfLeft",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "CatwalkRailingHalfLeft"
+          },
+          "DisplayName": "DisplayName_Block_GratedCatwalkRailingHalfLeft",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkRailingHalfLeft.dds",
+          "Description": "Description_GratedCatwalkWall",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfLeft.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "16" },
+              { "_Subtype": "Girder", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "36" },
+              { "_Subtype": "Construction", "_Count": "12" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfLeftConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfLeftConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfLeftConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "CatwalkRailingHalfRight",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "CatwalkHalf" },
+          "DisplayName": "DisplayName_Block_HalfGratedCatwalk",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfGratedCatwalk.dds",
+          "Description": "Description_GratedCatwalk",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\HalfGratedCatwalk.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "Girder", "_Count": "2" },
+              { "_Subtype": "SmallTube", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "8",
+          "BlockPairName": "HalfGratedCatwalk",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "CatwalkHalfRailing" },
+          "DisplayName": "DisplayName_Block_HalfGratedCatwalkRailing",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfGratedCatwalkRailing.dds",
+          "Description": "Description_GratedCatwalk",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\HalfGratedCatwalkRailing.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Girder", "_Count": "2" },
+              { "_Subtype": "SmallTube", "_Count": "22" },
+              { "_Subtype": "Construction", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkRailingConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkRailingConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkRailingConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "8",
+          "BlockPairName": "HalfGratedCatwalkRailing",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "CatwalkHalfCenterRailing"
+          },
+          "DisplayName": "DisplayName_Block_HalfGratedCatwalkCenterRailing",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfGratedCatwalkInsideRailing.dds",
+          "Description": "Description_GratedCatwalk",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\HalfGratedCatwalkInsideRailing.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "Girder", "_Count": "2" },
+              { "_Subtype": "SmallTube", "_Count": "16" },
+              { "_Subtype": "Construction", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkInsideRailingConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkInsideRailingConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkInsideRailingConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "8",
+          "BlockPairName": "HalfGratedCatwalkCenterRailing",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "CatwalkHalfOuterRailing"
+          },
+          "DisplayName": "DisplayName_Block_HalfGratedCatwalkOuterRailing",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HalfGratedCatwalkOuterRailing.dds",
+          "Description": "Description_GratedCatwalk",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\HalfGratedCatwalkOuterRailing.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "Girder", "_Count": "2" },
+              { "_Subtype": "SmallTube", "_Count": "16" },
+              { "_Subtype": "Construction", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Front",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkOuterRailingConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkOuterRailingConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HalfGratedCatwalkOuterRailingConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "8",
+          "BlockPairName": "HalfGratedCatwalkOuterRailing",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "GratedStairs" },
+          "DisplayName": "DisplayName_Block_GratedStairs",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedStairs.dds",
+          "Description": "Description_GratedStairs",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedStairs.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "12" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "InteriorPlate", "_Count": "16" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedStairsConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedStairsConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedStairsConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "GratedHalfStairs" },
+          "DisplayName": "DisplayName_Block_GratedHalfStairs",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedHalfStairs.dds",
+          "Description": "Description_GratedHalfStairs",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedHalfStairs.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Right",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedHalfStairsConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedHalfStairsConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedHalfStairsConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "GratedHalfStairsMirrored",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "8",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "GratedHalfStairsMirrored"
+          },
+          "DisplayName": "DisplayName_Block_GratedHalfStairsMirrored",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\GratedHalfStairsMirrored.dds",
+          "Description": "Description_GratedHalfStairs",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\GratedHalfStairsMirrored.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "8" },
+              { "_Subtype": "Construction", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\GratedHalfStairsMirroredConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\GratedHalfStairsMirroredConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\GratedHalfStairsMirroredConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "GratedHalfStairs",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "8",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "RailingStraight" },
+          "DisplayName": "DisplayName_Block_RailingStraight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RailingStraight.dds",
+          "Description": "Description_RailingStraight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RailingStraight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RailingStraightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RailingStraightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RailingStraightConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "BuildTimeSeconds": "6",
+          "BlockPairName": "RailingStraight",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "RailingDouble" },
+          "DisplayName": "DisplayName_Block_RailingDouble",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RailingDouble.dds",
+          "Description": "Description_RailingDouble",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RailingDouble.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Construction", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RailingDoubleConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RailingDoubleConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RailingDoubleConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "BuildTimeSeconds": "6",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "RailingCorner" },
+          "DisplayName": "DisplayName_Block_RailingCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RailingCorner.dds",
+          "Description": "Description_RailingCorner",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RailingCorner.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "SmallTube", "_Count": "12" },
+              { "_Subtype": "Construction", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RailingCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RailingCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RailingCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "YHalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "BuildTimeSeconds": "6",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "RailingDiagonal" },
+          "DisplayName": "DisplayName_Block_RailingDiagonal",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RailingDiagonal.dds",
+          "Description": "Description_RailingDiagonal",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RailingDiagonal.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "6" },
+              { "_Subtype": "SmallTube", "_Count": "9" },
+              { "_Subtype": "Construction", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.4",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.4",
+                "_EndY": "0.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.8",
+                "_EndX": "0.2",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RailingDiagonalConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RailingDiagonalConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RailingDiagonalConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "YHalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "BuildTimeSeconds": "6",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "RailingHalfRight" },
+          "DisplayName": "DisplayName_Block_RailingHalfRight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RailingHalfRight.dds",
+          "Description": "Description_RailingStraight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RailingHalfRight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RailingHalfRightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RailingHalfRightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RailingHalfRightConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "MirroringBlock": "RailingHalfLeft",
+          "BuildTimeSeconds": "6",
+          "BlockPairName": "RailingHalfRight",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "RailingHalfLeft" },
+          "DisplayName": "DisplayName_Block_RailingHalfLeft",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RailingHalfLeft.dds",
+          "Description": "Description_RailingStraight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RailingHalfLeft.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RailingHalfLeftConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RailingHalfLeftConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RailingHalfLeftConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "MirroringBlock": "RailingHalfRight",
+          "BuildTimeSeconds": "6",
+          "BlockPairName": "RailingHalfLeft",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "RailingCenter" },
+          "DisplayName": "DisplayName_Block_RailingCenter",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RailingCenter.dds",
+          "Description": "Description_RailingStraight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RailingCenter.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "4" },
+              { "_Subtype": "SmallTube", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.45",
+                "_EndX": "0.1",
+                "_EndY": "0.55",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.45",
+                "_EndX": "1",
+                "_EndY": "0.55"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.45",
+                "_StartY": "0",
+                "_EndX": "0.55",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.45",
+                "_StartY": "0",
+                "_EndX": "0.55",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RailingCenterConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RailingCenterConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RailingCenterConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "BuildTimeSeconds": "6",
+          "BlockPairName": "RailingCenter",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Railing2x1Right" },
+          "DisplayName": "DisplayName_Block_2x1RailingRight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\2x1RailingRight.dds",
+          "Description": "Description_RailingStraight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\2x1RailingRight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "SmallTube", "_Count": "7" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.45",
+                "_EndX": "0.1",
+                "_EndY": "0.55",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.45",
+                "_StartY": "0",
+                "_EndX": "0.55",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\2x1RailingRightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\2x1RailingRightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\2x1RailingRightConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "Railing2x1Left",
+          "BuildTimeSeconds": "6",
+          "BlockPairName": "2x1RailingRight",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Railing2x1Left" },
+          "DisplayName": "DisplayName_Block_2x1RailingLeft",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\2x1RailingLeft.dds",
+          "Description": "Description_RailingStraight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\2x1RailingLeft.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "SmallTube", "_Count": "7" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SmallTube", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.45",
+                "_EndX": "1",
+                "_EndY": "0.55",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.45",
+                "_StartY": "0",
+                "_EndX": "0.55",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\2x1RailingLeftConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\2x1RailingLeftConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\2x1RailingLeftConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "Railing2x1Right",
+          "BuildTimeSeconds": "6",
+          "BlockPairName": "2x1RailingLeft",
+          "PCU": "1",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "ReflectorLight",
+            "SubtypeId": "RotatingLightLarge"
+          },
+          "DisplayName": "DisplayName_Block_RotatingLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RotatingLight.dds",
+          "Description": "Description_RotatingLight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RotatingLight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_StartX": "0.4",
+              "_StartY": "0.4",
+              "_EndX": "0.6",
+              "_EndY": "0.6",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RotatingLightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RotatingLightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RotatingLightConstruction_3.mwm"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BlockPairName": "RotatingLight",
+          "PCU": "25",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false",
+          "RotationSpeedBounds": {
+            "_Min": "0.01",
+            "_Max": "0.1",
+            "_Default": "0.08"
+          },
+          "LightRadius": { "_Min": "1", "_Max": "5", "_Default": "1" },
+          "LightReflectorRadius": {
+            "_Min": "10",
+            "_Max": "30",
+            "_Default": "20"
+          },
+          "LightFalloff": { "_Min": "0.1", "_Max": "3", "_Default": "0.5" },
+          "LightIntensity": { "_Min": "0.5", "_Max": "10", "_Default": "6" },
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "Flare": "SpotlightSmall",
+          "PointLightEmissiveMaterial": "Emissive",
+          "SpotLightEmissiveMaterial": "EmissiveSpotlight",
+          "ReflectorThickness": "5.0",
+          "ReflectorTexture": "Textures\\Lights\\reflector.dds",
+          "ReflectorConeDegrees": "40",
+          "ReflectorConeMaterial": "ReflectorConeNarrow",
+          "_xsi:type": "MyObjectBuilder_ReflectorBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "ReflectorLight",
+            "SubtypeId": "RotatingLightSmall"
+          },
+          "DisplayName": "DisplayName_Block_RotatingLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RotatingLight.dds",
+          "Description": "Description_RotatingLight",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\RotatingLight.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "-1" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Back",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "1",
+              "_Default": "true"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\RotatingLightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\RotatingLightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RotatingLightConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "4",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "BlockPairName": "RotatingLight",
+          "PCU": "25",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false",
+          "RotationSpeedBounds": {
+            "_Min": "0.01",
+            "_Max": "0.1",
+            "_Default": "0.08"
+          },
+          "LightRadius": { "_Min": "1", "_Max": "5", "_Default": "1" },
+          "LightReflectorRadius": {
+            "_Min": "10",
+            "_Max": "30",
+            "_Default": "20"
+          },
+          "LightFalloff": { "_Min": "0.1", "_Max": "3", "_Default": "0.5" },
+          "LightIntensity": { "_Min": "0.5", "_Max": "10", "_Default": "6" },
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "Flare": "SpotlightSmall",
+          "PointLightEmissiveMaterial": "Emissive",
+          "SpotLightEmissiveMaterial": "EmissiveSpotlight",
+          "ReflectorThickness": "5.0",
+          "ReflectorTexture": "Textures\\Lights\\reflector.dds",
+          "ReflectorConeDegrees": "40",
+          "ReflectorConeMaterial": "ReflectorConeNarrow",
+          "_xsi:type": "MyObjectBuilder_ReflectorBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Freight1" },
+          "DisplayName": "DisplayName_Block_Freight1",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Freight_I.dds",
+          "Description": "Description_Freight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\Freight_I.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "8" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.3",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.7",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Freight_I_Construction_1.mwm"
+            }
+          },
+          "VoxelPlacement": {
+            "StaticMode": { "PlacementMode": "Both" },
+            "DynamicMode": { "PlacementMode": "Both" }
+          },
+          "MirroringX": "ZHalfX",
+          "MirroringY": "HalfX",
+          "MirroringZ": "XHalfX",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "8",
+          "PCU": "10",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Freight2" },
+          "DisplayName": "DisplayName_Block_Freight2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Freight_II.dds",
+          "Description": "Description_Freight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\Freight_II.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "16" },
+              { "_Subtype": "InteriorPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.4",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.3",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Freight_II_Construction_1.mwm"
+            }
+          },
+          "VoxelPlacement": {
+            "StaticMode": { "PlacementMode": "Both" },
+            "DynamicMode": { "PlacementMode": "Both" }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "10",
+          "PCU": "10",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "Freight3" },
+          "DisplayName": "DisplayName_Block_Freight3",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Freight_III.dds",
+          "Description": "Description_Freight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "GuiVisible": "false",
+          "Model": "Models\\Cubes\\Large\\Freight_III.mwm",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "24" },
+              { "_Subtype": "InteriorPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Construction", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.4",
+                "_StartY": "0.7",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.3",
+                "_EndY": "0.3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Freight_III_Construction_1.mwm"
+            }
+          },
+          "VoxelPlacement": {
+            "StaticMode": { "PlacementMode": "Both" },
+            "DynamicMode": { "PlacementMode": "Both" }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "HasInventory": "false",
+          "BuildTimeSeconds": "12",
+          "PCU": "10",
+          "DLC": "DecorativeBlocks2",
+          "IsAirTight": "false"
+        }
+      ]
+    }
+  }
+}

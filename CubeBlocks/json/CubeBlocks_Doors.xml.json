@@ -1,0 +1,1149 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "Door", "SubtypeId": "" },
+          "DisplayName": "DisplayName_Block_Door",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\door.dds",
+          "Description": "Description_Door",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\door.mwm",
+          "PlaceDecals": "false",
+          "OpenSound": "BlockDoorSmallOpen",
+          "CloseSound": "BlockDoorSmallClose",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "6" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "SteelPlate", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_PropertiesMask": "1",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_PropertiesMask": "1",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_ExclusionMask": "1",
+                "_PropertiesMask": "2",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.325",
+                "_EndX": "0.25",
+                "_EndY": "0.675",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.75",
+                "_StartY": "0.325",
+                "_EndX": "1",
+                "_EndY": "0.675"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\DoorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\DoorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\DoorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Door",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DisassembleRatio": "1.5",
+          "ResourceSinkGroup": "Doors",
+          "MaxOpen": "1.2",
+          "OpeningSpeed": "3",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "_xsi:type": "MyObjectBuilder_DoorDefinition"
+        },
+        {
+          "Id": { "TypeId": "Door", "SubtypeId": "SmallDoor" },
+          "DisplayName": "DisplayName_Block_Door",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SmallDoor.dds",
+          "Description": "Description_Door",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "5", "_y": "4", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\door.mwm",
+          "PlaceDecals": "false",
+          "OpenSound": "BlockDoorSmallOpen",
+          "CloseSound": "BlockDoorSmallClose",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "SmallTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "4",
+                "_StartY": "0",
+                "_EndX": "5",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\DoorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\DoorConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Door",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "DisassembleRatio": "1.2",
+          "ResourceSinkGroup": "Doors",
+          "MaxOpen": "0.96",
+          "OpeningSpeed": "2.5",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "_xsi:type": "MyObjectBuilder_DoorDefinition"
+        },
+        {
+          "Id": { "TypeId": "AirtightHangarDoor", "SubtypeId": "" },
+          "DisplayName": "DisplayName_Block_AirtightHangarDoor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HangarDoor.dds",
+          "Description": "Description_HangarDoor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "2.5", "_z": "0" },
+          "Center": { "_x": "0", "_y": "2", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HangarDoor_base.mwm",
+          "Sound": "BlockDoorHangar",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "250" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "40" },
+              { "_Subtype": "Motor", "_Count": "16" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "SteelPlate", "_Count": "100" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.15",
+                "_StartY": "2",
+                "_EndX": "0.3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.15",
+                "_StartY": "2",
+                "_EndX": "0.3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "2",
+                "_EndX": "0.85",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "2",
+                "_EndX": "0.85",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.04",
+                "_EndX": "1",
+                "_EndY": "0.96",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\large\\HangarDoorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\large\\HangarDoorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\large\\HangarDoorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "AirtightHangarDoor",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ResourceSinkGroup": "Doors",
+          "PowerConsumptionIdle": "0.00001",
+          "PowerConsumptionMoving": "0.001",
+          "OpeningSpeed": "0.1",
+          "SubpartMovementDistance": "2.5",
+          "EmissiveColorPreset": "Default",
+          "UseNeighbourOxygenRooms": "true",
+          "PhysicalMaterial": "Metal",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "_xsi:type": "MyObjectBuilder_AirtightHangarDoorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "AirtightSlideDoor",
+            "SubtypeId": "LargeBlockSlideDoor"
+          },
+          "DisplayName": "DisplayName_Block_AirtightSlideDoor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SlideDoor.dds",
+          "Description": "Description_Door",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Center": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\SlideDoor.mwm",
+          "OpenSound": "BlockDoorSlidingOpen",
+          "CloseSound": "BlockDoorSlidingClose",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "BulletproofGlass", "_Count": "15" },
+              { "_Subtype": "SteelPlate", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.05",
+                "_StartY": "0",
+                "_EndX": "0.95",
+                "_EndY": "0.05"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.05",
+                "_StartY": "0.95",
+                "_EndX": "0.95",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.05",
+                "_StartY": "0",
+                "_EndX": "0.95",
+                "_EndY": "0.05"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.05",
+                "_StartY": "0.95",
+                "_EndX": "0.95",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\SlideDoor_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\SlideDoor_Construction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\SlideDoor_Construction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "AirtightSlide Door",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DisassembleRatio": "1.5",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ResourceSinkGroup": "Doors",
+          "PowerConsumptionIdle": "0.00001",
+          "PowerConsumptionMoving": "0.001",
+          "OpeningSpeed": "1.4",
+          "SubpartMovementDistance": "2.5",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "_xsi:type": "MyObjectBuilder_AirtightSlideDoorDefinition"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "ArmorCenter" },
+          "DisplayName": "DisplayName_Block_ArmorCenter",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ArmorCenter.dds",
+          "Description": "Description_BlastDoor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ArmorCenter.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "125" },
+              { "_Subtype": "SteelPlate", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.3",
+                "_File": "Models\\Cubes\\Large\\ArmorCenterConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.6",
+                "_File": "Models\\Cubes\\Large\\ArmorCenterConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\ArmorCenterConstruction_3.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BlockPairName": "ArmorCenter",
+          "DeformationRatio": "0.2",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "18",
+          "DisassembleRatio": "3",
+          "Public": "true",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "ArmorCorner" },
+          "DisplayName": "DisplayName_Block_ArmorCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ArmorCorner.dds",
+          "Description": "Description_BlastDoor",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ArmorCorner.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "105" },
+              { "_Subtype": "SteelPlate", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.3",
+                "_File": "Models\\Cubes\\Large\\ArmorCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.6",
+                "_File": "Models\\Cubes\\Large\\ArmorCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\ArmorCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.3",
+                "_EndX": "0.4",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.38",
+                "_StartY": "0.0",
+                "_EndX": "0.62",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.38",
+                "_EndX": "1.0",
+                "_EndY": "0.62"
+              }
+            ]
+          },
+          "BlockPairName": "ArmorCorner",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "DeformationRatio": "0.2",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "DisassembleRatio": "3",
+          "Public": "true",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "ArmorInvCorner" },
+          "DisplayName": "DisplayName_Block_ArmorInvCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\BlastDoorCornerInverted.dds",
+          "Description": "Description_BlastDoor",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ArmorInvCorner.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "120" },
+              { "_Subtype": "SteelPlate", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.3",
+                "_File": "Models\\Cubes\\Large\\ArmorInvCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.6",
+                "_File": "Models\\Cubes\\Large\\ArmorInvCornerConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\ArmorInvCornerConstruction_3.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.3",
+                "_EndX": "0.4",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BlockPairName": "ArmorInvCorner",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "DeformationRatio": "0.2",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "16",
+          "DisassembleRatio": "3",
+          "Public": "true",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "ArmorSide" },
+          "DisplayName": "DisplayName_Block_ArmorSide",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ArmorSide.dds",
+          "Description": "Description_BlastDoor",
+          "GuiVisible": "false",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ArmorSide.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "115" },
+              { "_Subtype": "SteelPlate", "_Count": "15" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.3",
+                "_File": "Models\\Cubes\\Large\\ArmorSideConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.6",
+                "_File": "Models\\Cubes\\Large\\ArmorSideConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\ArmorSideConstruction_3.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.38",
+                "_EndX": "1.0",
+                "_EndY": "0.62"
+              }
+            ]
+          },
+          "BlockPairName": "ArmorSide",
+          "MirroringY": "X",
+          "DeformationRatio": "0.2",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "DisassembleRatio": "3",
+          "Public": "true",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallArmorCenter" },
+          "DisplayName": "DisplayName_Block_ArmorCenter",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ArmorCenter.dds",
+          "Description": "Description_BlastDoor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ArmorCenter.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\ArmorCenterConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\ArmorCenterConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BlockPairName": "ArmorCenter",
+          "EdgeType": "Light",
+          "DeformationRatio": "0.24",
+          "BuildTimeSeconds": "5",
+          "DisassembleRatio": "3",
+          "Public": "true",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallArmorCorner" },
+          "DisplayName": "DisplayName_Block_ArmorCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ArmorCorner.dds",
+          "Description": "Description_BlastDoor",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ArmorCorner.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\ArmorCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\ArmorCornerConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.3",
+                "_EndX": "0.4",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.38",
+                "_StartY": "0.0",
+                "_EndX": "0.62",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.38",
+                "_EndX": "1.0",
+                "_EndY": "0.62"
+              }
+            ]
+          },
+          "BlockPairName": "ArmorCorner",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "DeformationRatio": "0.24",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "3",
+          "Public": "true",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallArmorInvCorner" },
+          "DisplayName": "DisplayName_Block_ArmorInvCorner",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\BlastDoorCornerInverted.dds",
+          "Description": "Description_BlastDoor",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ArmorInvCorner.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\ArmorInvCornerConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\ArmorInvCornerConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.3",
+                "_EndX": "0.4",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.4",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BlockPairName": "ArmorInvCorner",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "DeformationRatio": "0.24",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "3",
+          "Public": "true",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallArmorSide" },
+          "DisplayName": "DisplayName_Block_ArmorSide",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ArmorSide.dds",
+          "Description": "Description_BlastDoor",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ArmorSide.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\ArmorSideConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Small\\ArmorSideConstruction_2.mwm"
+              }
+            ]
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0.0",
+                "_EndX": "0.9",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "1.0"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.1",
+                "_EndX": "1.0",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.38",
+                "_EndX": "1.0",
+                "_EndY": "0.62"
+              }
+            ]
+          },
+          "BlockPairName": "ArmorSide",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "DeformationRatio": "0.24",
+          "BuildTimeSeconds": "3",
+          "DisassembleRatio": "3",
+          "Public": "true",
+          "PCU": "1",
+          "IsAirTight": "false"
+        }
+      ]
+    }
+  }
+}

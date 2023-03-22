@@ -1,0 +1,26 @@
+{
+  "name": "spacengineerscalculator",
+  "version": "1.0.0",
+  "description": "A program that will calculate the total componental cost of a blueprint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theartcher/SpaceEngineersCalculator.git"
+  },
+  "author": "J.A Brugman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theartcher/SpaceEngineersCalculator/issues"
+  },
+  "homepage": "https://github.com/theartcher/SpaceEngineersCalculator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "json-finder": "^0.1.0",
+    "xml-query": "^1.5.0",
+    "xml-reader": "^2.4.3",
+    "xml2js": "^0.4.23"
+  }
+}

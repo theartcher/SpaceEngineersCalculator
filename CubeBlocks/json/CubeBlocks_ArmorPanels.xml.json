@@ -1,0 +1,5224 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeArmorPanelLight" },
+          "DisplayName": "DisplayName_Block_ArmorPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmorPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorPanelLight",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorSlopedSidePanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorSlopedSidePanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopedSidePanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmorSlopedSidePanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorSlopedSidePanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorSlopedSidePanelLight",
+          "MirroringX": "ZMinusHalfX",
+          "MirroringY": "XHalfX",
+          "MirroringZ": "HalfX",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorSlopedPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorSlopedPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopedPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmorSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.9",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmorSlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "7",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorHalfPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorHalfPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorHalfPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmorHalfPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorHalfPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorHalfPanelLight",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorQuarterPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorQuarterPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightQuarterPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightQuarterPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightQuarterPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorQuarterPanelLight",
+          "MirroringY": "ZHalfZ",
+          "MirroringX": "HalfZ",
+          "MirroringZ": "YHalfZ",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1SlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedPanelTipLight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedPanelTipLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedPanelTip.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1SlopedPanelTip.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopedPanelTip_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedPanelTip",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedSideBasePanelLight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideBasePanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedSideBasePanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1SlopedSideBasePanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "0.7",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedSideBasePanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1SlopedSideBasePanelLightInv",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedSideTipPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideTipPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideTipPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideTipPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.2",
+                "_EndX": "0.3",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedSideTipPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1SlopedSideTipPanelLightInv",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedSideBasePanelLightInv"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideBasePanelLightInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideBasePanelInv.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideBasePanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedSideBasePanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1SlopedSideBasePanelLight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedSideTipPanelLightInv"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideTipPanelLightInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideTipPanelInv.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideTipPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedSideTipPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1SlopedSideTipPanelLight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorHalfSlopedPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorHalfSlopedPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorHalfSlopedPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmorHalfSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorHalfSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmorHalfSlopedPanel",
+          "MirroringX": "ZHalfX",
+          "MirroringY": "HalfX",
+          "MirroringZ": "XHalfX",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1HalfSlopedPanelLightRight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1HalfSlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1HalfSlopedPanelLightLeft",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1HalfSlopedTipPanelLightRight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedTipPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedTipPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedTipPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1HalfSlopedTipPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1HalfSlopedTipPanelLightLeft",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "3",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1HalfSlopedPanelLightLeft"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedPanelLightInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedPanelInv.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1HalfSlopedPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1HalfSlopedPanelLightRight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1HalfSlopedTipPanelLightLeft"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedTipPanelLightInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedTipPanelInv.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedTipPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1HalfSlopedTipPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1HalfSlopedTipPanelLightRight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeArmorPanelHeavy" },
+          "DisplayName": "DisplayName_Block_ArmorPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmorPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "MetalGrid", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorPanelHeavy",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "10",
+          "DisassembleRatio": "2",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorSlopedSidePanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorSlopedSidePanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorSlopedSidePanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmorSlopedSidePanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "MetalGrid", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorSlopedSidePanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorSlopedSidePanelHeavy",
+          "MirroringX": "ZMinusHalfX",
+          "MirroringY": "XHalfX",
+          "MirroringZ": "HalfX",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "8",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorSlopedPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorSlopedPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorSlopedPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmorSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "14" },
+              { "_Subtype": "MetalGrid", "_Count": "7" },
+              { "_Subtype": "SteelPlate", "_Count": "7" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.9",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmorSlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "12",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorHalfPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorHalfPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorHalfPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmorHalfPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "MetalGrid", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorHalfPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorHalfPanelHeavy",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorQuarterPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorQuarterPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyQuarterPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyQuarterPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "MetalGrid", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightQuarterPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorQuarterPanelHeavy",
+          "MirroringY": "ZHalfZ",
+          "MirroringX": "HalfZ",
+          "MirroringZ": "YHalfZ",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "5",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1SlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "12" },
+              { "_Subtype": "MetalGrid", "_Count": "6" },
+              { "_Subtype": "SteelPlate", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "10",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedPanelTipHeavy"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedPanelTipHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedPanelTip.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1SlopedPanelTip.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "12" },
+              { "_Subtype": "MetalGrid", "_Count": "6" },
+              { "_Subtype": "SteelPlate", "_Count": "6" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopedPanelTip_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedPanelTip",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "10",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedSideBasePanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideBasePanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedSideBasePanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1SlopedSideBasePanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "8" },
+              { "_Subtype": "MetalGrid", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "0.7",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedSideBasePanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1SlopedSideBasePanelHeavyInv",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "8",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedSideTipPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideTipPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideTipPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1SlopeSideTipPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "MetalGrid", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.2",
+                "_EndX": "0.3",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedSideTipPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1SlopedSideTipPanelHeavyInv",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedSideBasePanelHeavyInv"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideBasePanelHeavyInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideBasePanelInv.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1SlopeSideBasePanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "8" },
+              { "_Subtype": "MetalGrid", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedSideBasePanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1SlopedSideBasePanelHeavy",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "8",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1SlopedSideTipPanelHeavyInv"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideTipPanelHeavyInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideTipPanelInv.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1SlopeSideTipPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "4" },
+              { "_Subtype": "MetalGrid", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedSideTipPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1SlopedSideTipPanelHeavy",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmorHalfSlopedPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorHalfSlopedPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorHalfSlopedPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmorHalfSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "MetalGrid", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmorHalfSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmorHalfSlopedPanel",
+          "MirroringX": "ZHalfX",
+          "MirroringY": "HalfX",
+          "MirroringZ": "XHalfX",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1HalfSlopedPanelHeavyRight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1HalfSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "MetalGrid", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1HalfSlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1HalfSlopedPanelHeavyLeft",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1HalfSlopedTipPanelHeavyRight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedTipPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1HalfSlopedTipPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "MetalGrid", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1HalfSlopedTipPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1HalfSlopedTipPanelHeavyLeft",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1HalfSlopedPanelHeavyLeft"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedPanelHeavyInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedPanelInv.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1HalfSlopedPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "MetalGrid", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1HalfSlopedPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1HalfSlopedPanelHeavyRight",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeArmor2x1HalfSlopedTipPanelHeavyLeft"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavyInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedTipPanelInv.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeavyArmor2x1HalfSlopedTipPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "MetalGrid", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "MetalGrid", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1HalfSlopedTipPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "LargeArmor2x1HalfSlopedTipPanelHeavyRight",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "6",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallArmorPanelLight" },
+          "DisplayName": "DisplayName_Block_ArmorPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmorPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorPanelLight",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorSlopedSidePanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorSlopedSidePanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopedSidePanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmorSlopedSidePanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorSlopedSidePanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorSlopedSidePanelLight",
+          "MirroringX": "ZMinusHalfX",
+          "MirroringY": "XHalfX",
+          "MirroringZ": "HalfX",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorSlopedPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorSlopedPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopedPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmorSlopedPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.9",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmorSlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorHalfPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorHalfPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorHalfPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmorHalfPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorHalfPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorHalfPanelLight",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorQuarterPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorQuarterPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightQuarterPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightQuarterPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightQuarterPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorQuarterPanelLight",
+          "MirroringY": "ZHalfZ",
+          "MirroringX": "HalfZ",
+          "MirroringZ": "YHalfZ",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1SlopedPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedPanelTipLight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedPanelTipLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedPanelTip.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1SlopedPanelTip.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopedPanelTip_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedPanelTip",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedSideBasePanelLight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideBasePanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedSideBasePanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1SlopedSideBasePanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "0.7",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedSideBasePanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1SlopedSideBasePanelLightInv",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedSideTipPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideTipPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideTipPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideTipPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.2",
+                "_EndX": "0.3",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedSideTipPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1SlopedSideTipPanelLightInv",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedSideBasePanelLightInv"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideBasePanelLightInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideBasePanelInv.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideBasePanelInv.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedSideBasePanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1SlopedSideBasePanelLight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedSideTipPanelLightInv"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideTipPanelLightInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideTipPanelInv.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideTipPanelInv.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1SlopedSideTipPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1SlopedSideTipPanelLight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorHalfSlopedPanelLight"
+          },
+          "DisplayName": "DisplayName_Block_ArmorHalfSlopedPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmorHalfSlopedPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmorHalfSlopedPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorHalfSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmorHalfSlopedPanel",
+          "MirroringX": "ZHalfX",
+          "MirroringY": "HalfX",
+          "MirroringZ": "XHalfX",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1HalfSlopedPanelLightRight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1HalfSlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1HalfSlopedPanelLightLeft",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1HalfSlopedTipPanelLightRight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedTipPanelLight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedTipPanel.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedTipPanel.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1HalfSlopedTipPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1HalfSlopedTipPanelLightLeft",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1HalfSlopedPanelLightLeft"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedPanelLightInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedPanelInv.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedPanelInv.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1HalfSlopedPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1HalfSlopedPanelLightRight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1HalfSlopedTipPanelLightLeft"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedTipPanelLightInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedTipPanelInv.dds",
+          "Description": "Description_LightArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedTipPanelInv.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightArmor2x1HalfSlopedTipPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1HalfSlopedTipPanelLightRight",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "1",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallArmorPanelHeavy" },
+          "DisplayName": "DisplayName_Block_ArmorPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmorPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorPanelHeavy",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorSlopedSidePanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorSlopedSidePanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorSlopedSidePanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmorSlopedSidePanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.3",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorSlopedSidePanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorSlopedSidePanelHeavy",
+          "MirroringX": "ZMinusHalfX",
+          "MirroringY": "XHalfX",
+          "MirroringZ": "HalfX",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorSlopedPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorSlopedPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorSlopedPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmorSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.9",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmorSlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "5",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorHalfPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorHalfPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorHalfPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmorHalfPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorHalfPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorHalfPanelHeavy",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorQuarterPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorQuarterPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyQuarterPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyQuarterPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightQuarterPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "ArmorQuarterPanelHeavy",
+          "MirroringY": "ZHalfZ",
+          "MirroringX": "HalfZ",
+          "MirroringZ": "YHalfZ",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1SlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedPanelTipHeavy"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedPanelTipHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedPanelTip.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1SlopedPanelTip.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopedPanelTip_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedPanelTip",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "true"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedSideBasePanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideBasePanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedSideBasePanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1SlopedSideBasePanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "0.7",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.8",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedSideBasePanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1SlopedSideBasePanelHeavyInv",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedSideTipPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideTipPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideTipPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1SlopeSideTipPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.9",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.9",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.2",
+                "_EndX": "0.3",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedSideTipPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1SlopedSideTipPanelHeavyInv",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedSideBasePanelHeavyInv"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideBasePanelHeavyInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideBasePanelInv.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1SlopeSideBasePanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.1",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.8",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedSideBasePanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1SlopedSideBasePanelHeavy",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "4",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1SlopedSideTipPanelHeavyInv"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1SlopedSideTipPanelHeavyInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideTipPanelInv.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1SlopeSideTipPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "0.2",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.9",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1SlopedSideTipPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1SlopedSideTipPanelHeavy",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmorHalfSlopedPanelHeavy"
+          },
+          "DisplayName": "DisplayName_Block_ArmorHalfSlopedPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorHalfSlopedPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmorHalfSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.2",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmorHalfSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmorHalfSlopedPanel",
+          "MirroringX": "ZHalfX",
+          "MirroringY": "HalfX",
+          "MirroringZ": "XHalfX",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "3",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1HalfSlopedPanelHeavyRight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1HalfSlopedPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0.4",
+                "_EndX": "1",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1HalfSlopedPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1HalfSlopedPanelHeavyLeft",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1HalfSlopedTipPanelHeavyRight"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavy",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedTipPanel.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1HalfSlopedTipPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "0.2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1HalfSlopedTipPanel",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1HalfSlopedTipPanelHeavyLeft",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1HalfSlopedPanelHeavyLeft"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedPanelHeavyInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedPanelInv.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1HalfSlopedPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.4",
+                "_EndX": "0.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.5",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.2",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.4",
+                "_EndX": "0.4",
+                "_EndY": "0.8"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.8",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1HalfSlopedPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1HalfSlopedPanelHeavyRight",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallArmor2x1HalfSlopedTipPanelHeavyLeft"
+          },
+          "DisplayName": "DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavyInv",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedTipPanelInv.dds",
+          "Description": "Description_HeavyArmor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeavyArmor2x1HalfSlopedTipPanelInv.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "0.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "0.5",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.2",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.6",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "HeavyArmor2x1HalfSlopedTipPanelInv",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "MirroringBlock": "SmallArmor2x1HalfSlopedTipPanelHeavyRight",
+          "EdgeType": "Heavy",
+          "BuildTimeSeconds": "2",
+          "DisassembleRatio": "2",
+          "PCU": "1",
+          "IsAirTight": "false"
+        }
+      ]
+    }
+  }
+}

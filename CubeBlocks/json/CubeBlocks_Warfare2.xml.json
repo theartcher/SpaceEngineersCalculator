@@ -1,0 +1,3627 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "BridgeWindow1x1Slope" },
+          "DisplayName": "DisplayName_Block_BridgeWindow1x1Slope",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\BridgeWindow1x1Slope.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\BridgeWindow1x1Slope.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "8" },
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "15" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Large\\BridgeWindow1x1SlopeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\BridgeWindow1x1SlopeConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "BridgeWindow1x1Slope",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "1.0",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.0",
+                "_StartY": "1.0",
+                "_EndX": "0.2",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.2",
+                "_StartY": "0.8",
+                "_EndX": "0.4",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.6",
+                "_EndX": "0.6",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.6",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.8",
+                "_StartY": "0.4",
+                "_EndX": "1.0",
+                "_EndY": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "PCU": "1",
+          "IsAirTight": "true",
+          "DLC": "Warfare2"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "BridgeWindow1x1Face" },
+          "DisplayName": "DisplayName_Block_BridgeWindow1x1Face",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\BridgeWindow1x1Face.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\BridgeWindow1x1Face.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "8" },
+              { "_Subtype": "SteelPlate", "_Count": "2" },
+              { "_Subtype": "InteriorPlate", "_Count": "4" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "8" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Large\\BridgeWindow1x1FaceConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\BridgeWindow1x1FaceConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "BridgeWindow1x1Face",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartY": "0.0",
+                "_StartX": "1.0",
+                "_EndY": "0.4",
+                "_EndX": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartY": "0.2",
+                "_StartX": "0.8",
+                "_EndY": "0.4",
+                "_EndX": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartY": "0.4",
+                "_StartX": "0.6",
+                "_EndY": "0.6",
+                "_EndX": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartY": "0.6",
+                "_StartX": "0.4",
+                "_EndY": "0.8",
+                "_EndX": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Front",
+                "_StartY": "0.8",
+                "_StartX": "0.2",
+                "_EndY": "1.0",
+                "_EndX": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "IsAirTight": "true",
+          "MirroringX": "HalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "PCU": "1",
+          "DLC": "Warfare2"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "BridgeWindow1x1FaceInverted"
+          },
+          "DisplayName": "DisplayName_Block_BridgeWindow1x1FaceInverted",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\BridgeWindow1x1FaceInverted.dds",
+          "Description": "Description_Window",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\BridgeWindow1x1FaceInverted.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Girder", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "InteriorPlate", "_Count": "12" },
+              { "_Subtype": "BulletproofGlass", "_Count": "5" },
+              { "_Subtype": "BulletproofGlass", "_Count": "7" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "BulletproofGlass",
+            "_Index": "0"
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Large\\BridgeWindow1x1FaceInvertedConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.0",
+                "_File": "Models\\Cubes\\Large\\BridgeWindow1x1FaceInvertedConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "BridgeWindow1x1FaceInverted",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "5",
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0.0",
+                "_StartY": "0.0",
+                "_EndX": "0.2",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "0.4",
+                "_EndY": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.4",
+                "_EndX": "0.6",
+                "_EndY": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.6",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.8",
+                "_StartY": "0.8",
+                "_EndX": "1.0",
+                "_EndY": "1.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartY": "0.0",
+                "_StartX": "1.0",
+                "_EndY": "0.2",
+                "_EndX": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartY": "0.2",
+                "_StartX": "0.8",
+                "_EndY": "0.4",
+                "_EndX": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartY": "0.4",
+                "_StartX": "0.6",
+                "_EndY": "0.6",
+                "_EndX": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartY": "0.6",
+                "_StartX": "0.4",
+                "_EndY": "0.8",
+                "_EndX": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartY": "0.8",
+                "_StartX": "0.2",
+                "_EndY": "1.0",
+                "_EndX": "0.0",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartY": "0.0",
+                "_StartX": "1.0",
+                "_EndY": "0.4",
+                "_EndX": "0.8",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartY": "0.2",
+                "_StartX": "0.8",
+                "_EndY": "0.4",
+                "_EndX": "0.6",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartY": "0.4",
+                "_StartX": "0.6",
+                "_EndY": "0.6",
+                "_EndX": "0.4",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartY": "0.6",
+                "_StartX": "0.4",
+                "_EndY": "0.8",
+                "_EndX": "0.2",
+                "_PropertiesMask": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartY": "0.8",
+                "_StartX": "0.2",
+                "_EndY": "1.0",
+                "_EndX": "0.0",
+                "_PropertiesMask": "2"
+              }
+            ]
+          },
+          "IsAirTight": "true",
+          "MirroringX": "HalfY",
+          "MirroringY": "XHalfY",
+          "MirroringZ": "MinusHalfY",
+          "PCU": "1",
+          "DLC": "Warfare2"
+        },
+        {
+          "Id": { "TypeId": "Cockpit", "SubtypeId": "PassengerBench" },
+          "DisplayName": "DisplayName_Block_PassengerBench",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\PassengerBench.dds",
+          "Description": "Description_PassengerSeat",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "3", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\PassengerBench.mwm",
+          "CharacterAnimationMale": "PassengerBench",
+          "CharacterAnimationFemale": "PassengerBenchFemale",
+          "UsesDeformation": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "2",
+                "_EndY": "2",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1.2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "0.4"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\PassengerBenchConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\PassengerBenchConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "PassengerBench",
+          "MirroringX": "OffsetXOddTest",
+          "MirroringZ": "YThenOffsetX",
+          "MirroringY": "ZThenOffsetX",
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "BuildTimeSeconds": "15",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "false",
+          "EnableBuilderCockpit": "false",
+          "IsPressurized": "false",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyed_Medium",
+          "DestroySound": "PoofExplosionCat2",
+          "PCU": "15",
+          "IsAirTight": "false",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": { "TypeId": "InteriorLight", "SubtypeId": "LargeLightPanel" },
+          "DisplayName": "DisplayName_Block_LightPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightPanel.dds",
+          "Description": "Description_InteriorLight",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LightPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.05"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.95",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\LightPanelConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightPanel",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "PointLightEmissiveMaterial": "LightPanel_Light",
+          "SpotLightEmissiveMaterial": "EmissiveSpotlight",
+          "BuildTimeSeconds": "6",
+          "LightRadius": { "_Min": "1", "_Max": "20", "_Default": "3.6" },
+          "LightFalloff": { "_Min": "0", "_Max": "3", "_Default": "1.3" },
+          "LightIntensity": { "_Min": "0.5", "_Max": "10", "_Default": "5" },
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00006",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "1.1" },
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "25",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_LightingBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "InteriorLight", "SubtypeId": "SmallLightPanel" },
+          "DisplayName": "DisplayName_Block_LightPanel",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LightPanel.dds",
+          "Description": "Description_InteriorLight",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LightPanel.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "InteriorPlate", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.05"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.95",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.05",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.95",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\LightPanelConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "LightPanel",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "PointLightEmissiveMaterial": "LightPanel_Light",
+          "SpotLightEmissiveMaterial": "EmissiveSpotlight",
+          "BuildTimeSeconds": "3",
+          "LightRadius": { "_Min": "1", "_Max": "20", "_Default": "3.6" },
+          "LightFalloff": { "_Min": "0", "_Max": "3", "_Default": "1.3" },
+          "LightIntensity": { "_Min": "0.5", "_Max": "10", "_Default": "5" },
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.00006",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyed_Small",
+          "DestroyEffectOffset": { "X": "0", "Y": "0", "Z": "1.1" },
+          "DestroySound": "PoofExplosionCat1",
+          "PCU": "25",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_LightingBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Reactor",
+            "SubtypeId": "LargeBlockSmallGeneratorWarfare2"
+          },
+          "DisplayName": "DisplayName_Block_SmallReactorWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ReactorReskinSmall.dds",
+          "Description": "Description_Reactor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ReactorReskinSmall.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "50" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "MetalGrid", "_Count": "4" },
+              { "_Subtype": "LargeTube", "_Count": "8" },
+              { "_Subtype": "Reactor", "_Count": "100" },
+              { "_Subtype": "Motor", "_Count": "6" },
+              { "_Subtype": "Computer", "_Count": "25" },
+              { "_Subtype": "SteelPlate", "_Count": "30" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.1",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ReactorReskinSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ReactorReskinSmallConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ReactorReskinSmallConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "SmallReactorWarfare2",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "40",
+          "ResourceSourceGroup": "Reactors",
+          "MaxPowerOutput": "15",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "InventoryFillFactorMin": "0.0005",
+          "InventoryFillFactorMax": "0.001",
+          "FuelPullAmountFromConveyorInMinutes": "10.0",
+          "FuelInfos": {
+            "FuelInfo": { "Id": { "TypeId": "Ingot", "SubtypeId": "Uranium" } }
+          },
+          "PrimarySound": "ShipLrgNuclearSm",
+          "DamageEffectName": "Damage_Reactor_Damaged",
+          "DamagedSound": "ParticleReactor",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "TieredUpdateTimes": { "unsignedInt": ["900", "1800", "3600"] },
+          "TargetingGroups": { "string": "PowerSystems" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_ReactorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Reactor",
+            "SubtypeId": "LargeBlockLargeGeneratorWarfare2"
+          },
+          "DisplayName": "DisplayName_Block_LargeReactorWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\ReactorReskinLarge.dds",
+          "Description": "Description_Reactor",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ReactorReskinLarge.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "800" },
+              { "_Subtype": "Construction", "_Count": "70" },
+              { "_Subtype": "MetalGrid", "_Count": "40" },
+              { "_Subtype": "LargeTube", "_Count": "40" },
+              { "_Subtype": "Superconductor", "_Count": "100" },
+              { "_Subtype": "Reactor", "_Count": "2000" },
+              { "_Subtype": "Motor", "_Count": "20" },
+              { "_Subtype": "Computer", "_Count": "75" },
+              { "_Subtype": "SteelPlate", "_Count": "200" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.9",
+                "_StartY": "1.3",
+                "_EndX": "2.1",
+                "_EndY": "2.6"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "2.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0.9",
+                "_EndX": "2.6",
+                "_EndY": "2.1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.6",
+                "_EndX": "2.5",
+                "_EndY": "2.4",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1.8",
+                "_EndY": "0.6"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "2.4",
+                "_EndX": "1.8",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1.2",
+                "_StartY": "0",
+                "_EndX": "2.5",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "1.8",
+                "_EndY": "0.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ReactorReskinLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ReactorReskinLargeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ReactorReskinLargeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeReactorWarfare2",
+          "MirroringY": "X",
+          "MirroringX": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "100",
+          "ResourceSourceGroup": "Reactors",
+          "MaxPowerOutput": "300",
+          "InventorySize": { "X": "2", "Y": "2", "Z": "2" },
+          "InventoryFillFactorMin": "0.001",
+          "InventoryFillFactorMax": "0.002",
+          "FuelPullAmountFromConveyorInMinutes": "10.0",
+          "FuelInfos": {
+            "FuelInfo": { "Id": { "TypeId": "Ingot", "SubtypeId": "Uranium" } }
+          },
+          "PrimarySound": "ShipLrgNuclearLrg",
+          "DamageEffectName": "Damage_Reactor_Damaged",
+          "DamagedSound": "ParticleReactor",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "Explosion_Warhead_30",
+          "DestroySound": "WepLrgWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "TieredUpdateTimes": { "unsignedInt": ["900", "1800", "3600"] },
+          "TargetingGroups": { "string": "PowerSystems" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_ReactorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Reactor",
+            "SubtypeId": "SmallBlockSmallGeneratorWarfare2"
+          },
+          "DisplayName": "DisplayName_Block_SmallReactorWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SmallGridReactorReskinSmall.dds",
+          "Description": "Description_Reactor",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ReactorReskinSmall.mwm",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "MetalGrid", "_Count": "2" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Reactor", "_Count": "3" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.15"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.4",
+                "_StartY": "0.85",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.15"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0.85",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.15"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.4",
+                "_StartY": "0.85",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.6",
+                "_EndY": "0.15"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.4",
+                "_StartY": "0.85",
+                "_EndX": "0.6",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ReactorReskinSmallConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ReactorReskinSmallConstruction_1.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "SmallReactorWarfare2",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "ResourceSourceGroup": "Reactors",
+          "MaxPowerOutput": "0.5",
+          "InventorySize": { "X": "0.5", "Y": "0.5", "Z": "0.5" },
+          "InventoryFillFactorMin": "0.0002",
+          "InventoryFillFactorMax": "0.0004",
+          "FuelPullAmountFromConveyorInMinutes": "10.0",
+          "FuelInfos": {
+            "FuelInfo": { "Id": { "TypeId": "Ingot", "SubtypeId": "Uranium" } }
+          },
+          "PrimarySound": "ShipSmNuclearSm",
+          "DamageEffectName": "Damage_Reactor_Damaged",
+          "DamagedSound": "ParticleReactor",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "TieredUpdateTimes": { "unsignedInt": ["900", "1800", "3600"] },
+          "TargetingGroups": { "string": "PowerSystems" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_ReactorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Reactor",
+            "SubtypeId": "SmallBlockLargeGeneratorWarfare2"
+          },
+          "DisplayName": "DisplayName_Block_LargeReactorWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SmallGridReactorReskinLarge.dds",
+          "Description": "Description_Reactor",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ReactorReskinLarge.mwm",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "40" },
+              { "_Subtype": "Construction", "_Count": "9" },
+              { "_Subtype": "MetalGrid", "_Count": "9" },
+              { "_Subtype": "LargeTube", "_Count": "3" },
+              { "_Subtype": "Reactor", "_Count": "95" },
+              { "_Subtype": "Motor", "_Count": "5" },
+              { "_Subtype": "Computer", "_Count": "25" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "1.3",
+                "_StartY": "0",
+                "_EndX": "1.7",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "1.3",
+                "_StartY": "2.5",
+                "_EndX": "1.7",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1.3",
+                "_StartY": "0",
+                "_EndX": "1.7",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1.3",
+                "_StartY": "2.5",
+                "_EndX": "1.7",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "2.8",
+                "_EndY": "2.8"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.2",
+                "_EndX": "2.8",
+                "_EndY": "2.8",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1.3",
+                "_StartY": "0",
+                "_EndX": "1.7",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "1.3",
+                "_StartY": "2.5",
+                "_EndX": "1.7",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1.3",
+                "_StartY": "0",
+                "_EndX": "1.7",
+                "_EndY": "0.5"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1.3",
+                "_StartY": "2.5",
+                "_EndX": "1.7",
+                "_EndY": "3"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ReactorReskinLargeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ReactorReskinLargeConstruction_1.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LargeReactorWarfare2",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "30",
+          "EdgeType": "Light",
+          "ResourceSourceGroup": "Reactors",
+          "MaxPowerOutput": "14.75",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "InventoryFillFactorMin": "0.0005",
+          "InventoryFillFactorMax": "0.001",
+          "FuelPullAmountFromConveyorInMinutes": "10.0",
+          "FuelInfos": {
+            "FuelInfo": { "Id": { "TypeId": "Ingot", "SubtypeId": "Uranium" } }
+          },
+          "PrimarySound": "ShipSmNuclearLrg",
+          "DamageEffectName": "Damage_Reactor_Damaged",
+          "DamagedSound": "ParticleReactor",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "TieredUpdateTimes": { "unsignedInt": ["900", "1800", "3600"] },
+          "TargetingGroups": { "string": "PowerSystems" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_ReactorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "AirtightHangarDoor",
+            "SubtypeId": "AirtightHangarDoorWarfare2A"
+          },
+          "DisplayName": "DisplayName_Block_AirtightHangarDoorWarfare2A",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HangarDoorWarfareA_Base.dds",
+          "Description": "Description_HangarDoor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "2.5", "_z": "0" },
+          "Center": { "_x": "0", "_y": "2", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HangarDoorWarfareA_Base.mwm",
+          "Sound": "BlockDoorHangar",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "250" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "40" },
+              { "_Subtype": "Motor", "_Count": "16" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "SteelPlate", "_Count": "100" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.15",
+                "_StartY": "2",
+                "_EndX": "0.3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.15",
+                "_StartY": "2",
+                "_EndX": "0.3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "2",
+                "_EndX": "0.85",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "2",
+                "_EndX": "0.85",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.04",
+                "_EndX": "1",
+                "_EndY": "0.96",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfare_BaseConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfare_BaseConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfareA_BaseConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "AirtightHangarDoorWarfare2A",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ResourceSinkGroup": "Doors",
+          "PowerConsumptionIdle": "0.00001",
+          "PowerConsumptionMoving": "0.001",
+          "OpeningSpeed": "0.1",
+          "SubpartMovementDistance": "2.5",
+          "EmissiveColorPreset": "Default",
+          "UseNeighbourOxygenRooms": "true",
+          "PhysicalMaterial": "Metal",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_AirtightHangarDoorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "AirtightHangarDoor",
+            "SubtypeId": "AirtightHangarDoorWarfare2B"
+          },
+          "DisplayName": "DisplayName_Block_AirtightHangarDoorWarfare2B",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HangarDoorWarfareB_Base.dds",
+          "Description": "Description_HangarDoor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "2.5", "_z": "0" },
+          "Center": { "_x": "0", "_y": "2", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HangarDoorWarfareB_Base.mwm",
+          "Sound": "BlockDoorHangar",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "250" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "40" },
+              { "_Subtype": "Motor", "_Count": "16" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "SteelPlate", "_Count": "100" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.15",
+                "_StartY": "2",
+                "_EndX": "0.3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.15",
+                "_StartY": "2",
+                "_EndX": "0.3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "2",
+                "_EndX": "0.85",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "2",
+                "_EndX": "0.85",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.04",
+                "_EndX": "1",
+                "_EndY": "0.96",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfare_BaseConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfare_BaseConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfareB_BaseConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "AirtightHangarDoorWarfare2B",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ResourceSinkGroup": "Doors",
+          "PowerConsumptionIdle": "0.00001",
+          "PowerConsumptionMoving": "0.001",
+          "OpeningSpeed": "0.1",
+          "SubpartMovementDistance": "2.5",
+          "EmissiveColorPreset": "Default",
+          "UseNeighbourOxygenRooms": "true",
+          "PhysicalMaterial": "Metal",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_AirtightHangarDoorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "AirtightHangarDoor",
+            "SubtypeId": "AirtightHangarDoorWarfare2C"
+          },
+          "DisplayName": "DisplayName_Block_AirtightHangarDoorWarfare2C",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HangarDoorWarfareC_Base.dds",
+          "Description": "Description_HangarDoor",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "3", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "2.5", "_z": "0" },
+          "Center": { "_x": "0", "_y": "2", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HangarDoorWarfareC_Base.mwm",
+          "Sound": "BlockDoorHangar",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "250" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "SmallTube", "_Count": "40" },
+              { "_Subtype": "Motor", "_Count": "16" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "25" },
+              { "_Subtype": "SteelPlate", "_Count": "100" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Left",
+                "_StartX": "0.15",
+                "_StartY": "2",
+                "_EndX": "0.3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.15",
+                "_StartY": "2",
+                "_EndX": "0.3",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.7",
+                "_StartY": "2",
+                "_EndX": "0.85",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "2",
+                "_EndX": "0.85",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.04",
+                "_EndX": "1",
+                "_EndY": "0.96",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfare_BaseConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfare_BaseConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\large\\HangarDoorWarfareC_BaseConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "AirtightHangarDoorWarfare2C",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "ResourceSinkGroup": "Doors",
+          "PowerConsumptionIdle": "0.00001",
+          "PowerConsumptionMoving": "0.001",
+          "OpeningSpeed": "0.1",
+          "SubpartMovementDistance": "2.5",
+          "EmissiveColorPreset": "Default",
+          "UseNeighbourOxygenRooms": "true",
+          "PhysicalMaterial": "Metal",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_AirtightHangarDoorDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "SmallMissileLauncher",
+            "SubtypeId": "SmallMissileLauncherWarfare2"
+          },
+          "DisplayName": "DisplayName_Block_RocketLauncherWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RocketlauncherReskin.dds",
+          "Description": "Description_RocketLauncher",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "4" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\RocketLauncherReskin.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "MetalGrid", "_Count": "1" },
+              { "_Subtype": "LargeTube", "_Count": "4" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "1",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "4",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\RocketLauncherReskinConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\RocketLauncherReskinConstruction_1.mwm"
+              }
+            ]
+          },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BlockPairName": "RocketLauncherWarfare2",
+          "Center": { "_x": "0", "_y": "0", "_z": "2" },
+          "BuildTimeSeconds": "15",
+          "EdgeType": "Light",
+          "WeaponDefinitionId": { "_Subtype": "SmallMissileLauncher" },
+          "ResourceSinkGroup": "Defense",
+          "InventoryMaxVolume": "0.24",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "425",
+          "TargetingGroups": { "string": "Weapons" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_WeaponBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "SmallGatlingGun",
+            "SubtypeId": "SmallGatlingGunWarfare2"
+          },
+          "DisplayName": "DisplayName_Block_GatlingGunWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\gatlingGunReskin.dds",
+          "Description": "Description_GatlingGun",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "4" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\GatlingGunReskin.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "MetalGrid", "_Count": "2" },
+              { "_Subtype": "SmallTube", "_Count": "6" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "3" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "3",
+                "_EndX": "1",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "3",
+                "_StartY": "0",
+                "_EndX": "4",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\GatlingGunReskinConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\GatlingGunReskinConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "GatlingGunWarfare2",
+          "Center": { "_x": "0", "_y": "0", "_z": "3" },
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "BuildTimeSeconds": "13",
+          "EdgeType": "Light",
+          "WeaponDefinitionId": { "_Subtype": "GatlingGunWarfare" },
+          "ResourceSinkGroup": "Defense",
+          "InventoryMaxVolume": "0.064",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "80",
+          "InventoryFillFactorMin": ".6",
+          "TargetingGroups": { "string": "Weapons" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_WeaponBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "BatteryBlock",
+            "SubtypeId": "LargeBlockBatteryBlockWarfare2"
+          },
+          "DisplayName": "DisplayName_Block_BatteryWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\BatteryReskin.dds",
+          "Description": "Description_Battery",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\BatteryReskin.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "20" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              {
+                "DeconstructId": { "TypeId": "Ore", "SubtypeId": "Scrap" },
+                "_Subtype": "PowerCell",
+                "_Count": "80"
+              },
+              { "_Subtype": "Computer", "_Count": "25" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "60" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "PowerCell", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\BatteryReskinConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\BatteryReskinConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\BatteryReskinConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "BatteryBlockWarfare2",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "40",
+          "ResourceSourceGroup": "Battery",
+          "MaxPowerOutput": "12",
+          "ResourceSinkGroup": "BatteryBlock",
+          "RequiredPowerInput": "12",
+          "AdaptibleInput": "true",
+          "MaxStoredPower": "3",
+          "InitialStoredPowerRatio": "0.3",
+          "RechargeMultiplier": "0.8",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "Public": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "IsAirTight": "true",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "TargetingGroups": { "string": "PowerSystems" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_BatteryBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "BatteryBlock",
+            "SubtypeId": "SmallBlockBatteryBlockWarfare2"
+          },
+          "DisplayName": "DisplayName_Block_BatteryWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\BatteryReskin_Small.dds",
+          "Description": "Description_Battery",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "2", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\BatteryReskin.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              {
+                "DeconstructId": { "TypeId": "Ore", "SubtypeId": "Scrap" },
+                "_Subtype": "PowerCell",
+                "_Count": "20"
+              },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "PowerCell", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "2.5",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1.5"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\BatteryReskinConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\BatteryReskinConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "BatteryBlockWarfare2",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "ResourceSourceGroup": "Battery",
+          "MaxPowerOutput": "4",
+          "ResourceSinkGroup": "BatteryBlock",
+          "RequiredPowerInput": "4",
+          "MaxStoredPower": "1",
+          "InitialStoredPowerRatio": "0.3",
+          "RechargeMultiplier": "0.8",
+          "InventorySize": { "X": "1", "Y": "1", "Z": "1" },
+          "Public": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "TargetingGroups": { "string": "PowerSystems" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_BatteryBlockDefinition"
+        },
+        {
+          "Id": { "TypeId": "Door", "SubtypeId": "SlidingHatchDoor" },
+          "DisplayName": "DisplayName_Block_SlidingHatchDoor",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HatchDoor.dds",
+          "Description": "Description_Door",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HatchDoor.mwm",
+          "PlaceDecals": "false",
+          "OpenSound": "BlockDoorHangar",
+          "CloseSound": "BlockDoorHangar",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "25" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1.9",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1.1",
+                "_StartY": "0",
+                "_EndX": "1.9",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1.1",
+                "_StartY": "0.9",
+                "_EndX": "1.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1",
+                "_Enabled": "false",
+                "_PressurizedWhenOpen": "false"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1.9",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1.1",
+                "_StartY": "0",
+                "_EndX": "1.9",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "1.1",
+                "_StartY": "0.9",
+                "_EndX": "1.9",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HatchDoorConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HatchDoorConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HatchDoorConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "SlidingHatchDoor",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "Center": { "_x": "1", "_y": "0", "_z": "0" },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "26",
+          "DisassembleRatio": "1",
+          "ResourceSinkGroup": "Doors",
+          "MaxOpen": "3.55",
+          "OpeningSpeed": "2",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "DepressurizationEffectOffset": {
+            "_x": "0",
+            "_y": "1.25",
+            "_z": "0"
+          },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_DoorDefinition"
+        },
+        {
+          "Id": { "TypeId": "Door", "SubtypeId": "SlidingHatchDoorHalf" },
+          "DisplayName": "DisplayName_Block_SlidingHatchDoorHalf",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HatchDoorHalf.dds",
+          "Description": "Description_Door",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HatchDoorHalf.mwm",
+          "PlaceDecals": "false",
+          "OpenSound": "BlockDoorHangar",
+          "CloseSound": "BlockDoorHangar",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SmallTube", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Display", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "BulletproofGlass", "_Count": "10" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Front",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "1",
+                "_StartY": "0.5",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1.9",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1.1",
+                "_StartY": "0",
+                "_EndX": "1.9",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1.1",
+                "_StartY": "0.9",
+                "_EndX": "1.9",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1",
+                "_Enabled": "false",
+                "_PressurizedWhenOpen": "false"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HatchDoorHalfConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HatchDoorHalfConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HatchDoorHalfConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "SlidingHatchDoorHalf",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "Center": { "_x": "1", "_y": "0", "_z": "0" },
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "24",
+          "DisassembleRatio": "1",
+          "ResourceSinkGroup": "Doors",
+          "MaxOpen": "3.55",
+          "OpeningSpeed": "2",
+          "DamageEffectName": "Damage_HeavyMech_Damaged",
+          "DamagedSound": "ParticleHeavyMech",
+          "EmissiveColorPreset": "Default",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "115",
+          "DepressurizationEffectOffset": {
+            "_x": "0",
+            "_y": "1.25",
+            "_z": "0"
+          },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_DoorDefinition"
+        },
+        {
+          "Id": { "TypeId": "Searchlight", "SubtypeId": "SmallSearchlight" },
+          "DisplayName": "DisplayName_Block_Searchlight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Small_Searchlight_Racing.dds",
+          "Description": "Description_Searchlight",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "PlaceDecals": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Searchlight.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "2" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "2" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "BulletproofGlass", "_Count": "2" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.1",
+              "_StartY": "0.1",
+              "_EndX": "0.9",
+              "_EndY": "0.9"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.5",
+                "_File": "Models\\Cubes\\Small\\SearchlightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1",
+                "_File": "Models\\Cubes\\Small\\SearchlightConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "Searchlight",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "12",
+          "HasInventory": "false",
+          "OverlayTexture": "Textures\\GUI\\Screens\\camera_overlay.dds",
+          "WeaponDefinitionId": { "_Subtype": "LargeInteriorTurret" },
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.0002",
+          "MinElevationDegrees": "-40",
+          "MaxElevationDegrees": "90",
+          "MinAzimuthDegrees": "-180",
+          "MaxAzimuthDegrees": "180",
+          "IdleRotation": "true",
+          "MaxRangeMeters": "800",
+          "RotationSpeed": "0.001",
+          "ElevationSpeed": "0.001",
+          "EmissiveColorPreset": "Default",
+          "MinFov": "0.1",
+          "MaxFov": "1",
+          "DestroyEffect": "BlockDestroyed_Medium",
+          "DestroySound": "PoofExplosionCat2",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "TieredUpdateTimes": { "unsignedInt": ["10", "0"] },
+          "LightRadius": { "_Min": "1", "_Max": "5", "_Default": "5" },
+          "LightReflectorRadius": {
+            "_Min": "10",
+            "_Max": "120",
+            "_Default": "50"
+          },
+          "LightFalloff": { "_Min": "1", "_Max": "3", "_Default": "1.5" },
+          "LightIntensity": { "_Min": "0.5", "_Max": "5", "_Default": "3" },
+          "Flare": "SpotlightSmall",
+          "PointLightEmissiveMaterial": "Emissive",
+          "SpotLightEmissiveMaterial": "Emissive",
+          "ReflectorThickness": "1.5",
+          "ReflectorTexture": "Textures\\Lights\\reflector_small.dds",
+          "ReflectorConeDegrees": "52",
+          "LightDummyName": "spotlight",
+          "AiEnabled": "true",
+          "Range": "2000",
+          "LightShaftOffset": "-0.2",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_SearchlightDefinition"
+        },
+        {
+          "Id": { "TypeId": "Searchlight", "SubtypeId": "LargeSearchlight" },
+          "DisplayName": "DisplayName_Block_Searchlight",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Large_Searchlight_Racing.dds",
+          "Description": "Description_Searchlight",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "PlaceDecals": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Searchlight.mwm",
+          "UseModelIntersection": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "LargeTube", "_Count": "2" },
+              { "_Subtype": "Motor", "_Count": "4" },
+              { "_Subtype": "Computer", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "BulletproofGlass", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.1",
+              "_StartY": "0.1",
+              "_EndX": "0.9",
+              "_EndY": "0.9"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\SearchlightConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\SearchlightConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\SearchlightConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0.01"
+            }
+          },
+          "BlockPairName": "Searchlight",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "24",
+          "HasInventory": "false",
+          "OverlayTexture": "Textures\\GUI\\Screens\\camera_overlay.dds",
+          "WeaponDefinitionId": { "_Subtype": "LargeInteriorTurret" },
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.001",
+          "MinElevationDegrees": "-40",
+          "MaxElevationDegrees": "90",
+          "MinAzimuthDegrees": "-180",
+          "MaxAzimuthDegrees": "180",
+          "IdleRotation": "true",
+          "MaxRangeMeters": "800",
+          "RotationSpeed": "0.0005",
+          "ElevationSpeed": "0.0005",
+          "EmissiveColorPreset": "Default",
+          "MinFov": "0.1",
+          "MaxFov": "1",
+          "DestroyEffect": "BlockDestroyed_Large",
+          "DestroySound": "PoofExplosionCat3",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "TieredUpdateTimes": { "unsignedInt": ["10", "0"] },
+          "LightRadius": { "_Min": "2", "_Max": "10", "_Default": "5" },
+          "LightReflectorRadius": {
+            "_Min": "10",
+            "_Max": "160",
+            "_Default": "120"
+          },
+          "LightFalloff": { "_Min": "1", "_Max": "3", "_Default": "1.5" },
+          "LightIntensity": { "_Min": "0.5", "_Max": "5", "_Default": "1" },
+          "Flare": "SpotlightLarge",
+          "PointLightEmissiveMaterial": "Emissive",
+          "SpotLightEmissiveMaterial": "Emissive",
+          "ReflectorThickness": "7",
+          "ReflectorTexture": "Textures\\Lights\\reflector_large.dds",
+          "ReflectorConeDegrees": "52",
+          "LightDummyName": "spotlight",
+          "AiEnabled": "true",
+          "Range": "2000",
+          "LightShaftOffset": "-0.4",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_SearchlightDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "HeatVentBlock",
+            "SubtypeId": "LargeHeatVentBlock"
+          },
+          "DisplayName": "DisplayName_Block_HeatVentWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeatVent.dds",
+          "Description": "Description_HeatVent",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "PowerDependency": "0.6",
+          "ColorMinimalPower": { "_Hex": "#FF0000" },
+          "ColorMaximalPower": { "_Hex": "#FFC514" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\HeatVent.mwm",
+          "SubpartRotations": {
+            "SubpartRotation": [
+              {
+                "_SubpartName": "subpart_HeatVentPlate1",
+                "_ReveseRotationDirection": "true",
+                "_MinimalPositionAdjustDegrees": "315"
+              },
+              {
+                "_SubpartName": "subpart_HeatVentPlate2",
+                "_ReveseRotationDirection": "true",
+                "_MinimalPositionAdjustDegrees": "315"
+              },
+              {
+                "_SubpartName": "subpart_HeatVentPlate3",
+                "_ReveseRotationDirection": "true",
+                "_MinimalPositionAdjustDegrees": "315"
+              },
+              {
+                "_SubpartName": "subpart_HeatVentPlate4",
+                "_ReveseRotationDirection": "true",
+                "_MinimalPositionAdjustDegrees": "315"
+              },
+              {
+                "_SubpartName": "subpart_HeatVentPlate5",
+                "_ReveseRotationDirection": "false",
+                "_MinimalPositionAdjustDegrees": "45",
+                "_MaximalPositionAdjustDegrees": "180"
+              }
+            ]
+          },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "LargeTube", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "5" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\HeatVentConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\HeatVentConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\HeatVentConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HeatVentBlock",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "RequiredPowerInput": "0.0002",
+          "Public": "true",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "PCU": "50",
+          "IsAirTight": "true",
+          "EmissiveMaterialName": "Emissive",
+          "LightDummyName": "light",
+          "LightFalloffBounds": { "_Min": "0", "_Max": "3", "_Default": "1.3" },
+          "LightIntensityBounds": {
+            "_Min": "0.5",
+            "_Max": "10",
+            "_Default": "2"
+          },
+          "LightRadiusBounds": { "_Min": "1", "_Max": "10", "_Default": "3.6" },
+          "LightOffsetBounds": { "_Min": "0", "_Max": "5", "_Default": "0.5" },
+          "IdleSound": "BlockOxyGenIdle",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_HeatVentBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "HeatVentBlock",
+            "SubtypeId": "SmallHeatVentBlock"
+          },
+          "DisplayName": "DisplayName_Block_HeatVentWarfare2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\HeatVent_small.dds",
+          "Description": "Description_HeatVent",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "PowerDependency": "0.6",
+          "ColorMinimalPower": { "_Hex": "#FF0000" },
+          "ColorMaximalPower": { "_Hex": "#FFC514" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\HeatVent.mwm",
+          "SubpartRotations": {
+            "SubpartRotation": [
+              {
+                "_SubpartName": "subpart_HeatVentPlate1",
+                "_ReveseRotationDirection": "true",
+                "_MinimalPositionAdjustDegrees": "315"
+              },
+              {
+                "_SubpartName": "subpart_HeatVentPlate2",
+                "_ReveseRotationDirection": "true",
+                "_MinimalPositionAdjustDegrees": "315"
+              },
+              {
+                "_SubpartName": "subpart_HeatVentPlate3",
+                "_ReveseRotationDirection": "true",
+                "_MinimalPositionAdjustDegrees": "315"
+              },
+              {
+                "_SubpartName": "subpart_HeatVentPlate4",
+                "_ReveseRotationDirection": "true",
+                "_MinimalPositionAdjustDegrees": "315"
+              },
+              {
+                "_SubpartName": "subpart_HeatVentPlate5",
+                "_ReveseRotationDirection": "false",
+                "_MinimalPositionAdjustDegrees": "45",
+                "_MaximalPositionAdjustDegrees": "180"
+              }
+            ]
+          },
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Motor", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.9",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0.1",
+                "_EndX": "0.1",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.9",
+                "_StartY": "0.1",
+                "_EndX": "1",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\HeatVentConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\HeatVentConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "HeatVentBlock",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "6",
+          "RequiredPowerInput": "0.0002",
+          "Public": "true",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "PCU": "50",
+          "IsAirTight": "true",
+          "EmissiveMaterialName": "Emissive",
+          "LightDummyName": "light",
+          "LightFalloffBounds": { "_Min": "0", "_Max": "3", "_Default": "1.3" },
+          "LightIntensityBounds": {
+            "_Min": "0.5",
+            "_Max": "10",
+            "_Default": "2"
+          },
+          "LightRadiusBounds": { "_Min": "1", "_Max": "10", "_Default": "3.6" },
+          "LightOffsetBounds": { "_Min": "0", "_Max": "5", "_Default": "0.5" },
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_HeatVentBlockDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Cockpit",
+            "SubtypeId": "SmallBlockStandingCockpit"
+          },
+          "DisplayName": "DisplayName_Block_CockpitStandingBridge",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\StandingBridge.dds",
+          "Description": "Description_CockpitStandingBridge",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "4", "_z": "3" },
+          "Model": "Models\\Cubes\\Small\\StandingBridge.mwm",
+          "CharacterAnimation": "HelmCockpitPoseSmall",
+          "BackpackEnabled": "true",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "Display", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.2",
+                "_EndX": "2.9",
+                "_EndY": "1.1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.1",
+                "_StartY": "1.9",
+                "_EndX": "2.9",
+                "_EndY": "2.3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2.1",
+                "_StartY": "0",
+                "_EndX": "2.6",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.4",
+                "_StartY": "0",
+                "_EndX": "0.9",
+                "_EndY": "2"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\StandingBridgeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\StandingBridgeConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "StandingBridge",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Small",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "1",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "2",
+                "_Script": "TSS_Velocity"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "true",
+          "IsPressurized": "false",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "DLC": "Warfare2",
+          "HasInventory": "false",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Cockpit",
+            "SubtypeId": "LargeBlockStandingCockpit"
+          },
+          "DisplayName": "DisplayName_Block_CockpitStandingBridge",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\StandingBridge.dds",
+          "Description": "Description_CockpitStandingBridge",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "Model": "Models\\Cubes\\Large\\StandingBridge.mwm",
+          "CharacterAnimation": "HelmCockpitPose",
+          "BackpackEnabled": "true",
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "15" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "20" },
+              { "_Subtype": "Display", "_Count": "2" },
+              { "_Subtype": "Construction", "_Count": "5" },
+              { "_Subtype": "InteriorPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Display", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.05",
+                "_EndX": "0.8",
+                "_EndY": "0.25",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.25",
+                "_StartY": "0.38",
+                "_EndX": "0.75",
+                "_EndY": "0.46"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\StandingBridgeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\StandingBridgeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\StandingBridgeConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "StandingBridge",
+          "ScreenAreas": {
+            "ScreenArea": [
+              {
+                "_Name": "CockpitScreen_01",
+                "_DisplayName": "DisplayName_Screen_Small",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "3",
+                "_ScreenHeight": "1",
+                "_Script": "TSS_EnergyHydrogen"
+              },
+              {
+                "_Name": "CockpitScreen_02",
+                "_DisplayName": "DisplayName_Screen_Large",
+                "_TextureResolution": "512",
+                "_ScreenWidth": "5",
+                "_ScreenHeight": "2",
+                "_Script": "TSS_Velocity"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "OutsideVoxel",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "MirroringZ": "Y",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "EnableFirstPerson": "true",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "false",
+          "TargetLockingEnabled": "true",
+          "IsPressurized": "false",
+          "BuildTimeSeconds": "20",
+          "HasInventory": "false",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "DLC": "Warfare2",
+          "_xsi:type": "MyObjectBuilder_CockpitDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Thrust",
+            "SubtypeId": "SmallBlockSmallModularThruster"
+          },
+          "DisplayName": "DisplayName_Block_SmallModularThruster",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SmallGridModularIonThrusterSmall.dds",
+          "Description": "Description_IonThrust",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ModularIonThrusterSmall.mwm",
+          "ThrusterType": "Ion",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "LargeTube", "_Count": "1" },
+              { "_Subtype": "Thrust", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Thrust", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ModularIonThrusterSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ModularIonThrusterSmallConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "SmallModularThruster",
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "BuildTimeSeconds": "10",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Thrust",
+          "ForceMagnitude": "14400",
+          "MaxPowerConsumption": "0.200",
+          "MinPowerConsumption": "0.000002",
+          "SlowdownFactor": "1",
+          "MinPlanetaryInfluence": "0",
+          "MaxPlanetaryInfluence": "1",
+          "EffectivenessAtMinInfluence": "1",
+          "EffectivenessAtMaxInfluence": "0.2",
+          "FlameDamageLengthScale": "0.36",
+          "FlameDamage": "0.1",
+          "FlameLengthScale": "1.6",
+          "FlameIdleColor": { "X": "0.1", "Y": "0.5", "Z": "0.8", "W": "0.75" },
+          "FlameFullColor": { "X": "0.1", "Y": "0.8", "Z": "0.8", "W": "0.75" },
+          "FlamePointMaterial": "EngineThrustMiddle",
+          "FlameLengthMaterial": "ModularEngineThrustMiddle",
+          "FlameFlare": "SmallGridSmallThruster",
+          "FlameVisibilityDistance": "200",
+          "FlameGlareQuerySize": "0.5",
+          "PrimarySound": "SmShipSmJet",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "DLC": "Warfare2",
+          "TargetingGroups": { "string": "Propulsion" },
+          "_xsi:type": "MyObjectBuilder_ThrustDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Thrust",
+            "SubtypeId": "SmallBlockLargeModularThruster"
+          },
+          "DisplayName": "DisplayName_Block_LargeModularThruster",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\SmallGridModularIonThrusterLarge.dds",
+          "Description": "Description_IonThrust",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "3", "_z": "4" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\ModularIonThrusterLarge.mwm",
+          "ThrusterType": "Ion",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "LargeTube", "_Count": "5" },
+              { "_Subtype": "Thrust", "_Count": "12" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Thrust", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "2",
+                "_EndX": "1.5",
+                "_EndY": "3.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "2",
+                "_EndX": "2",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1.5",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2",
+                "_StartY": "0.5",
+                "_EndX": "3.5",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2",
+                "_StartY": "0",
+                "_EndX": "4",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "2",
+                "_EndY": "2.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\ModularIonThrusterLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\ModularIonThrusterLargeConstruction_2.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "LargeModularThruster",
+          "Center": { "_x": "0", "_y": "1", "_z": "2" },
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "BuildTimeSeconds": "20",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Thrust",
+          "ForceMagnitude": "172800",
+          "MaxPowerConsumption": "2.4",
+          "MinPowerConsumption": "0.000002",
+          "SlowdownFactor": "1",
+          "MinPlanetaryInfluence": "0",
+          "MaxPlanetaryInfluence": "1",
+          "EffectivenessAtMinInfluence": "1",
+          "EffectivenessAtMaxInfluence": "0.2",
+          "FlameDamageLengthScale": "0.6",
+          "FlameDamage": "0.2",
+          "FlameLengthScale": "1.1",
+          "FlameIdleColor": { "X": "0.1", "Y": "0.5", "Z": "0.8", "W": "0.75" },
+          "FlameFullColor": { "X": "0.1", "Y": "0.8", "Z": "0.8", "W": "0.75" },
+          "FlamePointMaterial": "EngineThrustMiddle",
+          "FlameLengthMaterial": "ModularEngineThrustMiddle",
+          "FlameFlare": "SmallGridLargeThruster",
+          "FlameVisibilityDistance": "300",
+          "FlameGlareQuerySize": "0.5",
+          "PrimarySound": "SmShipLrgJet",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "DLC": "Warfare2",
+          "TargetingGroups": { "string": "Propulsion" },
+          "_xsi:type": "MyObjectBuilder_ThrustDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Thrust",
+            "SubtypeId": "LargeBlockSmallModularThruster"
+          },
+          "DisplayName": "DisplayName_Block_SmallModularThruster",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGridModularIonThrusterSmall.dds",
+          "Description": "Description_IonThrust",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ModularIonThrusterSmall.mwm",
+          "ThrusterType": "Ion",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "15" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "LargeTube", "_Count": "8" },
+              { "_Subtype": "Thrust", "_Count": "80" },
+              { "_Subtype": "Construction", "_Count": "20" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Thrust", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0.5",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1.5",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ModularIonThrusterSmallConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ModularIonThrusterSmallConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ModularIonThrusterSmallConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "SmallModularThruster",
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "40",
+          "ResourceSinkGroup": "Thrust",
+          "ForceMagnitude": "345600",
+          "MaxPowerConsumption": "3.36",
+          "MinPowerConsumption": "0.000002",
+          "SlowdownFactor": "1",
+          "MinPlanetaryInfluence": "0",
+          "MaxPlanetaryInfluence": "1",
+          "EffectivenessAtMinInfluence": "1",
+          "EffectivenessAtMaxInfluence": "0.2",
+          "FlameDamageLengthScale": "0.61",
+          "FlameLengthScale": "1.5",
+          "FlameIdleColor": { "X": "0.1", "Y": "0.5", "Z": "0.8", "W": "0.75" },
+          "FlameFullColor": { "X": "0.1", "Y": "0.8", "Z": "0.8", "W": "0.75" },
+          "FlamePointMaterial": "EngineThrustMiddle",
+          "FlameLengthMaterial": "ModularEngineThrustMiddle",
+          "FlameFlare": "LargeGridSmallThruster",
+          "FlameVisibilityDistance": "500",
+          "FlameGlareQuerySize": "1",
+          "PrimarySound": "LrgShipSmJet",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "DLC": "Warfare2",
+          "TargetingGroups": { "string": "Propulsion" },
+          "_xsi:type": "MyObjectBuilder_ThrustDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "Thrust",
+            "SubtypeId": "LargeBlockLargeModularThruster"
+          },
+          "DisplayName": "DisplayName_Block_LargeModularThruster",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LargeGridModularIonThrusterLarge.dds",
+          "Description": "Description_IonThrust",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "2", "_y": "3", "_z": "4" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\ModularIonThrusterLarge.mwm",
+          "ThrusterType": "Ion",
+          "SilenceableByShipSoundSystem": "true",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "100" },
+              { "_Subtype": "Construction", "_Count": "70" },
+              { "_Subtype": "LargeTube", "_Count": "40" },
+              { "_Subtype": "Thrust", "_Count": "960" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "SteelPlate", "_Count": "50" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Thrust", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.5",
+                "_StartY": "2",
+                "_EndX": "1.5",
+                "_EndY": "3.5"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "2",
+                "_EndX": "2",
+                "_EndY": "4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "1.5",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "2",
+                "_StartY": "0.5",
+                "_EndX": "3.5",
+                "_EndY": "2.5"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "2",
+                "_StartY": "0",
+                "_EndX": "4",
+                "_EndY": "3"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.5",
+                "_StartY": "0.5",
+                "_EndX": "2",
+                "_EndY": "2.5"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\ModularIonThrusterLargeConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\ModularIonThrusterLargeConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\ModularIonThrusterLargeConstruction_3.mwm"
+              }
+            ]
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            },
+            "DynamicMode": {
+              "PlacementMode": "Volumetric",
+              "MaxAllowed": "0.2",
+              "MinAllowed": "0"
+            }
+          },
+          "BlockPairName": "LargeModularThruster",
+          "Center": { "_x": "0", "_y": "1", "_z": "2" },
+          "MirroringX": "Z",
+          "MirroringZ": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "90",
+          "ResourceSinkGroup": "Thrust",
+          "ForceMagnitude": "4320000",
+          "MaxPowerConsumption": "33.6",
+          "MinPowerConsumption": "0.000002",
+          "SlowdownFactor": "1",
+          "MinPlanetaryInfluence": "0",
+          "MaxPlanetaryInfluence": "1",
+          "EffectivenessAtMinInfluence": "1",
+          "EffectivenessAtMaxInfluence": "0.2",
+          "FlameDamageLengthScale": "0.8",
+          "FlameLengthScale": "1.15",
+          "FlameIdleColor": { "X": "0.1", "Y": "0.5", "Z": "0.8", "W": "0.75" },
+          "FlameFullColor": { "X": "0.1", "Y": "0.8", "Z": "0.8", "W": "0.75" },
+          "FlamePointMaterial": "EngineThrustMiddle",
+          "FlameLengthMaterial": "ModularEngineThrustMiddle",
+          "FlameFlare": "LargeGridLargeThruster",
+          "FlameVisibilityDistance": "700",
+          "FlameGlareQuerySize": "1.5",
+          "PrimarySound": "LrgShipLrgJet",
+          "DamageEffectName": "Damage_WeapExpl_Damaged",
+          "DamagedSound": "ParticleWeapExpl",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "15",
+          "DLC": "Warfare2",
+          "TargetingGroups": { "string": "Propulsion" },
+          "_xsi:type": "MyObjectBuilder_ThrustDefinition"
+        }
+      ]
+    }
+  }
+}

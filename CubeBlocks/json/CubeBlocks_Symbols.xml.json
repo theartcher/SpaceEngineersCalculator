@@ -1,0 +1,3704 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolA" },
+          "DisplayName": "DisplayName_Block_SymbolA",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_A.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_A.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_AConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolA",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolB" },
+          "DisplayName": "DisplayName_Block_SymbolB",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_B.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_B.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_BConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolB",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolC" },
+          "DisplayName": "DisplayName_Block_SymbolC",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_C.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_C.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_CConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolC",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolD" },
+          "DisplayName": "DisplayName_Block_SymbolD",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_D.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_D.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_DConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolD",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolE" },
+          "DisplayName": "DisplayName_Block_SymbolE",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_E.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_E.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_EConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolE",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolF" },
+          "DisplayName": "DisplayName_Block_SymbolF",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_F.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_F.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_FConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolF",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolG" },
+          "DisplayName": "DisplayName_Block_SymbolG",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_G.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_G.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_GConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolG",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolH" },
+          "DisplayName": "DisplayName_Block_SymbolH",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_H.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_H.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.4",
+              "_EndX": "0.8",
+              "_EndY": "0.6"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_HConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolH",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolI" },
+          "DisplayName": "DisplayName_Block_SymbolI",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_I.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_I.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.3",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_IConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolI",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolJ" },
+          "DisplayName": "DisplayName_Block_SymbolJ",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_J.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_J.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_JConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolJ",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolK" },
+          "DisplayName": "DisplayName_Block_SymbolK",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_K.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_K.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_KConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolK",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolL" },
+          "DisplayName": "DisplayName_Block_SymbolL",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_L.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_L.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.6"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_LConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolL",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolM" },
+          "DisplayName": "DisplayName_Block_SymbolM",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_M.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_M.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_MConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolM",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolN" },
+          "DisplayName": "DisplayName_Block_SymbolN",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_N.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_N.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_NConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolN",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolO" },
+          "DisplayName": "DisplayName_Block_SymbolO",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_O.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_O.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_OConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolO",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolP" },
+          "DisplayName": "DisplayName_Block_SymbolP",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_P.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_P.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.6"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_PConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolP",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolQ" },
+          "DisplayName": "DisplayName_Block_SymbolQ",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Q.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_Q.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_QConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolQ",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolR" },
+          "DisplayName": "DisplayName_Block_SymbolR",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_R.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_R.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_RConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolR",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolS" },
+          "DisplayName": "DisplayName_Block_SymbolS",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_S.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_S.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_SConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolS",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolT" },
+          "DisplayName": "DisplayName_Block_SymbolT",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_T.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_T.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_TConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolT",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolU" },
+          "DisplayName": "DisplayName_Block_SymbolU",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_U.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_U.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_UConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolU",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolV" },
+          "DisplayName": "DisplayName_Block_SymbolV",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_V.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_V.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_VConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolV",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolW" },
+          "DisplayName": "DisplayName_Block_SymbolW",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_W.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_W.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_WConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolW",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolX" },
+          "DisplayName": "DisplayName_Block_SymbolX",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_X.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_X.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_XConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolX",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolY" },
+          "DisplayName": "DisplayName_Block_SymbolY",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Y.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_Y.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_YConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolY",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolZ" },
+          "DisplayName": "DisplayName_Block_SymbolZ",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Z.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_Z.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_ZConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolZ",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolA" },
+          "DisplayName": "DisplayName_Block_SymbolA",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_A.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_A.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_AConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolA",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolB" },
+          "DisplayName": "DisplayName_Block_SymbolB",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_B.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_B.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_BConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolB",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolC" },
+          "DisplayName": "DisplayName_Block_SymbolC",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_C.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_C.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_CConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolC",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolD" },
+          "DisplayName": "DisplayName_Block_SymbolD",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_D.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_D.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.3",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_DConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolD",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolE" },
+          "DisplayName": "DisplayName_Block_SymbolE",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_E.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_E.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_EConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolE",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolF" },
+          "DisplayName": "DisplayName_Block_SymbolF",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_F.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_F.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_FConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolF",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolG" },
+          "DisplayName": "DisplayName_Block_SymbolG",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_G.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_G.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_GConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolG",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolH" },
+          "DisplayName": "DisplayName_Block_SymbolH",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_H.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_H.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.4",
+              "_EndX": "0.8",
+              "_EndY": "0.6"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_HConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolH",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolI" },
+          "DisplayName": "DisplayName_Block_SymbolI",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_I.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_I.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.3",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_IConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolI",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolJ" },
+          "DisplayName": "DisplayName_Block_SymbolJ",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_J.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_J.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.6"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_JConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolJ",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolK" },
+          "DisplayName": "DisplayName_Block_SymbolK",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_K.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_K.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_KConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolK",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolL" },
+          "DisplayName": "DisplayName_Block_SymbolL",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_L.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_L.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.6"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_LConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolL",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolM" },
+          "DisplayName": "DisplayName_Block_SymbolM",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_M.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_M.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_MConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolM",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolN" },
+          "DisplayName": "DisplayName_Block_SymbolN",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_N.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_N.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_NConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolN",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolO" },
+          "DisplayName": "DisplayName_Block_SymbolO",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_O.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_O.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_OConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolO",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolP" },
+          "DisplayName": "DisplayName_Block_SymbolP",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_P.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_P.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.6"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_PConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolP",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolQ" },
+          "DisplayName": "DisplayName_Block_SymbolQ",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Q.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_Q.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_QConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolQ",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolR" },
+          "DisplayName": "DisplayName_Block_SymbolR",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_R.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_R.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_RConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolR",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolS" },
+          "DisplayName": "DisplayName_Block_SymbolS",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_S.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_S.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_SConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolS",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolT" },
+          "DisplayName": "DisplayName_Block_SymbolT",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_T.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_T.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_TConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolT",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolU" },
+          "DisplayName": "DisplayName_Block_SymbolU",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_U.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_U.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_UConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolU",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolV" },
+          "DisplayName": "DisplayName_Block_SymbolV",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_V.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_V.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_VConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolV",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolW" },
+          "DisplayName": "DisplayName_Block_SymbolW",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_W.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_W.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_WConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolW",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolX" },
+          "DisplayName": "DisplayName_Block_SymbolX",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_X.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_X.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_XConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolX",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolY" },
+          "DisplayName": "DisplayName_Block_SymbolY",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Y.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_Y.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.3",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_YConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolY",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolZ" },
+          "DisplayName": "DisplayName_Block_SymbolZ",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Z.dds",
+          "Description": "Description_Letters",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_Z.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_ZConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolZ",
+          "MirroringX": "Y",
+          "MirroringY": "X",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol0" },
+          "DisplayName": "DisplayName_Block_Symbol0",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_0.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_0.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_0Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol0",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol1" },
+          "DisplayName": "DisplayName_Block_Symbol1",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_1.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_1.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.3",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_1Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol1",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol2" },
+          "DisplayName": "DisplayName_Block_Symbol2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_2.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_2.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_2Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol2",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol3" },
+          "DisplayName": "DisplayName_Block_Symbol3",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_3.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_3.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_3Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol3",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol4" },
+          "DisplayName": "DisplayName_Block_Symbol4",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_4.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_4.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_4Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol4",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol5" },
+          "DisplayName": "DisplayName_Block_Symbol5",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_5.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_5.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_5Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol5",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol6" },
+          "DisplayName": "DisplayName_Block_Symbol6",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_6.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_6.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_6Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol6",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol7" },
+          "DisplayName": "DisplayName_Block_Symbol7",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_7.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_7.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_7Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol7",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol8" },
+          "DisplayName": "DisplayName_Block_Symbol8",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_8.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_8.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_8Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol8",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbol9" },
+          "DisplayName": "DisplayName_Block_Symbol9",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_9.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_9.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_9Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol9",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol0" },
+          "DisplayName": "DisplayName_Block_Symbol0",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_0.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_0.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_0Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol0",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol1" },
+          "DisplayName": "DisplayName_Block_Symbol1",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_1.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_1.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.3",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_1Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol1",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol2" },
+          "DisplayName": "DisplayName_Block_Symbol2",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_2.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_2.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_2Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol2",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol3" },
+          "DisplayName": "DisplayName_Block_Symbol3",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_3.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_3.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_3Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol3",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol4" },
+          "DisplayName": "DisplayName_Block_Symbol4",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_4.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_4.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.6",
+                "_EndX": "0.7",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.8"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_4Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol4",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol5" },
+          "DisplayName": "DisplayName_Block_Symbol5",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_5.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_5.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_5Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol5",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol6" },
+          "DisplayName": "DisplayName_Block_Symbol6",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_6.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_6.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_6Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol6",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol7" },
+          "DisplayName": "DisplayName_Block_Symbol7",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_7.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_7.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.2",
+                "_StartY": "0.3",
+                "_EndX": "0.8",
+                "_EndY": "0.4"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.7",
+                "_StartY": "0.4",
+                "_EndX": "0.8",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_7Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol7",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol8" },
+          "DisplayName": "DisplayName_Block_Symbol8",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_8.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_8.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_8Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol8",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbol9" },
+          "DisplayName": "DisplayName_Block_Symbol9",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_9.dds",
+          "Description": "Description_Numbers",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_9.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_9Construction_1.mwm"
+            }
+          },
+          "BlockPairName": "Symbol9",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolHyphen" },
+          "DisplayName": "DisplayName_Block_SymbolHyphen",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Hyphen.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_Hyphen.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.4",
+              "_StartY": "0.45",
+              "_EndX": "0.6",
+              "_EndY": "0.55"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_HyphenConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolHyphen",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolUnderscore" },
+          "DisplayName": "DisplayName_Block_SymbolUnderscore",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Underscore.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_Underscore.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.6",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_UnderscoreConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolUnderscore",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolDot" },
+          "DisplayName": "DisplayName_Block_SymbolDot",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Dot.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_Dot.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.6",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_DotConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolDot",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolApostrophe" },
+          "DisplayName": "DisplayName_Block_SymbolApostrophe",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Apostrophe.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_Apostrophe.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.3",
+              "_EndX": "0.55",
+              "_EndY": "0.5"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_ApostropheConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolApostrophe",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolAnd" },
+          "DisplayName": "DisplayName_Block_SymbolAnd",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_And.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_And.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_AndConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolAnd",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "LargeSymbolColon" },
+          "DisplayName": "DisplayName_Block_SymbolColon",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Colon.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_Colon.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.5",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_ColonConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolColon",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeSymbolExclamationMark"
+          },
+          "DisplayName": "DisplayName_Block_SymbolExclamationMark",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_ExclamationMark.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_ExclamationMark.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.3",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_ExclamationMarkConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolExclamationMark",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "LargeSymbolQuestionMark"
+          },
+          "DisplayName": "DisplayName_Block_SymbolQuestionMark",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_QuestionMark.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\Symbol_QuestionMark.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "3" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.6"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Large\\Symbol_QuestionMarkConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolQuestionMark",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "4",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolHyphen" },
+          "DisplayName": "DisplayName_Block_SymbolHyphen",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Hyphen.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_Hyphen.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.4",
+              "_StartY": "0.45",
+              "_EndX": "0.6",
+              "_EndY": "0.55"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_HyphenConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolHyphen",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolUnderscore" },
+          "DisplayName": "DisplayName_Block_SymbolUnderscore",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Underscore.dds",
+          "Description": "Description_Symbol",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_Underscore.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.3",
+              "_StartY": "0.6",
+              "_EndX": "0.7",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_UnderscoreConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolUnderscore",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolDot" },
+          "DisplayName": "DisplayName_Block_SymbolDot",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Dot.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_Dot.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.6",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_DotConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolDot",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolApostrophe" },
+          "DisplayName": "DisplayName_Block_SymbolApostrophe",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Apostrophe.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_Apostrophe.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.3",
+              "_EndX": "0.55",
+              "_EndY": "0.5"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_ApostropheConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolApostrophe",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolAnd" },
+          "DisplayName": "DisplayName_Block_SymbolAnd",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_And.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_And.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_AndConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolAnd",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": { "TypeId": "CubeBlock", "SubtypeId": "SmallSymbolColon" },
+          "DisplayName": "DisplayName_Block_SymbolColon",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_Colon.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_Colon.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.5",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_ColonConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolColon",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallSymbolExclamationMark"
+          },
+          "DisplayName": "DisplayName_Block_SymbolExclamationMark",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_ExclamationMark.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_ExclamationMark.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.45",
+              "_StartY": "0.3",
+              "_EndX": "0.55",
+              "_EndY": "0.7"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_ExclamationMarkConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolExclamationMark",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        },
+        {
+          "Id": {
+            "TypeId": "CubeBlock",
+            "SubtypeId": "SmallSymbolQuestionMark"
+          },
+          "DisplayName": "DisplayName_Block_SymbolQuestionMark",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\Symbol_QuestionMark.dds",
+          "Description": "Description_Symbols",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\Symbol_QuestionMark.mwm",
+          "Components": {
+            "Component": { "_Subtype": "SteelPlate", "_Count": "1" }
+          },
+          "CriticalComponent": { "_Subtype": "SteelPlate", "_Index": "1" },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_StartX": "0.2",
+              "_StartY": "0.3",
+              "_EndX": "0.8",
+              "_EndY": "0.6"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": {
+              "_BuildPercentUpperBound": "1.00",
+              "_File": "Models\\Cubes\\Small\\Symbol_QuestionMarkConstruction_1.mwm"
+            }
+          },
+          "BlockPairName": "SymbolQuestionMark",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "2",
+          "IsAirTight": "false",
+          "IsStandAlone": "false",
+          "PCU": "1"
+        }
+      ]
+    }
+  }
+}

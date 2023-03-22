@@ -1,0 +1,755 @@
+﻿{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": "RadioAntenna",
+            "SubtypeId": "LargeBlockRadioAntenna"
+          },
+          "DisplayName": "DisplayName_Block_Antenna",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\antenna.dds",
+          "Description": "Description_RadioAntenna",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "6", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\antenna.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "60" },
+              { "_Subtype": "LargeTube", "_Count": "40" },
+              { "_Subtype": "SmallTube", "_Count": "60" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "Computer", "_Count": "8" },
+              { "_Subtype": "RadioCommunication", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "20" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "RadioCommunication",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": {
+              "_Side": "Bottom",
+              "_ExclusionMask": "1",
+              "_PropertiesMask": "2",
+              "_StartX": "0",
+              "_StartY": "0",
+              "_EndX": "1",
+              "_EndY": "2"
+            }
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\AntennaConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\AntennaConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\AntennaConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Antenna",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Utility",
+          "BuildTimeSeconds": "40",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "DamageEffectName": "Damage_Electrical_Damaged_Antenna",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_RadioAntennaDefinition"
+        },
+        {
+          "Id": { "TypeId": "Beacon", "SubtypeId": "LargeBlockBeacon" },
+          "DisplayName": "DisplayName_Block_Beacon",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\beacon.dds",
+          "Description": "Description_Beacon",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\beacon.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "40" },
+              { "_Subtype": "Construction", "_Count": "30" },
+              { "_Subtype": "LargeTube", "_Count": "20" },
+              { "_Subtype": "Computer", "_Count": "10" },
+              { "_Subtype": "RadioCommunication", "_Count": "40" },
+              { "_Subtype": "SteelPlate", "_Count": "40" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "RadioCommunication",
+            "_Index": "0"
+          },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0.1",
+                "_StartY": "0.1",
+                "_EndX": "0.9",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.175",
+                "_StartY": "0.1",
+                "_EndX": "0.825",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.175",
+                "_StartY": "0.1",
+                "_EndX": "0.825",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0.175",
+                "_StartY": "0.1",
+                "_EndX": "0.825",
+                "_EndY": "0.9"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0.175",
+                "_StartY": "0.1",
+                "_EndX": "0.825",
+                "_EndY": "0.9"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\BeaconConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\BeaconConstruction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\BeaconConstruction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Beacon",
+          "EdgeType": "Light",
+          "MirroringY": "Z",
+          "BuildTimeSeconds": "40",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ResourceSinkGroup": "Utility",
+          "MaxBroadcastRadius": "200000",
+          "Flare": "BeaconLarge",
+          "MaxBroadcastPowerDrainkW": "20",
+          "EmissiveColorPreset": "Beacon",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_BeaconDefinition"
+        },
+        {
+          "Id": { "TypeId": "Beacon", "SubtypeId": "SmallBlockBeacon" },
+          "DisplayName": "DisplayName_Block_Beacon",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\beacon.dds",
+          "Description": "Description_Beacon",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\beacon.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "SmallTube", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "RadioCommunication", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\BeaconConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\BeaconConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Beacon",
+          "MirroringY": "Z",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "15",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ResourceSinkGroup": "Utility",
+          "MaxBroadcastRadius": "200000",
+          "Flare": "BeaconSmall",
+          "MaxBroadcastPowerDrainkW": "20",
+          "EmissiveColorPreset": "Beacon",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "50",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_BeaconDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "RadioAntenna",
+            "SubtypeId": "SmallBlockRadioAntenna"
+          },
+          "DisplayName": "DisplayName_Block_Antenna",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\antenna.dds",
+          "Description": "Description_RadioAntenna",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "2" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\antenna.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "1" },
+              { "_Subtype": "SmallTube", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "RadioCommunication", "_Count": "4" },
+              { "_Subtype": "Construction", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": {
+            "_Subtype": "RadioCommunication",
+            "_Index": "0"
+          },
+          "Center": { "_x": "0", "_y": "0", "_z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "1",
+                "_StartY": "0",
+                "_EndX": "2",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "1",
+                "_EndX": "1",
+                "_EndY": "2"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\AntennaConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\AntennaConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "Antenna",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "ResourceSinkGroup": "Utility",
+          "BuildTimeSeconds": "16",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_RadioAntennaDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "RemoteControl",
+            "SubtypeId": "LargeBlockRemoteControl"
+          },
+          "DisplayName": "DisplayName_Block_RemoteControl",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RemoteControl.dds",
+          "Description": "Description_RemoteControl",
+          "CubeSize": "Large",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\RemoteControl.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "5" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "15" },
+              { "_Subtype": "InteriorPlate", "_Count": "5" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.3",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0.3",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "0.7",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0.7",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.7"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "0.7"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Large\\RemoteControlConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\RemoteControlConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "RemoteControl",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "30",
+          "MirroringY": "Z",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.01",
+          "EnableFirstPerson": "false",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "false",
+          "Public": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "_xsi:type": "MyObjectBuilder_RemoteControlDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "RemoteControl",
+            "SubtypeId": "SmallBlockRemoteControl"
+          },
+          "DisplayName": "DisplayName_Block_RemoteControl",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\RemoteControl.dds",
+          "Description": "Description_RemoteControl",
+          "CubeSize": "Small",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "1", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\RemoteControl.mwm",
+          "Components": {
+            "Component": [
+              { "_Subtype": "InteriorPlate", "_Count": "1" },
+              { "_Subtype": "Construction", "_Count": "1" },
+              { "_Subtype": "Motor", "_Count": "1" },
+              { "_Subtype": "Computer", "_Count": "1" },
+              { "_Subtype": "InteriorPlate", "_Count": "1" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Top",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\RemoteControlConstruction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\RemoteControlConstruction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "RemoteControl",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "14",
+          "ResourceSinkGroup": "Utility",
+          "RequiredPowerInput": "0.01",
+          "EnableFirstPerson": "false",
+          "EnableShipControl": "true",
+          "EnableBuilderCockpit": "false",
+          "Public": "true",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "25",
+          "IsAirTight": "false",
+          "_xsi:type": "MyObjectBuilder_RemoteControlDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "LaserAntenna",
+            "SubtypeId": "LargeBlockLaserAntenna"
+          },
+          "DisplayName": "DisplayName_Block_LaserAntenna",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LaserAntenna.dds",
+          "Description": "Description_LaserAntenna",
+          "CubeSize": "Large",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "1", "_y": "2", "_z": "1" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Large\\LaserComBase.mwm",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "40" },
+              { "_Subtype": "Construction", "_Count": "40" },
+              { "_Subtype": "Motor", "_Count": "16" },
+              { "_Subtype": "Detector", "_Count": "30" },
+              { "_Subtype": "RadioCommunication", "_Count": "20" },
+              { "_Subtype": "Superconductor", "_Count": "100" },
+              { "_Subtype": "Computer", "_Count": "50" },
+              { "_Subtype": "BulletproofGlass", "_Count": "4" },
+              { "_Subtype": "SteelPlate", "_Count": "10" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "1",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.33",
+                "_File": "Models\\Cubes\\Large\\LaserCom_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "0.66",
+                "_File": "Models\\Cubes\\Large\\LaserCom_Construction_2.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Large\\LaserCom_Construction_3.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LaserAntenna",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "40",
+          "MirroringY": "Z",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ResourceSinkGroup": "Utility",
+          "PowerInputIdle": "0.0001",
+          "PowerInputTurning": "0.001",
+          "PowerInputLasing": "10",
+          "MinElevationDegrees": "-180",
+          "MaxElevationDegrees": "180",
+          "MinAzimuthDegrees": "-180",
+          "MaxAzimuthDegrees": "180",
+          "RotationRate": "0.01",
+          "MaxRange": "-1",
+          "RequireLineOfSight": "true",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Large",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_LaserAntennaDefinition"
+        },
+        {
+          "Id": {
+            "TypeId": "LaserAntenna",
+            "SubtypeId": "SmallBlockLaserAntenna"
+          },
+          "DisplayName": "DisplayName_Block_LaserAntenna",
+          "Icon": "Textures\\GUI\\Icons\\Cubes\\LaserAntennaSmall.dds",
+          "Description": "Description_LaserAntenna",
+          "CubeSize": "Small",
+          "GuiVisible": "false",
+          "BlockTopology": "TriangleMesh",
+          "Size": { "_x": "3", "_y": "3", "_z": "3" },
+          "ModelOffset": { "_x": "0", "_y": "0", "_z": "0" },
+          "Model": "Models\\Cubes\\Small\\LaserComBase.mwm",
+          "PlaceDecals": "false",
+          "Components": {
+            "Component": [
+              { "_Subtype": "SteelPlate", "_Count": "6" },
+              { "_Subtype": "SmallTube", "_Count": "10" },
+              { "_Subtype": "Construction", "_Count": "10" },
+              { "_Subtype": "Motor", "_Count": "5" },
+              { "_Subtype": "RadioCommunication", "_Count": "5" },
+              { "_Subtype": "Superconductor", "_Count": "10" },
+              { "_Subtype": "Computer", "_Count": "30" },
+              { "_Subtype": "BulletproofGlass", "_Count": "2" },
+              { "_Subtype": "SteelPlate", "_Count": "4" }
+            ]
+          },
+          "CriticalComponent": { "_Subtype": "Computer", "_Index": "0" },
+          "Center": { "_x": "1", "_y": "0", "_z": "1" },
+          "MountPoints": {
+            "MountPoint": [
+              {
+                "_Side": "Bottom",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "3",
+                "_Default": "true"
+              },
+              {
+                "_Side": "Left",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Right",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Back",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              },
+              {
+                "_Side": "Front",
+                "_StartX": "0",
+                "_StartY": "0",
+                "_EndX": "3",
+                "_EndY": "1"
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": [
+              {
+                "_BuildPercentUpperBound": "0.50",
+                "_File": "Models\\Cubes\\Small\\LaserCom_Construction_1.mwm"
+              },
+              {
+                "_BuildPercentUpperBound": "1.00",
+                "_File": "Models\\Cubes\\Small\\LaserCom_Construction_2.mwm"
+              }
+            ]
+          },
+          "BlockPairName": "LaserAntenna",
+          "MirroringY": "Z",
+          "MirroringZ": "Y",
+          "EdgeType": "Light",
+          "BuildTimeSeconds": "20",
+          "DamageEffectName": "Damage_Electrical_Damaged",
+          "DamagedSound": "ParticleElectrical",
+          "ResourceSinkGroup": "Utility",
+          "PowerInputIdle": "0.0001",
+          "PowerInputTurning": "0.001",
+          "PowerInputLasing": "10",
+          "MinElevationDegrees": "-180",
+          "MaxElevationDegrees": "180",
+          "MinAzimuthDegrees": "-180",
+          "MaxAzimuthDegrees": "180",
+          "RotationRate": "0.01",
+          "MaxRange": "-1",
+          "RequireLineOfSight": "true",
+          "EmissiveColorPreset": "Extended",
+          "DestroyEffect": "BlockDestroyedExplosion_Small",
+          "DestroySound": "WepSmallWarheadExpl",
+          "PCU": "100",
+          "_xsi:type": "MyObjectBuilder_LaserAntennaDefinition"
+        }
+      ]
+    }
+  }
+}
