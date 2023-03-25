@@ -1,0 +1,3633 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "BridgeWindow1x1Slope"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BridgeWindow1x1Slope"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BridgeWindow1x1Slope.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BridgeWindow1x1Slope.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "BridgeWindow1x1Slope"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "BridgeWindow1x1Face"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BridgeWindow1x1Face"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BridgeWindow1x1Face.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BridgeWindow1x1Face.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "BridgeWindow1x1Face"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "HalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "BridgeWindow1x1FaceInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BridgeWindow1x1FaceInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BridgeWindow1x1FaceInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BridgeWindow1x1FaceInverted.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "BridgeWindow1x1FaceInverted"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "HalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "PassengerBench"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PassengerBench"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassengerBench.dds"
+          },
+          "Description": {
+            "_text": "Description_PassengerSeat"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\PassengerBench.mwm"
+          },
+          "CharacterAnimationMale": {
+            "_text": "PassengerBench"
+          },
+          "CharacterAnimationFemale": {
+            "_text": "PassengerBenchFemale"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "PassengerBench"
+          },
+          "MirroringX": {
+            "_text": "OffsetXOddTest"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "LargeLightPanel"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightPanel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_InteriorLight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "LightPanel_Light"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "SmallLightPanel"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightPanel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_InteriorLight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "LightPanel_Light"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Reactor"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallGeneratorWarfare2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallReactorWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ReactorReskinSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_Reactor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ReactorReskinSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SmallReactorWarfare2"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "MaxPowerOutput": {
+            "_text": "15"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "InventoryFillFactorMin": {
+            "_text": "0.0005"
+          },
+          "InventoryFillFactorMax": {
+            "_text": "0.001"
+          },
+          "FuelPullAmountFromConveyorInMinutes": {
+            "_text": "10.0"
+          },
+          "FuelInfos": {
+            "FuelInfo": {
+              "Id": {
+                "TypeId": {
+                  "_text": "Ingot"
+                },
+                "SubtypeId": {
+                  "_text": "Uranium"
+                }
+              }
+            }
+          },
+          "PrimarySound": {
+            "_text": "ShipLrgNuclearSm"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Reactor_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleReactor"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "900"
+              },
+              {
+                "_text": "1800"
+              },
+              {
+                "_text": "3600"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "PowerSystems"
+            }
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Reactor"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeGeneratorWarfare2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeReactorWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ReactorReskinLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Reactor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ReactorReskinLarge.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LargeReactorWarfare2"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "100"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "MaxPowerOutput": {
+            "_text": "300"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "InventoryFillFactorMin": {
+            "_text": "0.001"
+          },
+          "InventoryFillFactorMax": {
+            "_text": "0.002"
+          },
+          "FuelPullAmountFromConveyorInMinutes": {
+            "_text": "10.0"
+          },
+          "FuelInfos": {
+            "FuelInfo": {
+              "Id": {
+                "TypeId": {
+                  "_text": "Ingot"
+                },
+                "SubtypeId": {
+                  "_text": "Uranium"
+                }
+              }
+            }
+          },
+          "PrimarySound": {
+            "_text": "ShipLrgNuclearLrg"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Reactor_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleReactor"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "Explosion_Warhead_30"
+          },
+          "DestroySound": {
+            "_text": "WepLrgWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "900"
+              },
+              {
+                "_text": "1800"
+              },
+              {
+                "_text": "3600"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "PowerSystems"
+            }
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Reactor"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallGeneratorWarfare2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallReactorWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SmallGridReactorReskinSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_Reactor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ReactorReskinSmall.mwm"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SmallReactorWarfare2"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "MaxPowerOutput": {
+            "_text": "0.5"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "0.5"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.5"
+            }
+          },
+          "InventoryFillFactorMin": {
+            "_text": "0.0002"
+          },
+          "InventoryFillFactorMax": {
+            "_text": "0.0004"
+          },
+          "FuelPullAmountFromConveyorInMinutes": {
+            "_text": "10.0"
+          },
+          "FuelInfos": {
+            "FuelInfo": {
+              "Id": {
+                "TypeId": {
+                  "_text": "Ingot"
+                },
+                "SubtypeId": {
+                  "_text": "Uranium"
+                }
+              }
+            }
+          },
+          "PrimarySound": {
+            "_text": "ShipSmNuclearSm"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Reactor_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleReactor"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "900"
+              },
+              {
+                "_text": "1800"
+              },
+              {
+                "_text": "3600"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "PowerSystems"
+            }
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Reactor"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLargeGeneratorWarfare2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeReactorWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SmallGridReactorReskinLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Reactor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ReactorReskinLarge.mwm"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LargeReactorWarfare2"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "MaxPowerOutput": {
+            "_text": "14.75"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "InventoryFillFactorMin": {
+            "_text": "0.0005"
+          },
+          "InventoryFillFactorMax": {
+            "_text": "0.001"
+          },
+          "FuelPullAmountFromConveyorInMinutes": {
+            "_text": "10.0"
+          },
+          "FuelInfos": {
+            "FuelInfo": {
+              "Id": {
+                "TypeId": {
+                  "_text": "Ingot"
+                },
+                "SubtypeId": {
+                  "_text": "Uranium"
+                }
+              }
+            }
+          },
+          "PrimarySound": {
+            "_text": "ShipSmNuclearLrg"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Reactor_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleReactor"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "900"
+              },
+              {
+                "_text": "1800"
+              },
+              {
+                "_text": "3600"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "PowerSystems"
+            }
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "AirtightHangarDoor"
+            },
+            "SubtypeId": {
+              "_text": "AirtightHangarDoorWarfare2A"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AirtightHangarDoorWarfare2A"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HangarDoorWarfareA_Base.dds"
+          },
+          "Description": {
+            "_text": "Description_HangarDoor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Center": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HangarDoorWarfareA_Base.mwm"
+          },
+          "Sound": {
+            "_text": "BlockDoorHangar"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "AirtightHangarDoorWarfare2A"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "PowerConsumptionIdle": {
+            "_text": "0.00001"
+          },
+          "PowerConsumptionMoving": {
+            "_text": "0.001"
+          },
+          "OpeningSpeed": {
+            "_text": "0.1"
+          },
+          "SubpartMovementDistance": {
+            "_text": "2.5"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "UseNeighbourOxygenRooms": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Metal"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "AirtightHangarDoor"
+            },
+            "SubtypeId": {
+              "_text": "AirtightHangarDoorWarfare2B"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AirtightHangarDoorWarfare2B"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HangarDoorWarfareB_Base.dds"
+          },
+          "Description": {
+            "_text": "Description_HangarDoor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Center": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HangarDoorWarfareB_Base.mwm"
+          },
+          "Sound": {
+            "_text": "BlockDoorHangar"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "AirtightHangarDoorWarfare2B"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "PowerConsumptionIdle": {
+            "_text": "0.00001"
+          },
+          "PowerConsumptionMoving": {
+            "_text": "0.001"
+          },
+          "OpeningSpeed": {
+            "_text": "0.1"
+          },
+          "SubpartMovementDistance": {
+            "_text": "2.5"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "UseNeighbourOxygenRooms": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Metal"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "AirtightHangarDoor"
+            },
+            "SubtypeId": {
+              "_text": "AirtightHangarDoorWarfare2C"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AirtightHangarDoorWarfare2C"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HangarDoorWarfareC_Base.dds"
+          },
+          "Description": {
+            "_text": "Description_HangarDoor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Center": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HangarDoorWarfareC_Base.mwm"
+          },
+          "Sound": {
+            "_text": "BlockDoorHangar"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "AirtightHangarDoorWarfare2C"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "PowerConsumptionIdle": {
+            "_text": "0.00001"
+          },
+          "PowerConsumptionMoving": {
+            "_text": "0.001"
+          },
+          "OpeningSpeed": {
+            "_text": "0.1"
+          },
+          "SubpartMovementDistance": {
+            "_text": "2.5"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "UseNeighbourOxygenRooms": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Metal"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallMissileLauncher"
+            },
+            "SubtypeId": {
+              "_text": "SmallMissileLauncherWarfare2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RocketLauncherWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RocketlauncherReskin.dds"
+          },
+          "Description": {
+            "_text": "Description_RocketLauncher"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\RocketLauncherReskin.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BlockPairName": {
+            "_text": "RocketLauncherWarfare2"
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.24"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "425"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallGatlingGun"
+            },
+            "SubtypeId": {
+              "_text": "SmallGatlingGunWarfare2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GatlingGunWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\gatlingGunReskin.dds"
+          },
+          "Description": {
+            "_text": "Description_GatlingGun"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\GatlingGunReskin.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "GatlingGunWarfare2"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "13"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.064"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "80"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".6"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "BatteryBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockBatteryBlockWarfare2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BatteryWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BatteryReskin.dds"
+          },
+          "Description": {
+            "_text": "Description_Battery"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BatteryReskin.mwm"
+          },
+          "Components": {
+            "Component": [
+              {
+                "DeconstructId": {
+                  "TypeId": {
+                    "_text": "Ore"
+                  },
+                  "SubtypeId": {
+                    "_text": "Scrap"
+                  }
+                }
+              }
+            ]
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "BatteryBlockWarfare2"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Battery"
+          },
+          "MaxPowerOutput": {
+            "_text": "12"
+          },
+          "ResourceSinkGroup": {
+            "_text": "BatteryBlock"
+          },
+          "RequiredPowerInput": {
+            "_text": "12"
+          },
+          "AdaptibleInput": {
+            "_text": "true"
+          },
+          "MaxStoredPower": {
+            "_text": "3"
+          },
+          "InitialStoredPowerRatio": {
+            "_text": "0.3"
+          },
+          "RechargeMultiplier": {
+            "_text": "0.8"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "PowerSystems"
+            }
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "BatteryBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockBatteryBlockWarfare2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BatteryWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BatteryReskin_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_Battery"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\BatteryReskin.mwm"
+          },
+          "Components": {
+            "Component": [
+              {
+                "DeconstructId": {
+                  "TypeId": {
+                    "_text": "Ore"
+                  },
+                  "SubtypeId": {
+                    "_text": "Scrap"
+                  }
+                }
+              }
+            ]
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "BatteryBlockWarfare2"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Battery"
+          },
+          "MaxPowerOutput": {
+            "_text": "4"
+          },
+          "ResourceSinkGroup": {
+            "_text": "BatteryBlock"
+          },
+          "RequiredPowerInput": {
+            "_text": "4"
+          },
+          "MaxStoredPower": {
+            "_text": "1"
+          },
+          "InitialStoredPowerRatio": {
+            "_text": "0.3"
+          },
+          "RechargeMultiplier": {
+            "_text": "0.8"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "PowerSystems"
+            }
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Door"
+            },
+            "SubtypeId": {
+              "_text": "SlidingHatchDoor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SlidingHatchDoor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HatchDoor.dds"
+          },
+          "Description": {
+            "_text": "Description_Door"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HatchDoor.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "OpenSound": {
+            "_text": "BlockDoorHangar"
+          },
+          "CloseSound": {
+            "_text": "BlockDoorHangar"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SlidingHatchDoor"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "Center": {},
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "26"
+          },
+          "DisassembleRatio": {
+            "_text": "1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "MaxOpen": {
+            "_text": "3.55"
+          },
+          "OpeningSpeed": {
+            "_text": "2"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          },
+          "DepressurizationEffectOffset": {},
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Door"
+            },
+            "SubtypeId": {
+              "_text": "SlidingHatchDoorHalf"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SlidingHatchDoorHalf"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HatchDoorHalf.dds"
+          },
+          "Description": {
+            "_text": "Description_Door"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HatchDoorHalf.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "OpenSound": {
+            "_text": "BlockDoorHangar"
+          },
+          "CloseSound": {
+            "_text": "BlockDoorHangar"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SlidingHatchDoorHalf"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "Center": {},
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "24"
+          },
+          "DisassembleRatio": {
+            "_text": "1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "MaxOpen": {
+            "_text": "3.55"
+          },
+          "OpeningSpeed": {
+            "_text": "2"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          },
+          "DepressurizationEffectOffset": {},
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Searchlight"
+            },
+            "SubtypeId": {
+              "_text": "SmallSearchlight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Searchlight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Small_Searchlight_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_Searchlight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Searchlight.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Searchlight"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\camera_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "MinElevationDegrees": {
+            "_text": "-40"
+          },
+          "MaxElevationDegrees": {
+            "_text": "90"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "800"
+          },
+          "RotationSpeed": {
+            "_text": "0.001"
+          },
+          "ElevationSpeed": {
+            "_text": "0.001"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "LightRadius": {},
+          "LightReflectorRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "Flare": {
+            "_text": "SpotlightSmall"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "ReflectorThickness": {
+            "_text": "1.5"
+          },
+          "ReflectorTexture": {
+            "_text": "Textures\\Lights\\reflector_small.dds"
+          },
+          "ReflectorConeDegrees": {
+            "_text": "52"
+          },
+          "LightDummyName": {
+            "_text": "spotlight"
+          },
+          "AiEnabled": {
+            "_text": "true"
+          },
+          "Range": {
+            "_text": "2000"
+          },
+          "LightShaftOffset": {
+            "_text": "-0.2"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Searchlight"
+            },
+            "SubtypeId": {
+              "_text": "LargeSearchlight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Searchlight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Large_Searchlight_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_Searchlight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Searchlight.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Searchlight"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "24"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\camera_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.001"
+          },
+          "MinElevationDegrees": {
+            "_text": "-40"
+          },
+          "MaxElevationDegrees": {
+            "_text": "90"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "800"
+          },
+          "RotationSpeed": {
+            "_text": "0.0005"
+          },
+          "ElevationSpeed": {
+            "_text": "0.0005"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "LightRadius": {},
+          "LightReflectorRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "Flare": {
+            "_text": "SpotlightLarge"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "ReflectorThickness": {
+            "_text": "7"
+          },
+          "ReflectorTexture": {
+            "_text": "Textures\\Lights\\reflector_large.dds"
+          },
+          "ReflectorConeDegrees": {
+            "_text": "52"
+          },
+          "LightDummyName": {
+            "_text": "spotlight"
+          },
+          "AiEnabled": {
+            "_text": "true"
+          },
+          "Range": {
+            "_text": "2000"
+          },
+          "LightShaftOffset": {
+            "_text": "-0.4"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "HeatVentBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeHeatVentBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeatVentWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeatVent.dds"
+          },
+          "Description": {
+            "_text": "Description_HeatVent"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "PowerDependency": {
+            "_text": "0.6"
+          },
+          "ColorMinimalPower": {},
+          "ColorMaximalPower": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeatVent.mwm"
+          },
+          "SubpartRotations": {
+            "SubpartRotation": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HeatVentBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "EmissiveMaterialName": {
+            "_text": "Emissive"
+          },
+          "LightDummyName": {
+            "_text": "light"
+          },
+          "LightFalloffBounds": {},
+          "LightIntensityBounds": {},
+          "LightRadiusBounds": {},
+          "LightOffsetBounds": {},
+          "IdleSound": {
+            "_text": "BlockOxyGenIdle"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "HeatVentBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallHeatVentBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeatVentWarfare2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeatVent_small.dds"
+          },
+          "Description": {
+            "_text": "Description_HeatVent"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "PowerDependency": {
+            "_text": "0.6"
+          },
+          "ColorMinimalPower": {},
+          "ColorMaximalPower": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeatVent.mwm"
+          },
+          "SubpartRotations": {
+            "SubpartRotation": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HeatVentBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "EmissiveMaterialName": {
+            "_text": "Emissive"
+          },
+          "LightDummyName": {
+            "_text": "light"
+          },
+          "LightFalloffBounds": {},
+          "LightIntensityBounds": {},
+          "LightRadiusBounds": {},
+          "LightOffsetBounds": {},
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockStandingCockpit"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CockpitStandingBridge"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\StandingBridge.dds"
+          },
+          "Description": {
+            "_text": "Description_CockpitStandingBridge"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\StandingBridge.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "HelmCockpitPoseSmall"
+          },
+          "BackpackEnabled": {
+            "_text": "true"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "StandingBridge"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "true"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "true"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          },
+          "HasInventory": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockStandingCockpit"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CockpitStandingBridge"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\StandingBridge.dds"
+          },
+          "Description": {
+            "_text": "Description_CockpitStandingBridge"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\StandingBridge.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "HelmCockpitPose"
+          },
+          "BackpackEnabled": {
+            "_text": "true"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "StandingBridge"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "true"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "true"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallModularThruster"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallModularThruster"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SmallGridModularIonThrusterSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ModularIonThrusterSmall.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallModularThruster"
+          },
+          "Center": {},
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "14400"
+          },
+          "MaxPowerConsumption": {
+            "_text": "0.200"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.36"
+          },
+          "FlameDamage": {
+            "_text": "0.1"
+          },
+          "FlameLengthScale": {
+            "_text": "1.6"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.8"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "ModularEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "200"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.5"
+          },
+          "PrimarySound": {
+            "_text": "SmShipSmJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLargeModularThruster"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeModularThruster"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SmallGridModularIonThrusterLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ModularIonThrusterLarge.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeModularThruster"
+          },
+          "Center": {},
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "172800"
+          },
+          "MaxPowerConsumption": {
+            "_text": "2.4"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameDamage": {
+            "_text": "0.2"
+          },
+          "FlameLengthScale": {
+            "_text": "1.1"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.8"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "ModularEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "300"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.5"
+          },
+          "PrimarySound": {
+            "_text": "SmShipLrgJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallModularThruster"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallModularThruster"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LargeGridModularIonThrusterSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ModularIonThrusterSmall.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallModularThruster"
+          },
+          "Center": {},
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "345600"
+          },
+          "MaxPowerConsumption": {
+            "_text": "3.36"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.61"
+          },
+          "FlameLengthScale": {
+            "_text": "1.5"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.8"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "ModularEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipSmJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeModularThruster"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeModularThruster"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LargeGridModularIonThrusterLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ModularIonThrusterLarge.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeModularThruster"
+          },
+          "Center": {},
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "90"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "4320000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "33.6"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.8"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.8"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "ModularEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "700"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1.5"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipLrgJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "Warfare2"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

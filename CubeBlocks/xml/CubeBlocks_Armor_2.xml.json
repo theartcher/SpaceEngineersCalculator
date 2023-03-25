@@ -1,0 +1,7326 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorCornerSquare"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorCornerSquare"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CornerSquare.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "CornerSquare"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorCornerSquare"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorCornerSquare"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorCornerSquare"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CornerSquare.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "CornerSquare"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorCornerSquare"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorCornerSquare"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorCornerSquare"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyCornerSquare.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "CornerSquare"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorCornerSquare"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorCornerSquare"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorCornerSquare"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyCornerSquare.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "CornerSquare"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorCornerSquare"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorCornerSquareInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorCornerSquareInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CornerSquareInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "CornerSquareInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorCornerSquareInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorCornerSquareInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorCornerSquareInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CornerSquareInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "CornerSquareInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorCornerSquareInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorCornerSquareInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorCornerSquareInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyCornerSquareInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "CornerSquareInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorCornerSquareInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorCornerSquareInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorCornerSquareInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyCornerSquareInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "CornerSquareInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorCornerSquareInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorHalfCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorHalfCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorHalfCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorHalfCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorHalfSlopeCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopeCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopeCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopeCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorHalfSlopeCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopeCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopeCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopeCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorHalfSlopeCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopeCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopeCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopeCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorHalfSlopeCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopeCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopeCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopeCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorHalfSlopeCornerInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopeCornerInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopeCornerInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeCornerInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopeCornerInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorHalfSlopeCornerInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopeCornerInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopeCornerInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeCornerInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopeCornerInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorHalfSlopeCornerInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopeCornerInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopeCornerInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeCornerInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopeCornerInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.4"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorHalfSlopeCornerInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopeCornerInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopeCornerInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeCornerInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopeCornerInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorHalfSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorHalfSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorHalfSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorHalfSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorHalfSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorHalfSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorHalfSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorHalfSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorHalfSlopeInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopeInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopeInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopeInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringZ": {
+            "_text": "None"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorHalfSlopeInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorHalfSlopeInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfSlopeInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopeInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringZ": {
+            "_text": "None"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorHalfSlopeInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopeInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopeInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopeInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringZ": {
+            "_text": "None"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorHalfSlopeInverted"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorHalfSlopeInverted"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyHalfSlopeInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "HalfSlopeInverted"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopeInverted"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringZ": {
+            "_text": "None"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.4"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopedCornerTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopedCornerTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SlopedCornerTip.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCornerTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopedCornerTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopedCornerTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopedCornerTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SlopedCornerTip.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCornerTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopedCornerTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "Model": {},
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopedCornerTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopedCornerTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopedCornerTip.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCornerTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopedCornerTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "Model": {}
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopedCornerTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopedCornerTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopedCornerTip.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopedCornerTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopedCornerTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2.0"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "UseModelIntersection": {
+            "_text": "false"
+          },
+          "GeneralDamageMultiplier": {
+            "_text": "1.0"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "Model": {}
+        }
+      ]
+    }
+  }
+}

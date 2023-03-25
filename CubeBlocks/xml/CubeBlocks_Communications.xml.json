@@ -1,0 +1,735 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "RadioAntenna"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockRadioAntenna"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Antenna"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\antenna.dds"
+          },
+          "Description": {
+            "_text": "Description_RadioAntenna"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\antenna.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Antenna"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged_Antenna"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Beacon"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockBeacon"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Beacon"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\beacon.dds"
+          },
+          "Description": {
+            "_text": "Description_Beacon"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\beacon.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Beacon"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxBroadcastRadius": {
+            "_text": "200000"
+          },
+          "Flare": {
+            "_text": "BeaconLarge"
+          },
+          "MaxBroadcastPowerDrainkW": {
+            "_text": "20"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Beacon"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Beacon"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockBeacon"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Beacon"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\beacon.dds"
+          },
+          "Description": {
+            "_text": "Description_Beacon"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\beacon.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Beacon"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxBroadcastRadius": {
+            "_text": "200000"
+          },
+          "Flare": {
+            "_text": "BeaconSmall"
+          },
+          "MaxBroadcastPowerDrainkW": {
+            "_text": "20"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Beacon"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "RadioAntenna"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockRadioAntenna"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Antenna"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\antenna.dds"
+          },
+          "Description": {
+            "_text": "Description_RadioAntenna"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\antenna.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Center": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Antenna"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "RemoteControl"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockRemoteControl"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RemoteControl"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RemoteControl.dds"
+          },
+          "Description": {
+            "_text": "Description_RemoteControl"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RemoteControl.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RemoteControl"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.01"
+          },
+          "EnableFirstPerson": {
+            "_text": "false"
+          },
+          "EnableShipControl": {
+            "_text": "true"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "RemoteControl"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockRemoteControl"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RemoteControl"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RemoteControl.dds"
+          },
+          "Description": {
+            "_text": "Description_RemoteControl"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\RemoteControl.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RemoteControl"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.01"
+          },
+          "EnableFirstPerson": {
+            "_text": "false"
+          },
+          "EnableShipControl": {
+            "_text": "true"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LaserAntenna"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLaserAntenna"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LaserAntenna"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LaserAntenna.dds"
+          },
+          "Description": {
+            "_text": "Description_LaserAntenna"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LaserComBase.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LaserAntenna"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "PowerInputIdle": {
+            "_text": "0.0001"
+          },
+          "PowerInputTurning": {
+            "_text": "0.001"
+          },
+          "PowerInputLasing": {
+            "_text": "10"
+          },
+          "MinElevationDegrees": {
+            "_text": "-180"
+          },
+          "MaxElevationDegrees": {
+            "_text": "180"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "RotationRate": {
+            "_text": "0.01"
+          },
+          "MaxRange": {
+            "_text": "-1"
+          },
+          "RequireLineOfSight": {
+            "_text": "true"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LaserAntenna"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLaserAntenna"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LaserAntenna"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LaserAntennaSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_LaserAntenna"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LaserComBase.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Center": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LaserAntenna"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "PowerInputIdle": {
+            "_text": "0.0001"
+          },
+          "PowerInputTurning": {
+            "_text": "0.001"
+          },
+          "PowerInputLasing": {
+            "_text": "10"
+          },
+          "MinElevationDegrees": {
+            "_text": "-180"
+          },
+          "MaxElevationDegrees": {
+            "_text": "180"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "RotationRate": {
+            "_text": "0.01"
+          },
+          "MaxRange": {
+            "_text": "-1"
+          },
+          "RequireLineOfSight": {
+            "_text": "true"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        }
+      ]
+    }
+  }
+}

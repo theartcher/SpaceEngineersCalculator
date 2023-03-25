@@ -1,0 +1,1667 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LandingGear"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLandingGear"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LandingGear"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\landing_gear.dds"
+          },
+          "Description": {
+            "_text": "Description_LandingGear"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LandingGear.mwm"
+          },
+          "LockSound": {
+            "_text": "ShipLandGearOn"
+          },
+          "UnlockSound": {
+            "_text": "ShipLandGearOff"
+          },
+          "FailedAttachSound": {
+            "_text": "ShipLandGearNothing01"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LandingGear"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "MaxLockSeparatingVelocity": {
+            "_text": "7"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "35"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LandingGear"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLandingGear"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LandingGear"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\landing_gear.dds"
+          },
+          "Description": {
+            "_text": "Description_LandingGear"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LandingGear.mwm"
+          },
+          "LockSound": {
+            "_text": "ShipLandGearOn"
+          },
+          "UnlockSound": {
+            "_text": "ShipLandGearOff"
+          },
+          "FailedAttachSound": {
+            "_text": "ShipLandGearNothing01"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LandingGear"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "MaxLockSeparatingVelocity": {
+            "_text": "7"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "35"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LandingGear"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallMagneticPlate"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MagneticPlateSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SimpleMagneticPlate.dds"
+          },
+          "Description": {
+            "_text": "Description_LandingGear"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SimpleMagneticPlate.mwm"
+          },
+          "LockSound": {
+            "_text": "ShipLandGearOn"
+          },
+          "UnlockSound": {
+            "_text": "ShipLandGearOff"
+          },
+          "FailedAttachSound": {
+            "_text": "ShipLandGearNothing01"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MagneticPlate"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "MaxLockSeparatingVelocity": {
+            "_text": "7"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "35"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LandingGear"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallMagneticPlate"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MagneticPlateSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SimpleMagneticPlate.dds"
+          },
+          "Description": {
+            "_text": "Description_LandingGear"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\SimpleMagneticPlate.mwm"
+          },
+          "LockSound": {
+            "_text": "ShipLandGearOn"
+          },
+          "UnlockSound": {
+            "_text": "ShipLandGearOff"
+          },
+          "FailedAttachSound": {
+            "_text": "ShipLandGearNothing01"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MagneticPlate"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "MaxLockSeparatingVelocity": {
+            "_text": "7"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "35"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "JumpDrive"
+            },
+            "SubtypeId": {
+              "_text": "LargeJumpDrive"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_JumpDrive"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\JumpDrive.dds"
+          },
+          "Description": {
+            "_text": "Description_JumpDrive"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\JumpDrive.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "JumpDrive"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "120"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Charging"
+          },
+          "RequiredPowerInput": {
+            "_text": "32"
+          },
+          "PowerNeededForJump": {
+            "_text": "3"
+          },
+          "PowerEfficiency": {
+            "_text": "0.8"
+          },
+          "MaxJumpDistance": {
+            "_text": "2000000"
+          },
+          "MaxJumpMass": {
+            "_text": "1250000"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "Explosion_Warhead_30"
+          },
+          "DestroySound": {
+            "_text": "WepLrgWarheadExpl"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CameraBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallCameraBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Camera"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Camera.dds"
+          },
+          "Description": {
+            "_text": "Description_Camera"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Camera.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BlockPairName": {
+            "_text": "Camera"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00003"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\camera_overlay.dds"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CameraBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeCameraBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Camera"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Camera.dds"
+          },
+          "Description": {
+            "_text": "Description_Camera"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Camera.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BlockPairName": {
+            "_text": "Camera"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00003"
+          },
+          "RequiredChargingInput": {
+            "_text": "0.001"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\camera_overlay.dds"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "RaycastConeLimit": {
+            "_text": "45"
+          },
+          "RaycastDistanceLimit": {
+            "_text": "-1"
+          },
+          "RaycastTimeMultiplier": {
+            "_text": "2.0"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MergeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeShipMergeBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MergeBlock"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\MergeBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_MergeBlock"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "Strength": {
+            "_text": "0.1"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MergeBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MergeBlock"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "DeformationRatio": {
+            "_text": "0.5"
+          },
+          "PCU": {
+            "_text": "125"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MergeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallShipMergeBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MergeBlock"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\MergeBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_MergeBlock"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "Strength": {
+            "_text": "0.015"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MergeBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "MergeBlock"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "DeformationRatio": {
+            "_text": "0.5"
+          },
+          "PCU": {
+            "_text": "125"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MergeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallShipSmallMergeBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MergeBlockSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\MergeBlockSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_MergeBlock"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "Strength": {
+            "_text": "0.005"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MergeBlockSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "MergeBlockSmall"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "DeformationRatio": {
+            "_text": "0.5"
+          },
+          "PCU": {
+            "_text": "125"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Parachute"
+            },
+            "SubtypeId": {
+              "_text": "LgParachute"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ParachuteHatch"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ParachuteHatch.dds"
+          },
+          "Description": {
+            "_text": "Description_ParachuteHatch"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ParachuteHatch_Large.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BlockPairName": {
+            "_text": "Parachute Hatch"
+          },
+          "MirroringX": {
+            "_text": "None"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "22"
+          },
+          "DisassembleRatio": {
+            "_text": "1.5"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "PowerConsumptionIdle": {
+            "_text": "0.00001"
+          },
+          "PowerConsumptionMoving": {
+            "_text": "0.001"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ParachuteSubpartName": {
+            "_text": "Parachute"
+          },
+          "DragCoefficient": {
+            "_text": "1.0"
+          },
+          "MaterialDeployCost": {
+            "_text": "5"
+          },
+          "MaterialSubtype": {
+            "_text": "Canvas"
+          },
+          "ReefAtmosphereLevel": {
+            "_text": "0.6"
+          },
+          "MinimumAtmosphereLevel": {
+            "_text": "0.2"
+          },
+          "RadiusMultiplier": {
+            "_text": "8.0"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "Subparts": {
+            "SubpartDefinition": [
+              {
+                "Name": {
+                  "_text": "ParachuteHatch_Large_Door1"
+                }
+              },
+              {
+                "Name": {
+                  "_text": "ParachuteHatch_Large_Door2"
+                }
+              },
+              {
+                "Name": {
+                  "_text": "ParachuteHatch_Large_Door3"
+                }
+              },
+              {
+                "Name": {
+                  "_text": "ParachuteHatch_Large_Door4"
+                }
+              }
+            ]
+          },
+          "OpeningSequence": {
+            "Opening": [
+              {
+                "IDs": {
+                  "_text": "0"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Z"
+                },
+                "MaxOpen": {
+                  "_text": "-90"
+                },
+                "Speed": {
+                  "_text": "140"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "0"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "X"
+                },
+                "MaxOpen": {
+                  "_text": "45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "0"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Y"
+                },
+                "MaxOpen": {
+                  "_text": "-45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "1"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Z"
+                },
+                "MaxOpen": {
+                  "_text": "90"
+                },
+                "Speed": {
+                  "_text": "140"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "1"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "X"
+                },
+                "MaxOpen": {
+                  "_text": "45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "1"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Y"
+                },
+                "MaxOpen": {
+                  "_text": "45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "2"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Z"
+                },
+                "MaxOpen": {
+                  "_text": "90"
+                },
+                "Speed": {
+                  "_text": "140"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "2"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "X"
+                },
+                "MaxOpen": {
+                  "_text": "-45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "2"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Y"
+                },
+                "MaxOpen": {
+                  "_text": "-45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "3"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Z"
+                },
+                "MaxOpen": {
+                  "_text": "-90"
+                },
+                "Speed": {
+                  "_text": "140"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "3"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "X"
+                },
+                "MaxOpen": {
+                  "_text": "-45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "3"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Y"
+                },
+                "MaxOpen": {
+                  "_text": "45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              }
+            ]
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Parachute"
+            },
+            "SubtypeId": {
+              "_text": "SmParachute"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ParachuteHatch"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ParachuteHatch.dds"
+          },
+          "Description": {
+            "_text": "Description_ParachuteHatch"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ParachuteHatch_Small.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BlockPairName": {
+            "_text": "Parachute Hatch"
+          },
+          "MirroringX": {
+            "_text": "None"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DisassembleRatio": {
+            "_text": "1.5"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "PowerConsumptionIdle": {
+            "_text": "0.00001"
+          },
+          "PowerConsumptionMoving": {
+            "_text": "0.001"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ParachuteSubpartName": {
+            "_text": "Parachute"
+          },
+          "DragCoefficient": {
+            "_text": "1.0"
+          },
+          "MaterialDeployCost": {
+            "_text": "1"
+          },
+          "MaterialSubtype": {
+            "_text": "Canvas"
+          },
+          "ReefAtmosphereLevel": {
+            "_text": "0.6"
+          },
+          "MinimumAtmosphereLevel": {
+            "_text": "0.2"
+          },
+          "RadiusMultiplier": {
+            "_text": "8.0"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "Subparts": {
+            "SubpartDefinition": [
+              {
+                "Name": {
+                  "_text": "ParachuteHatch_Small_Door1"
+                }
+              },
+              {
+                "Name": {
+                  "_text": "ParachuteHatch_Small_Door2"
+                }
+              },
+              {
+                "Name": {
+                  "_text": "ParachuteHatch_Small_Door3"
+                }
+              },
+              {
+                "Name": {
+                  "_text": "ParachuteHatch_Small_Door4"
+                }
+              }
+            ]
+          },
+          "OpeningSequence": {
+            "Opening": [
+              {
+                "IDs": {
+                  "_text": "0"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Z"
+                },
+                "MaxOpen": {
+                  "_text": "-90"
+                },
+                "Speed": {
+                  "_text": "140"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "0"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "X"
+                },
+                "MaxOpen": {
+                  "_text": "45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "0"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Y"
+                },
+                "MaxOpen": {
+                  "_text": "-45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "1"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Z"
+                },
+                "MaxOpen": {
+                  "_text": "90"
+                },
+                "Speed": {
+                  "_text": "140"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "1"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "X"
+                },
+                "MaxOpen": {
+                  "_text": "45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "1"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Y"
+                },
+                "MaxOpen": {
+                  "_text": "45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "2"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Z"
+                },
+                "MaxOpen": {
+                  "_text": "90"
+                },
+                "Speed": {
+                  "_text": "140"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "2"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "X"
+                },
+                "MaxOpen": {
+                  "_text": "-45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "2"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Y"
+                },
+                "MaxOpen": {
+                  "_text": "-45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "3"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Z"
+                },
+                "MaxOpen": {
+                  "_text": "-90"
+                },
+                "Speed": {
+                  "_text": "140"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "3"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "X"
+                },
+                "MaxOpen": {
+                  "_text": "-45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              },
+              {
+                "IDs": {
+                  "_text": "3"
+                },
+                "Move": {
+                  "_text": "Rotate"
+                },
+                "RotationAxis": {
+                  "_text": "Y"
+                },
+                "MaxOpen": {
+                  "_text": "45"
+                },
+                "Speed": {
+                  "_text": "70"
+                },
+                "PivotPosition": {}
+              }
+            ]
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        }
+      ]
+    }
+  }
+}

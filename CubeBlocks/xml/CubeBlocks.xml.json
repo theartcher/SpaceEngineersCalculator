@@ -1,0 +1,2409 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeRailStraight"
+            }
+          },
+          "DisplayName": {
+            "_text": "LargeRailStraight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Fake.dds"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailStraight.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RailStraight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "DebugSphere1"
+            },
+            "SubtypeId": {
+              "_text": "DebugSphereLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DebugSphere1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Model": {
+            "_text": "Models\\Debug\\RenderDebugSpheres.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "DebugSphere2"
+            },
+            "SubtypeId": {
+              "_text": "DebugSphereLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DebugSphere2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Model": {
+            "_text": "Models\\Debug\\RenderDebugSpheresMetallic.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "DebugSphere3"
+            },
+            "SubtypeId": {
+              "_text": "DebugSphereLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DebugSphere3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Model": {
+            "_text": "Models\\Debug\\RenderDebugSpheresMetalnessDegrees.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    },
+    "BlockPositions": {
+      "BlockPosition": [
+        {
+          "Name": {
+            "_text": "LightArmorBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "HeavyArmorBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ArmorRoundSlope"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "HeavyArmorRoundSlope"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorSlope2Base"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorSlope2Base"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorCorner2Base"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorCorner2Base"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorInvCorner2Base"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorInvCorner2Base"
+          },
+          "Position": {
+            "X": {
+              "_text": "9"
+            },
+            "Y": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ArmorLightTransitionBlocks"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "1"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ArmorHeavyTransitionBlocks"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ArmorPanelLight"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "1"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ArmorPanelHeavy"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "1"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "BeamBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "1"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "CylindricalColumn"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "BathroomOpen"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Desk"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Planters"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Couch"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LockerRoom"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "NeonTubesStraight1"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "StorageShelf1"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "WeaponRack"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "2"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "CockpitLarge"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "3"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Cockpit"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "3"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "CockpitOpen"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "3"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "DBLargeBlockFighterCockpit"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "3"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "RemoteControl"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "3"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "PassengerSeat"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "3"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "CockpitIndustrial"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "3"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "OpenCockpit"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "3"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "BatteryBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SolarPanel"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SmallReactor"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeReactor"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "HydrogenEngine"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "WindTurbine"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Battery1x1Block"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "MedicalRoom"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "CryoChamber"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHydrogenThrust"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "HydrogenThrust"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeAtmoThrust"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SmallAtmoThrust"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeThrust"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SmallThrust"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Gyroscope"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Parachute Hatch"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeAtmoThrustSciFi"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeThrustSciFi"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHydrogenThrustIndustrial"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeModularThruster"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "5"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Wheel1x1"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "6"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Suspension3x3"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "6"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Suspension3x3mirrored"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "6"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "OffroadWheel1x1"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "6"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "OffroadSuspension3x3"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "6"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "OffroadSuspension3x3mirrored"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "6"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "OreDetector"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "7"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Antenna"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "7"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "AntennaDish"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "7"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Beacon"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "7"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LaserAntenna"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "7"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Refinery"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Assembler"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ProductivityModule"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "EffectivenessModule"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "EnergyModule"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Blast Furnace"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Projector"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SurvivalKit"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "BasicAssembler"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "8"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SmallCargoContainer"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "9"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "MediumCargoContainer"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "9"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeCargoContainer"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "9"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "DeadBody"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "9"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "InteriorTurret"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "GatlingTurret"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "MissileTurret"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "GatlingGun"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "RocketLauncher"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SmallRocketLauncherReload"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Warhead"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ShipWelder"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ShipGrinder"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Drill"
+          },
+          "Position": {
+            "X": {
+              "_text": "9"
+            },
+            "Y": {
+              "_text": "10"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Door"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "11"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "AirtightHangarDoor"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "11"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ArmorCenter"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "11"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SteelCatwalk"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Passage"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "VerticalWindow"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Decoy"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ReflectorLight"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Ladder2"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "RailingStraight"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Catwalk"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Embrasure"
+          },
+          "Position": {
+            "X": {
+              "_text": "9"
+            },
+            "Y": {
+              "_text": "12"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ProgrammableBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SoundBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ButtonPanel"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "TextPanel"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "CornerLCD"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LCDPanel5x5"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ExhaustPipe"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "TargetDummy"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "HeatVentBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "13"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Conveyor"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ConveyorFrame"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ConveyorSmall"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Connector"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ConnectorSmall"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Collector"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ConveyorSorter"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ConveyorSorterSmall"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ConveyorPipeJunction"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ConveyorPipeSeamless"
+          },
+          "Position": {
+            "X": {
+              "_text": "9"
+            },
+            "Y": {
+              "_text": "14"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LandingGear"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "15"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ExtendedPistonBase"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "15"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "MotorStator"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "15"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "MergeBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "15"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "MotorRotor"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "15"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "MotorAdvancedRotor"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "15"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHinge"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "15"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "AirVent"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "16"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "OxygenGenerator"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "16"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "OxygenTank"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "16"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "HydrogenTank"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "16"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "OxygenFarm"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "16"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Window1x1Flat"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Window1x2Flat"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Window2x3Flat"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Window1x1Face"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Window1x2Face"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "RoundWindow"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "BarredWindow"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "HalfWindow"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "BridgeWindow1x1Slope"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "17"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "GravityGenerator"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "18"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "GravityGeneratorSphere"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "18"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "VirtualMass"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "18"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SpaceBall"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "18"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "JumpDrive"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "18"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SymbolA"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "22"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "Symbol1"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "22"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "SymbolHyphen"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "22"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "EngineerPlushie"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "23"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "RailStraight"
+          },
+          "Position": {
+            "X": {
+              "_text": "-1"
+            },
+            "Y": {
+              "_text": "-1"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "MotorWheel"
+          },
+          "Position": {
+            "X": {
+              "_text": "-2"
+            },
+            "Y": {
+              "_text": "-2"
+            }
+          }
+        },
+        {
+          "BlockPosition": [
+            {
+              "Name": {
+                "_text": "ArmorRoundedSlope"
+              },
+              "Position": {
+                "X": {
+                  "_text": "9"
+                },
+                "Y": {
+                  "_text": "21"
+                }
+              }
+            },
+            {
+              "Name": {
+                "_text": "HeavyArmorRoundedSlope"
+              },
+              "Position": {
+                "X": {
+                  "_text": "8"
+                },
+                "Y": {
+                  "_text": "21"
+                }
+              }
+            }
+          ],
+          "Name": {
+            "_text": "LargeHeavyBlockArmorSlope2BaseSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorSlope2TipSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorCorner2BaseSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorCorner2TipSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorInvCorner2BaseSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorInvCorner2TipSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorSlope2Tip"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeHeavyBlockArmorCorner2Tip"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorSlope2Tip"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "20"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorInvCorner2Tip"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "20"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorSlope2BaseSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "6"
+            },
+            "Y": {
+              "_text": "20"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorSlope2TipSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "7"
+            },
+            "Y": {
+              "_text": "20"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorCorner2BaseSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "8"
+            },
+            "Y": {
+              "_text": "20"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorCorner2TipSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "9"
+            },
+            "Y": {
+              "_text": "20"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorInvCorner2BaseSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "21"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "LargeBlockArmorInvCorner2TipSmooth"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "21"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5640 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolA"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolA"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_A.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_A.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolA"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolB"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolB"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_B.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_B.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolB"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolC"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolC"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_C.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_C.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolC"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolD"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolD"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_D.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_D.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolD"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolE"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolE"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_E.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_E.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolE"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolF"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolF"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_F.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_F.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolF"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolG"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolG"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_G.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_G.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolG"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolH"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolH"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_H.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_H.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolH"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolI"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolI"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_I.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_I.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolI"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolJ"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolJ"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_J.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_J.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolJ"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolK"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolK"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_K.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_K.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolK"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolL"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolL"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_L.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_L.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolL"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolM"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolM"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_M.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_M.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolM"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolN"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolN"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_N.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_N.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolN"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolO"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolO"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_O.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_O.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolO"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolP"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolP"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_P.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_P.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolP"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolQ"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolQ"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Q.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_Q.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolQ"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolR"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolR"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_R.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_R.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolR"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolS"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolS"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_S.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_S.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolS"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolT"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolT"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_T.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_T.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolT"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolU"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolU"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_U.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_U.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolU"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolV"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolV"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_V.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_V.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolV"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolW"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolW"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_W.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_W.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolW"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolX"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolX"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_X.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_X.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolX"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolY"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolY"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Y.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_Y.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolY"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolZ"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolZ"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Z.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_Z.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolZ"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolA"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolA"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_A.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_A.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolA"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolB"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolB"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_B.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_B.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolB"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolC"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolC"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_C.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_C.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolC"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolD"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolD"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_D.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_D.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolD"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolE"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolE"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_E.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_E.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolE"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolF"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolF"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_F.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_F.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolF"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolG"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolG"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_G.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_G.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolG"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolH"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolH"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_H.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_H.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolH"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolI"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolI"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_I.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_I.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolI"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolJ"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolJ"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_J.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_J.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolJ"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolK"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolK"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_K.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_K.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolK"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolL"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolL"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_L.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_L.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolL"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolM"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolM"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_M.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_M.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolM"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolN"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolN"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_N.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_N.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolN"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolO"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolO"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_O.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_O.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolO"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolP"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolP"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_P.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_P.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolP"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolQ"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolQ"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Q.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_Q.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolQ"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolR"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolR"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_R.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_R.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolR"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolS"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolS"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_S.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_S.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolS"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolT"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolT"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_T.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_T.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolT"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolU"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolU"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_U.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_U.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolU"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolV"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolV"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_V.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_V.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolV"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolW"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolW"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_W.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_W.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolW"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolX"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolX"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_X.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_X.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolX"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolY"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolY"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Y.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_Y.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolY"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolZ"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolZ"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Z.dds"
+          },
+          "Description": {
+            "_text": "Description_Letters"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_Z.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolZ"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol0"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol0"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_0.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_0.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol0"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_1.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_1.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol1"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_2.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol2"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_3.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_3.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol4"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol4"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_4.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_4.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol4"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_5.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_5.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol5"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol6"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol6"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_6.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_6.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol6"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol7"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol7"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_7.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_7.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol7"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol8"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol8"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_8.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_8.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol8"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbol9"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol9"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_9.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_9.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol9"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol0"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol0"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_0.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_0.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol0"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_1.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_1.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol1"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_2.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_2.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol2"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_3.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_3.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol4"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol4"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_4.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_4.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol4"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_5.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_5.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol5"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol6"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol6"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_6.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_6.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol6"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol7"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol7"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_7.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_7.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol7"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol8"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol8"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_8.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_8.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol8"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbol9"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Symbol9"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_9.dds"
+          },
+          "Description": {
+            "_text": "Description_Numbers"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_9.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Symbol9"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolHyphen"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolHyphen"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Hyphen.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_Hyphen.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolHyphen"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolUnderscore"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolUnderscore"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Underscore.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_Underscore.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolUnderscore"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolDot"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolDot"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Dot.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_Dot.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolDot"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolApostrophe"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolApostrophe"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Apostrophe.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_Apostrophe.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolApostrophe"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolAnd"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolAnd"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_And.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_And.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolAnd"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolColon"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolColon"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Colon.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_Colon.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolColon"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolExclamationMark"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolExclamationMark"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_ExclamationMark.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_ExclamationMark.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolExclamationMark"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSymbolQuestionMark"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolQuestionMark"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_QuestionMark.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Symbol_QuestionMark.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolQuestionMark"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolHyphen"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolHyphen"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Hyphen.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_Hyphen.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolHyphen"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolUnderscore"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolUnderscore"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Underscore.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbol"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_Underscore.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolUnderscore"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolDot"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolDot"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Dot.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_Dot.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolDot"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolApostrophe"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolApostrophe"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Apostrophe.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_Apostrophe.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolApostrophe"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolAnd"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolAnd"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_And.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_And.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolAnd"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolColon"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolColon"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_Colon.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_Colon.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolColon"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolExclamationMark"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolExclamationMark"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_ExclamationMark.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_ExclamationMark.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolExclamationMark"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallSymbolQuestionMark"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SymbolQuestionMark"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Symbol_QuestionMark.dds"
+          },
+          "Description": {
+            "_text": "Description_Symbols"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Symbol_QuestionMark.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SymbolQuestionMark"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1570 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Refinery"
+            },
+            "SubtypeId": {
+              "_text": "LargeRefinery"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Refinery"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\refinery.dds"
+          },
+          "Description": {
+            "_text": "Description_Refinery"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Refinery.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Center": [],
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Refinery"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "90"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "InventoryMaxVolume": {
+            "_text": "7.5"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "InventoryFillFactorMin": {
+            "_text": "0.3"
+          },
+          "InventoryFillFactorMax": {
+            "_text": "0.6"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.001"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.56"
+          },
+          "BlueprintClasses": {
+            "Class": {
+              "_text": "Ingots"
+            }
+          },
+          "RefineSpeed": {
+            "_text": "1.3"
+          },
+          "MaterialEfficiency": {
+            "_text": "1.0"
+          },
+          "OreAmountPerPullRequest": {
+            "_text": "2000"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "PrimarySound": {
+            "_text": "BlockRafinery"
+          },
+          "ActionSound": {
+            "_text": "BlockRafineryProcess"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "90"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "60"
+              },
+              {
+                "_text": "120"
+              },
+              {
+                "_text": "240"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Refinery"
+            },
+            "SubtypeId": {
+              "_text": "Blast Furnace"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Arc_Furnace"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Blastfurnace.dds"
+          },
+          "Description": {
+            "_text": "Description_RefineryBasic"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BasicRefinery.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Blast Furnace"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "InventoryMaxVolume": {
+            "_text": "4"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "InventoryFillFactorMin": {
+            "_text": "0.3"
+          },
+          "InventoryFillFactorMax": {
+            "_text": "0.6"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.001"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.33"
+          },
+          "BlueprintClasses": {
+            "Class": {
+              "_text": "CommonMetals"
+            }
+          },
+          "RefineSpeed": {
+            "_text": "0.65"
+          },
+          "MaterialEfficiency": {
+            "_text": "0.7"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "PrimarySound": {
+            "_text": "BlockRafinery"
+          },
+          "ActionSound": {
+            "_text": "BlockRafineryProcess"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "OreAmountPerPullRequest": {
+            "_text": "2000"
+          },
+          "PCU": {
+            "_text": "75"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "60"
+              },
+              {
+                "_text": "120"
+              },
+              {
+                "_text": "240"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenGenerator"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OxygenGenerator"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\OxygenGenerator.dds"
+          },
+          "Description": {
+            "_text": "Description_OxygenGenerator"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\OxygenGenerator.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "OxygenGenerator"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "22"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "IceConsumptionPerSecond": {
+            "_text": "25"
+          },
+          "InventoryMaxVolume": {
+            "_text": "4"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "InventoryFillFactorMin": {
+            "_text": "0.3"
+          },
+          "InventoryFillFactorMax": {
+            "_text": "0.6"
+          },
+          "FuelPullAmountFromConveyorInMinutes": {
+            "_text": "2.2"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.001"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.5"
+          },
+          "ProducedGases": {
+            "GasInfo": [
+              {
+                "Id": {
+                  "TypeId": {
+                    "_text": "GasProperties"
+                  },
+                  "SubtypeId": {
+                    "_text": "Oxygen"
+                  }
+                },
+                "IceToGasRatio": {
+                  "_text": "10"
+                }
+              },
+              {
+                "Id": {
+                  "TypeId": {
+                    "_text": "GasProperties"
+                  },
+                  "SubtypeId": {
+                    "_text": "Hydrogen"
+                  }
+                },
+                "IceToGasRatio": {
+                  "_text": "20"
+                }
+              }
+            ]
+          },
+          "BlueprintClasses": {
+            "Class": [
+              {
+                "_text": "Ice"
+              },
+              {
+                "_text": "OxygenBottles"
+              },
+              {
+                "_text": "HydrogenBottles"
+              }
+            ]
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "GenerateSound": {
+            "_text": "BlockOxyGenProcess"
+          },
+          "IdleSound": {
+            "_text": "BlockOxyGenIdle"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "600"
+              },
+              {
+                "_text": "1200"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenGenerator"
+            },
+            "SubtypeId": {
+              "_text": "OxygenGeneratorSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OxygenGenerator"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\OxygenGeneratorSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_OxygenGenerator"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\OxygenGenerator.mwm"
+          },
+          "SilenceableByShipSoundSystem": [
+            {
+              "_text": "true"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "IceConsumptionPerSecond": {
+            "_text": "5"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "InventoryFillFactorMin": {
+            "_text": "0.3"
+          },
+          "InventoryFillFactorMax": {
+            "_text": "0.6"
+          },
+          "FuelPullAmountFromConveyorInMinutes": {
+            "_text": "2.75"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.001"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.1"
+          },
+          "ProducedGases": {
+            "GasInfo": [
+              {
+                "Id": {
+                  "TypeId": {
+                    "_text": "GasProperties"
+                  },
+                  "SubtypeId": {
+                    "_text": "Oxygen"
+                  }
+                },
+                "IceToGasRatio": {
+                  "_text": "10"
+                }
+              },
+              {
+                "Id": {
+                  "TypeId": {
+                    "_text": "GasProperties"
+                  },
+                  "SubtypeId": {
+                    "_text": "Hydrogen"
+                  }
+                },
+                "IceToGasRatio": {
+                  "_text": "20"
+                }
+              }
+            ]
+          },
+          "BlueprintClasses": {
+            "Class": [
+              {
+                "_text": "Ice"
+              },
+              {
+                "_text": "OxygenBottles"
+              },
+              {
+                "_text": "HydrogenBottles"
+              }
+            ]
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "BlockPairName": {
+            "_text": "OxygenGenerator"
+          },
+          "GenerateSound": {
+            "_text": "BlockOxyGenProcess"
+          },
+          "IdleSound": {
+            "_text": "BlockOxyGenIdle"
+          },
+          "DestroyEffect": [
+            {
+              "_text": "Explosion_Missile"
+            },
+            {
+              "_text": "BlockDestroyedExplosion_Small"
+            }
+          ],
+          "DestroySound": [
+            {
+              "_text": "WepSmallMissileExpl"
+            },
+            {
+              "_text": "WepSmallWarheadExpl"
+            }
+          ],
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "600"
+              },
+              {
+                "_text": "1200"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Assembler"
+            },
+            "SubtypeId": {
+              "_text": "LargeAssembler"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Assembler"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\assembler.dds"
+          },
+          "Description": {
+            "_text": "Description_Assembler"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Assembler.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Assembler"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "80"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "InventoryMaxVolume": {
+            "_text": "4"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.001"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.56"
+          },
+          "BlueprintClasses": {
+            "Class": [
+              {
+                "_text": "LargeBlocks"
+              },
+              {
+                "_text": "SmallBlocks"
+              },
+              {
+                "_text": "Components"
+              },
+              {
+                "_text": "EliteTools"
+              },
+              {
+                "_text": "BuildPlanner"
+              },
+              {
+                "_text": "EliteConsumables"
+              }
+            ]
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "PrimarySound": {
+            "_text": "BlockAssembler"
+          },
+          "ActionSound": {
+            "_text": "BlockAssemblerProcess"
+          },
+          "DestroyEffect": {
+            "_text": "Explosion_Missile"
+          },
+          "DestroySound": {
+            "_text": "WepSmallMissileExpl"
+          },
+          "PCU": {
+            "_text": "40"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "60"
+              },
+              {
+                "_text": "120"
+              },
+              {
+                "_text": "240"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Assembler"
+            },
+            "SubtypeId": {
+              "_text": "BasicAssembler"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BasicAssembler"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\basicAssembler.dds"
+          },
+          "Description": {
+            "_text": "Description_AssemblerBasic"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BasicAssembler.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "BasicAssembler"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "InventoryMaxVolume": {
+            "_text": "2"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.001"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.28"
+          },
+          "BlueprintClasses": {
+            "Class": [
+              {
+                "_text": "SimpleComponents"
+              },
+              {
+                "_text": "Tools"
+              },
+              {
+                "_text": "Consumables"
+              }
+            ]
+          },
+          "AssemblySpeed": {
+            "_text": "0.7"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "PrimarySound": {
+            "_text": "BlockAssembler"
+          },
+          "ActionSound": {
+            "_text": "BlockAssemblerProcess"
+          },
+          "DestroyEffect": {
+            "_text": "Explosion_Missile"
+          },
+          "DestroySound": {
+            "_text": "WepSmallMissileExpl"
+          },
+          "PCU": {
+            "_text": "40"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "60"
+              },
+              {
+                "_text": "120"
+              },
+              {
+                "_text": "240"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SurvivalKit"
+            },
+            "SubtypeId": {
+              "_text": "SurvivalKitLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SurvivalKit"
+          },
+          "Description": {
+            "_text": "Description_SurvivalKit"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SurvivalKitLarge.dds"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "ResearchGroup": {
+            "_text": "Tier00Basics"
+          },
+          "ResearchCost": {
+            "_text": "5"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SurvivalKit.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "CriticalComponent": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SurvivalKit"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BlueprintClasses": {
+            "Class": [
+              {
+                "_text": "BasicTools"
+              },
+              {
+                "_text": "BasicComponents"
+              }
+            ]
+          },
+          "AssemblySpeed": {
+            "_text": "0.3"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.015"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.2"
+          },
+          "InventoryMaxVolume": {
+            "_text": "2"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PrimarySound": {
+            "_text": "BlockAssembler"
+          },
+          "ActionSound": {
+            "_text": "BlockAssemblerProcess"
+          },
+          "ProgressSound": {
+            "_text": "BlockMedicalProgress"
+          },
+          "PCU": {
+            "_text": "140"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "60"
+              },
+              {
+                "_text": "120"
+              },
+              {
+                "_text": "240"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SurvivalKit"
+            },
+            "SubtypeId": {
+              "_text": "SurvivalKit"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SurvivalKit"
+          },
+          "Description": {
+            "_text": "Description_SurvivalKit"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SurvivalKitSmall.dds"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\SurvivalKit.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SurvivalKit"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "BlueprintClasses": {
+            "Class": [
+              {
+                "_text": "BasicTools"
+              },
+              {
+                "_text": "BasicComponents"
+              }
+            ]
+          },
+          "AssemblySpeed": {
+            "_text": "0.3"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.015"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.2"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PrimarySound": {
+            "_text": "BlockAssembler"
+          },
+          "ActionSound": {
+            "_text": "BlockAssemblerProcess"
+          },
+          "ProgressSound": {
+            "_text": "BlockMedicalProgress"
+          },
+          "PCU": {
+            "_text": "140"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "60"
+              },
+              {
+                "_text": "120"
+              },
+              {
+                "_text": "240"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenFarm"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockOxygenFarm"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OxygenFarm"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SolarHydroponics.dds"
+          },
+          "Description": {
+            "_text": "Description_OxygenFarm"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Center": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SolarHydroponics.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "OxygenFarm"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "PanelOrientation": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "-1"
+            }
+          },
+          "TwoSidedPanel": {
+            "_text": "true"
+          },
+          "PanelOffset": {
+            "_text": "0"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "ResourceSourceGroup": {
+            "_text": "SolarPanels"
+          },
+          "ProducedGas": {
+            "Id": {
+              "TypeId": {
+                "_text": "GasProperties"
+              },
+              "SubtypeId": {
+                "_text": "Oxygen"
+              }
+            },
+            "MaxOutputPerSecond": {
+              "_text": "0.03"
+            }
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.02"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "UpgradeModule"
+            },
+            "SubtypeId": {
+              "_text": "LargeProductivityModule"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ProductivityModule"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\UpgradeProductivity.dds"
+          },
+          "Description": {
+            "_text": "Description_ProductivityModule"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\UpgradeProductivity.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ProductivityModule"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Upgrades": {
+            "MyUpgradeModuleInfo": {
+              "UpgradeType": {
+                "_text": "Productivity"
+              },
+              "Modifier": {
+                "_text": "0.5"
+              },
+              "ModifierType": {
+                "_text": "Additive"
+              }
+            }
+          },
+          "PrimarySound": {
+            "_text": "BlockModuleProductivity"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "UpgradeModule"
+            },
+            "SubtypeId": {
+              "_text": "LargeEffectivenessModule"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_EffectivenessModule"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\UpgradeEffectiveness.dds"
+          },
+          "Description": {
+            "_text": "Description_EffectivenessModule"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\UpgradeEffectiveness.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "EffectivenessModule"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Upgrades": {
+            "MyUpgradeModuleInfo": {
+              "UpgradeType": {
+                "_text": "Effectiveness"
+              },
+              "Modifier": {
+                "_text": "1.0905077"
+              },
+              "ModifierType": {
+                "_text": "Multiplicative"
+              }
+            }
+          },
+          "PrimarySound": {
+            "_text": "BlockModuleEffectiveness"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "UpgradeModule"
+            },
+            "SubtypeId": {
+              "_text": "LargeEnergyModule"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PowerEfficiencyModule"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\UpgradeEnergy.dds"
+          },
+          "Description": {
+            "_text": "Description_PowerEfficiencyModule"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\UpgradeEnergy.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "EnergyModule"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Upgrades": {
+            "MyUpgradeModuleInfo": {
+              "UpgradeType": {
+                "_text": "PowerEfficiency"
+              },
+              "Modifier": {
+                "_text": "1.2228445"
+              },
+              "ModifierType": {
+                "_text": "Multiplicative"
+              }
+            }
+          },
+          "PrimarySound": {
+            "_text": "BlockModuleEfficiency"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

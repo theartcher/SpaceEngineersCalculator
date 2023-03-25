@@ -1,0 +1,981 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Door"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Door"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\door.dds"
+          },
+          "Description": {
+            "_text": "Description_Door"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\door.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "OpenSound": {
+            "_text": "BlockDoorSmallOpen"
+          },
+          "CloseSound": {
+            "_text": "BlockDoorSmallClose"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Door"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DisassembleRatio": {
+            "_text": "1.5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "MaxOpen": {
+            "_text": "1.2"
+          },
+          "OpeningSpeed": {
+            "_text": "3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Door"
+            },
+            "SubtypeId": {
+              "_text": "SmallDoor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Door"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SmallDoor.dds"
+          },
+          "Description": {
+            "_text": "Description_Door"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\door.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "OpenSound": {
+            "_text": "BlockDoorSmallOpen"
+          },
+          "CloseSound": {
+            "_text": "BlockDoorSmallClose"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Door"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "DisassembleRatio": {
+            "_text": "1.2"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "MaxOpen": {
+            "_text": "0.96"
+          },
+          "OpeningSpeed": {
+            "_text": "2.5"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "AirtightHangarDoor"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AirtightHangarDoor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HangarDoor.dds"
+          },
+          "Description": {
+            "_text": "Description_HangarDoor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Center": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HangarDoor_base.mwm"
+          },
+          "Sound": {
+            "_text": "BlockDoorHangar"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "AirtightHangarDoor"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "PowerConsumptionIdle": {
+            "_text": "0.00001"
+          },
+          "PowerConsumptionMoving": {
+            "_text": "0.001"
+          },
+          "OpeningSpeed": {
+            "_text": "0.1"
+          },
+          "SubpartMovementDistance": {
+            "_text": "2.5"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "UseNeighbourOxygenRooms": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Metal"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "AirtightSlideDoor"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSlideDoor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AirtightSlideDoor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SlideDoor.dds"
+          },
+          "Description": {
+            "_text": "Description_Door"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Center": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SlideDoor.mwm"
+          },
+          "OpenSound": {
+            "_text": "BlockDoorSlidingOpen"
+          },
+          "CloseSound": {
+            "_text": "BlockDoorSlidingClose"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "AirtightSlide Door"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DisassembleRatio": {
+            "_text": "1.5"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "PowerConsumptionIdle": {
+            "_text": "0.00001"
+          },
+          "PowerConsumptionMoving": {
+            "_text": "0.001"
+          },
+          "OpeningSpeed": {
+            "_text": "1.4"
+          },
+          "SubpartMovementDistance": {
+            "_text": "2.5"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "ArmorCenter"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorCenter"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ArmorCenter.dds"
+          },
+          "Description": {
+            "_text": "Description_BlastDoor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ArmorCenter.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ArmorCenter"
+          },
+          "DeformationRatio": {
+            "_text": "0.2"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "18"
+          },
+          "DisassembleRatio": {
+            "_text": "3"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "ArmorCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ArmorCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_BlastDoor"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ArmorCorner.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ArmorCorner"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "DeformationRatio": {
+            "_text": "0.2"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "DisassembleRatio": {
+            "_text": "3"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "ArmorInvCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorInvCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BlastDoorCornerInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_BlastDoor"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ArmorInvCorner.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ArmorInvCorner"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "DeformationRatio": {
+            "_text": "0.2"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "DisassembleRatio": {
+            "_text": "3"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "ArmorSide"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSide"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ArmorSide.dds"
+          },
+          "Description": {
+            "_text": "Description_BlastDoor"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ArmorSide.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ArmorSide"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "DeformationRatio": {
+            "_text": "0.2"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "DisassembleRatio": {
+            "_text": "3"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorCenter"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorCenter"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ArmorCenter.dds"
+          },
+          "Description": {
+            "_text": "Description_BlastDoor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ArmorCenter.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ArmorCenter"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DeformationRatio": {
+            "_text": "0.24"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "3"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ArmorCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_BlastDoor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ArmorCorner.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ArmorCorner"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DeformationRatio": {
+            "_text": "0.24"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "3"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorInvCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorInvCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BlastDoorCornerInverted.dds"
+          },
+          "Description": {
+            "_text": "Description_BlastDoor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ArmorInvCorner.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ArmorInvCorner"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DeformationRatio": {
+            "_text": "0.24"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "3"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorSide"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSide"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ArmorSide.dds"
+          },
+          "Description": {
+            "_text": "Description_BlastDoor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ArmorSide.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ArmorSide"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DeformationRatio": {
+            "_text": "0.24"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "3"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

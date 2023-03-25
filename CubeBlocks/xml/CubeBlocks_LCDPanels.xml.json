@@ -1,0 +1,1464 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "SmallTextPanel"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_TextPanel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TextPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\TextPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "TextPanel"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00002"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "SmallLCDPanelWide"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_LCD_PanelWide"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LCDPanelWide.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LCDPanelWide.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LCDPanelWide"
+          },
+          "MirroringX": {
+            "_text": "OffsetX"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetXOdd"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetXOdd"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "TextureResolution": {
+            "_text": "512"
+          },
+          "ScreenWidth": {
+            "_text": "2"
+          },
+          "ScreenHeight": {
+            "_text": "1"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "120"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "SmallLCDPanel"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_LCD_Panel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LCDPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LCDPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LCDPanel"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0001"
+          },
+          "TextureResolution": {
+            "_text": "512"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "120"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockCorner_LCD_1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLCD"
+          },
+          "BlockPairName": {
+            "_text": "CornerLCD"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_1.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\Corner_LCD_1.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ScreenWidth": {
+            "_text": "7"
+          },
+          "ScreenHeight": {
+            "_text": "1"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "TextureResolution": {
+            "_text": "128"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockCorner_LCD_2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLCD2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_2.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\Corner_LCD_2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ScreenWidth": {
+            "_text": "7"
+          },
+          "ScreenHeight": {
+            "_text": "1"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "TextureResolution": {
+            "_text": "128"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockCorner_LCD_Flat_1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLCDFlatTop"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_Flat_1.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\Corner_LCD_Flat_1.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ScreenWidth": {
+            "_text": "7"
+          },
+          "ScreenHeight": {
+            "_text": "1"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "TextureResolution": {
+            "_text": "128"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "-1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockCorner_LCD_Flat_2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLCDFlatBottom"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_Flat_2.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\Corner_LCD_Flat_2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "ScreenWidth": {
+            "_text": "7"
+          },
+          "ScreenHeight": {
+            "_text": "1"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "TextureResolution": {
+            "_text": "128"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockCorner_LCD_1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLCD"
+          },
+          "BlockPairName": {
+            "_text": "CornerLCD"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_1.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\small\\Corner_LCD_1.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "ScreenWidth": {
+            "_text": "22"
+          },
+          "ScreenHeight": {
+            "_text": "7"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "TextureResolution": {
+            "_text": "256"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockCorner_LCD_2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLCD2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_2.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\small\\Corner_LCD_2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "ScreenWidth": {
+            "_text": "22"
+          },
+          "ScreenHeight": {
+            "_text": "7"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "TextureResolution": {
+            "_text": "256"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockCorner_LCD_Flat_1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLCDFlatTop"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_Flat_1.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\small\\Corner_LCD_Flat_1.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ScreenWidth": {
+            "_text": "25"
+          },
+          "ScreenHeight": {
+            "_text": "10"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "TextureResolution": {
+            "_text": "256"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockCorner_LCD_Flat_2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLCDFlatBottom"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Corner_LCD_Flat_2.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\small\\Corner_LCD_Flat_2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ScreenWidth": {
+            "_text": "25"
+          },
+          "ScreenHeight": {
+            "_text": "10"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "TextureResolution": {
+            "_text": "256"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeTextPanel"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_TextPanel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TextPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\TextPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "TextPanel"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "120"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "ScreenWidth": {
+            "_text": "5"
+          },
+          "ScreenHeight": {
+            "_text": "3"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "-1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeLCDPanel"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_LCD_Panel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LCDPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LCDPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LCDPanel"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "120"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0001"
+          },
+          "TextureResolution": {
+            "_text": "512"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "-1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeLCDPanelWide"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_LCD_PanelWide"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LCDPanelWide.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LCDPanelWide.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LCDPanelWide"
+          },
+          "MirroringX": {
+            "_text": "OffsetX"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetXOdd"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetXOdd"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "120"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "TextureResolution": {
+            "_text": "512"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "ScreenWidth": {
+            "_text": "2"
+          },
+          "ScreenHeight": {
+            "_text": "1"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "-1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

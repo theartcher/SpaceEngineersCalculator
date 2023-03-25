@@ -1,0 +1,384 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MedicalRoom"
+            },
+            "SubtypeId": {
+              "_text": "LargeMedicalRoom"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MedicalRoom"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\medical_room.dds"
+          },
+          "Description": {
+            "_text": "Description_MedicalRoom"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MedicalRoom.mwm"
+          },
+          "IdleSound": {
+            "_text": "BlockMedical"
+          },
+          "ProgressSound": {
+            "_text": "BlockMedicalProgress"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Center": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "MedicalRoom"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "50"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "30"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CryoChamber"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockCryoChamber"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CryoChamber"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CryoPod.dds"
+          },
+          "Description": {
+            "_text": "Description_CryoChamber"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\CryoPod.mwm"
+          },
+          "InteriorModel": {
+            "_text": "Models\\Cubes\\Large\\CryoPodInterior.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "Idle"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "CryoChamber"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\cryopod_interior.dds"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "IsPressurized": {
+            "_text": "true"
+          },
+          "OxygenCapacity": {
+            "_text": "1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "IdlePowerConsumption": {
+            "_text": "0.00003"
+          },
+          "OutsideSound": {
+            "_text": "BlockCryoOut"
+          },
+          "InsideSound": {
+            "_text": "BlockCryoIn"
+          },
+          "EnclosedCockpit": {
+            "_text": "true"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CryoChamber"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockCryoChamber"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CryoChamber"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CryoPod.dds"
+          },
+          "Description": {
+            "_text": "Description_CryoChamber"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\small\\Cryopod.mwm"
+          },
+          "InteriorModel": {
+            "_text": "Models\\Cubes\\small\\Cryopod.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "Idle"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "CryoChamber"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\cryopod_interior.dds"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "IsPressurized": {
+            "_text": "true"
+          },
+          "OxygenCapacity": {
+            "_text": "1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "IdlePowerConsumption": {
+            "_text": "0.00003"
+          },
+          "OutsideSound": {
+            "_text": "BlockCryoOut"
+          },
+          "InsideSound": {
+            "_text": "BlockCryoIn"
+          },
+          "EnclosedCockpit": {
+            "_text": "true"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {
   "name": "spacengineerscalculator",
   "version": "1.0.0",
+  "type": "module",
   "description": "A program that will calculate the total componental cost of a blueprint",
   "main": "index.js",
   "scripts": {
@@ -19,6 +20,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "json-finder": "^0.1.0",
+    "xml-js": "^1.6.11",
     "xml-query": "^1.5.0",
     "xml-reader": "^2.4.3",
     "xml2js": "^0.4.23"

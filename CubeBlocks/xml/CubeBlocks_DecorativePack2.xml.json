@@ -1,0 +1,2900 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "VendingMachine"
+            },
+            "SubtypeId": {
+              "_text": "FoodDispenser"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_FoodDispenser"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\FoodDispenser.dds"
+          },
+          "Description": {
+            "_text": "Description_FoodDispenser"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\FoodDispenser.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "DefaultItems": {
+            "MyObjectBuilderStoreItem": [
+              {
+                "Id": {
+                  "_text": "1136189434942549542"
+                },
+                "Item": {},
+                "ItemType": {
+                  "_text": "PhysicalItem"
+                },
+                "Amount": {
+                  "_text": "1"
+                },
+                "RemovedAmount": {
+                  "_text": "0"
+                },
+                "PricePerUnit": {
+                  "_text": "100"
+                },
+                "StoreItemType": {
+                  "_text": "Offer"
+                },
+                "UpdateCount": {
+                  "_text": "0"
+                },
+                "PrefabTotalPcu": {
+                  "_text": "0"
+                },
+                "PricePerUnitDiscount": {
+                  "_text": "0"
+                }
+              },
+              {
+                "Id": {
+                  "_text": "1082521839310786643"
+                },
+                "Item": {},
+                "ItemType": {
+                  "_text": "PhysicalItem"
+                },
+                "Amount": {
+                  "_text": "1"
+                },
+                "RemovedAmount": {
+                  "_text": "0"
+                },
+                "PricePerUnit": {
+                  "_text": "100"
+                },
+                "StoreItemType": {
+                  "_text": "Offer"
+                },
+                "UpdateCount": {
+                  "_text": "0"
+                },
+                "PrefabTotalPcu": {
+                  "_text": "0"
+                },
+                "PricePerUnitDiscount": {
+                  "_text": "0"
+                }
+              }
+            ]
+          },
+          "ThrowOutDummy": {
+            "_text": "FoodDispenserSpawn"
+          },
+          "BlockPairName": {
+            "_text": "FoodDispenser"
+          },
+          "ScreenAreas": {
+            "ScreenArea": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "ActionSound": {
+            "_text": "BlockCollect"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "AdditionalEmissiveMaterials": {
+            "string": {
+              "_text": "FoodDispenser"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Jukebox"
+            },
+            "SubtypeId": {
+              "_text": "Jukebox"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Jukebox"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Jukebox.dds"
+          },
+          "Description": {
+            "_text": "Description_Jukebox"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Jukebox.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.02"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LCDPanelsBlock"
+            },
+            "SubtypeId": {
+              "_text": "LabEquipment"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LabEquipment"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LabEquipment.dds"
+          },
+          "Description": {
+            "_text": "Description_LabEquipment"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LabEquipment.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0001"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Shower"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Shower"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Shower.dds"
+          },
+          "Description": {
+            "_text": "Description_Shower"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Shower.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowWall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowWall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowWall.dds"
+          },
+          "Description": {
+            "_text": "Description_WindowWall"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowWallCenter.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowWallLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowWallLeft"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowWallLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_WindowWallLeft"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowWallLeft.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "WindowWallRight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowWallRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowWallRight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowWallRight.dds"
+          },
+          "Description": {
+            "_text": "Description_WindowWallRight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowWallRight.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "WindowWallLeft"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LCDPanelsBlock"
+            },
+            "SubtypeId": {
+              "_text": "MedicalStation"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MedicalStation"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\MedicalStation.dds"
+          },
+          "Description": {
+            "_text": "Description_MedicalStation"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MedicalStation.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0001"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "TransparentLCDLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_TransparentLCD"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TransparentLCD.dds"
+          },
+          "Description": {
+            "_text": "Description_TransparentLCD"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\TransparentLCD.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "TransparentLCD"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "120"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00002"
+          },
+          "PanelMaterialName": {
+            "_text": "TransparentScreenArea"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "TransparentLCDSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_TransparentLCD"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TransparentLCD.dds"
+          },
+          "Description": {
+            "_text": "Description_TransparentLCD"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\TransparentLCD.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "TransparentLCD"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "60"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00002"
+          },
+          "PanelMaterialName": {
+            "_text": "TransparentScreenArea"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Catwalk"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedCatwalk"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalk.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalk"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedCatwalk.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "BlockPairName": {
+            "_text": "Catwalk"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedCatwalkCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalkCorner"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedCatwalkCorner.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkStraight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedCatwalkStraight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkStraight.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalkStraight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedCatwalkStraight.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkWall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedCatwalkWall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkWall.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalkWall"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedCatwalkWall.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkRailingEnd"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedCatwalkRailingEnd"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkRailingEnd.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalkStraight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedCatwalkRailingEnd.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkRailingHalfRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedCatwalkRailingHalfRight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkRailingHalfRight.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalkWall"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfRight.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "CatwalkRailingHalfLeft"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkRailingHalfLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedCatwalkRailingHalfLeft"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedCatwalkRailingHalfLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalkWall"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedCatwalkRailingHalfLeft.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "CatwalkRailingHalfRight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkHalf"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfGratedCatwalk"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfGratedCatwalk.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalk"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfGratedCatwalk.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "BlockPairName": {
+            "_text": "HalfGratedCatwalk"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkHalfRailing"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfGratedCatwalkRailing"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfGratedCatwalkRailing.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalk"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfGratedCatwalkRailing.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "BlockPairName": {
+            "_text": "HalfGratedCatwalkRailing"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkHalfCenterRailing"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfGratedCatwalkCenterRailing"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfGratedCatwalkInsideRailing.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalk"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfGratedCatwalkInsideRailing.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "BlockPairName": {
+            "_text": "HalfGratedCatwalkCenterRailing"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "CatwalkHalfOuterRailing"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfGratedCatwalkOuterRailing"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfGratedCatwalkOuterRailing.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedCatwalk"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfGratedCatwalkOuterRailing.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "BlockPairName": {
+            "_text": "HalfGratedCatwalkOuterRailing"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "GratedStairs"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedStairs"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedStairs.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedStairs"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedStairs.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "GratedHalfStairs"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedHalfStairs"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedHalfStairs.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedHalfStairs"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedHalfStairs.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "GratedHalfStairsMirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "GratedHalfStairsMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GratedHalfStairsMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\GratedHalfStairsMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_GratedHalfStairs"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GratedHalfStairsMirrored.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "GratedHalfStairs"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "RailingStraight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RailingStraight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailingStraight.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingStraight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailingStraight.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "BlockPairName": {
+            "_text": "RailingStraight"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "RailingDouble"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RailingDouble"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailingDouble.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingDouble"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailingDouble.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "RailingCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RailingCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailingCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingCorner"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailingCorner.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "RailingDiagonal"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RailingDiagonal"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailingDiagonal.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingDiagonal"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailingDiagonal.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "RailingHalfRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RailingHalfRight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailingHalfRight.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingStraight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailingHalfRight.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "RailingHalfLeft"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "BlockPairName": {
+            "_text": "RailingHalfRight"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "RailingHalfLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RailingHalfLeft"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailingHalfLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingStraight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailingHalfLeft.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "RailingHalfRight"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "BlockPairName": {
+            "_text": "RailingHalfLeft"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "RailingCenter"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RailingCenter"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailingCenter.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingStraight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailingCenter.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "BlockPairName": {
+            "_text": "RailingCenter"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Railing2x1Right"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_2x1RailingRight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\2x1RailingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingStraight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\2x1RailingRight.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "Railing2x1Left"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "BlockPairName": {
+            "_text": "2x1RailingRight"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Railing2x1Left"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_2x1RailingLeft"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\2x1RailingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_RailingStraight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\2x1RailingLeft.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "Railing2x1Right"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "BlockPairName": {
+            "_text": "2x1RailingLeft"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ReflectorLight"
+            },
+            "SubtypeId": {
+              "_text": "RotatingLightLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RotatingLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RotatingLight.dds"
+          },
+          "Description": {
+            "_text": "Description_RotatingLight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RotatingLight.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BlockPairName": {
+            "_text": "RotatingLight"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "RotationSpeedBounds": {},
+          "LightRadius": {},
+          "LightReflectorRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "Flare": {
+            "_text": "SpotlightSmall"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "ReflectorThickness": {
+            "_text": "5.0"
+          },
+          "ReflectorTexture": {
+            "_text": "Textures\\Lights\\reflector.dds"
+          },
+          "ReflectorConeDegrees": {
+            "_text": "40"
+          },
+          "ReflectorConeMaterial": {
+            "_text": "ReflectorConeNarrow"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ReflectorLight"
+            },
+            "SubtypeId": {
+              "_text": "RotatingLightSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RotatingLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RotatingLight.dds"
+          },
+          "Description": {
+            "_text": "Description_RotatingLight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RotatingLight.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BlockPairName": {
+            "_text": "RotatingLight"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "RotationSpeedBounds": {},
+          "LightRadius": {},
+          "LightReflectorRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "Flare": {
+            "_text": "SpotlightSmall"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "ReflectorThickness": {
+            "_text": "5.0"
+          },
+          "ReflectorTexture": {
+            "_text": "Textures\\Lights\\reflector.dds"
+          },
+          "ReflectorConeDegrees": {
+            "_text": "40"
+          },
+          "ReflectorConeMaterial": {
+            "_text": "ReflectorConeNarrow"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Freight1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Freight1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Freight_I.dds"
+          },
+          "Description": {
+            "_text": "Description_Freight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Freight_I.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "MirroringX": {
+            "_text": "ZHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "XHalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Freight2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Freight2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Freight_II.dds"
+          },
+          "Description": {
+            "_text": "Description_Freight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Freight_II.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Freight3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Freight3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Freight_III.dds"
+          },
+          "Description": {
+            "_text": "Description_Freight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Freight_III.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

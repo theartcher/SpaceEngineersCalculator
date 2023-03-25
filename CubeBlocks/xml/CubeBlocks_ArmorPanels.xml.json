@@ -1,0 +1,4224 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmorPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorPanelLight"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorSlopedSidePanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSlopedSidePanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopedSidePanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmorSlopedSidePanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorSlopedSidePanelLight"
+          },
+          "MirroringX": {
+            "_text": "ZMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorSlopedPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSlopedPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmorSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorHalfPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorHalfPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorHalfPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmorHalfPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorHalfPanelLight"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorQuarterPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorQuarterPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightQuarterPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightQuarterPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorQuarterPanelLight"
+          },
+          "MirroringY": {
+            "_text": "ZHalfZ"
+          },
+          "MirroringX": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YHalfZ"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1SlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedPanelTipLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedPanelTipLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedPanelTip.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1SlopedPanelTip.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedPanelTip"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedSideBasePanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideBasePanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedSideBasePanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1SlopedSideBasePanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedSideBasePanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1SlopedSideBasePanelLightInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedSideTipPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideTipPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideTipPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideTipPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedSideTipPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1SlopedSideTipPanelLightInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedSideBasePanelLightInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideBasePanelLightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideBasePanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideBasePanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedSideBasePanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1SlopedSideBasePanelLight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedSideTipPanelLightInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideTipPanelLightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideTipPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1SlopeSideTipPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedSideTipPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1SlopedSideTipPanelLight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorHalfSlopedPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorHalfSlopedPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorHalfSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmorHalfSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopedPanel"
+          },
+          "MirroringX": {
+            "_text": "ZHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "XHalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1HalfSlopedPanelLightRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1HalfSlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1HalfSlopedPanelLightLeft"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1HalfSlopedTipPanelLightRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedTipPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedTipPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedTipPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1HalfSlopedTipPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1HalfSlopedTipPanelLightLeft"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1HalfSlopedPanelLightLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedPanelLightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1HalfSlopedPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1HalfSlopedPanelLightRight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1HalfSlopedTipPanelLightLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedTipPanelLightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedTipPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LightArmor2x1HalfSlopedTipPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1HalfSlopedTipPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1HalfSlopedTipPanelLightRight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmorPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorPanelHeavy"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorSlopedSidePanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSlopedSidePanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorSlopedSidePanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmorSlopedSidePanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorSlopedSidePanelHeavy"
+          },
+          "MirroringX": {
+            "_text": "ZMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorSlopedPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSlopedPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmorSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorHalfPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorHalfPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorHalfPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmorHalfPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorHalfPanelHeavy"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorQuarterPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorQuarterPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyQuarterPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyQuarterPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorQuarterPanelHeavy"
+          },
+          "MirroringY": {
+            "_text": "ZHalfZ"
+          },
+          "MirroringX": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YHalfZ"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1SlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedPanelTipHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedPanelTipHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedPanelTip.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1SlopedPanelTip.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedPanelTip"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedSideBasePanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideBasePanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedSideBasePanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1SlopedSideBasePanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedSideBasePanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1SlopedSideBasePanelHeavyInv"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedSideTipPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideTipPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideTipPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1SlopeSideTipPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedSideTipPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1SlopedSideTipPanelHeavyInv"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedSideBasePanelHeavyInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideBasePanelHeavyInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideBasePanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1SlopeSideBasePanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedSideBasePanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1SlopedSideBasePanelHeavy"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1SlopedSideTipPanelHeavyInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideTipPanelHeavyInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideTipPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1SlopeSideTipPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedSideTipPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1SlopedSideTipPanelHeavy"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmorHalfSlopedPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorHalfSlopedPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorHalfSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmorHalfSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopedPanel"
+          },
+          "MirroringX": {
+            "_text": "ZHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "XHalfX"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1HalfSlopedPanelHeavyRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1HalfSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1HalfSlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1HalfSlopedPanelHeavyLeft"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1HalfSlopedTipPanelHeavyRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedTipPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1HalfSlopedTipPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1HalfSlopedTipPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1HalfSlopedTipPanelHeavyLeft"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1HalfSlopedPanelHeavyLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedPanelHeavyInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1HalfSlopedPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1HalfSlopedPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1HalfSlopedPanelHeavyRight"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeArmor2x1HalfSlopedTipPanelHeavyLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavyInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedTipPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyArmor2x1HalfSlopedTipPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1HalfSlopedTipPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "LargeArmor2x1HalfSlopedTipPanelHeavyRight"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmorPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorPanelLight"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorSlopedSidePanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSlopedSidePanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopedSidePanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmorSlopedSidePanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorSlopedSidePanelLight"
+          },
+          "MirroringX": {
+            "_text": "ZMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorSlopedPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSlopedPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmorSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorHalfPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorHalfPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorHalfPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmorHalfPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorHalfPanelLight"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorQuarterPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorQuarterPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightQuarterPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightQuarterPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorQuarterPanelLight"
+          },
+          "MirroringY": {
+            "_text": "ZHalfZ"
+          },
+          "MirroringX": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YHalfZ"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1SlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedPanelTipLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedPanelTipLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedPanelTip.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1SlopedPanelTip.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedPanelTip"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedSideBasePanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideBasePanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopedSideBasePanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1SlopedSideBasePanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedSideBasePanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1SlopedSideBasePanelLightInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedSideTipPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideTipPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideTipPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideTipPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedSideTipPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1SlopedSideTipPanelLightInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedSideBasePanelLightInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideBasePanelLightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideBasePanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideBasePanelInv.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedSideBasePanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1SlopedSideBasePanelLight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedSideTipPanelLightInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideTipPanelLightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1SlopeSideTipPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1SlopeSideTipPanelInv.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1SlopedSideTipPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1SlopedSideTipPanelLight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorHalfSlopedPanelLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorHalfSlopedPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorHalfSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmorHalfSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmorHalfSlopedPanel"
+          },
+          "MirroringX": {
+            "_text": "ZHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "XHalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1HalfSlopedPanelLightRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1HalfSlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1HalfSlopedPanelLightLeft"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1HalfSlopedTipPanelLightRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedTipPanelLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedTipPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedTipPanel.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1HalfSlopedTipPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1HalfSlopedTipPanelLightLeft"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1HalfSlopedPanelLightLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedPanelLightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedPanelInv.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1HalfSlopedPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1HalfSlopedPanelLightRight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1HalfSlopedTipPanelLightLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedTipPanelLightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmor2x1HalfSlopedTipPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\LightArmor2x1HalfSlopedTipPanelInv.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LightArmor2x1HalfSlopedTipPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1HalfSlopedTipPanelLightRight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmorPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorPanelHeavy"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorSlopedSidePanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSlopedSidePanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorSlopedSidePanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmorSlopedSidePanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorSlopedSidePanelHeavy"
+          },
+          "MirroringX": {
+            "_text": "ZMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorSlopedPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorSlopedPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmorSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorHalfPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorHalfPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorHalfPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmorHalfPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorHalfPanelHeavy"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorQuarterPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorQuarterPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyQuarterPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyQuarterPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ArmorQuarterPanelHeavy"
+          },
+          "MirroringY": {
+            "_text": "ZHalfZ"
+          },
+          "MirroringX": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YHalfZ"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1SlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedPanelTipHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedPanelTipHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedPanelTip.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1SlopedPanelTip.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedPanelTip"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedSideBasePanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideBasePanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopedSideBasePanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1SlopedSideBasePanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedSideBasePanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1SlopedSideBasePanelHeavyInv"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedSideTipPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideTipPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideTipPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1SlopeSideTipPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedSideTipPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1SlopedSideTipPanelHeavyInv"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedSideBasePanelHeavyInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideBasePanelHeavyInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideBasePanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1SlopeSideBasePanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedSideBasePanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1SlopedSideBasePanelHeavy"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1SlopedSideTipPanelHeavyInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1SlopedSideTipPanelHeavyInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1SlopeSideTipPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1SlopeSideTipPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1SlopedSideTipPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1SlopedSideTipPanelHeavy"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmorHalfSlopedPanelHeavy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ArmorHalfSlopedPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmorHalfSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmorHalfSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorHalfSlopedPanel"
+          },
+          "MirroringX": {
+            "_text": "ZHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "XHalfX"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1HalfSlopedPanelHeavyRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1HalfSlopedPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1HalfSlopedPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1HalfSlopedPanelHeavyLeft"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1HalfSlopedTipPanelHeavyRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedTipPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1HalfSlopedTipPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1HalfSlopedTipPanel"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1HalfSlopedTipPanelHeavyLeft"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1HalfSlopedPanelHeavyLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedPanelHeavyInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1HalfSlopedPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1HalfSlopedPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1HalfSlopedPanelHeavyRight"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallArmor2x1HalfSlopedTipPanelHeavyLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Armor2x1HalfSlopedTipPanelHeavyInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyArmor2x1HalfSlopedTipPanelInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HeavyArmor2x1HalfSlopedTipPanelInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmor2x1HalfSlopedTipPanelInv"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallArmor2x1HalfSlopedTipPanelHeavyRight"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

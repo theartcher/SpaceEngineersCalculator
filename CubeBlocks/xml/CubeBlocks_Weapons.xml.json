@@ -1,0 +1,2862 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Warhead"
+            },
+            "SubtypeId": {
+              "_text": "LargeWarhead"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Warhead"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\warhead.dds"
+          },
+          "Description": {
+            "_text": "Description_Warhead"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\warhead.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Warhead"
+          },
+          "ActionSound": {
+            "_text": "WepLrgWarheadExpl"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "ExplosionRadius": {
+            "_text": "22.4415"
+          },
+          "WarheadExplosionDamage": {
+            "_text": "15000"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Timer"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Warhead"
+            },
+            "SubtypeId": {
+              "_text": "SmallWarhead"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Warhead"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\warhead.dds"
+          },
+          "Description": {
+            "_text": "Description_Warhead"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\warhead.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Warhead"
+          },
+          "ActionSound": {
+            "_text": "WepLrgWarheadExpl"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "ExplosionRadius": {
+            "_text": "4.4883"
+          },
+          "WarheadExplosionDamage": {
+            "_text": "15000"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Timer"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Decoy"
+            },
+            "SubtypeId": {
+              "_text": "LargeDecoy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Decoy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\decoy.dds"
+          },
+          "Description": {
+            "_text": "Description_Decoy"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\decoy.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BlockPairName": {
+            "_text": "Decoy"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TargetingGroups": {
+            "string": [
+              {
+                "_text": "Weapons"
+              },
+              {
+                "_text": "Propulsion"
+              },
+              {
+                "_text": "PowerSystems"
+              }
+            ]
+          },
+          "PriorityModifier": {
+            "_text": "10"
+          },
+          "NotWorkingPriorityMultiplier": {
+            "_text": "0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Decoy"
+            },
+            "SubtypeId": {
+              "_text": "SmallDecoy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Decoy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\decoy.dds"
+          },
+          "Description": {
+            "_text": "Description_Decoy"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\decoy.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BlockPairName": {
+            "_text": "Decoy"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TargetingGroups": {
+            "string": [
+              {
+                "_text": "Weapons"
+              },
+              {
+                "_text": "Propulsion"
+              },
+              {
+                "_text": "PowerSystems"
+              }
+            ]
+          },
+          "PriorityModifier": {
+            "_text": "10"
+          },
+          "NotWorkingPriorityMultiplier": {
+            "_text": "0"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LargeGatlingTurret"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GatlingTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\gatling_turret.dds"
+          },
+          "Description": {
+            "_text": "Description_GatlingTurret"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GatlingTurret.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "GatlingTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "HiddenTargetingOptions": {
+            "_text": "Friends"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.384"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-43"
+          },
+          "MaxElevationDegrees": {
+            "_text": "90"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "RotationSpeed": {
+            "_text": "0.0015"
+          },
+          "ElevationSpeed": {
+            "_text": "0.0015"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "800"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "225"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "3"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "UpCameraOffset": {
+            "_text": "0"
+          },
+          "ForwardCameraOffset": {
+            "_text": "3.5"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LargeGatlingTurret"
+            },
+            "SubtypeId": {
+              "_text": "SmallGatlingTurret"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GatlingTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\gatling_turret.dds"
+          },
+          "Description": {
+            "_text": "Description_GatlingTurret"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\GatlingTurret.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "GatlingTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "HiddenTargetingOptions": {
+            "_text": "Friends"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.084"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-10"
+          },
+          "MaxElevationDegrees": {
+            "_text": "180"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "RotationSpeed": {
+            "_text": "0.002"
+          },
+          "ElevationSpeed": {
+            "_text": "0.002"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "600"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "225"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "3"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LargeMissileTurret"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MissileTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\missile_turret.dds"
+          },
+          "Description": {
+            "_text": "Description_MissileTurret"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MissileTurret.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "MissileTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "EnabledTargetingOptions": {
+            "_text": "SmallShips LargeShips Stations Enemies"
+          },
+          "HiddenTargetingOptions": {
+            "_text": "Friends Asteroids Missiles"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.384"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-58"
+          },
+          "MaxElevationDegrees": {
+            "_text": "90"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "800"
+          },
+          "RotationSpeed": {
+            "_text": "0.001"
+          },
+          "ElevationSpeed": {
+            "_text": "0.001"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "275"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "3"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "UpCameraOffset": {
+            "_text": "1.0"
+          },
+          "ForwardCameraOffset": {
+            "_text": "0.5"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LargeMissileTurret"
+            },
+            "SubtypeId": {
+              "_text": "SmallMissileTurret"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MissileTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\missile_turret.dds"
+          },
+          "Description": {
+            "_text": "Description_MissileTurret"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MissileTurret.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "MissileTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "25"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "EnabledTargetingOptions": {
+            "_text": "SmallShips LargeShips Stations Enemies"
+          },
+          "HiddenTargetingOptions": {
+            "_text": "Friends Asteroids Missiles"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.12"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-8"
+          },
+          "MaxElevationDegrees": {
+            "_text": "180"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "600"
+          },
+          "RotationSpeed": {
+            "_text": "0.0015"
+          },
+          "ElevationSpeed": {
+            "_text": "0.0015"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "3"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorTurret"
+            },
+            "SubtypeId": {
+              "_text": "LargeInteriorTurret"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_InteriorTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\interior_turret.dds"
+          },
+          "Description": {
+            "_text": "Description_InteriorTurret"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\InteriorTurret.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "InteriorTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "24"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "HiddenTargetingOptions": {
+            "_text": "Friends"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.384"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-76"
+          },
+          "MaxElevationDegrees": {
+            "_text": "90"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "600"
+          },
+          "RotationSpeed": {
+            "_text": "0.002"
+          },
+          "ElevationSpeed": {
+            "_text": "0.002"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "125"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "3"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "UpCameraOffset": {
+            "_text": "0.45"
+          },
+          "ForwardCameraOffset": {
+            "_text": "0.2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallMissileLauncher"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RocketLauncher"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\missile_launcher_small.dds"
+          },
+          "Description": {
+            "_text": "Description_RocketLauncher"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\RocketLauncher.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "BlockPairName": {
+            "_text": "RocketLauncher"
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.24"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "425"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallMissileLauncher"
+            },
+            "SubtypeId": {
+              "_text": "LargeMissileLauncher"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RocketLauncher"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\missile_launcher.dds"
+          },
+          "Description": {
+            "_text": "Description_LargeRocketLauncher"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RocketLauncher.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RocketLauncher"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.14"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "825"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallMissileLauncherReload"
+            },
+            "SubtypeId": {
+              "_text": "SmallRocketLauncherReload"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallRocketLauncherReload"
+          },
+          "BlockPairName": {
+            "_text": "SmallRocketLauncherReload"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RocketLauncherReload.dds"
+          },
+          "Description": {
+            "_text": "Description_RocketLauncherReload"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\RocketLauncherReload.mwm"
+          },
+          "CriticalComponent": [],
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.24"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "WeaponDefinitionId": {},
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "425"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallGatlingGun"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GatlingGun"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\gatling_gun.dds"
+          },
+          "Description": {
+            "_text": "Description_GatlingGun"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\GatlingGun.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "GatlingGun"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "13"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.064"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "80"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".6"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallGatlingGun"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockAutocannon"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Autocannon"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AutoCannon.dds"
+          },
+          "Description": {
+            "_text": "Description_Autocannon"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Autocannon.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BlockPairName": {
+            "_text": "Autocannon"
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.072"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "80"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "DamageEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallMissileLauncherReload"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockMediumCalibreGun"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MediumCalibreGun"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\MediumCaliberGun.dds"
+          },
+          "Description": {
+            "_text": "Description_MediumCalibreGun"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MediumCaliberGun.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BlockPairName": {
+            "_text": "MediumCalibreGun"
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "26"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.09"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "80"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.5"
+            }
+          },
+          "DamageEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.5"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallMissileLauncher"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeCalibreGun"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyCalibreGun"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyCalibreGun.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyCalibreGun"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyCalibreGun.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BlockPairName": {
+            "_text": "LargeCalibreGun"
+          },
+          "Center": {},
+          "BuildTimeSeconds": {
+            "_text": "60"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "80"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "4"
+            }
+          },
+          "DamageEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "4"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallMissileLauncherReload"
+            },
+            "SubtypeId": {
+              "_text": "LargeRailgun"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Railgun"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailGun.dds"
+          },
+          "Description": {
+            "_text": "Description_Railgun"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\RailGun.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Railgun"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "100"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "DefenseAdative"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.24"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.0001"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Railgun_Large"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large3X"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "80"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".6"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SmallMissileLauncherReload"
+            },
+            "SubtypeId": {
+              "_text": "SmallRailgun"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Railgun"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RailGun.dds"
+          },
+          "Description": {
+            "_text": "Description_SmallRailgun"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\RailGun.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Railgun"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "WeaponDefinitionId": {},
+          "ResourceSinkGroup": {
+            "_text": "DefenseAdative"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.048"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Railgun_Large"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large3X"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "80"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".6"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LargeMissileTurret"
+            },
+            "SubtypeId": {
+              "_text": "LargeCalibreTurret"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeCalibreTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyCalibreTurret.dds"
+          },
+          "Description": {
+            "_text": "Description_LargeCalibreTurret"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HeavyCalibreTurret.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeCalibreTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "100"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "EnabledTargetingOptions": {
+            "_text": "LargeShips Stations Enemies"
+          },
+          "HiddenTargetingOptions": {
+            "_text": "Players Asteroids Missiles Friends"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.6"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-15"
+          },
+          "MaxElevationDegrees": {
+            "_text": "60"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "800"
+          },
+          "RotationSpeed": {
+            "_text": "0.0002"
+          },
+          "ElevationSpeed": {
+            "_text": "0.0002"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "275"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "2"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "UpCameraOffset": {
+            "_text": "1.0"
+          },
+          "ForwardCameraOffset": {
+            "_text": "0.5"
+          },
+          "AimingOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-2"
+            },
+            "Z": {
+              "_text": "0"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LargeMissileTurret"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockMediumCalibreTurret"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MediumCalibreTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\MediumCalibreTurretLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_MediumCalibreTurret"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MediumCalibreTurret.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "MediumCalibreTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "80"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "EnabledTargetingOptions": {
+            "_text": "LargeShips SmallShips Stations Enemies"
+          },
+          "HiddenTargetingOptions": {
+            "_text": "Asteroids Missiles Friends"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.18"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-20"
+          },
+          "MaxElevationDegrees": {
+            "_text": "75"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "800"
+          },
+          "RotationSpeed": {
+            "_text": "0.0004"
+          },
+          "ElevationSpeed": {
+            "_text": "0.0004"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "275"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "2"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "UpCameraOffset": {
+            "_text": "1.0"
+          },
+          "ForwardCameraOffset": {
+            "_text": "0.5"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LargeMissileTurret"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockMediumCalibreTurret"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MediumCalibreTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\MediumCalibreTurret_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_MediumCalibreGun"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MediumCalibreTurret_Base.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "MediumCalibreTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "EnabledTargetingOptions": {
+            "_text": "LargeShips SmallShips Stations Enemies"
+          },
+          "HiddenTargetingOptions": {
+            "_text": "Asteroids Missiles Friends"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.09"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-10"
+          },
+          "MaxElevationDegrees": {
+            "_text": "50"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "600"
+          },
+          "RotationSpeed": {
+            "_text": "0.0008"
+          },
+          "ElevationSpeed": {
+            "_text": "0.0008"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "275"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "2"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "UpCameraOffset": {
+            "_text": "1.0"
+          },
+          "ForwardCameraOffset": {
+            "_text": "0.5"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "LargeGatlingTurret"
+            },
+            "SubtypeId": {
+              "_text": "AutoCannonTurret"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AutoCannonTurret"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AutocannonTurret_icon.dds"
+          },
+          "Description": {
+            "_text": "Description_AutoCannonTurret"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\AutocannonTurret_Base.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "AutoCannonTurret"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "26"
+          },
+          "OverlayTexture": {
+            "_text": "Textures\\GUI\\Screens\\turret_overlay.dds"
+          },
+          "WeaponDefinitionId": {},
+          "HiddenTargetingOptions": {
+            "_text": "Friends"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.072"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Defense"
+          },
+          "MinElevationDegrees": {
+            "_text": "-10"
+          },
+          "MaxElevationDegrees": {
+            "_text": "180"
+          },
+          "MinAzimuthDegrees": {
+            "_text": "-180"
+          },
+          "MaxAzimuthDegrees": {
+            "_text": "180"
+          },
+          "RotationSpeed": {
+            "_text": "0.001"
+          },
+          "ElevationSpeed": {
+            "_text": "0.001"
+          },
+          "IdleRotation": {
+            "_text": "true"
+          },
+          "MaxRangeMeters": {
+            "_text": "600"
+          },
+          "MinFov": {
+            "_text": "0.1"
+          },
+          "MaxFov": {
+            "_text": "1.04719755"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "225"
+          },
+          "AmmoPullAmountPerTick": {
+            "_text": "3"
+          },
+          "InventoryFillFactorMin": {
+            "_text": ".25"
+          },
+          "InventoryFillFactorMax": {
+            "_text": ".5"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "10"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Weapons"
+            }
+          },
+          "SubpartPairing": {
+            "dictionary": {
+              "item": [
+                {
+                  "Key": {
+                    "_text": "Base1"
+                  },
+                  "Value": {
+                    "_text": "AutocannonTurret_Base1"
+                  }
+                },
+                {
+                  "Key": {
+                    "_text": "Base2"
+                  },
+                  "Value": {
+                    "_text": "AutocannonTurret_Base1/AutocannonTurret_Barrel"
+                  }
+                },
+                {
+                  "Key": {
+                    "_text": "Barrel"
+                  },
+                  "Value": {
+                    "_text": "AutocannonTurret_Base1/AutocannonTurret_Barrel"
+                  }
+                }
+              ]
+            }
+          },
+          "MuzzleProjectileDummyName": {
+            "_text": "muzzle_missile_001"
+          },
+          "CameraDummyName": {
+            "_text": "muzzle_projectile"
+          }
+        }
+      ]
+    }
+  }
+}

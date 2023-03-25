@@ -1,17 +1,18 @@
-import { ParseSourceFileToResultJSON } from "./Functions/ParseSourceFileToResultJSON";
+import fs from "fs";
+import { ParseSourceFileToResultJSON } from "./Functions/ParseSourceFileToResultJSON.js";
 
-const fs = require("fs");
 const TotalListObject = {
   Blocks: [],
 };
 
+//Function to file, return
 fs.readFile(
   "./CubeBlocks/convertedJsonExample.json",
   "utf8",
   (err, fileContent) => {
     const jsonObj = JSON.parse(fileContent);
 
-    ParseSourceFileToResultJSON(jsonObj);
+    ParseSourceFileToResultJSON(jsonObj, TotalListObject);
 
     WriteResToJSON(TotalListObject);
   }

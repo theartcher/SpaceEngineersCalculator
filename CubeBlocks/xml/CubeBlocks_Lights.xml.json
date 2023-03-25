@@ -1,0 +1,834 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ReflectorLight"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockFrontLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ReflectorLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\light.dds"
+          },
+          "Description": {
+            "_text": "Description_ReflectorLight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\light.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ReflectorLight"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "LightRadius": {},
+          "LightReflectorRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.001"
+          },
+          "Flare": {
+            "_text": "SpotlightLarge"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "ReflectorThickness": {
+            "_text": "11"
+          },
+          "ReflectorTexture": {
+            "_text": "Textures\\Lights\\reflector_large.dds"
+          },
+          "ReflectorConeDegrees": {
+            "_text": "52"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ReflectorLight"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockFrontLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ReflectorLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\light.dds"
+          },
+          "Description": {
+            "_text": "Description_ReflectorLight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\light.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ReflectorLight"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "LightRadius": {},
+          "LightReflectorRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "Flare": {
+            "_text": "SpotlightSmall"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "ReflectorThickness": {
+            "_text": "2.5"
+          },
+          "ReflectorTexture": {
+            "_text": "Textures\\Lights\\reflector_small.dds"
+          },
+          "ReflectorConeDegrees": {
+            "_text": "52"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "SmallLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_InteriorLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\interior_light.dds"
+          },
+          "Description": {
+            "_text": "Description_InteriorLight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\InteriorLight.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "InteriorLight"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "Flare": {
+            "_text": "InteriorLight"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_InteriorLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\interior_light.dds"
+          },
+          "Description": {
+            "_text": "Description_InteriorLight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\InteriorLight.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "InteriorLight"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "Flare": {
+            "_text": "InteriorLightSmall"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "LightGlare": {
+            "_text": "GlareLsInteriorLight"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLight_1corner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLight"
+          },
+          "BlockPairName": {
+            "_text": "CornerLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Light_1corner.dds"
+          },
+          "Description": {
+            "_text": "Description_CornerLight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\Light_1corner.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "Flare": {
+            "_text": "NoFlare"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "RequiredPowerInput": {
+            "_text": "0.00008"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Battery"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLight_2corner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLightDouble"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Light_2corner.dds"
+          },
+          "Description": {
+            "_text": "Description_CornerLight"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\Light_2corner.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "Flare": {
+            "_text": "NoFlare"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "RequiredPowerInput": {
+            "_text": "0.00008"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Battery"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLight_1corner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLight"
+          },
+          "BlockPairName": {
+            "_text": "CornerLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Light_1corner.dds"
+          },
+          "Description": {
+            "_text": "Description_CornerLight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\small\\Light_1corner.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "Flare": {
+            "_text": "NoFlare"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "RequiredPowerInput": {
+            "_text": "0.00008"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Battery"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLight_2corner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CornerLightDouble"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Light_2corner.dds"
+          },
+          "Description": {
+            "_text": "Description_CornerLight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\small\\Light_2corner.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "Flare": {
+            "_text": "NoFlare"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "RequiredPowerInput": {
+            "_text": "0.00008"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Battery"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

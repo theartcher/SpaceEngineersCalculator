@@ -1,0 +1,306 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Monolith"
+            }
+          },
+          "DisplayName": {
+            "_text": "Monolith"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Fake.dds"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Center": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Environment\\Props\\Monolith.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "200000"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Stereolith"
+            }
+          },
+          "DisplayName": {
+            "_text": "Stereolith"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Fake.dds"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Center": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Environment\\Props\\Stereolith.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "200000"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "DeadAstronaut"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Dead_Astronaut"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeadAstronaut.dds"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Center": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Debris\\dead_astronaut.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "PhysicsOption": {
+            "_text": "None"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeDeadAstronaut"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Dead_Astronaut"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeadAstronaut.dds"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Center": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Debris\\dead_astronaut.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "PhysicsOption": {
+            "_text": "None"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "EngineerPlushie"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_EngineerPlushie"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Plushie.dds"
+          },
+          "Description": {
+            "_text": "Description_EngineerPlushie"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Center": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Plushie.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BlockPairName": {
+            "_text": "EngineerPlushie"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

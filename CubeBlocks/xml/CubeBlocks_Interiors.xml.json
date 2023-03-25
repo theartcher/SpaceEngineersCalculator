@@ -1,0 +1,1775 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Passage"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Passage"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\passage.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\passage.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Passage"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Passage2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Passage2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageStraight.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageStraight.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Passage2Straight"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Passage2Wall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Passage2Side"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageWall.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageWall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Passage2Wall"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeStairs"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Stairs"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\stairs.dds"
+          },
+          "Description": {
+            "_text": "Description_Stairs"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Stairs.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Stairs"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeRamp"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Ramp"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ramp.dds"
+          },
+          "Description": {
+            "_text": "Description_Ramp"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Ramp.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Ramp"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSteelCatwalk"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SteelCatwalk"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\steel_catwalk.dds"
+          },
+          "Description": {
+            "_text": "Description_SteelCatwalk"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SteelCatwalk.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "SteelCatwalk"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "0"
+            }
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSteelCatwalk2Sides"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SteelCatwalkTwoSides"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SteelCatwalk_2Sides.dds"
+          },
+          "Description": {
+            "_text": "Description_SteelCatwalk"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SteelCatwalk_2Sides.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LargeSteelCatwalk2Sides"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "0"
+            }
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSteelCatwalkCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SteelCatwalkCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SteelCatwalk_Corner.dds"
+          },
+          "Description": {
+            "_text": "Description_SteelCatwalk"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SteelCatwalk_Corner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LargeSteelCatwalkCorner"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "0"
+            }
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeSteelCatwalkPlate"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SteelCatwalkPlate"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SteelCatwalk_Plate.dds"
+          },
+          "Description": {
+            "_text": "Description_SteelCatwalk"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SteelCatwalk_Plate.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LargeSteelCatwalkPlate"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "-1.1"
+            },
+            "Z": {
+              "_text": "0"
+            }
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeCoverWall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_FullCoverWall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\cover_wall_full.dds"
+          },
+          "Description": {
+            "_text": "Description_FullCoverWall"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\CoverWall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "FullCoverWall"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeCoverWallHalf"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfCoverWall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\cover_wall.dds"
+          },
+          "Description": {
+            "_text": "Description_FullCoverWall"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\CoverWallHalf.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HalfCoverWall"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "LargeCoverWallHalfMirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeCoverWallHalfMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfCoverWallMirror"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\cover_wall_mirror.dds"
+          },
+          "Description": {
+            "_text": "Description_FullCoverWall"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\CoverWallHalf_Mirror.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "HalfCoverWallMirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "LargeCoverWallHalf"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockInteriorWall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_InteriorWall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\interior_wall.dds"
+          },
+          "Description": {
+            "_text": "Description_InteriorWall"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "StandaloneBox"
+            },
+            "ShowEdges": {
+              "_text": "false"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "InteriorWall"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeInteriorPillar"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_InteriorPillar"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\interior_pillar.dds"
+          },
+          "Description": {
+            "_text": "Description_InteriorPillar"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\InteriorPillar.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "InteriorPillar"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "AutorotateMode": {
+            "_text": "OppositeDirections"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "PassengerSeatLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PassengerSeat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassengerSeat.dds"
+          },
+          "Description": {
+            "_text": "Description_PassengerSeat"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassengerSeat.mwm"
+          },
+          "CharacterAnimationMale": {
+            "_text": "Passengerseat_large_Adjusted"
+          },
+          "CharacterAnimationFemale": {
+            "_text": "PassengerseatFemale_large_Adjusted"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "PassengerSeat"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "PassengerSeatSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PassengerSeat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassengerSeat.dds"
+          },
+          "Description": {
+            "_text": "Description_PassengerSeat"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\PassengerSeat.mwm"
+          },
+          "CharacterAnimationMale": {
+            "_text": "Passengerseat_Small_Adjusted"
+          },
+          "CharacterAnimationFemale": {
+            "_text": "PassengerseatFemale_Small_Adjusted"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "PassengerSeatOld"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "PassengerSeatSmallNew"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PassengerSeat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassengerSeat.dds"
+          },
+          "Description": {
+            "_text": "Description_PassengerSeat"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\PassengerSeat.mwm"
+          },
+          "CharacterAnimationMale": {
+            "_text": "Passengerseat_Small_Adjusted"
+          },
+          "CharacterAnimationFemale": {
+            "_text": "PassengerseatFemale_Small_Adjusted"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "PassengerSeat"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "PassengerSeatSmallOffset"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PassengerSeatOffset"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassengerSeat.dds"
+          },
+          "Description": {
+            "_text": "Description_PassengerSeat"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\PassengerSeat.mwm"
+          },
+          "CharacterAnimationMale": {
+            "_text": "Passengerseat_Small_Adjusted"
+          },
+          "CharacterAnimationFemale": {
+            "_text": "PassengerseatFemale_Small_Adjusted"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffsetPassengerSeat"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Ladder2"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Ladder"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Ladder.dds"
+          },
+          "Description": {
+            "_text": "Description_Ladder"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "ModelOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "0"
+            }
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\large\\Ladder.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "PhysicsOption": {
+            "_text": "Box"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Ladder2"
+          },
+          "ExcludedAreaForCamera": {
+            "BoundingBox": [
+              {
+                "Min": {
+                  "X": {
+                    "_text": "-0.6"
+                  },
+                  "Y": {
+                    "_text": "-1.3"
+                  },
+                  "Z": {
+                    "_text": "-1.3"
+                  }
+                },
+                "Max": {
+                  "X": {
+                    "_text": "0.6"
+                  },
+                  "Y": {
+                    "_text": "-1.1"
+                  },
+                  "Z": {
+                    "_text": "-0.75"
+                  }
+                }
+              },
+              {
+                "Min": {
+                  "X": {
+                    "_text": "-0.6"
+                  },
+                  "Y": {
+                    "_text": "1.1"
+                  },
+                  "Z": {
+                    "_text": "-1.3"
+                  }
+                },
+                "Max": {
+                  "X": {
+                    "_text": "0.6"
+                  },
+                  "Y": {
+                    "_text": "1.3"
+                  },
+                  "Z": {
+                    "_text": "-0.75"
+                  }
+                }
+              }
+            ]
+          },
+          "CenterOffset": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Ladder2"
+            },
+            "SubtypeId": {
+              "_text": "LadderShaft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LadderShaft"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LadderShaft.dds"
+          },
+          "Description": {
+            "_text": "Description_Ladder"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "ModelOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "0"
+            }
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\large\\LadderShaft.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "PhysicsOption": {
+            "_text": "Box"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LadderShaft"
+          },
+          "ExcludedAreaForCamera": {
+            "BoundingBox": [
+              {
+                "Min": {
+                  "X": {
+                    "_text": "-0.6"
+                  },
+                  "Y": {
+                    "_text": "-1.3"
+                  },
+                  "Z": {
+                    "_text": "-1.3"
+                  }
+                },
+                "Max": {
+                  "X": {
+                    "_text": "0.6"
+                  },
+                  "Y": {
+                    "_text": "-1.1"
+                  },
+                  "Z": {
+                    "_text": "-0.75"
+                  }
+                }
+              },
+              {
+                "Min": {
+                  "X": {
+                    "_text": "-0.6"
+                  },
+                  "Y": {
+                    "_text": "1.1"
+                  },
+                  "Z": {
+                    "_text": "-1.3"
+                  }
+                },
+                "Max": {
+                  "X": {
+                    "_text": "0.6"
+                  },
+                  "Y": {
+                    "_text": "1.3"
+                  },
+                  "Z": {
+                    "_text": "-0.75"
+                  }
+                }
+              }
+            ]
+          },
+          "CenterOffset": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Ladder2"
+            },
+            "SubtypeId": {
+              "_text": "LadderSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Ladder"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Ladder.dds"
+          },
+          "Description": {
+            "_text": "Description_Ladder"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "5"
+            },
+            "Z": {
+              "_text": "5"
+            }
+          },
+          "ModelOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "0"
+            }
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\large\\Ladder.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "PhysicsOption": {
+            "_text": "Box"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Ladder2"
+          },
+          "ExcludedAreaForCamera": {
+            "BoundingBox": [
+              {
+                "Min": {
+                  "X": {
+                    "_text": "-0.6"
+                  },
+                  "Y": {
+                    "_text": "-1.3"
+                  },
+                  "Z": {
+                    "_text": "-1.3"
+                  }
+                },
+                "Max": {
+                  "X": {
+                    "_text": "0.6"
+                  },
+                  "Y": {
+                    "_text": "-1.1"
+                  },
+                  "Z": {
+                    "_text": "-0.75"
+                  }
+                }
+              },
+              {
+                "Min": {
+                  "X": {
+                    "_text": "-0.6"
+                  },
+                  "Y": {
+                    "_text": "1.1"
+                  },
+                  "Z": {
+                    "_text": "-1.3"
+                  }
+                },
+                "Max": {
+                  "X": {
+                    "_text": "0.6"
+                  },
+                  "Y": {
+                    "_text": "1.3"
+                  },
+                  "Z": {
+                    "_text": "-0.75"
+                  }
+                }
+              }
+            ]
+          },
+          "CenterOffset": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          }
+        }
+      ]
+    }
+  }
+}

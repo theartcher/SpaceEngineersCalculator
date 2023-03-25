@@ -1,4 +1,4 @@
-export function ParseSourceFileToResultJSON(fileObject) {
+export function ParseSourceFileToResultJSON(fileObject, TotalListObject) {
   fileObject.CubeBlocks.forEach((block) => {
     const resultBlock = {
       Type: block.Id.SubtypeId,
@@ -20,11 +20,7 @@ export function ParseSourceFileToResultJSON(fileObject) {
 }
 
 function IsComponentsArray(componentParent) {
-  if (Array.isArray(componentParent.Components)) {
-    return true;
-  } else {
-    return false;
-  }
+  return Array.isArray(componentParent.Components);
 }
 
 function AddAllBlockComponentsToTotal(block, componentsArray) {

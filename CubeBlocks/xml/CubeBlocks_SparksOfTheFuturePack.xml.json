@@ -1,0 +1,4040 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeLCDPanel5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_LCD_Panel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LCDPanel3x3.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LCDPanel5x5.mwm"
+          },
+          "Components": {
+            "Component": [],
+            "_text": "scifi"
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LCDPanel5x5"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0025"
+          },
+          "TextureResolution": {
+            "_text": "512"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "400"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "-1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeLCDPanel5x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_LCD_Panel5x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LCDPanel5x3.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LCDPanel5x3.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LCDPanel5x3Rot"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0015"
+          },
+          "TextureResolution": {
+            "_text": "512"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "400"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "-1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TextPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeLCDPanel3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_LCD_Panel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LCDPanel3x3.dds"
+          },
+          "Description": {
+            "_text": "Description_TextPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LCDPanel3x3.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LCDPanel3x3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0009"
+          },
+          "TextureResolution": {
+            "_text": "512"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "MaxScreenRenderDistance": {
+            "_text": "400"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "-1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSciFiWall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SciFiWall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SciFiWall.dds"
+          },
+          "Description": {
+            "_text": "Description_InteriorWall"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": [
+            {
+              "_text": "TriangleMesh"
+            },
+            {
+              "_text": "TriangleMesh"
+            }
+          ],
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SciFiWall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SciFiWall"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesStraight1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraight1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesStraight1.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesStraight1.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraight1"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesStraight2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraight2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesStraight2.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesStraight2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraight2"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesCorner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesCorner"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "YHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesBendUp"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesBendUp"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesBendUp.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesBendUp.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesBendUp"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesBendDown"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesBendDown"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesBendDown.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesBendDown.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesBendDown"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesStraightEnd1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraightEnd1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesStraightEnd1.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesStraightEnd1.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraightEnd1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesStraightEnd2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraightEnd2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesStraightEnd2.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesStraightEnd2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraightEnd2"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesStraightDown"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraightDown"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesStraightDown.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesStraightDown.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraightDown"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesU"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesU"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesU.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesU.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesU"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesT"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesT"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesTShaped.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesTShaped.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesT"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeNeonTubesCircle"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesCircle"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesCircle.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\NeonTubesCircle.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesCircle"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesStraight1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraight1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesStraight1_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesStraight1.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraight1"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesStraight2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraight2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesStraight2_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesStraight2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraight2"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesCorner_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesCorner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesCorner"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "YHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesBendUp"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesBendUp"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesBendUp_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesBendUp.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesBendUp"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesBendDown"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesBendDown"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesBendDown_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesBendDown.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesBendDown"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesStraightDown"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraightDown"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesBendDown2_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesBendDown2.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraightDown"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesStraightEnd1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesStraightEnd1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesEnd_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesEnd.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesStraightEnd1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesU"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesU"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesU_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesU.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesU"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesT"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesT"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesTShaped_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesTShaped.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesT"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "EmissiveBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallNeonTubesCircle"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_NeonTubesCircle"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTubesCircle_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_NeonTubes"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\NeonTubesCircle.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "NeonTubesCircle"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TerminalBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSciFiTerminal"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SciFiTerminal"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\NeonTerminal.dds"
+          },
+          "Description": {
+            "_text": "Description_ControlPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SciFiTerminal.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SciFiTerminal"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "PCU": {
+            "_text": "5"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ButtonPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeSciFiButtonTerminal"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SciFiButtonTerminal"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SciFiButtonTerminal.dds"
+          },
+          "Description": {
+            "_text": "Description_ButtonPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SciFiButtonTerminal.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SciFiButtonTerminal"
+          },
+          "ScreenAreas": {
+            "ScreenArea": {}
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "ButtonCount": {
+            "_text": "1"
+          },
+          "ButtonSymbols": {
+            "string": {
+              "_text": "Textures\\GUI\\Icons\\buttons\\OneButton.dds"
+            }
+          },
+          "UnassignedButtonColor": {
+            "X": {
+              "_text": "0.34"
+            },
+            "Y": {
+              "_text": "0.34"
+            },
+            "Z": {
+              "_text": "0.34"
+            },
+            "W": {
+              "_text": "0"
+            }
+          },
+          "ButtonColors": {
+            "Vector4": [
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              }
+            ]
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Door"
+            },
+            "SubtypeId": {
+              "_text": "SmallSideDoor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SideDoor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SmallSideDoor.dds"
+          },
+          "Description": {
+            "_text": "Description_Door"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\SideDoor.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "OpenSound": {
+            "_text": "BlockDoorSmallOpen"
+          },
+          "CloseSound": {
+            "_text": "BlockDoorSmallClose"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SideDoor"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "DisassembleRatio": {
+            "_text": "1.2"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "MaxOpen": {
+            "_text": "1.76"
+          },
+          "OpeningSpeed": {
+            "_text": "4.8"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          },
+          "DepressurizationEffectOffset": {},
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockBarCounter"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BarCounter"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BarCounter_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_BarCounter"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BarCounter_SciFi.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "BarCounter"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockBarCounterCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BarCounterCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BarCounterCorner_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_BarCounter"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BarCounterCorner_SciFi.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "BarCounterCorner"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "YHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "18"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ButtonPanel"
+            },
+            "SubtypeId": {
+              "_text": "LargeSciFiButtonPanel"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SciFiButtonPanel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ButtonPanel_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_ButtonPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ButtonPanel_SciFi.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SciFiButtonPanel"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "ButtonCount": {
+            "_text": "4"
+          },
+          "ButtonSymbols": {
+            "string": [
+              {
+                "_text": "Textures\\GUI\\Icons\\buttons\\OneButton.dds"
+              },
+              {
+                "_text": "Textures\\GUI\\Icons\\buttons\\TwoButton.dds"
+              },
+              {
+                "_text": "Textures\\GUI\\Icons\\buttons\\ThreeButton.dds"
+              },
+              {
+                "_text": "Textures\\GUI\\Icons\\buttons\\FourButton.dds"
+              }
+            ]
+          },
+          "UnassignedButtonColor": {
+            "X": {
+              "_text": "0.34"
+            },
+            "Y": {
+              "_text": "0.34"
+            },
+            "Z": {
+              "_text": "0.34"
+            },
+            "W": {
+              "_text": "0"
+            }
+          },
+          "ButtonColors": {
+            "Vector4": [
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              }
+            ]
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallThrustSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallThrustSciFi"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Small_IonThrusterSmall_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\IonThrusterSmall_SciFi.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallThrustSciFi"
+          },
+          "Center": {},
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "14400"
+          },
+          "MaxPowerConsumption": {
+            "_text": "0.200"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.36"
+          },
+          "FlameDamage": {
+            "_text": "0.1"
+          },
+          "FlameLengthScale": {
+            "_text": "1.4"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.8"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "SciFiEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "200"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.5"
+          },
+          "PrimarySound": {
+            "_text": "SmShipSmJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLargeThrustSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeThrustSciFi"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Small_IonThrusterLarge_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\IonThrusterLarge_SciFi.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeThrustSciFi"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "172800"
+          },
+          "MaxPowerConsumption": {
+            "_text": "2.4"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameDamage": {
+            "_text": "0.2"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.8"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "SciFiEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "300"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.5"
+          },
+          "PrimarySound": {
+            "_text": "SmShipLrgJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallThrustSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallThrustSciFi"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\large_IonThrusterSmall_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\IonThrusterSmall_SciFi.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallThrustSciFi"
+          },
+          "Center": {},
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "345600"
+          },
+          "MaxPowerConsumption": {
+            "_text": "3.36"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.61"
+          },
+          "FlameLengthScale": {
+            "_text": "1.5"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.8"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "SciFiEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipSmJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeThrustSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeThrustSciFi"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\large_IonThrusterLarge_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\IonThrusterLarge_SciFi.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeThrustSciFi"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "90"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "4320000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "33.6"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.8"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.5"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.1"
+            },
+            "Y": {
+              "_text": "0.8"
+            },
+            "Z": {
+              "_text": "0.8"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "SciFiEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "700"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1.5"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipLrgJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeAtmosphericThrustSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeAtmoThrustSciFi"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Large_AtmosphericThrusterLarge_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmosphericThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\AtmosphericThrusterLarge_SciFi.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Atmospheric"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeAtmoThrustSciFi"
+          },
+          "Center": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "90"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "6480000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "16.8"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0.3"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "0"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "1"
+          },
+          "NeedsAtmosphereForInfluence": {
+            "_text": "true"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "SciFiEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PropellerUsesPropellerSystem": {
+            "_text": "true"
+          },
+          "PropellerSubpartEntityName": {
+            "_text": "Propeller"
+          },
+          "PropellerRoundsPerSecondOnFullSpeed": {
+            "_text": "4.2"
+          },
+          "PropellerRoundsPerSecondOnIdleSpeed": {
+            "_text": "0.3"
+          },
+          "PropellerAccelerationTime": {
+            "_text": "5"
+          },
+          "PropellerDecelerationTime": {
+            "_text": "10"
+          },
+          "PropellerMaxVisibleDistance": {
+            "_text": "400"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipSmJetAtmo"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallAtmosphericThrustSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallAtmoThrustSciFi"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Large_AtmosphericThrusterSmall_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmosphericThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\AtmosphericThrusterSmall_SciFi.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Atmospheric"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallAtmoThrustSciFi"
+          },
+          "Center": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "648000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "2.4"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0.3"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "0"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "1"
+          },
+          "NeedsAtmosphereForInfluence": {
+            "_text": "true"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "SciFiEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PropellerUsesPropellerSystem": {
+            "_text": "true"
+          },
+          "PropellerSubpartEntityName": {
+            "_text": "Propeller"
+          },
+          "PropellerRoundsPerSecondOnFullSpeed": {
+            "_text": "4.2"
+          },
+          "PropellerRoundsPerSecondOnIdleSpeed": {
+            "_text": "0.3"
+          },
+          "PropellerAccelerationTime": {
+            "_text": "5"
+          },
+          "PropellerDecelerationTime": {
+            "_text": "10"
+          },
+          "PropellerMaxVisibleDistance": {
+            "_text": "250"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipSmJetAtmo"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLargeAtmosphericThrustSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeAtmoThrustSciFi"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Small_AtmosphericThrusterLarge_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmosphericThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\AtmosphericThrusterLarge_SciFi.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Atmospheric"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeAtmoThrustSciFi"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "576000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "2.4"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0.3"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "0"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "1"
+          },
+          "NeedsAtmosphereForInfluence": {
+            "_text": "true"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameDamage": {
+            "_text": "0.2"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "SciFiEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "300"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.5"
+          },
+          "PropellerUsesPropellerSystem": {
+            "_text": "true"
+          },
+          "PropellerSubpartEntityName": {
+            "_text": "Propeller"
+          },
+          "PropellerRoundsPerSecondOnFullSpeed": {
+            "_text": "1.9"
+          },
+          "PropellerRoundsPerSecondOnIdleSpeed": {
+            "_text": "0.3"
+          },
+          "PropellerAccelerationTime": {
+            "_text": "3"
+          },
+          "PropellerDecelerationTime": {
+            "_text": "6"
+          },
+          "PropellerMaxVisibleDistance": {
+            "_text": "200"
+          },
+          "PrimarySound": {
+            "_text": "SmShipLrgJetAtmo"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallAtmosphericThrustSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallAtmoThrustSciFi"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Small_AtmosphericThrusterSmall_SciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmosphericThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\AtmosphericThrusterSmall_SciFi.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Atmospheric"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallAtmoThrustSciFi"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "96000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "0.600"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0.3"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "0"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "1"
+          },
+          "NeedsAtmosphereForInfluence": {
+            "_text": "true"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.35"
+          },
+          "FlameDamage": {
+            "_text": "0.1"
+          },
+          "FlameLengthScale": {
+            "_text": "1.5"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "SciFiEngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "200"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.25"
+          },
+          "PropellerUsesPropellerSystem": {
+            "_text": "true"
+          },
+          "PropellerSubpartEntityName": {
+            "_text": "Propeller"
+          },
+          "PropellerRoundsPerSecondOnFullSpeed": {
+            "_text": "1.9"
+          },
+          "PropellerRoundsPerSecondOnIdleSpeed": {
+            "_text": "0.3"
+          },
+          "PropellerAccelerationTime": {
+            "_text": "3"
+          },
+          "PropellerDecelerationTime": {
+            "_text": "6"
+          },
+          "PropellerMaxVisibleDistance": {
+            "_text": "60"
+          },
+          "PrimarySound": {
+            "_text": "SmShipSmJetAtmo"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Tiny"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "SparksOfTheFuture"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

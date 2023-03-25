@@ -1,0 +1,3738 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenTank"
+            },
+            "SubtypeId": {
+              "_text": "OxygenTankSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OxygenTank"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\OxygenTankSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_OxygenTank"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\OxygenStorage.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "OxygenTank"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "Capacity": {
+            "_text": "50000"
+          },
+          "InventoryMaxVolume": {
+            "_text": "4"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.001"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.000001"
+          },
+          "StoredGasId": {
+            "TypeId": {
+              "_text": "GasProperties"
+            },
+            "SubtypeId": {
+              "_text": "Oxygen"
+            }
+          },
+          "BlueprintClasses": {
+            "Class": {
+              "_text": "OxygenBottles"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "LeakPercent": {
+            "_text": "0.0125"
+          },
+          "GasExplosionMaxRadius": {
+            "_text": "4"
+          },
+          "GasExplosionNeededVolumeToReachMaxRadius": {
+            "_text": "50000"
+          },
+          "GasExplosionDamageMultiplier": {
+            "_text": "0.00015"
+          },
+          "GasExplosionSound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "GasExplosionEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "600"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenTank"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OxygenTank"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\OxygenTank.dds"
+          },
+          "Description": {
+            "_text": "Description_OxygenTank"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\OxygenStorage.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "OxygenTank"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.001"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.000001"
+          },
+          "Capacity": {
+            "_text": "100000"
+          },
+          "InventoryMaxVolume": {
+            "_text": "4"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "StoredGasId": {
+            "TypeId": {
+              "_text": "GasProperties"
+            },
+            "SubtypeId": {
+              "_text": "Oxygen"
+            }
+          },
+          "BlueprintClasses": {
+            "Class": {
+              "_text": "OxygenBottles"
+            }
+          },
+          "BuildTimeSeconds": {
+            "_text": "32"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": [
+            {
+              "_text": "Explosion_Missile"
+            },
+            {
+              "_text": "BlockDestroyedExplosion_Large"
+            }
+          ],
+          "DestroySound": [
+            {
+              "_text": "WepSmallMissileExpl"
+            },
+            {
+              "_text": "WepSmallWarheadExpl"
+            }
+          ],
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "LeakPercent": {
+            "_text": "0.005"
+          },
+          "GasExplosionMaxRadius": {
+            "_text": "10"
+          },
+          "GasExplosionNeededVolumeToReachMaxRadius": {
+            "_text": "100000"
+          },
+          "GasExplosionDamageMultiplier": {
+            "_text": "0.00015"
+          },
+          "GasExplosionSound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "GasExplosionEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "600"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenTank"
+            },
+            "SubtypeId": {
+              "_text": "LargeHydrogenTank"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HydrogenTank"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HydrogenTank.dds"
+          },
+          "Description": {
+            "_text": "Description_HydrogenTank"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HydrogenTank.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HydrogenTank"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.001"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.000001"
+          },
+          "Capacity": {
+            "_text": "15000000"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.75"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "StoredGasId": {
+            "TypeId": {
+              "_text": "GasProperties"
+            },
+            "SubtypeId": {
+              "_text": "Hydrogen"
+            }
+          },
+          "BlueprintClasses": {
+            "Class": {
+              "_text": "HydrogenBottles"
+            }
+          },
+          "BuildTimeSeconds": {
+            "_text": "50"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "Explosion_Warhead_30"
+          },
+          "DestroySound": {
+            "_text": "WepLrgWarheadExpl"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "LeakPercent": {
+            "_text": "0.0025"
+          },
+          "GasExplosionMaxRadius": {
+            "_text": "20"
+          },
+          "GasExplosionNeededVolumeToReachMaxRadius": {
+            "_text": "15000000"
+          },
+          "GasExplosionDamageMultiplier": {
+            "_text": "0.00015"
+          },
+          "GasExplosionSound": {
+            "_text": "HydrogenExplosion"
+          },
+          "GasExplosionEffect": {
+            "_text": "Explosion_Warhead_30"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "600"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenTank"
+            },
+            "SubtypeId": {
+              "_text": "LargeHydrogenTankSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HydrogenTankSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\largeHydrogenTankSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_HydrogenTank"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HydrogenTankSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HydrogenTankSmall"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.001"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.000001"
+          },
+          "Capacity": {
+            "_text": "1000000"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.75"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "StoredGasId": {
+            "TypeId": {
+              "_text": "GasProperties"
+            },
+            "SubtypeId": {
+              "_text": "Hydrogen"
+            }
+          },
+          "BlueprintClasses": {
+            "Class": {
+              "_text": "HydrogenBottles"
+            }
+          },
+          "BuildTimeSeconds": {
+            "_text": "32"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "LeakPercent": {
+            "_text": "0.005"
+          },
+          "GasExplosionMaxRadius": {
+            "_text": "10"
+          },
+          "GasExplosionNeededVolumeToReachMaxRadius": {
+            "_text": "1000000"
+          },
+          "GasExplosionDamageMultiplier": {
+            "_text": "0.00015"
+          },
+          "GasExplosionSound": {
+            "_text": "HydrogenExplosion"
+          },
+          "GasExplosionEffect": {
+            "_text": "Explosion_Warhead_15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "600"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenTank"
+            },
+            "SubtypeId": {
+              "_text": "SmallHydrogenTank"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HydrogenTank"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HydrogenTank.dds"
+          },
+          "Description": {
+            "_text": "Description_HydrogenTank"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HydrogenTank.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HydrogenTank"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.001"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.000001"
+          },
+          "Capacity": {
+            "_text": "500000"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.75"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "StoredGasId": {
+            "TypeId": {
+              "_text": "GasProperties"
+            },
+            "SubtypeId": {
+              "_text": "Hydrogen"
+            }
+          },
+          "BlueprintClasses": {
+            "Class": {
+              "_text": "HydrogenBottles"
+            }
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "Explosion_Warhead_02"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "LeakPercent": {
+            "_text": "0.005"
+          },
+          "GasExplosionMaxRadius": {
+            "_text": "5"
+          },
+          "GasExplosionNeededVolumeToReachMaxRadius": {
+            "_text": "500000"
+          },
+          "GasExplosionDamageMultiplier": {
+            "_text": "0.00015"
+          },
+          "GasExplosionSound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "GasExplosionEffect": {
+            "_text": "Explosion_Warhead_02"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "600"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "OxygenTank"
+            },
+            "SubtypeId": {
+              "_text": "SmallHydrogenTankSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HydrogenTankSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SmallHydrogenTankSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_HydrogenTank"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HydrogenTankSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HydrogenTankSmall"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Reactors"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.0002"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.0000002"
+          },
+          "Capacity": {
+            "_text": "15000"
+          },
+          "InventoryMaxVolume": {
+            "_text": "0.12"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "2"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "StoredGasId": {
+            "TypeId": {
+              "_text": "GasProperties"
+            },
+            "SubtypeId": {
+              "_text": "Hydrogen"
+            }
+          },
+          "BlueprintClasses": {
+            "Class": {
+              "_text": "HydrogenBottles"
+            }
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepLrgWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "LeakPercent": {
+            "_text": "0.025"
+          },
+          "GasExplosionMaxRadius": {
+            "_text": "3"
+          },
+          "GasExplosionNeededVolumeToReachMaxRadius": {
+            "_text": "15000"
+          },
+          "GasExplosionDamageMultiplier": {
+            "_text": "0.00015"
+          },
+          "GasExplosionSound": {
+            "_text": "WepLrgWarheadExpl"
+          },
+          "GasExplosionEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "600"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "AirVent"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AirVent"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AirVent.dds"
+          },
+          "Description": {
+            "_text": "Description_AirVent"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\OxygenPressurizer.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "AirVent"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Battery"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.1"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.001"
+          },
+          "VentilationCapacityPerSecond": {
+            "_text": "300"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "PressurizeSound": {
+            "_text": "BlockAirVentExhale"
+          },
+          "DepressurizeSound": {
+            "_text": "BlockAirVentDepressurize"
+          },
+          "IdleSound": {
+            "_text": "BlockAirVentIdle"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "AirVent"
+            },
+            "SubtypeId": {
+              "_text": "SmallAirVent"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AirVent"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AirVent.dds"
+          },
+          "Description": {
+            "_text": "Description_AirVent"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\OxygenPressurizer.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "AirVent"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "ResourceSourceGroup": {
+            "_text": "Battery"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Factory"
+          },
+          "OperationalPowerConsumption": {
+            "_text": "0.01"
+          },
+          "StandbyPowerConsumption": {
+            "_text": "0.001"
+          },
+          "VentilationCapacityPerSecond": {
+            "_text": "30"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "PressurizeSound": {
+            "_text": "BlockAirVentExhale"
+          },
+          "DepressurizeSound": {
+            "_text": "BlockAirVentDepressurize"
+          },
+          "IdleSound": {
+            "_text": "BlockAirVentIdle"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Tiny"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallContainer"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallCargoContainer"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\container.dds"
+          },
+          "Description": {
+            "_text": "Description_SmallCargoContainer"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\CargoContainerSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SmallCargoContainer"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockMediumContainer"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MediumCargoContainer"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\container_medium.dds"
+          },
+          "Description": {
+            "_text": "Description_MediumCargoContainer"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\CargoContainerMedium.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MediumCargoContainer"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLargeContainer"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeCargoContainer"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\container_large.dds"
+          },
+          "Description": {
+            "_text": "Description_LargeCargoContainer"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\CargoContainerLarge.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LargeCargoContainer"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "25"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallContainer"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallCargoContainer"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\container.dds"
+          },
+          "Description": {
+            "_text": "Description_SmallCargoContainer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\CargoContainerSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SmallCargoContainer"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeContainer"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeCargoContainer"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\container_large.dds"
+          },
+          "Description": {
+            "_text": "Description_LargeCargoContainer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\CargoContainerLarge.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LargeCargoContainer"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "45"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Conveyor"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockConveyor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\conveyor.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorSmall"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Conveyor"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockConveyorConverter"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorConverter"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorConverter.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\conveyorConverter.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorConverter"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Conveyor"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockConveyor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Conveyor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\conveyor.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\conveyor.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Conveyor"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Collector"
+            },
+            "SubtypeId": {
+              "_text": "Collector"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Collector"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\collector.dds"
+          },
+          "Description": {
+            "_text": "Description_Collector"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Collector.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Collector"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "25"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockCollect"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Collector"
+            },
+            "SubtypeId": {
+              "_text": "CollectorSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Collector"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\collector.dds"
+          },
+          "Description": {
+            "_text": "Description_Collector"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Collector.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Collector"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1.5"
+            },
+            "Y": {
+              "_text": "1.5"
+            },
+            "Z": {
+              "_text": "0.7"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockCollect"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ShipConnector"
+            },
+            "SubtypeId": {
+              "_text": "Connector"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Connector"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Connector.dds"
+          },
+          "Description": {
+            "_text": "Description_Connector"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Connector.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Connector"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockEject"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "125"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AutoUnlockTimeMin": {
+            "_text": "0"
+          },
+          "AutoUnlockTimeMax": {
+            "_text": "3600"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "80"
+              },
+              {
+                "_text": "160"
+              },
+              {
+                "_text": "320"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ShipConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConnectorSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConnectorSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConnectorSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_Ejector"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Connector.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConnectorSmall"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockEject"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "125"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "AutoUnlockTimeMin": {
+            "_text": "0"
+          },
+          "AutoUnlockTimeMax": {
+            "_text": "3600"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "80"
+              },
+              {
+                "_text": "160"
+              },
+              {
+                "_text": "320"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ShipConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConnectorMedium"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Connector"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Connector.dds"
+          },
+          "Description": {
+            "_text": "Description_Connector"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConnectorMedium.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Connector"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "Center": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockEject"
+          },
+          "EmissiveColorPreset": {
+            "_text": "ConnectBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "125"
+          },
+          "AutoUnlockTimeMin": {
+            "_text": "0"
+          },
+          "AutoUnlockTimeMax": {
+            "_text": "3600"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "80"
+              },
+              {
+                "_text": "160"
+              },
+              {
+                "_text": "320"
+              }
+            ]
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTube"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTube"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorTube.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ConveyorTube.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTube"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "AutorotateMode": {
+            "_text": "OppositeDirections"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeDuct"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeDuct"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuct.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ConveyorDuct.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeDuct"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "AutorotateMode": {
+            "_text": "OppositeDirections"
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeDuctCurved"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeDuctCurved"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctCurved.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ConveyorDuctCurved.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeDuctCurved"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "HalfZ"
+          },
+          "MirroringY": {
+            "_text": "ZHalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YHalfZ"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Conveyor"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeDuctT"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeDuctT"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctT.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ConveyorDuctT.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeDuctT"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorTube.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": [],
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeSmall"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeDuctSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeDuctSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorDuct.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": [],
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeDuctSmall"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeDuctSmallCurved"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeDuctSmallCurved"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctCurvedSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorDuctCurved.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": [],
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "MirroringX": {
+            "_text": "YMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "XHalfX"
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeDuctSmallCurved"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Conveyor"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeDuctSmallT"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeDuctSmallT"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorDuctTSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorDuctT.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeDuctSmallT"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "10"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeMedium"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeMedium"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorTube.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorTubeMedium.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTube"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "AutorotateMode": {
+            "_text": "OppositeDirections"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorFrameMedium"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorFrame"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorFrameMedium.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorFrameMedium.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ConveyorFrame"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "AutorotateMode": {
+            "_text": "OppositeDirections"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeCurved"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeCurved"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeCurved.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ConveyorTubeCurved.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeCurved"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "AutorotateMode": {
+            "_text": "FirstDirection"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeSmallCurved"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeCurvedSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorCurveSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorTubeCurved.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeCurvedSmall"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorConnector"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeCurvedMedium"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeCurved"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeCurved.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorTurnMedium.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeCurved"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "AutorotateMode": {
+            "_text": "FirstDirection"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Conveyor"
+            },
+            "SubtypeId": {
+              "_text": "SmallShipConveyorHub"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Conveyor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Conveyor.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorHub.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "Conveyor"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "PCU": {
+            "_text": "25"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Conveyor"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeSmallT"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeTSmall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeT_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorTubeT.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeTSmall"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Conveyor"
+            },
+            "SubtypeId": {
+              "_text": "ConveyorTubeT"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorTubeT"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorTubeT.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorTube"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ConveyorTubeT.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorTubeT"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorSorter"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockConveyorSorter"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorSorter"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorSorterLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorSorter"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ConveyorSorter.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorSorter"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DamageEffectName": [
+            {
+              "_text": "Damage_HeavyMech_Damaged"
+            },
+            {
+              "_text": "Damage_HeavyMech_Damaged"
+            }
+          ],
+          "DamagedSound": [
+            {
+              "_text": "ParticleHeavyMech"
+            },
+            {
+              "_text": "ParticleHeavyMech"
+            }
+          ],
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "PowerInput": {
+            "_text": "0.00025"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "1"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorSorter"
+            },
+            "SubtypeId": {
+              "_text": "MediumBlockConveyorSorter"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ConveyorSorter"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorSorterMedium.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorSorter"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorSorterMedium.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorSorter"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": [
+            {
+              "_text": "BlockDestroyedExplosion_Large"
+            },
+            {
+              "_text": "BlockDestroyedExplosion_Small"
+            }
+          ],
+          "DestroySound": [
+            {
+              "_text": "WepSmallWarheadExpl"
+            },
+            {
+              "_text": "WepSmallWarheadExpl"
+            }
+          ],
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "PowerInput": {
+            "_text": "0.0001"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "0.7"
+            },
+            "Y": {
+              "_text": "0.7"
+            },
+            "Z": {
+              "_text": "0.7"
+            }
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ConveyorSorter"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockConveyorSorter"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallConveyorSorter"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ConveyorSorterSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_ConveyorSorter"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ConveyorSorterSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ConveyorSorterSmall"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "DamageEffectName": [
+            {
+              "_text": "Damage_HeavyMech_Damaged"
+            },
+            {
+              "_text": "Damage_HeavyMech_Damaged"
+            }
+          ],
+          "DamagedSound": [
+            {
+              "_text": "ParticleHeavyMech"
+            },
+            {
+              "_text": "ParticleHeavyMech"
+            }
+          ],
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "PowerInput": {
+            "_text": "0.0001"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "0.4"
+            },
+            "Y": {
+              "_text": "0.4"
+            },
+            "Z": {
+              "_text": "0.4"
+            }
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        }
+      ]
+    }
+  }
+}

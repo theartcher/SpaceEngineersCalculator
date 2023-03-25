@@ -1,0 +1,1643 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MyProgrammableBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallProgrammableBlock"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Programmable_Block"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ProgrammingBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_ProgrammableBlock"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ProgrammingBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ProgrammableBlock"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Tiny"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MyObjectBuilder_Projector"
+            },
+            "SubtypeId": {
+              "_text": "LargeProjector"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Projector"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Projector.dds"
+          },
+          "Description": {
+            "_text": "Description_Projector"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Projector.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Projector"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PrimarySound": {
+            "_text": "BlockProjectorOn"
+          },
+          "IdleSound": {
+            "_text": "BlockProjectorOff"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MyObjectBuilder_Projector"
+            },
+            "SubtypeId": {
+              "_text": "SmallProjector"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Projector"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Projector.dds"
+          },
+          "Description": {
+            "_text": "Description_Projector"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Projector.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Projector"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0001"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PrimarySound": {
+            "_text": "BlockProjectorOn"
+          },
+          "IdleSound": {
+            "_text": "BlockProjectorOff"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SensorBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSensor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Sensor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Sensor.dds"
+          },
+          "Description": {
+            "_text": "Description_Sensor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Sensor.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Sensor"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MaxRange": {
+            "_text": "50"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "ActionSound": {
+            "_text": "BlockSensor"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SensorBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSensor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Sensor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Sensor.dds"
+          },
+          "Description": {
+            "_text": "Description_Sensor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Sensor.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Sensor"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MaxRange": {
+            "_text": "50"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "ActionSound": {
+            "_text": "BlockSensor"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TargetDummyBlock"
+            },
+            "SubtypeId": {
+              "_text": "TargetDummy"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_TargetDummy"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TargetDummy.dds"
+          },
+          "Description": {
+            "_text": "Description_TargetDummy"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\TargetDummy_base.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "TargetDummy"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "InventoryMaxVolume": {
+            "_text": ".09"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": ".1"
+            },
+            "Z": {
+              "_text": "2"
+            }
+          },
+          "DummySubpartNames": {
+            "string": [
+              {
+                "_text": "TargetD_Torso"
+              },
+              {
+                "_text": "TargetD_Head"
+              },
+              {
+                "_text": "TargetD_RightArm"
+              },
+              {
+                "_text": "TargetD_LeftArm"
+              }
+            ]
+          },
+          "DummySubpartCritical": {
+            "boolean": [
+              {
+                "_text": "true"
+              },
+              {
+                "_text": "true"
+              },
+              {
+                "_text": "false"
+              },
+              {
+                "_text": "false"
+              }
+            ]
+          },
+          "DummySubpartHealth": {
+            "float": [
+              {
+                "_text": "300"
+              },
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "50"
+              },
+              {
+                "_text": "50"
+              }
+            ]
+          },
+          "ConstructionItemName": {
+            "_text": "SteelPlate"
+          },
+          "ConstructionItemAmount": {
+            "_text": "1"
+          },
+          "MinRegenerationTimeInS": {
+            "_text": "1"
+          },
+          "MaxRegenerationTimeInS": {
+            "_text": "60"
+          },
+          "RegenerationEffectName": {
+            "_text": "Smoke_Construction"
+          },
+          "DestructionEffectName": {
+            "_text": "Smoke_Construction"
+          },
+          "RegenerationEffectMultiplier": {
+            "_text": "5"
+          },
+          "DestructionEffectMultiplier": {
+            "_text": "5"
+          },
+          "RegenerationSound": {
+            "_text": "ArcPrgConstrPh01Start"
+          },
+          "DestructionSound": {
+            "_text": "ArcPrgDeconstrPh01Start"
+          },
+          "MinFillFactor": {
+            "_text": ".2"
+          },
+          "MaxFillFactor": {
+            "_text": ".6"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SoundBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSoundBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SoundBlock"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SoundBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_Sound"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\SoundBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SoundBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SoundBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSoundBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SoundBlock"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SoundBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_Sound"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SoundBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "HasPhysics": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.4"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SoundBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ButtonPanel"
+            },
+            "SubtypeId": {
+              "_text": "ButtonPanelLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ButtonPanel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ButtonPanel.dds"
+          },
+          "Description": {
+            "_text": "Description_ButtonPanel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ButtonPanel.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ButtonPanel"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "ButtonCount": {
+            "_text": "4"
+          },
+          "ButtonSymbols": {
+            "string": [
+              {
+                "_text": "Textures\\GUI\\Icons\\buttons\\OneButton.dds"
+              },
+              {
+                "_text": "Textures\\GUI\\Icons\\buttons\\TwoButton.dds"
+              },
+              {
+                "_text": "Textures\\GUI\\Icons\\buttons\\ThreeButton.dds"
+              },
+              {
+                "_text": "Textures\\GUI\\Icons\\buttons\\FourButton.dds"
+              }
+            ]
+          },
+          "UnassignedButtonColor": {
+            "X": {
+              "_text": "0.34"
+            },
+            "Y": {
+              "_text": "0.34"
+            },
+            "Z": {
+              "_text": "0.34"
+            },
+            "W": {
+              "_text": "0"
+            }
+          },
+          "ButtonColors": {
+            "Vector4": [
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              },
+              {
+                "X": {
+                  "_text": "1"
+                },
+                "Y": {
+                  "_text": "1"
+                },
+                "Z": {
+                  "_text": "0.3"
+                },
+                "W": {
+                  "_text": "1"
+                }
+              }
+            ]
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "5"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ButtonPanel"
+            },
+            "SubtypeId": {
+              "_text": "ButtonPanelSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ButtonPanel"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Button.dds"
+          },
+          "Description": {
+            "_text": "Description_ButtonPanel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Button.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "ButtonPanel"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "ButtonCount": {
+            "_text": "1"
+          },
+          "UnassignedButtonColor": {
+            "X": {
+              "_text": "0.34"
+            },
+            "Y": {
+              "_text": "0.34"
+            },
+            "Z": {
+              "_text": "0.34"
+            },
+            "W": {
+              "_text": "0"
+            }
+          },
+          "ButtonColors": {
+            "Vector4": {
+              "X": {
+                "_text": "1"
+              },
+              "Y": {
+                "_text": "1"
+              },
+              "Z": {
+                "_text": "0.3"
+              },
+              "W": {
+                "_text": "1"
+              }
+            }
+          },
+          "ButtonSymbols": {
+            "string": {
+              "_text": "Textures\\GUI\\Icons\\buttons\\IconSquareHighlight.dds"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "5"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TimerBlock"
+            },
+            "SubtypeId": {
+              "_text": "TimerBlockLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_TimerBlock"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TimerBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_Timer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\TimerBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "TimerBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PrimarySound": {
+            "_text": "BlockTimer"
+          },
+          "TimerSoundStart": {
+            "_text": "BlockTimerSignalA"
+          },
+          "TimerSoundMid": {
+            "_text": "BlockTimerSignalB"
+          },
+          "TimerSoundEnd": {
+            "_text": "BlockTimerSignalC"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Timer"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TimerBlock"
+            },
+            "SubtypeId": {
+              "_text": "TimerBlockSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_TimerBlock"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TimerBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_Timer"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\TimerBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "TimerBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PrimarySound": {
+            "_text": "BlockTimer"
+          },
+          "TimerSoundStart": {
+            "_text": "BlockTimerSignalA"
+          },
+          "TimerSoundMid": {
+            "_text": "BlockTimerSignalB"
+          },
+          "TimerSoundEnd": {
+            "_text": "BlockTimerSignalC"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Timer"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MyProgrammableBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeProgrammableBlock"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Programmable_Block"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ProgrammingBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_ProgrammableBlock"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ProgrammingBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BlockPairName": {
+            "_text": "ProgrammableBlock"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TurretControlBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeTurretControlBlock"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DisplayName": {
+            "_text": "DisplayName_TurretControlBlock"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TurretControlBlockLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_TurretControlBlock"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\TurretControlBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "24"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "TurretControlBlock"
+          },
+          "ResourceSinkGroup": [
+            {
+              "_text": "Utility"
+            },
+            {
+              "_text": "Utility"
+            }
+          ],
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Tiny"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PlayerInputDivider": {
+            "_text": "50"
+          },
+          "PowerInputIdle": {
+            "_text": "0.0005"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "MaxRangeMeters": {
+            "_text": "800"
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "TurretControlBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallTurretControlBlock"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DisplayName": {
+            "_text": "DisplayName_TurretControlBlock"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\TurretControlBlockSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_TurretControlBlock"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\TurretControlBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "TurretControlBlock"
+          },
+          "ResourceSinkGroup": [
+            {
+              "_text": "Utility"
+            },
+            {
+              "_text": "Utility"
+            }
+          ],
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Tiny"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PlayerInputDivider": {
+            "_text": "50"
+          },
+          "PowerInputIdle": {
+            "_text": "0.0005"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "MaxRangeMeters": {
+            "_text": "600"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "ScreenAreas": {
+            "ScreenArea": {}
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6313 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorRaisedSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorRaisedSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorRaisedSlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.46"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "RaisedSlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorRaisedSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorRaisedSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorRaisedSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorRaisedSlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.46"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "RaisedSlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorRaisedSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorRaisedSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorRaisedSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyRaisedSlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "RaisedSlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {},
+                "_text": "heavyarmorraisedslopedcorner"
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorRaisedSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorRaisedSlopedCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorRaisedSlopedCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavyRaisedSlopedCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "RaisedSlopedCorner"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorRaisedSlopedCorner"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopeTransition"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransition"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransition.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.36"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransition"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransition"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockArmorSlopeTransitionMirrored"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopeTransition"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransition"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransition.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.36"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransition"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransition"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockArmorSlopeTransitionMirrored"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopeTransition"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransition"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransition.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransition"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransition"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockHeavyArmorSlopeTransitionMirrored"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopeTransition"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransition"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransition.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransition"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransition"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockHeavyArmorSlopeTransitionMirrored"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopeTransitionBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionBase.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.46"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockArmorSlopeTransitionBaseMirrored"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopeTransitionBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionBase.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.46"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockArmorSlopeTransitionBaseMirrored"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopeTransitionBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionBase.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.36"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockHeavyArmorSlopeTransitionBaseMirrored"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopeTransitionBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionBase.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.36"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockHeavyArmorSlopeTransitionBaseMirrored"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopeTransitionBaseMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionBaseMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionBaseMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "DeformationRatio": {
+            "_text": "0.46"
+          },
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionBaseMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionBaseMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockArmorSlopeTransitionBase"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopeTransitionBaseMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionBaseMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionBaseMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "DeformationRatio": {
+            "_text": "0.46"
+          },
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionBaseMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionBaseMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockArmorSlopeTransitionBase"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopeTransitionBaseMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionBaseMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionBaseMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "Size": {},
+          "DeformationRatio": {
+            "_text": "0.36"
+          },
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionBaseMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionBaseMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockHeavyArmorSlopeTransitionBase"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopeTransitionBaseMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionBaseMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionBaseMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.36"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionBaseMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionBaseMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockHeavyArmorSlopeTransitionBase"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopeTransitionMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.36"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockArmorSlopeTransition"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopeTransitionMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.36"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockArmorSlopeTransition"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopeTransitionMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockHeavyArmorSlopeTransition"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopeTransitionMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockHeavyArmorSlopeTransition"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopeTransitionTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionTip.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockArmorSlopeTransitionTipMirrored"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopeTransitionTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionTip.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockArmorSlopeTransitionTipMirrored"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopeTransitionTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionTip.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockHeavyArmorSlopeTransitionTipMirrored"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopeTransitionTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionTip.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockHeavyArmorSlopeTransitionTipMirrored"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSlopeTransitionTipMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionTipMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionTipMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionTipMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionTipMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockArmorSlopeTransitionTip"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSlopeTransitionTipMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSlopeTransitionTipMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSlopeTransitionTipMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionTipMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSlopeTransitionTipMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockArmorSlopeTransitionTip"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSlopeTransitionTipMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionTipMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionTipMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionTipMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionTipMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringBlock": {
+            "_text": "LargeBlockHeavyArmorSlopeTransitionTip"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSlopeTransitionTipMirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSlopeTransitionTipMirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySlopeTransitionTipMirrored.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SlopeTransitionTipMirrored"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSlopeTransitionTipMirrored"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringBlock": {
+            "_text": "SmallBlockHeavyArmorSlopeTransitionTip"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSquareSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSquareSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSquareSlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.46"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSquareSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSquareSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSquareSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSquareSlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.46"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSquareSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSquareSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSquareSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySquareSlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSquareSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSquareSlopedCornerBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSquareSlopedCornerBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySquareSlopedCornerBase.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerBase"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSquareSlopedCornerBase"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSquareSlopedCornerTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSquareSlopedCornerTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSquareSlopedCornerTip.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSquareSlopedCornerTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSquareSlopedCornerTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSquareSlopedCornerTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSquareSlopedCornerTip.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSquareSlopedCornerTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "1"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSquareSlopedCornerTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSquareSlopedCornerTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySquareSlopedCornerTip.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSquareSlopedCornerTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSquareSlopedCornerTip"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSquareSlopedCornerTip"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySquareSlopedCornerTip.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerTip"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSquareSlopedCornerTip"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockArmorSquareSlopedCornerTipInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSquareSlopedCornerTipInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSquareSlopedCornerTipInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerTipInv"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSquareSlopedCornerTipInv"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockArmorSquareSlopedCornerTipInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LightArmorSquareSlopedCornerTipInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LightArmorSquareSlopedCornerTipInv.dds"
+          },
+          "Description": {
+            "_text": "Description_LightArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.32"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerTipInv"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "LightArmorSquareSlopedCornerTipInv"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockHeavyArmorSquareSlopedCornerTipInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSquareSlopedCornerTipInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySquareSlopedCornerTipInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerTipInv"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSquareSlopedCornerTipInv"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockHeavyArmorSquareSlopedCornerTipInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HeavyArmorSquareSlopedCornerTipInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HeavySquareSlopedCornerTipInv.dds"
+          },
+          "Description": {
+            "_text": "Description_HeavyArmor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "Cube"
+          },
+          "DeformationRatio": {
+            "_text": "0.16"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "CubeDefinition": {
+            "CubeTopology": {
+              "_text": "SquareSlopedCornerTipInv"
+            },
+            "ShowEdges": {
+              "_text": "true"
+            },
+            "Sides": {
+              "Side": []
+            }
+          },
+          "Skeleton": {
+            "BoneInfo": [
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              },
+              {
+                "BonePosition": {},
+                "BoneOffset": {}
+              }
+            ]
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Variants": {
+            "Variant": []
+          },
+          "BlockPairName": {
+            "_text": "HeavyArmorSquareSlopedCornerTipInv"
+          },
+          "PhysicsOption": {
+            "_text": "Convex"
+          },
+          "EdgeType": {
+            "_text": "Heavy"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "DisassembleRatio": {
+            "_text": "2.5"
+          },
+          "NavigationDefinition": {
+            "_text": "Default"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PCUConsole": {
+            "_text": "2"
+          }
+        }
+      ]
+    }
+  }
+}

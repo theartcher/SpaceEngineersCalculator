@@ -1,0 +1,5823 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ExhaustBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallExhaustPipe"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ExhaustPipe"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ExhaustPipe_Racing_Small.dds"
+          },
+          "Description": {
+            "_text": "Description_ExhaustPipe"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ExhaustPipe_Racing.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ExhaustPipe"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AvailableEffects": {
+            "string": [
+              {
+                "_text": "Dummy"
+              },
+              {
+                "_text": "CarSmoke"
+              },
+              {
+                "_text": "CarSmokeSmall"
+              },
+              {
+                "_text": "ElectricArc"
+              },
+              {
+                "_text": "ElectricArcSmall"
+              },
+              {
+                "_text": "Fire"
+              },
+              {
+                "_text": "FireSmall"
+              },
+              {
+                "_text": "FireAndSmoke"
+              },
+              {
+                "_text": "FireAndSmokeSmall"
+              },
+              {
+                "_text": "Smoke"
+              },
+              {
+                "_text": "SmokeSmall"
+              },
+              {
+                "_text": "SmokeElectric"
+              },
+              {
+                "_text": "SmokeElectricSmall"
+              },
+              {
+                "_text": "SmokeReactor"
+              },
+              {
+                "_text": "SmokeReactorSmall"
+              },
+              {
+                "_text": "SmokeWhite"
+              },
+              {
+                "_text": "SmokeWhiteSmall"
+              }
+            ]
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ExhaustBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeExhaustPipe"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ExhaustPipe"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ExhaustPipe_Racing_Large.dds"
+          },
+          "Description": {
+            "_text": "Description_ExhaustPipe"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ExhaustPipe_Racing.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ExhaustPipe"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AvailableEffects": {
+            "string": [
+              {
+                "_text": "Dummy"
+              },
+              {
+                "_text": "CarSmoke"
+              },
+              {
+                "_text": "CarSmokeSmall"
+              },
+              {
+                "_text": "ElectricArc"
+              },
+              {
+                "_text": "ElectricArcSmall"
+              },
+              {
+                "_text": "Fire"
+              },
+              {
+                "_text": "FireSmall"
+              },
+              {
+                "_text": "FireAndSmoke"
+              },
+              {
+                "_text": "FireAndSmokeSmall"
+              },
+              {
+                "_text": "Smoke"
+              },
+              {
+                "_text": "SmokeSmall"
+              },
+              {
+                "_text": "SmokeElectric"
+              },
+              {
+                "_text": "SmokeElectricSmall"
+              },
+              {
+                "_text": "SmokeReactor"
+              },
+              {
+                "_text": "SmokeReactorSmall"
+              },
+              {
+                "_text": "SmokeWhite"
+              },
+              {
+                "_text": "SmokeWhiteSmall"
+              }
+            ]
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "BuggyCockpit"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BuggyCockpit"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BuggyCockpit_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_BuggyCockpit"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\BuggyCockpit_Racing.mwm"
+          },
+          "PrimarySound": {
+            "_text": "BlockCockpitFlightSeat"
+          },
+          "CharacterAnimation": {
+            "_text": "BuggyCockpitPose"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Center": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "BuggyCockpit"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "24"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "true"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "true"
+          },
+          "TargetLockingEnabled": {
+            "_text": "true"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "RaycastOffset": {
+            "X": {
+              "_text": "0.016"
+            },
+            "Y": {
+              "_text": "0.4983"
+            },
+            "Z": {
+              "_text": "0.15"
+            }
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Viewport1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Viewport1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Viewport_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_ViewPort"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Viewport_Racing.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Viewport2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Viewport2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Viewport2_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_ViewPort"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Viewport2_Racing.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSuspension3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension3x3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSuspension3x3mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel3x3"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "1.0"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "PropulsionForce": {
+            "_text": "60000"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel"
+          },
+          "MaxSteer": {
+            "_text": "0.8"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSuspension5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension5x5_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension5x5"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSuspension5x5mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel5x5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "1.5"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "PropulsionForce": {
+            "_text": "100000"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel5x5"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large3X"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSuspension1x1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension1x1_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension1x1"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSuspension1x1mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel1x1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.5"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "PropulsionForce": {
+            "_text": "20000"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel1x1"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallSuspension3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension3x3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallSuspension3x3mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel3x3"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.2"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel"
+          },
+          "PropulsionForce": {
+            "_text": "1920"
+          },
+          "MinHeight": {
+            "_text": "-0.32"
+          },
+          "MaxHeight": {
+            "_text": "0.26"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallSuspension5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension5x5_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension5x5"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallSuspension5x5mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel5x5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.3"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel5x5"
+          },
+          "PropulsionForce": {
+            "_text": "4800"
+          },
+          "MinHeight": {
+            "_text": "-0.5"
+          },
+          "MaxHeight": {
+            "_text": "0.35"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallSuspension1x1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension1x1"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallSuspension1x1mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel1x1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.1"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel1x1"
+          },
+          "PropulsionForce": {
+            "_text": "120"
+          },
+          "MinHeight": {
+            "_text": "-0.32"
+          },
+          "MaxHeight": {
+            "_text": "0.26"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSuspension3x3mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension3x3mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension3x3mirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSuspension3x3"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel3x3"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "1.0"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "PropulsionForce": {
+            "_text": "60000"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheelmirrored"
+          },
+          "MaxSteer": {
+            "_text": "0.8"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSuspension5x5mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension5x5mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension5x5_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension5x5mirrored"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSuspension5x5"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel5x5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "1.5"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "PropulsionForce": {
+            "_text": "100000"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel5x5mirrored"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large3X"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSuspension1x1mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension1x1mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension1x1_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension1x1mirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSuspension1x1"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel1x1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.5"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "PropulsionForce": {
+            "_text": "20000"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel1x1mirrored"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallSuspension3x3mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension3x3mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension3x3mirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallSuspension3x3"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel3x3"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.2"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheelmirrored"
+          },
+          "PropulsionForce": {
+            "_text": "1920"
+          },
+          "MinHeight": {
+            "_text": "-0.32"
+          },
+          "MaxHeight": {
+            "_text": "0.26"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallSuspension5x5mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension5x5mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension5x5_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension5x5mirrored"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallSuspension5x5"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel5x5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.3"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel5x5mirrored"
+          },
+          "PropulsionForce": {
+            "_text": "4800"
+          },
+          "MinHeight": {
+            "_text": "-0.5"
+          },
+          "MaxHeight": {
+            "_text": "0.35"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallSuspension1x1mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadSuspension1x1mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadSuspension1x1mirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallSuspension1x1"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel1x1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.1"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1.0E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E7"
+          },
+          "RotorPart": {
+            "_text": "OffroadRealWheel1x1mirrored"
+          },
+          "PropulsionForce": {
+            "_text": "120"
+          },
+          "MinHeight": {
+            "_text": "-0.32"
+          },
+          "MaxHeight": {
+            "_text": "0.26"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallRealWheel1x1"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension1x1_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {},
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadRealWheel1x1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallRealWheel1x1mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallRealWheel"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheel"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallRealWheelmirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallRealWheel5x5"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension5x5_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheel5x5"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallRealWheel5x5mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadRealWheel1x1"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\WheelSuspension1x1_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheel1x1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadRealWheel1x1mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadRealWheel"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WheelSuspension3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheel"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadRealWheelmirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadRealWheel5x5"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5_RacingRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WheelSuspension5x5_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheel5x5"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadRealWheel5x5mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallRealWheel1x1mirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel1x1mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension1x1Mirrored_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {},
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadRealWheel1x1mirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallRealWheel1x1"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallRealWheelmirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel3x3mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension3x3Mirrored_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheelmirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallRealWheel"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallRealWheel5x5mirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel5x5mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension5x5Mirrored_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheel5x5mirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadSmallRealWheel5x5"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadRealWheel1x1mirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel1x1mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\WheelSuspension1x1Mirrored_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheel1x1mirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadRealWheel1x1"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadRealWheelmirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel3x3mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WheelSuspension3x3Mirrored_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheelmirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadRealWheel"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadRealWheel5x5mirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "false"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel5x5mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5_RacingLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WheelSuspension5x5Mirrored_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "OffroadRealWheel5x5mirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "OffroadRealWheel5x5"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadWheel1x1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel1x1_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Wheel1x1_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "OffroadWheel1x1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15.0"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallWheel1x1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel1x1_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Wheel1x1_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "OffroadWheel1x1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10.0"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadWheel3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel3x3_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Wheel3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "OffroadWheel3x3"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallWheel3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel3x3_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Wheel3x3_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "OffroadWheel3x3"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadWheel5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel5x5_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Wheel5x5_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "OffroadWheel5x5"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "OffroadSmallWheel5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffroadWheel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel5x5_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Wheel5x5_Racing.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "OffroadWheel5x5"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20.0"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "false"
+          },
+          "InventoryMaxVolume": {
+            "_text": "1.0"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "OffsetLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffsetLight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CarLight1_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_OffsetLight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\CarLight1_Racing.mwm"
+          },
+          "Components": {
+            "Component": {}
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "OffsetLight"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "Flare": {
+            "_text": "InteriorLight"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroyEffectOffset": {
+            "X": {
+              "_text": "0"
+            },
+            "Y": {
+              "_text": "0"
+            },
+            "Z": {
+              "_text": "1.1"
+            }
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ReflectorLight"
+            },
+            "SubtypeId": {
+              "_text": "OffsetSpotlight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffsetSpotlight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CarLight2_Racing.dds"
+          },
+          "Description": {
+            "_text": "Description_OffsetLight"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\CarLight2_Racing.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsStandAlone": {
+            "_text": "false"
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "OffsetSpotlight"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "LightRadius": {},
+          "LightReflectorRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "Flare": {
+            "_text": "SpotlightSmall"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "ReflectorThickness": {
+            "_text": "2.5"
+          },
+          "ReflectorTexture": {
+            "_text": "Textures\\Lights\\reflector_CarLight.dds"
+          },
+          "ReflectorConeDegrees": {
+            "_text": "52"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "BarredWindow"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BarredWindow"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BarredWindow_Racing_Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_BarredWindow"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\BarredWindow_Racing_Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "BarredWindow"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "BarredWindowSlope"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BarredWindowSlope"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BarredWindow_Racing_Slope.dds"
+          },
+          "Description": {
+            "_text": "Description_BarredWindow"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\BarredWindow_Racing_Slope.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "BarredWindowSlope"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "BarredWindowSide"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BarredWindowSide"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BarredWindow_Racing_Side.dds"
+          },
+          "Description": {
+            "_text": "Description_BarredWindow"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\BarredWindow_Racing_Side.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "BarredWindowSide"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "YMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfX"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "BarredWindowFace"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BarredWindowFace"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BarredWindow_Racing_Face.dds"
+          },
+          "Description": {
+            "_text": "Description_BarredWindow"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\BarredWindow_Racing_Face.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "BarredWindowFace"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "HalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "StorageShelf1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_StorageShelf1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Shelf_1.dds"
+          },
+          "Description": {
+            "_text": "Description_StorageShelf"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Shelf_1.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "StorageShelf1"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "StorageShelf2"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_StorageShelf2"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Shelf_2.dds"
+          },
+          "Description": {
+            "_text": "Description_StorageShelf"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Shelf_2.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "StorageShelf2"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "StorageShelf3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_StorageShelf3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Shelf_3.dds"
+          },
+          "Description": {
+            "_text": "Description_StorageShelf"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Shelf_3.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "StorageShelf3"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "ScrapRace"
+          }
+        }
+      ]
+    }
+  }
+}

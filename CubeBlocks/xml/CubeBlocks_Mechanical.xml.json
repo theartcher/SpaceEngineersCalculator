@@ -1,0 +1,2042 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "PistonBase"
+            },
+            "SubtypeId": {
+              "_text": "LargePistonBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PistonBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Piston.dds"
+          },
+          "Description": {
+            "_text": "Description_Piston"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PistonBase.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PistonBase"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PrimarySound": {
+            "_text": "BlockPiston"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "TopPart": {
+            "_text": "PistonTop"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DefaultMaxImpulseAxis": {
+            "_text": "50000"
+          },
+          "DefaultMaxImpulseNonAxis": {
+            "_text": "50000"
+          },
+          "DangerousImpulseThreshold": {
+            "_text": "100000"
+          },
+          "MaxImpulse": {
+            "_text": "340282300000000000000000000000000000000"
+          },
+          "_text": "//Float.Max",
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ExtendedPistonBase"
+            },
+            "SubtypeId": {
+              "_text": "LargePistonBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PistonBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Piston.dds"
+          },
+          "Description": {
+            "_text": "Description_Piston"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Center": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PistonBase.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ExtendedPistonBase"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PrimarySound": {
+            "_text": "BlockPiston"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "TopPart": {
+            "_text": "PistonTop"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DefaultMaxImpulseAxis": {
+            "_text": "50000"
+          },
+          "DefaultMaxImpulseNonAxis": {
+            "_text": "50000"
+          },
+          "DangerousImpulseThreshold": {
+            "_text": "100000"
+          },
+          "MaxImpulse": {
+            "_text": "340282300000000000000000000000000000000"
+          },
+          "_text": "//Float.Max",
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "PistonTop"
+            },
+            "SubtypeId": {
+              "_text": "LargePistonTop"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PistonTop"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PistonTop.dds"
+          },
+          "Description": {
+            "_text": "Description_PistonTop"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PistonTop.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PistonTop"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "PistonBase"
+            },
+            "SubtypeId": {
+              "_text": "SmallPistonBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PistonBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Piston.dds"
+          },
+          "Description": {
+            "_text": "Description_Piston"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\PistonBase.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PistonBase"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PrimarySound": {
+            "_text": "BlockPiston"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "TopPart": {
+            "_text": "PistonTop"
+          },
+          "Maximum": {
+            "_text": "2"
+          },
+          "Public": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DefaultMaxImpulseAxis": {
+            "_text": "50000"
+          },
+          "DefaultMaxImpulseNonAxis": {
+            "_text": "50000"
+          },
+          "DangerousImpulseThreshold": {
+            "_text": "100000"
+          },
+          "MaxImpulse": {
+            "_text": "340282300000000000000000000000000000000"
+          },
+          "_text": "//Float.Max",
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ExtendedPistonBase"
+            },
+            "SubtypeId": {
+              "_text": "SmallPistonBase"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PistonBase"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Piston.dds"
+          },
+          "Description": {
+            "_text": "Description_Piston"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Center": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\PistonBase.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ExtendedPistonBase"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PrimarySound": {
+            "_text": "BlockPiston"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "TopPart": {
+            "_text": "PistonTop"
+          },
+          "Maximum": {
+            "_text": "2"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DefaultMaxImpulseAxis": {
+            "_text": "50000"
+          },
+          "DefaultMaxImpulseNonAxis": {
+            "_text": "50000"
+          },
+          "DangerousImpulseThreshold": {
+            "_text": "100000"
+          },
+          "MaxImpulse": {
+            "_text": "340282300000000000000000000000000000000"
+          },
+          "_text": "//Float.Max",
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "PistonTop"
+            },
+            "SubtypeId": {
+              "_text": "SmallPistonTop"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PistonTop"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PistonTop.dds"
+          },
+          "Description": {
+            "_text": "Description_PistonTop"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\PistonTop.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PistonTop"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorStator"
+            },
+            "SubtypeId": {
+              "_text": "LargeStator"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Rotor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\motor.dds"
+          },
+          "Description": {
+            "_text": "Description_Rotor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorStator.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorStator"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PrimarySound": {
+            "_text": "BlockRotor"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "PropulsionForce": {
+            "_text": "8000"
+          },
+          "RotorPart": {
+            "_text": "MotorRotor"
+          },
+          "RotorDisplacementMin": {
+            "_text": "-0.4"
+          },
+          "RotorDisplacementMax": {
+            "_text": "0.2"
+          },
+          "RotorDisplacementMinSmall": {
+            "_text": "-0.11"
+          },
+          "RotorDisplacementMaxSmall": {
+            "_text": "0.11"
+          },
+          "RotorDisplacementInModel": {
+            "_text": "0.0"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "RotorType": {
+            "_text": "Rotor"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorRotor"
+            },
+            "SubtypeId": {
+              "_text": "LargeRotor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RotorPart"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RotorPart.dds"
+          },
+          "Description": {
+            "_text": "Description_RotorPart"
+          },
+          "BlockPairName": {
+            "_text": "MotorRotor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorRotor.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorStator"
+            },
+            "SubtypeId": {
+              "_text": "SmallStator"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Rotor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\motor.dds"
+          },
+          "Description": {
+            "_text": "Description_Rotor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorStator.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorStator"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PrimarySound": {
+            "_text": "BlockRotorSmall"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E6"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "448000"
+          },
+          "RotorPart": {
+            "_text": "MotorRotor"
+          },
+          "RotorDisplacementMin": {
+            "_text": "-0.11"
+          },
+          "RotorDisplacementMax": {
+            "_text": "0.11"
+          },
+          "RotorDisplacementMinSmall": {
+            "_text": "-0.11"
+          },
+          "RotorDisplacementMaxSmall": {
+            "_text": "0.11"
+          },
+          "RotorDisplacementInModel": {
+            "_text": "0.045"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "RotorType": {
+            "_text": "Rotor"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorRotor"
+            },
+            "SubtypeId": {
+              "_text": "SmallRotor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_RotorPart"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\RotorPart.dds"
+          },
+          "Description": {
+            "_text": "Description_RotorPart"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorRotor.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorRotor"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "2"
+          },
+          "RotorPart": {
+            "_text": "MotorRotor"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedStator"
+            },
+            "SubtypeId": {
+              "_text": "LargeAdvancedStator"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AdvancedRotor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AdvancedMotor_small.dds"
+          },
+          "Description": {
+            "_text": "Description_AdvancedRotor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorAdvancedStator.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorAdvancedStator"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PrimarySound": {
+            "_text": "BlockRotor"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "MotorAdvancedRotor"
+          },
+          "RotorDisplacementMin": {
+            "_text": "-0.4"
+          },
+          "RotorDisplacementMax": {
+            "_text": "0.2"
+          },
+          "RotorDisplacementMinSmall": {
+            "_text": "-0.11"
+          },
+          "RotorDisplacementMaxSmall": {
+            "_text": "0.11"
+          },
+          "RotorDisplacementInModel": {
+            "_text": "0.0"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "RotorType": {
+            "_text": "Rotor"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedRotor"
+            },
+            "SubtypeId": {
+              "_text": "LargeAdvancedRotor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AdvancedRotorPart"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AdvancedRotorPart.dds"
+          },
+          "Description": {
+            "_text": "Description_AdvancedRotorPart"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorAdvancedRotor.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorAdvancedRotor"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedStator"
+            },
+            "SubtypeId": {
+              "_text": "SmallAdvancedStator"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AdvancedRotor3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AdvancedMotor.dds"
+          },
+          "Description": {
+            "_text": "Description_AdvancedRotor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorAdvancedStator.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorAdvancedStator3x3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PrimarySound": {
+            "_text": "BlockRotorSmall"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E6"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "448000"
+          },
+          "RotorPart": {
+            "_text": "MotorAdvancedRotor3x3"
+          },
+          "RotorDisplacementMin": {
+            "_text": "-0.02"
+          },
+          "RotorDisplacementMax": {
+            "_text": "0.11"
+          },
+          "RotorDisplacementMinSmall": {
+            "_text": "-0.02"
+          },
+          "RotorDisplacementMaxSmall": {
+            "_text": "0.11"
+          },
+          "RotorDisplacementInModel": {
+            "_text": "0.11"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "RotorType": {
+            "_text": "Rotor"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedRotor"
+            },
+            "SubtypeId": {
+              "_text": "SmallAdvancedRotor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AdvancedRotorPart3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AdvancedRotorPart.dds"
+          },
+          "Description": {
+            "_text": "Description_AdvancedRotorPart"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorAdvancedRotor.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorAdvancedRotor3x3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "RotorPart": {
+            "_text": "MotorAdvancedRotor"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedStator"
+            },
+            "SubtypeId": {
+              "_text": "SmallAdvancedStatorSmall"
+            }
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AdvancedRotor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AdvancedMotor_small.dds"
+          },
+          "Description": {
+            "_text": "Description_AdvancedRotor"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorAdvancedStatorSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorAdvancedStator"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PrimarySound": {
+            "_text": "BlockRotorSmall"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E6"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "448000"
+          },
+          "RotorPart": {
+            "_text": "MotorAdvancedRotor"
+          },
+          "RotorDisplacementMin": {
+            "_text": "-0.11"
+          },
+          "RotorDisplacementMax": {
+            "_text": "0.11"
+          },
+          "RotorDisplacementMinSmall": {
+            "_text": "-0.11"
+          },
+          "RotorDisplacementMaxSmall": {
+            "_text": "0.11"
+          },
+          "RotorDisplacementInModel": {
+            "_text": "0.045"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "RotorType": {
+            "_text": "Rotor"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedRotor"
+            },
+            "SubtypeId": {
+              "_text": "SmallAdvancedRotorSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AdvancedRotorPart"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AdvancedRotor_Part_small.dds"
+          },
+          "Description": {
+            "_text": "Description_AdvancedRotorPart"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorAdvancedRotorSmall.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "MotorAdvancedRotor"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "RotorPart": {
+            "_text": "MotorAdvancedRotor"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedStator"
+            },
+            "SubtypeId": {
+              "_text": "LargeHinge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeHinge"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Hinge.dds"
+          },
+          "Description": {
+            "_text": "Description_Hinge"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Hinge.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LargeHinge"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "RotorPart": {
+            "_text": "LargeHingeHead"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorDisplacementMin": {
+            "_text": "0"
+          },
+          "RotorDisplacementMax": {
+            "_text": "0"
+          },
+          "RotorDisplacementMinSmall": {
+            "_text": "0"
+          },
+          "RotorDisplacementMaxSmall": {
+            "_text": "0"
+          },
+          "RotorDisplacementInModel": {
+            "_text": "0"
+          },
+          "MinAngleDeg": {
+            "_text": "-90"
+          },
+          "MaxAngleDeg": {
+            "_text": "90"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DamageEffectId": {
+            "_text": "212"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "PrimarySound": {
+            "_text": "BlockRotor"
+          },
+          "RotorType": {
+            "_text": "Hinge"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedRotor"
+            },
+            "SubtypeId": {
+              "_text": "LargeHingeHead"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeHingeHead"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HingeHead.dds"
+          },
+          "Description": {
+            "_text": "Description_HingeHead"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HingeHead.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LargeHingeHead"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedStator"
+            },
+            "SubtypeId": {
+              "_text": "MediumHinge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MediumHinge"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HingeMedium.dds"
+          },
+          "Description": {
+            "_text": "Description_Hinge"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HingeMedium.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LargeHinge"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "RotorPart": {
+            "_text": "LargeHingeHead"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorDisplacementMin": {
+            "_text": "0"
+          },
+          "RotorDisplacementMax": {
+            "_text": "0"
+          },
+          "RotorDisplacementMinSmall": {
+            "_text": "0"
+          },
+          "RotorDisplacementMaxSmall": {
+            "_text": "0"
+          },
+          "RotorDisplacementInModel": {
+            "_text": "0"
+          },
+          "MinAngleDeg": {
+            "_text": "-90"
+          },
+          "MaxAngleDeg": {
+            "_text": "90"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DamageEffectId": {
+            "_text": "212"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "PrimarySound": {
+            "_text": "BlockRotor"
+          },
+          "RotorType": {
+            "_text": "Hinge"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedRotor"
+            },
+            "SubtypeId": {
+              "_text": "MediumHingeHead"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_MediumHingeHead"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HingeHeadMedium.dds"
+          },
+          "Description": {
+            "_text": "Description_HingeHead"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HingeHeadMedium.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "LargeHingeHead"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedStator"
+            },
+            "SubtypeId": {
+              "_text": "SmallHinge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallHinge"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HingeSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_Hinge"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HingeSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "SmallHinge"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "RotorPart": {
+            "_text": "SmallHingeHead"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorDisplacementMin": {
+            "_text": "0"
+          },
+          "RotorDisplacementMax": {
+            "_text": "0"
+          },
+          "RotorDisplacementMinSmall": {
+            "_text": "0"
+          },
+          "RotorDisplacementMaxSmall": {
+            "_text": "0"
+          },
+          "RotorDisplacementInModel": {
+            "_text": "0"
+          },
+          "MinAngleDeg": {
+            "_text": "-90"
+          },
+          "MaxAngleDeg": {
+            "_text": "90"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "DamageEffectId": {
+            "_text": "212"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "PrimarySound": {
+            "_text": "BlockRotor"
+          },
+          "RotorType": {
+            "_text": "Hinge"
+          },
+          "PCU": {
+            "_text": "100"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorAdvancedRotor"
+            },
+            "SubtypeId": {
+              "_text": "SmallHingeHead"
+            }
+          },
+          "BlockPairName": [
+            {
+              "_text": "SmallHingeHead"
+            },
+            {
+              "_text": "SmallHingeHead"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallHingeHead"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HingeHeadSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_HingeHead"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HingeHeadSmall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        }
+      ]
+    }
+  }
+}

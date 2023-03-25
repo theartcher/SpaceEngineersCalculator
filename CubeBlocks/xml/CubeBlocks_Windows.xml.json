@@ -1,0 +1,3846 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeWindowSquare"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_VerticalWindow"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\window.dds"
+          },
+          "Description": {
+            "_text": "Description_VerticalWindow"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowSquare.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "VerticalWindow"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeWindowEdge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DiagonalWindow"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\window2.dds"
+          },
+          "Description": {
+            "_text": "Description_DiagonalWindow"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowEdge.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "DiagonalWindow"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2Slope"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2Slope"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2Slope.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2Slope.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2Slope"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2Inv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2FaceInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2Inv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2Inv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2FaceInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfZ"
+          },
+          "MirroringY": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YMinusHalfZ"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2Face"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2Face"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2Face.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2Face.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2Face"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfZ"
+          },
+          "MirroringY": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YMinusHalfZ"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2SideLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2SideLeft"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2SideLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2SideLeft.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2SideLeft"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "Window1x2SideRight"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2SideLeftInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2SideLeftInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2SideLeftInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2SideLeftInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2SideLeftInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "Window1x2SideRightInv"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2SideRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2SideRight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2SideRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2SideRight.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2SideRight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "Window1x2SideLeft"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2SideRightInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2SideRightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2SideRightInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2SideRightInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2SideRightInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "Window1x2SideLeftInv"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x1Slope"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1Slope"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Slope.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x1Slope.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x1Slope"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x1Face"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1Face"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Face.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x1Face.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x1Face"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "HalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x1Side"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1Side"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Side.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x1Side.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x1Side"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "YMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfX"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x1SideInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1SideInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1SideInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x1SideInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x1SideInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "YMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfX"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x1Inv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1FaceInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Inv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x1Inv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x1FaceInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2Flat"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2Flat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2Flat"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x2FlatInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2FlatInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2FlatInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x2FlatInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x2FlatInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x1Flat"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1Flat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x1Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x1Flat"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window1x1FlatInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1FlatInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1FlatInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window1x1FlatInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window1x1FlatInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window3x3Flat"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window3x3Flat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window3x3Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window3x3Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window3x3Flat"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "25"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window3x3FlatInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window3x3FlatInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window3x3FlatInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window3x3FlatInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window3x3FlatInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "25"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window2x3Flat"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window2x3Flat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window2x3Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window2x3Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window2x3Flat"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Window2x3FlatInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window2x3FlatInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window2x3FlatInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Window2x3FlatInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Window2x3FlatInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2Slope"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2Slope"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2Slope.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2Slope.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2Slope"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2Inv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2FaceInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2Inv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2Inv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2FaceInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfZ"
+          },
+          "MirroringY": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YMinusHalfZ"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2Face"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2Face"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2Face.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2Face.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2Face"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfZ"
+          },
+          "MirroringY": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "YMinusHalfZ"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2SideLeft"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2SideLeft"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2SideLeft.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2SideLeft.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2SideLeft"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallWindow1x2SideRight"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2SideLeftInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2SideLeftInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2SideLeftInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2SideLeftInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2SideLeftInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallWindow1x2SideRightInv"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2SideRight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2SideRight"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2SideRight.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2SideRight.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2SideRight"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallWindow1x2SideLeft"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2SideRightInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2SideRightInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2SideRightInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2SideRightInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2SideRightInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringBlock": {
+            "_text": "SmallWindow1x2SideLeftInv"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x1Slope"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1Slope"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Slope.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x1Slope.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x1Slope"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x1Face"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1Face"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Face.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x1Face.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x1Face"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "HalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x1Side"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1Side"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Side.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x1Side.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x1Side"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "YMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfX"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x1SideInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1SideInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1SideInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x1SideInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x1SideInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "YMinusHalfX"
+          },
+          "MirroringY": {
+            "_text": "HalfX"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfX"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x1Inv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1FaceInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Inv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x1Inv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x1FaceInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "HalfZ"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2Flat"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2Flat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2Flat"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x2FlatInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x2FlatInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x2FlatInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x2FlatInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x2FlatInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "4"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "X"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x1Flat"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1Flat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x1Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x1Flat"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow1x1FlatInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window1x1FlatInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window1x1FlatInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window1x1FlatInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window1x1FlatInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow3x3Flat"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window3x3Flat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window3x3Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window3x3Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window3x3Flat"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow3x3FlatInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window3x3FlatInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window3x3FlatInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window3x3FlatInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window3x3FlatInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow2x3Flat"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window2x3Flat"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window2x3Flat.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window2x3Flat.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window2x3Flat"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindow2x3FlatInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Window2x3FlatInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Window2x3FlatInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Window2x3FlatInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "Window2x3FlatInv"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowRound"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRound"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowRound.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RoundWindow"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowRoundInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundInvLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowRoundInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowInv"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowRoundCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundCornerLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowRoundCorner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowCorner"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowRoundCornerInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundCornerInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundCornerInvLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowRoundCornerInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowCornerInv"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowRoundFace"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundFace"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\windowRoundFaceLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowRoundFace.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowFace"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowRoundFaceInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundFaceInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\windowRoundFaceInvLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowRoundFaceInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowFaceInv"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowRoundInwardsCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundInwardsCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\windowRoundInwardsCornerLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowRoundInwardsCorner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowInwardsCorner"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "WindowRoundInwardsCornerInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundInwardsCornerInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\windowRoundInwardsCornerInvLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WindowRoundInwardsCornerInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowInwardsCornerInv"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindowRound"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRound"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WindowRound.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "RoundWindow"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindowRoundInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundInvLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WindowRoundInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowInv"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindowRoundCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundCornerLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WindowRoundCorner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowCorner"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindowRoundCornerInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundCornerInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundCornerInvLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WindowRoundCornerInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowCornerInv"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindowRoundFace"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundFace"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundFaceLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WindowRoundFace.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowFace"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindowRoundFaceInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundFaceInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundFaceInvLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WindowRoundFaceInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowFaceInv"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindowRoundInwardsCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundInwardsCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundInwardsCornerLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WindowRoundInwardsCorner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowInwardsCorner"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "SmallWindowRoundInwardsCornerInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WindowRoundInwardsCornerInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WindowRoundInwardsCornerInvLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WindowRoundInwardsCornerInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "BlockPairName": {
+            "_text": "RoundWindowInwardsCornerInv"
+          },
+          "MirroringX": {
+            "_text": "YHalfX"
+          },
+          "MirroringY": {
+            "_text": "XHalfX"
+          },
+          "MirroringZ": {
+            "_text": "HalfX"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "5"
+          },
+          "PhysicalMaterial": {
+            "_text": "Glass"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        }
+      ]
+    }
+  }
+}

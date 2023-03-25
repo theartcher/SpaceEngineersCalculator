@@ -1,0 +1,1233 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockWeaponRack"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WeaponRack"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WeaponRack.dds"
+          },
+          "Description": {
+            "_text": "Description_WeaponRack"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WeaponRack.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "WeaponRack"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Basic"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockWeaponRack"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_WeaponRack"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WeaponRack_small.dds"
+          },
+          "Description": {
+            "_text": "Description_WeaponRack"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WeaponRack.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "WeaponRack"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Basic"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "FireCover"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_FireCover"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\FireCover.dds"
+          },
+          "Description": {
+            "_text": "Description_FireCover"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\FireCover.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "FireCoverCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_FireCoverCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\FireCoverCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_FireCover"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\FireCoverCorner.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "HalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "HalfWindow"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfWindow"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfWindow.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfWindow.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HalfWindow"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "HalfWindowInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfWindowInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfWindowInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfWindowInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "6"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "HalfWindowCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfWindowCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfWindowCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfWindowCorner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "HalfWindowCornerInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfWindowCornerInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfWindowCornerInv.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfWindowCornerInv.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "HalfWindowDiagonal"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfWindowDiagonal"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfWindowDiagonal.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfWindowDiagonal.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HalfWindowDiagonal"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "7"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "HalfWindowRound"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_HalfWindowRound"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HalfWindowRound.dds"
+          },
+          "Description": {
+            "_text": "Description_Window"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HalfWindowRound.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "HalfWindowRound"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "8"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "Embrasure"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Embrasure"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Embrasure.dds"
+          },
+          "Description": {
+            "_text": "Description_Embrasure"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Embrasure.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Embrasure"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "PassageSciFi"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Passage3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageSciFi.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageSciFi.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PassageSciFi"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "PassageSciFiWall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Passage3Wall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiWall.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageSciFiWall.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PassageSciFiWall"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "12"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "PassageSciFiIntersection"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Passage3Cross"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiIntersection.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageSciFiIntersection.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PassageSciFiIntersection"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "PassageSciFiGate"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Passage3Frame"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiGate.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageSciFiGate.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PassageSciFiGate"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "InteriorLight"
+            },
+            "SubtypeId": {
+              "_text": "PassageSciFiLight"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Passage3Light"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiLight.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageSciFiLight.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PassageSciFiLight"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "LightRadius": {},
+          "LightFalloff": {},
+          "LightIntensity": {},
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.00006"
+          },
+          "Flare": {
+            "_text": "InteriorLight"
+          },
+          "PointLightEmissiveMaterial": {
+            "_text": "Emissive"
+          },
+          "SpotLightEmissiveMaterial": {
+            "_text": "EmissiveSpotlight"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "PassageScifiCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PassageScifiCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageScifiCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageScifiCorner.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PassageScifiCorner"
+          },
+          "MirroringX": {
+            "_text": "YHalfY"
+          },
+          "MirroringY": {
+            "_text": "XHalfY"
+          },
+          "MirroringZ": {
+            "_text": "MinusHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "PassageSciFiTjunction"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PassageSciFiTjunction"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiT-junction.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageSciFiT-junction.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PassageSciFiTjunction"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "PassageSciFiWindow"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_PassageSciFiWindow"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\PassageSciFiWindow.dds"
+          },
+          "Description": {
+            "_text": "Description_Passage"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\PassageSciFiWindow.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "PassageSciFiWindow"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "16"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "Warfare1"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,743 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "RadioAntenna"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockRadioAntennaDish"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_AntennaDish"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AntennaDish.dds"
+          },
+          "Description": {
+            "_text": "Description_AntennaDish"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\AntennaDish.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "AntennaDish"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "BuildTimeSeconds": {
+            "_text": "60"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "100"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Door"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockGate"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Gate"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Gate.dds"
+          },
+          "Description": {
+            "_text": "Description_Gate"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Gate.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "OpenSound": {
+            "_text": "BlockDoorHangar"
+          },
+          "CloseSound": {
+            "_text": "BlockDoorHangar"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Gate"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "PowerConsumptionIdle": {
+            "_text": "0.00001"
+          },
+          "PowerConsumptionMoving": {
+            "_text": "0.001"
+          },
+          "MaxOpen": {
+            "_text": "4.83"
+          },
+          "OpeningSpeed": {
+            "_text": "1.2"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Door"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockOffsetDoor"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_OffsetDoor"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\OffsetDoor.dds"
+          },
+          "Description": {
+            "_text": "Description_OffsetDoor"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\OffsetDoor.mwm"
+          },
+          "PlaceDecals": {
+            "_text": "false"
+          },
+          "OpenSound": {
+            "_text": "BlockDoorSmallOpen"
+          },
+          "CloseSound": {
+            "_text": "BlockDoorSmallClose"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "OffsetDoor"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "DisassembleRatio": {
+            "_text": "1.5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Doors"
+          },
+          "MaxOpen": {
+            "_text": "1.2"
+          },
+          "OpeningSpeed": {
+            "_text": "3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "115"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "DeadBody01"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeadBody01"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeadBody_1.dds"
+          },
+          "Description": {
+            "_text": "Description_DeadEngineer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeadBody01.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "DeadBody"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "DeadBody02"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeadBody02"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeadBody_2.dds"
+          },
+          "Description": {
+            "_text": "Description_DeadEngineer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeadBody02.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "DeadBody03"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeadBody03"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeadBody_3.dds"
+          },
+          "Description": {
+            "_text": "Description_DeadEngineer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeadBody03.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "DeadBody04"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeadBody04"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeadBody_4.dds"
+          },
+          "Description": {
+            "_text": "Description_DeadEngineer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeadBody04.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "DeadBody05"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeadBody05"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeadBody_5.dds"
+          },
+          "Description": {
+            "_text": "Description_DeadEngineer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeadBody05.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "DeadBody06"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeadBody06"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeadBody_6.dds"
+          },
+          "Description": {
+            "_text": "Description_DeadEngineer"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeadBody06.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Both"
+              }
+            }
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Frostbite"
+          }
+        }
+      ]
+    }
+  }
+}

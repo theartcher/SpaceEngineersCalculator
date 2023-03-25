@@ -1,0 +1,525 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "GravityGenerator"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GravityGenerator"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\gravity_generator.dds"
+          },
+          "Description": {
+            "_text": "Description_GravityGenerator"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Sound": {
+            "_text": "BlockGravityGen"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GravityGenerator.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "GravityGenerator"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "50"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "MinFieldSize": {},
+          "MaxFieldSize": {},
+          "MinGravityAcceleration": {
+            "_text": "-9.81"
+          },
+          "MaxGravityAcceleration": {
+            "_text": "9.81"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.56713"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_GravGen_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "185"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "GravityGeneratorSphere"
+            },
+            "SubtypeId": {}
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_GravityGeneratorSphere"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\gravity_generator_spherical.dds"
+          },
+          "Description": {
+            "_text": "Description_GravityGeneratorSphere"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Sound": {
+            "_text": "BlockGravityGen"
+          },
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\GravityGeneratorSpherical.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "GravityGeneratorSphere"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "50"
+          },
+          "MinRadius": {
+            "_text": "10"
+          },
+          "MaxRadius": {
+            "_text": "400"
+          },
+          "MinGravityAcceleration": {
+            "_text": "-9.81"
+          },
+          "MaxGravityAcceleration": {
+            "_text": "9.81"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "BasePowerInput": {
+            "_text": "0.4"
+          },
+          "ConsumptionPower": {
+            "_text": "1"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_GravGen_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "200"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "VirtualMass"
+            },
+            "SubtypeId": {
+              "_text": "VirtualMassLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_VirtualMass"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ArtificialMass.dds"
+          },
+          "Description": {
+            "_text": "Description_VirtualMass"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\VirtualMassBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "VirtualMass"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "24"
+          },
+          "VirtualMass": {
+            "_text": "50000"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.6"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "GravityBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "VirtualMass"
+            },
+            "SubtypeId": {
+              "_text": "VirtualMassSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_VirtualMass"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ArtificialMass.dds"
+          },
+          "Description": {
+            "_text": "Description_VirtualMass"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\VirtualMassBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "VirtualMass"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "VirtualMass": {
+            "_text": "2000"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.025"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "EmissiveColorPreset": {
+            "_text": "GravityBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "true"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SpaceBall"
+            },
+            "SubtypeId": {
+              "_text": "SpaceBallLarge"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SpaceBall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds"
+          },
+          "Description": {
+            "_text": "Description_SpaceBall"
+          },
+          "BlockPairName": {
+            "_text": "SpaceBall"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SpaceBallBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "MaxVirtualMass": {
+            "_text": "20000"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "GravityBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SpaceBall"
+            },
+            "SubtypeId": {
+              "_text": "SpaceBallSmall"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SpaceBall"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SpaceBall.dds"
+          },
+          "Description": {
+            "_text": "Description_SpaceBall"
+          },
+          "BlockPairName": {
+            "_text": "SpaceBall"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\SpaceBallBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": {}
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "3"
+          },
+          "MaxVirtualMass": {
+            "_text": "5000"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "EmissiveColorPreset": {
+            "_text": "GravityBlock"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "StoreBlock"
+            },
+            "SubtypeId": {
+              "_text": "StoreBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Store"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\StoreBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_StoreBlock"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\StoreBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BlockPairName": {
+            "_text": "StoreBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "25"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockCollect"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "SafeZoneBlock"
+            },
+            "SubtypeId": {
+              "_text": "SafeZoneBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SafeZone"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\SafeZoneBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_SafeZone"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\SafeZoneBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BlockPairName": {
+            "_text": "SafeZone"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "MaxSafeZoneRadius": {
+            "_text": "500"
+          },
+          "MinSafeZoneRadius": {
+            "_text": "10"
+          },
+          "DefaultSafeZoneRadius": {
+            "_text": "10"
+          },
+          "SafeZoneActivationTimeS": {
+            "_text": "120"
+          },
+          "MaxSafeZonePowerDrainkW": {
+            "_text": "300000"
+          },
+          "MinSafeZonePowerDrainkW": {
+            "_text": "5000"
+          },
+          "SafeZoneUpkeep": {
+            "_text": "1"
+          },
+          "SafeZoneUpkeepTimeM": {
+            "_text": "60"
+          },
+          "ActionSound": {
+            "_text": "BlockSafeZone"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "ContractBlock"
+            },
+            "SubtypeId": {
+              "_text": "ContractBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Contract"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ContractsBlock.dds"
+          },
+          "Description": {
+            "_text": "Description_ContractBlock"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ContractsBlock.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "ContractBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "25"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockCollect"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "VendingMachine"
+            },
+            "SubtypeId": {
+              "_text": "VendingMachine"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_VendingMachine"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\VendingMachine.dds"
+          },
+          "Description": {
+            "_text": "Description_VendingMachine"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\VendingMachine.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": {}
+          },
+          "BlockPairName": {
+            "_text": "VendingMachine"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "1"
+            }
+          },
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockCollect"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "DLC": {
+            "_text": "Economy"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "StoreBlock"
+            },
+            "SubtypeId": {
+              "_text": "AtmBlock"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_ATM"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\ATM.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmBlock"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ATM.mwm"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BlockPairName": {
+            "_text": "AtmBlock"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Conveyors"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.002"
+          },
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "ActionSound": {
+            "_text": "BlockCollect"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Default"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "DLC": {
+            "_text": "Economy"
+          }
+        }
+      ]
+    },
+    "BlockPositions": {
+      "BlockPosition": [
+        {
+          "Name": {
+            "_text": "SafeZone"
+          },
+          "Position": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "StoreBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "2"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "AtmBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "3"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "VendingMachine"
+          },
+          "Position": {
+            "X": {
+              "_text": "4"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        },
+        {
+          "Name": {
+            "_text": "ContractBlock"
+          },
+          "Position": {
+            "X": {
+              "_text": "5"
+            },
+            "Y": {
+              "_text": "19"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

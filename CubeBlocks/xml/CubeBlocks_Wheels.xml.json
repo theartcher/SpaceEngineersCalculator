@@ -1,0 +1,4301 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "Suspension3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension3x3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "Suspension3x3mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel3x3"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "1"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "PropulsionForce": {
+            "_text": "60000"
+          },
+          "RotorPart": {
+            "_text": "RealWheel"
+          },
+          "MaxSteer": {
+            "_text": "0.8"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "Suspension5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspensionLarge.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension5x5"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringBlock": {
+            "_text": "Suspension5x5mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel5x5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "1.5"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "PropulsionForce": {
+            "_text": "100000"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "RealWheel5x5"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large3X"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "Suspension1x1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension1x1.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension1x1"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "Suspension1x1mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel1x1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.5"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "PropulsionForce": {
+            "_text": "20000"
+          },
+          "RotorPart": {
+            "_text": "RealWheel1x1"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "SmallSuspension3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension3x3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "SmallSuspension3x3mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel3x3"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.2"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "RealWheel"
+          },
+          "PropulsionForce": {
+            "_text": "1920"
+          },
+          "MinHeight": {
+            "_text": "-0.32"
+          },
+          "MaxHeight": {
+            "_text": "0.26"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "SmallSuspension5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspensionLarge.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension5x5"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringBlock": {
+            "_text": "SmallSuspension5x5mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel5x5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.3"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "RealWheel5x5"
+          },
+          "PropulsionForce": {
+            "_text": "4800"
+          },
+          "MinHeight": {
+            "_text": "-0.50"
+          },
+          "MaxHeight": {
+            "_text": "0.35"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "SmallSuspension1x1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension1x1"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "SmallSuspension1x1mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel1x1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.1"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "RealWheel1x1"
+          },
+          "PropulsionForce": {
+            "_text": "120"
+          },
+          "MinHeight": {
+            "_text": "-0.32"
+          },
+          "MaxHeight": {
+            "_text": "0.26"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "Suspension3x3mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension3x3mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension3x3mirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "Suspension3x3"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel3x3"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "1"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "PropulsionForce": {
+            "_text": "60000"
+          },
+          "RotorPart": {
+            "_text": "RealWheelmirrored"
+          },
+          "MaxSteer": {
+            "_text": "0.8"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "Suspension5x5mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension5x5mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspensionLarge.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension5x5mirrored"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringBlock": {
+            "_text": "Suspension5x5"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel5x5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "1.5"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "PropulsionForce": {
+            "_text": "100000"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "RealWheel5x5mirrored"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large3X"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "Suspension1x1mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension1x1mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\MotorSuspension1x1.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension1x1mirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "Suspension1x1"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel1x1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.5"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "PropulsionForce": {
+            "_text": "20000"
+          },
+          "RotorPart": {
+            "_text": "RealWheel1x1mirrored"
+          },
+          "MinHeight": {
+            "_text": "-1.5"
+          },
+          "MaxHeight": {
+            "_text": "1.3"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.005"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "SmallSuspension3x3mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension3x3mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension3x3mirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "SmallSuspension3x3"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel3x3"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.2"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "RealWheelmirrored"
+          },
+          "PropulsionForce": {
+            "_text": "1920"
+          },
+          "MinHeight": {
+            "_text": "-0.32"
+          },
+          "MaxHeight": {
+            "_text": "0.26"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "SmallSuspension5x5mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension5x5mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspensionLarge.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension5x5mirrored"
+          },
+          "MirroringY": {
+            "_text": "ZThenOffsetX"
+          },
+          "MirroringZ": {
+            "_text": "YThenOffsetX"
+          },
+          "MirroringBlock": {
+            "_text": "SmallSuspension5x5"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel5x5"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.3"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "RealWheel5x5mirrored"
+          },
+          "PropulsionForce": {
+            "_text": "4800"
+          },
+          "MinHeight": {
+            "_text": "-0.50"
+          },
+          "MaxHeight": {
+            "_text": "0.35"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "MotorSuspension"
+            },
+            "SubtypeId": {
+              "_text": "SmallSuspension1x1mirrored"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Suspension1x1mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Suspension"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\MotorSuspension.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "DeformationRatio": {
+            "_text": "0.1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Suspension1x1mirrored"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "SmallSuspension1x1"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PrimarySound": {
+            "_text": "BlockWheel1x1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.1"
+          },
+          "RequiredIdlePowerInput": {
+            "_text": "0.002"
+          },
+          "MaxForceMagnitude": {
+            "_text": "1E9"
+          },
+          "DangerousTorqueThreshold": {
+            "_text": "3.36E+07"
+          },
+          "RotorPart": {
+            "_text": "RealWheel1x1mirrored"
+          },
+          "PropulsionForce": {
+            "_text": "120"
+          },
+          "MinHeight": {
+            "_text": "-0.32"
+          },
+          "MaxHeight": {
+            "_text": "0.26"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "SafetyDetach": {
+            "_text": "5"
+          },
+          "SafetyDetachMax": {
+            "_text": "5"
+          },
+          "AxleFriction": {
+            "_text": "20000"
+          },
+          "SteeringSpeed": {
+            "_text": "0.015"
+          },
+          "AirShockMinSpeed": {
+            "_text": "10"
+          },
+          "AirShockMaxSpeed": {
+            "_text": "25"
+          },
+          "AirShockActivationDelay": {
+            "_text": "60"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "50"
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallRealWheel1x1"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension1x1.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {},
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "RealWheel1x1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "SmallRealWheel1x1mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallRealWheel"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension3x3.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheel"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "SmallRealWheelmirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallRealWheel5x5"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension5x5.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheel5x5"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "RealWheel1x1"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\WheelSuspension1x1.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheel1x1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "RealWheel1x1mirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "RealWheel"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WheelSuspension3x3.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheel"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "RealWheelmirrored"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "RealWheel5x5"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5Right.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WheelSuspension5x5.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheel5x5"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallRealWheel1x1mirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel1x1mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension1x1mirrored.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {},
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "RealWheel1x1mirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "SmallRealWheel1x1"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallRealWheelmirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel3x3mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension3x3mirrored.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheelmirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "SmallRealWheel"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallRealWheel5x5mirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel5x5mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\WheelSuspension5x5mirrored.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheel5x5mirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "RealWheel1x1mirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel1x1mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension1x1Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\large\\WheelSuspension1x1mirrored.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheel1x1mirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "RealWheelmirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel3x3mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension3x3Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WheelSuspension3x3mirrored.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheelmirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringBlock": {
+            "_text": "RealWheel"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "RealWheel5x5mirrored"
+            }
+          },
+          "Public": [
+            {
+              "_text": "false"
+            },
+            {
+              "_text": "true"
+            }
+          ],
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel5x5mirrored"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\WheelSuspension5x5Left.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\WheelSuspension5x5mirrored.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "PhysicalMaterial": {
+            "_text": "Wheel"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {},
+          "BlockPairName": {
+            "_text": "RealWheel5x5mirrored"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "Wheel1x1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel1x1.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Wheel1x1.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Wheel1x1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallWheel1x1"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel1x1"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel1x1.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Wheel1x1.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "Wheel1x1"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Small"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat1"
+          },
+          "PCU": {
+            "_text": "25"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "Wheel3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel3x3.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Wheel3x3.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "Wheel3x3"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallWheel3x3"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel3x3"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel3x3.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Wheel3x3.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "Wheel3x3"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "Wheel5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel5x5.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Wheel5x5.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "Wheel5x5"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "30"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Large"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat3"
+          },
+          "PCU": {
+            "_text": "25"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Wheel"
+            },
+            "SubtypeId": {
+              "_text": "SmallWheel5x5"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Wheel5x5"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Wheel5x5.dds"
+          },
+          "Description": {
+            "_text": "Description_Wheel"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\Wheel5x5.mwm"
+          },
+          "UseModelIntersection": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0.01"
+              }
+            }
+          },
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BlockPairName": {
+            "_text": "Wheel5x5"
+          },
+          "DeformationRatio": {
+            "_text": "0.3"
+          },
+          "UsesDeformation": {
+            "_text": "false"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "InventorySize": {
+            "X": {
+              "_text": "2.5"
+            },
+            "Y": {
+              "_text": "2.5"
+            },
+            "Z": {
+              "_text": "2.5"
+            }
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleHeavyMech"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyed_Medium"
+          },
+          "DestroySound": {
+            "_text": "PoofExplosionCat2"
+          },
+          "PCU": {
+            "_text": "25"
+          }
+        }
+      ]
+    }
+  }
+}

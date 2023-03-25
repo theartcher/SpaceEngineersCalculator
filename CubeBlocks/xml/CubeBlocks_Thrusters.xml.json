@@ -1,0 +1,2532 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\thrust.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ThrustSmall.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallThrust"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "14400"
+          },
+          "MaxPowerConsumption": {
+            "_text": "0.200"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.36"
+          },
+          "FlameDamage": {
+            "_text": "0.1"
+          },
+          "FlameLengthScale": {
+            "_text": "1.4"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.2745098"
+            },
+            "Y": {
+              "_text": "0.4090196"
+            },
+            "Z": {
+              "_text": "0.6505882"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.2745098"
+            },
+            "Y": {
+              "_text": "0.4090196"
+            },
+            "Z": {
+              "_text": "0.6505882"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "200"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.5"
+          },
+          "PrimarySound": {
+            "_text": "SmShipSmJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLargeThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\thrust_large.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\ThrustLarge.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeThrust"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "172800"
+          },
+          "MaxPowerConsumption": {
+            "_text": "2.4"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameDamage": {
+            "_text": "0.2"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.2745098"
+            },
+            "Y": {
+              "_text": "0.4090196"
+            },
+            "Z": {
+              "_text": "0.6505882"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.2745098"
+            },
+            "Y": {
+              "_text": "0.4090196"
+            },
+            "Z": {
+              "_text": "0.6505882"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "300"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.5"
+          },
+          "PrimarySound": {
+            "_text": "SmShipLrgJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\thrust.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ThrustSmall.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallThrust"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "345600"
+          },
+          "MaxPowerConsumption": {
+            "_text": "3.36"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.61"
+          },
+          "FlameLengthScale": {
+            "_text": "1.5"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.2745098"
+            },
+            "Y": {
+              "_text": "0.4090196"
+            },
+            "Z": {
+              "_text": "0.6505882"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.2745098"
+            },
+            "Y": {
+              "_text": "0.4090196"
+            },
+            "Z": {
+              "_text": "0.6505882"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipSmJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\thrust_large.dds"
+          },
+          "Description": {
+            "_text": "Description_IonThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\ThrustLarge.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Ion"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeThrust"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "90"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "4320000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "33.6"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "0.2"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.8"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.2745098"
+            },
+            "Y": {
+              "_text": "0.4090196"
+            },
+            "Z": {
+              "_text": "0.6505882"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.2745098"
+            },
+            "Y": {
+              "_text": "0.4090196"
+            },
+            "Z": {
+              "_text": "0.6505882"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "700"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1.5"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipLrgJet"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeHydrogenThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeHydrogenThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HydrogenThrusterLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_HydrogenThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HydrogenThrusterLarge.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Hydrogen"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Center": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeHydrogenThrust"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "90"
+          },
+          "FuelConverter": {
+            "FuelId": {
+              "TypeId": {
+                "_text": "GasProperties"
+              },
+              "SubtypeId": {
+                "_text": "Hydrogen"
+              }
+            },
+            "Efficiency": {
+              "_text": "1"
+            }
+          },
+          "MaxPowerConsumption": {
+            "_text": "7.5"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000000001"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "7200000"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0.85"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0.75"
+            },
+            "Z": {
+              "_text": "0.2"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "700"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1.5"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipLrgJetHydrogen"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallHydrogenThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallHydrogenThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HydrogenThrusterSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_HydrogenThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\HydrogenThrusterSmall.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Hydrogen"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "HydrogenThrust"
+          },
+          "Center": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "1080000"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "FuelConverter": {
+            "FuelId": {
+              "TypeId": {
+                "_text": "GasProperties"
+              },
+              "SubtypeId": {
+                "_text": "Hydrogen"
+              }
+            },
+            "Efficiency": {
+              "_text": "1"
+            }
+          },
+          "MaxPowerConsumption": {
+            "_text": "1.25"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000000001"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0.85"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0.75"
+            },
+            "Z": {
+              "_text": "0.2"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipSmJetHydrogen"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLargeHydrogenThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeHydrogenThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HydrogenThrusterLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_HydrogenThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HydrogenThrusterLarge.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Hydrogen"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "Center": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeHydrogenThrust"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "FuelConverter": {
+            "FuelId": {
+              "TypeId": {
+                "_text": "GasProperties"
+              },
+              "SubtypeId": {
+                "_text": "Hydrogen"
+              }
+            },
+            "Efficiency": {
+              "_text": "1"
+            }
+          },
+          "MaxPowerConsumption": {
+            "_text": "0.6"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000000001"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "480000"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0.85"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0.75"
+            },
+            "Z": {
+              "_text": "0.2"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "700"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1.5"
+          },
+          "PrimarySound": {
+            "_text": "SmShipLrgJetHydrogen"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallHydrogenThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallHydrogenThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\HydrogenThrusterSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_HydrogenThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\HydrogenThrusterSmall.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Hydrogen"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "HydrogenThrust"
+          },
+          "Center": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "98400"
+          },
+          "FuelConverter": {
+            "FuelId": {
+              "TypeId": {
+                "_text": "GasProperties"
+              },
+              "SubtypeId": {
+                "_text": "Hydrogen"
+              }
+            },
+            "Efficiency": {
+              "_text": "1"
+            }
+          },
+          "MaxPowerConsumption": {
+            "_text": "0.125"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000000001"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.34"
+          },
+          "FlameLengthScale": {
+            "_text": "1.5"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0.85"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "1"
+            },
+            "Y": {
+              "_text": "0.75"
+            },
+            "Z": {
+              "_text": "0.2"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PrimarySound": {
+            "_text": "SmShipSmJetHydrogen"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Small"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLargeAtmosphericThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeAtmoThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AtmosphericThrusterLargeLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmosphericThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\AtmosphericThrusterLarge.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Atmospheric"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeAtmoThrust"
+          },
+          "Center": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "90"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "6480000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "16.8"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0.3"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "0"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "1"
+          },
+          "NeedsAtmosphereForInfluence": {
+            "_text": "true"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PropellerUsesPropellerSystem": {
+            "_text": "true"
+          },
+          "PropellerSubpartEntityName": {
+            "_text": "Propeller"
+          },
+          "PropellerRoundsPerSecondOnFullSpeed": {
+            "_text": "4.2"
+          },
+          "PropellerRoundsPerSecondOnIdleSpeed": {
+            "_text": "0.3"
+          },
+          "PropellerAccelerationTime": {
+            "_text": "5"
+          },
+          "PropellerDecelerationTime": {
+            "_text": "10"
+          },
+          "PropellerMaxVisibleDistance": {
+            "_text": "400"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipSmJetAtmo"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockSmallAtmosphericThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallAtmoThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AtmosphericThrusterSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmosphericThrust"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\AtmosphericThrusterSmall.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Atmospheric"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallAtmoThrust"
+          },
+          "Center": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "40"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "648000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "2.4"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0.3"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "0"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "1"
+          },
+          "NeedsAtmosphereForInfluence": {
+            "_text": "true"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "LargeGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "500"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "1"
+          },
+          "PropellerUsesPropellerSystem": {
+            "_text": "true"
+          },
+          "PropellerSubpartEntityName": {
+            "_text": "Propeller"
+          },
+          "PropellerRoundsPerSecondOnFullSpeed": {
+            "_text": "4.2"
+          },
+          "PropellerRoundsPerSecondOnIdleSpeed": {
+            "_text": "0.3"
+          },
+          "PropellerAccelerationTime": {
+            "_text": "5"
+          },
+          "PropellerDecelerationTime": {
+            "_text": "10"
+          },
+          "PropellerMaxVisibleDistance": {
+            "_text": "250"
+          },
+          "PrimarySound": {
+            "_text": "LrgShipSmJetAtmo"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockLargeAtmosphericThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LargeAtmoThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AtmosphericThrusterLargeLarge.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmosphericThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\AtmosphericThrusterLarge.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Atmospheric"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "LargeAtmoThrust"
+          },
+          "Center": {},
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "20"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "576000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "2.4"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0.3"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "0"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "1"
+          },
+          "NeedsAtmosphereForInfluence": {
+            "_text": "true"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.6"
+          },
+          "FlameDamage": {
+            "_text": "0.2"
+          },
+          "FlameLengthScale": {
+            "_text": "1.15"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridLargeThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "300"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.5"
+          },
+          "PropellerUsesPropellerSystem": {
+            "_text": "true"
+          },
+          "PropellerSubpartEntityName": {
+            "_text": "Propeller"
+          },
+          "PropellerRoundsPerSecondOnFullSpeed": {
+            "_text": "1.9"
+          },
+          "PropellerRoundsPerSecondOnIdleSpeed": {
+            "_text": "0.3"
+          },
+          "PropellerAccelerationTime": {
+            "_text": "3"
+          },
+          "PropellerDecelerationTime": {
+            "_text": "6"
+          },
+          "PropellerMaxVisibleDistance": {
+            "_text": "200"
+          },
+          "PrimarySound": {
+            "_text": "SmShipLrgJetAtmo"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Large"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Thrust"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockSmallAtmosphericThrust"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_SmallAtmoThrust"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\AtmosphericThrusterSmall.dds"
+          },
+          "Description": {
+            "_text": "Description_AtmosphericThrust"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "ModelOffset": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Small\\AtmosphericThrusterSmall.mwm"
+          },
+          "ThrusterType": {
+            "_text": "Atmospheric"
+          },
+          "SilenceableByShipSoundSystem": {
+            "_text": "true"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "Volumetric"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "SmallAtmoThrust"
+          },
+          "Center": {},
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Thrust"
+          },
+          "ForceMagnitude": {
+            "_text": "96000"
+          },
+          "MaxPowerConsumption": {
+            "_text": "0.600"
+          },
+          "MinPowerConsumption": {
+            "_text": "0.000002"
+          },
+          "SlowdownFactor": {
+            "_text": "1"
+          },
+          "MinPlanetaryInfluence": {
+            "_text": "0.3"
+          },
+          "MaxPlanetaryInfluence": {
+            "_text": "1"
+          },
+          "EffectivenessAtMinInfluence": {
+            "_text": "0"
+          },
+          "EffectivenessAtMaxInfluence": {
+            "_text": "1"
+          },
+          "NeedsAtmosphereForInfluence": {
+            "_text": "true"
+          },
+          "FlameDamageLengthScale": {
+            "_text": "0.35"
+          },
+          "FlameDamage": {
+            "_text": "0.1"
+          },
+          "FlameLengthScale": {
+            "_text": "1.5"
+          },
+          "FlameIdleColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlameFullColor": {
+            "X": {
+              "_text": "0.3"
+            },
+            "Y": {
+              "_text": "0.3"
+            },
+            "Z": {
+              "_text": "0.3"
+            },
+            "W": {
+              "_text": "0.75"
+            }
+          },
+          "FlamePointMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameLengthMaterial": {
+            "_text": "EngineThrustMiddle"
+          },
+          "FlameFlare": {
+            "_text": "SmallGridSmallThruster"
+          },
+          "FlameVisibilityDistance": {
+            "_text": "200"
+          },
+          "FlameGlareQuerySize": {
+            "_text": "0.25"
+          },
+          "PropellerUsesPropellerSystem": {
+            "_text": "true"
+          },
+          "PropellerSubpartEntityName": {
+            "_text": "Propeller"
+          },
+          "PropellerRoundsPerSecondOnFullSpeed": {
+            "_text": "1.9"
+          },
+          "PropellerRoundsPerSecondOnIdleSpeed": {
+            "_text": "0.3"
+          },
+          "PropellerAccelerationTime": {
+            "_text": "3"
+          },
+          "PropellerDecelerationTime": {
+            "_text": "6"
+          },
+          "PropellerMaxVisibleDistance": {
+            "_text": "60"
+          },
+          "PrimarySound": {
+            "_text": "SmShipSmJetAtmo"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_HeavyMech_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "Public": {
+            "_text": "true"
+          },
+          "DestroyEffect": {
+            "_text": "BlockDestroyedExplosion_Tiny"
+          },
+          "DestroySound": {
+            "_text": "WepSmallWarheadExpl"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "TieredUpdateTimes": {
+            "unsignedInt": [
+              {
+                "_text": "100"
+              },
+              {
+                "_text": "3600"
+              },
+              {
+                "_text": "0"
+              }
+            ]
+          },
+          "TargetingGroups": {
+            "string": {
+              "_text": "Propulsion"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2070 @@
+{
+  "Definitions": {
+    "CubeBlocks": {
+      "Definition": [
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockDesk"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Desk"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Desk.dds"
+          },
+          "Description": {
+            "_text": "Description_Desk"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Desk.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "Table_Sitting_Pose"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Desk"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockDeskCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeskCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeskCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_DeskCorner"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeskCorner.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "Table_Sitting_Pose"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "DeskCorner"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "YHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockDeskCornerInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeskCornerInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\InvertedCornerDesk.dds"
+          },
+          "Description": {
+            "_text": "Description_DeskCorner"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\InvertedCornerDesk.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "Table_Sitting_Pose"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "DeskCornerInv"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "YHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "18"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockDeskChairless"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeskChairless"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeskChairless.dds"
+          },
+          "Description": {
+            "_text": "Description_DeskChairless"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeskChairless.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "DeskChairless"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockDeskChairlessCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeskChairlessCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\DeskChairlessCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_DeskChairlessCorner"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\DeskChairlessCorner.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "DeskChairlessCorner"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "YHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "10"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CubeBlock"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockDeskChairlessCornerInv"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_DeskChairlessCornerInv"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\InvertedChairlessCornerDesk.dds"
+          },
+          "Description": {
+            "_text": "Description_DeskChairlessCorner"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\InvertedChairlessCornerDesk.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "DeskChairlessCornerInv"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "YHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Kitchen"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockKitchen"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Kitchen"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Kitchen.dds"
+          },
+          "Description": {
+            "_text": "Description_Kitchen"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Kitchen.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Kitchen"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_WeapExpl_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleWeapExpl"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CryoChamber"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockBed"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Bed"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Bed.dds"
+          },
+          "Description": {
+            "_text": "Description_Bed"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Bed.mwm"
+          },
+          "ModelOffset": {},
+          "CharacterAnimation": {
+            "_text": "Bed_Laying_Pose"
+          },
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Bed"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "OxygenCapacity": {
+            "_text": "1"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "IdlePowerConsumption": {
+            "_text": "0.00003"
+          },
+          "EmissiveColorPreset": {
+            "_text": "UnpoweredOccupancy"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLockerRoom"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LockerRoom"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LockerRoom.dds"
+          },
+          "Description": {
+            "_text": "Description_LockerRoomCorner"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LockerRoom.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LockerRoom"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Basic"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLockerRoomCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_LockerRoomCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LockerRoomCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_LockerRoom"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\LockerRoomCorner.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "LockerRoomCorner"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "HalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Basic"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Planter"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockPlanters"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Planters"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Planters.dds"
+          },
+          "Description": {
+            "_text": "Description_Planters"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Planters.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Planters"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "1"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockCouch"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Couch"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Couch.dds"
+          },
+          "Description": {
+            "_text": "Description_Couch"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Couch.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "passengerseat_small"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Couch"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockCouchCorner"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CouchCorner"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CouchCorner.dds"
+          },
+          "Description": {
+            "_text": "Description_CornerCouch"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\CouchCorner.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "passengerseat_small"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "CouchCorner"
+          },
+          "MirroringX": {
+            "_text": "MinusHalfY"
+          },
+          "MirroringY": {
+            "_text": "ZHalfY"
+          },
+          "MirroringZ": {
+            "_text": "YHalfY"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "CargoContainer"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockLockers"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Lockers"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Lockers.dds"
+          },
+          "Description": {
+            "_text": "Description_Lockers"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Lockers.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "BlockPairName": {
+            "_text": "Lockers"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PCU": {
+            "_text": "10"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockBathroomOpen"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_BathroomOpen"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\BathroomOpen.dds"
+          },
+          "Description": {
+            "_text": "Description_BathroomOpen"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\BathroomOpen.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "passengerseat_small"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "BathroomOpen"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "_text": ">",
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockBathroom"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Bathroom"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Bathroom.dds"
+          },
+          "Description": {
+            "_text": "Description_Bathroom"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Bathroom.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "passengerseat_small"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Bathroom"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "_text": ">",
+          "BuildTimeSeconds": {
+            "_text": "15"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockToilet"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Toilet"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Toilet.dds"
+          },
+          "Description": {
+            "_text": "Description_ToiletSeat"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Toilet.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "passengerseat_small"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "BlockPairName": {
+            "_text": "Toilet"
+          },
+          "MirroringX": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "X"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "false"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "false"
+          },
+          "TargetLockingEnabled": {
+            "_text": "false"
+          },
+          "IsPressurized": {
+            "_text": "false"
+          },
+          "HasInventory": {
+            "_text": "false"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "15"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Projector"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockConsole"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_Console"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\Console.dds"
+          },
+          "Description": {
+            "_text": "Description_Console"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\Console.mwm"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": {}
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BlockPairName": {
+            "_text": "Console"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "ResourceSinkGroup": {
+            "_text": "Utility"
+          },
+          "RequiredPowerInput": {
+            "_text": "0.0002"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PrimarySound": {
+            "_text": "BlockProjectorOn"
+          },
+          "IdleSound": {
+            "_text": "BlockProjectorOff"
+          },
+          "EmissiveColorPreset": {
+            "_text": "Extended"
+          },
+          "PCU": {
+            "_text": "150"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          },
+          "IsAirTight": {
+            "_text": "false"
+          },
+          "AllowScaling": {
+            "_text": "true"
+          },
+          "IgnoreSize": {
+            "_text": "true"
+          },
+          "RotationAngleStepDeg": {
+            "_text": "1"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "SmallBlockCockpitIndustrial"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CockpitIndustrial"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\CockpitIndustrial.dds"
+          },
+          "Description": {
+            "_text": "Description_CockpitIndustrial"
+          },
+          "CubeSize": {
+            "_text": "Small"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\small\\CockpitIndustrial.mwm"
+          },
+          "InteriorModel": {
+            "_text": "Models\\Cubes\\small\\CockpitIndustrialInterior.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "cockpit1_small"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BlockPairName": {
+            "_text": "CockpitIndustrial"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DeformationRatio": {
+            "_text": "0.2"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "true"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "true"
+          },
+          "TargetLockingEnabled": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PrimarySound": {
+            "_text": "BlockCockpitSm"
+          },
+          "OxygenCapacity": {
+            "_text": "60"
+          },
+          "IsPressurized": {
+            "_text": "true"
+          },
+          "GetInSound": {
+            "_text": "ShipSmCockpitIn"
+          },
+          "GetOutSound": {
+            "_text": "ShipSmCockpitOut"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "150"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          }
+        },
+        {
+          "Id": {
+            "TypeId": {
+              "_text": "Cockpit"
+            },
+            "SubtypeId": {
+              "_text": "LargeBlockCockpitIndustrial"
+            }
+          },
+          "DisplayName": {
+            "_text": "DisplayName_Block_CockpitIndustrial"
+          },
+          "Icon": {
+            "_text": "Textures\\GUI\\Icons\\Cubes\\LargeCockpitIndustrial.dds"
+          },
+          "Description": {
+            "_text": "Description_CockpitIndustrial"
+          },
+          "CubeSize": {
+            "_text": "Large"
+          },
+          "GuiVisible": {
+            "_text": "false"
+          },
+          "BlockTopology": {
+            "_text": "TriangleMesh"
+          },
+          "Size": {},
+          "Model": {
+            "_text": "Models\\Cubes\\Large\\CockpitIndustrial.mwm"
+          },
+          "InteriorModel": {
+            "_text": "Models\\Cubes\\large\\CockpitIndustrialInterior.mwm"
+          },
+          "CharacterAnimation": {
+            "_text": "cockpit1_small"
+          },
+          "ModelOffset": {},
+          "Components": {
+            "Component": []
+          },
+          "CriticalComponent": {},
+          "MountPoints": {
+            "MountPoint": []
+          },
+          "BuildProgressModels": {
+            "Model": []
+          },
+          "VoxelPlacement": {
+            "StaticMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            },
+            "DynamicMode": {
+              "PlacementMode": {
+                "_text": "OutsideVoxel"
+              },
+              "MaxAllowed": {
+                "_text": "0.2"
+              },
+              "MinAllowed": {
+                "_text": "0"
+              }
+            }
+          },
+          "ScreenAreas": {
+            "ScreenArea": []
+          },
+          "BlockPairName": {
+            "_text": "CockpitIndustrial"
+          },
+          "MirroringZ": {
+            "_text": "Y"
+          },
+          "MirroringY": {
+            "_text": "Z"
+          },
+          "EdgeType": {
+            "_text": "Light"
+          },
+          "DeformationRatio": {
+            "_text": "0.2"
+          },
+          "EnableFirstPerson": {
+            "_text": "true"
+          },
+          "EnableShipControl": {
+            "_text": "true"
+          },
+          "EnableBuilderCockpit": {
+            "_text": "true"
+          },
+          "TargetLockingEnabled": {
+            "_text": "true"
+          },
+          "DamageEffectName": {
+            "_text": "Damage_Electrical_Damaged"
+          },
+          "DamagedSound": {
+            "_text": "ParticleElectrical"
+          },
+          "PrimarySound": {
+            "_text": "BlockCockpitLrg"
+          },
+          "OxygenCapacity": {
+            "_text": "60"
+          },
+          "IsPressurized": {
+            "_text": "true"
+          },
+          "BuildTimeSeconds": {
+            "_text": "14"
+          },
+          "PCU": {
+            "_text": "150"
+          },
+          "DLC": {
+            "_text": "DecorativeBlocks"
+          }
+        }
+      ]
+    }
+  }
+}
